@@ -12,8 +12,8 @@ layout: default
  </div>
   <hr width="100%" size="3">
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong>
-<p style="font-size:0.9em;">24 November 2024 - <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf">permalink</a>
+<p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
+<p style="font-size:0.9em;">24 November 2024 - <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf">permalink</a></p>
 
 <br>
 
