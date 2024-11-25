@@ -24,7 +24,7 @@ layout: default
 
 <p style="font-size:1.1em; ">Da Vinci was born in 1452 and died in 1519, at the age of 67. Throughout his life, he worked on many projects, many of which he left unfinished; it is a conflict that Sigmund Freud <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf" style="color:tomato">describes</a> as the natural scientist encroaching on, suppressing, and finally overrunning the artist within. Even during his own life, his skill earned him a great reputation, which only grew after his death, culminating in our understanding and appreciation of him as the archetypal Renaissance figure. Vasari writes:</p>
 
-><p style="font-size:1.05em; "<blockquote>“...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.</p>
+><p style="font-size:1.05em; "“...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.</p>
 
 <p style="font-size:1.1em; ">Da Vinci was known as a pleasant man, both in conversation, and in his love for animals. He is said to have purchased birds held in cages in order to set them free, and “give them the liberty they had lost”. With every action, he enhanced every miserly and modest living place, and was widely loved for his stature and the beauty of his work. The city of Florence, Vasari says, received the greatest gift with Da Vinci's birth, and the greatest loss when he died.</p>
 
@@ -34,13 +34,11 @@ layout: default
 
 <p style="font-size:1.1em; ">Da Vinci revered the sense of vision, and placed it as man's highest sense. </p>
 
-><p style="font-size:1.1em; "><strong>“</strong> The were was infused in this genius so much divine grace, so formidable and harmonious a combination of intellect and memory to serve it, as well as so great an ability to express his ideas through the designs of his hands, that he won over with arguments and confounded the with reasonings the boldest minds. <strong></strong></p>
+<blockquote><p style="font-size:1.1em;"><strong>“</strong> The were was infused in this genius so much divine grace, so formidable and harmonious a combination of intellect and memory to serve it, as well as so great an ability to express his ideas through the designs of his hands, that he won over with arguments and confounded the with reasonings the boldest minds. <strong></strong></p></blockquote>
 
-<p style="font-size:1.1em; "></p>
-
-><p style="font-size:1.05em; ">Leonardo was so pleasing in conversation that he won everyone's hearts. And although we might say that he owned nothing and worked very little, he always kept servants and horses; he took special pleasure in horses as he did in all other animals, which he treated with the greatest love and patience. For example, when passing by places where birds were being sold, he would often take them out of their cages with his own hands, and after paying the seller the price that was asked of him, he would set them free in the air, restoring to them the liberty they had lost. As a result, Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.
+<blockquote><p style="font-size:1.05em; ">Leonardo was so pleasing in conversation that he won everyone's hearts. And although we might say that he owned nothing and worked very little, he always kept servants and horses; he took special pleasure in horses as he did in all other animals, which he treated with the greatest love and patience. For example, when passing by places where birds were being sold, he would often take them out of their cages with his own hands, and after paying the seller the price that was asked of him, he would set them free in the air, restoring to them the liberty they had lost. As a result, Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.</blockquote>
 <br>
-> <p style="font-size:1.05em; ">It is clearly evident that because of Leonardo's understanding of art, he began many projects but never finished any of them, feeling that his hand could not reach artistic perfection in the works he conceived, since he envisioned such subtle, marvellous, and difficult problems that his hands, while extremely skilful, were incapable of ever realizing them. And his special interests </p>
+<blockquote><p style="font-size:1.05em; ">It is clearly evident that because of Leonardo's understanding of art, he began many projects but never finished any of them, feeling that his hand could not reach artistic perfection in the works he conceived, since he envisioned such subtle, marvellous, and difficult problems that his hands, while extremely skilful, were incapable of ever realizing them. And his special interests...</p></blockquote>
 
 ><p style="font-size:1.05em; ">...the greatest geniuses sometimes accomplish more when they work less, since they are searching for inventions in their minds, and forming those perfect ideas which their hands then express and reproduce from what they previously conceived with their intellect.</p>
 
@@ -48,7 +46,7 @@ layout: default
 
 <h3>Anatomy & Scientific Drawing</h3>
 
-><p style="font-size:1.05em; ">“He drew all the bony structures, joining them in order to all the nerves and covering them with the muscles: the first group is attached to the skeleton, the second it holds firm, and the third makes it move, and in these drawings he wrote notes in various places in ugly characters written with the left hand from right to left, which cannot be understood by anyone who is not used to reading them, since they cannot be read without a mirror..” </p>
+<blockquote><p style="font-size:1.05em; ">“He drew all the bony structures, joining them in order to all the nerves and covering them with the muscles: the first group is attached to the skeleton, the second it holds firm, and the third makes it move, and in these drawings he wrote notes in various places in ugly characters written with the left hand from right to left, which cannot be understood by anyone who is not used to reading them, since they cannot be read without a mirror..”</p></blockquote>
 
 <h3>Contributions to Neuroscience</h3>
 
