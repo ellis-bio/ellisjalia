@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<div>
-<center>
-<hr width="100%" size="2">
-<img src=/assets/icons/menu.png style="width:48px;height:48px"/> &nbsp; &nbsp; &nbsp; <img src=/assets/icons/quill-bw.png style="width:48px;height:48px"/> &nbsp; &nbsp; &nbsp; <img src=/assets/icons/palette-bw.png style="width:48px; height:48px"/> &nbsp; &nbsp; &nbsp; <img src=/assets/icons/newsletter-bw.png style="width:48px; height:48px"/> &nbsp; &nbsp; &nbsp; <img src=/assets/icons/unknown-bw.png style="width:48px; height:48px"/>
-<hr width="100%" size="2">
-</center>
-</div>
+<hr width="100%" size="3">
+<div class="container">
+        <img src="/assets/icons/menu.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
+        <img src="/assets/icons/quill-bw.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
+        <img src="/assets/icons/palette-bw.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
+        <img src="/assets/icons/newsletter-bw.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
+        <img src="/assets/icons/unknown-bw.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
+ </div>
+  <hr width="100%" size="3">
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong>
 <p style="font-size:0.9em;">24 November 2024 - <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf">permalink</a>
@@ -18,8 +20,6 @@ layout: default
 <center><img src="/assets/images/da-vinci-collage.png"></center>
 
 <center><p style="font-size:0.9em; ">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His drawings are housed in both public <a href ="https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks?srsltid=AfmBOoqeO7bdbqXngYrEJCtH6bnI8ILvacTgyCfdm3QSGA6D6EHmujX-" style="color:tomato">[1]</a> and private collections <a href ="https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-drawings" style="color:tomato">[2]</a>; <a href ="https://artsandculture.google.com/story/DAVhNR_kmhU1ww?hl=en" style="color:tomato">[3]</a>.</center>
-
-[Posts](www.ellisjalia.com/posts) [Art](www.ellisjalia.com/art) [Newsletter](www.ellisjalia.com/newsletter)
 
 <br>
 
