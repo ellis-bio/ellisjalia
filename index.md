@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<center>
 <hr width="100%" size="3">
 <div class="container">
         <img src="/assets/icons/menu.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
@@ -11,6 +11,7 @@ layout: default
         <img src="/assets/icons/unknown.png" style="width:42px;height:42px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/>
  </div>
   <hr width="100%" size="3">
+  </center>
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
 <p style="font-size:0.9em;">24 November 2024 - <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf">permalink</a></p>
@@ -19,7 +20,7 @@ layout: default
 
 <center><img src="/assets/images/da-vinci-collage.png"></center>
 
-<center><p style="font-size:0.9em; ">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His drawings are housed in both public <a href ="https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks?srsltid=AfmBOoqeO7bdbqXngYrEJCtH6bnI8ILvacTgyCfdm3QSGA6D6EHmujX-" style="color:tomato">[1]</a> and private collections <a href ="https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-drawings" style="color:tomato">[2]</a>; <a href ="https://artsandculture.google.com/story/DAVhNR_kmhU1ww?hl=en" style="color:tomato">[3]</a>.</center>
+<center><p style="font-size:0.9em; ">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His drawings are housed in both public <a href ="https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks?srsltid=AfmBOoqeO7bdbqXngYrEJCtH6bnI8ILvacTgyCfdm3QSGA6D6EHmujX-" style="color:tomato">[1]</a> and private collections <a href ="https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-drawings" style="color:tomato">[2]</a>; <a href ="https://artsandculture.google.com/story/DAVhNR_kmhU1ww?hl=en" style="color:tomato">[3]</a></p></center>
 
 <br>
 
@@ -27,7 +28,7 @@ layout: default
 
 <p style="font-size:1.20em; ">Da Vinci was born in 1452 and died in 1519, at the age of 67. Throughout his life, he worked on many projects, many of which he left unfinished; it is a conflict that Sigmund Freud <a href ="http://archive.eclass.uth.gr/eclass/modules/document/file.php/MHXD102/Vasari%20Giorgio_The_Lives_of_the_Artists_Oxford.pdf" style="color:tomato">describes</a> as the natural scientist encroaching on, suppressing, and finally overrunning the artist within. Even during his own life, his skill earned him a great reputation, which only grew after his death, culminating in our understanding and appreciation of him as the archetypal Renaissance figure. Vasari writes:</p>
 
-><p style="font-size:1.20em; ">“ ...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.</p>
+><p style="font-size:1.10em; ">“ ...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works.</p>
 
 <p style="font-size:1.20em; ">Da Vinci was known as a pleasant man, both in conversation, and in his love for animals. He is said to have purchased birds held in cages in order to set them free, and “give them the liberty they had lost”. With every action, he enhanced every miserly and modest living place, and was widely loved for his stature and the beauty of his work. The city of Florence, Vasari says, received the greatest gift with Da Vinci's birth, and the greatest loss when he died.</p>
 
@@ -63,4 +64,3 @@ Perhaps the closest we'll ever get to understanding the natural world and the mu
 
 with great care studies and honours the natural world  
 
-Page [1](link) [2](link) [3](link)
