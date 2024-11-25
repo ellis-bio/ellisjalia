@@ -15,7 +15,7 @@ layout: page
 
 &nbsp;
 
-<img src="/assets/photo.png" style="height:200px"><br>
+<img src="/assets/photo.png" style="height:200px; text-align:left;"/><br>
 
 Hi, I’m Ellis.
 
