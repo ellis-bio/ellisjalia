@@ -13,9 +13,8 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<div class="container">
-<div style="text-align: left"><img src="assets/photo.png" height="200" /></div>
-</div>
+<img src="assets/photo.png" height="200" style="text-align: left"/></div>
+
 
 Hi, I’m Ellis.
 
