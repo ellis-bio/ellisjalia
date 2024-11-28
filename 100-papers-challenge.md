@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: posts/100-papers-challenge
 ---
 <center>
 <hr width="100%" size="3">
