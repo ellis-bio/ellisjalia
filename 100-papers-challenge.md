@@ -14,9 +14,6 @@ permalink: posts/100-papers-challenge
   <hr width="100%" size="3">
   </center>
 
-<html>
-<body>
-
 With the 100 Papers Challenge, the aim is to read 100 academic papers a year; this page contains references to papers I’ve read, starting from 2021.
 
 Last updated: 5 Nov 2024
@@ -129,5 +126,3 @@ Last updated: 5 Nov 2024
 <li>Pär Sundström (2008) Is the mystery an illusion? Papineau on the problem of consciousness. Synthese, 163, 133-43.</li>
 <li>Walter Veit (2020) Dennett and Spinoza. Australasian Philosophical Review, 4:3, 259-265</li>
 <li>Daniel Dennett (2019) Welcome to Strong Illusionism. Journal of Consciousness Studies, 26(9–10), 48–58.</li>
-</body>
-</html>
