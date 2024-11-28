@@ -17,21 +17,6 @@ With the 100 Papers Challenge, the aim is to read 100 academic papers a year; th
 
 Last updated: 5 Nov 2024
 
-<h5><u>Special recommendations</u></h5>
-
-<li>John M. Cooper (1984) Plato’s Theory of Human Motivation. History of Philosophy Quarterly, Jan., 1984, Vol. 1, No. 1 (Jan., 1984), pp. 3-21.</li>
-<li>Wallace I. Matson (1971) Spinoza’s Theory of Mind. The Monist, OCTOBER, 1971, Vol. 55, No. 4, The Philosophy of Spinoza (OCTOBER, 1971), pp. 567-578.</li>
-<li>Mohan Matthen (1998) Biological Universals and the Nature of Fear. The Journal of Philosophy, Mar., 1998, Vol. 95, No. 3 (Mar., 1998), pp. 105-132.</li>
-<li>Howard Stein (1967) Newtonian Space-Time. Texas Quarterly, 10, 174-200.</li>
-<li>Jonathan Pevsner (2005) Leonardo da Vinci, Neuroscientist. Scientific American Mind, 2005, Vol. 16, No. 1 (2005), pp. 84-91.</li>
-<li>Daniel Kahneman (2012) Two Systems in the Mind. Bulletin of the American Academy of Arts and Sciences, WINTER 2012, Vol. 65, No. 2, 55-59.</li>
-<li>Martin Bauer, Gordon Sammut (2021) Epilogue: Theoretical Issues and Challenges. The Psychology of Social Influence: Modes and Modalities of Shifting Common Sense, Cambridge University Press: 243-270.</li>
-<li>Gerd Gigerenzer (2019) How to Explain Behavior? Topics in Cognitive Science 12: 1-19</li>
-<li>Alfred Jules Ayer (1973) Construction of Our Theory of the Physical World. In Philosophy As It Is (eds. Ted Honderich, Myles Burnyeat), 1984: 311-345.</li>
-<li>Luiz Pessoa, Loreta Medina and Ester Desfilis (2021). Refocusing neuroscience: moving away from mental categories and towards complex behaviours. Philosophical Transactions of the Royal Society, B. Biological Sciences.</li>
-<li>David Hoinski, Ronald Polansky (2014). The Gods’ Horses and Tripartite Souls in Plato’s Phaedrus. Rhizomata (2):139-160.</li>
-
-
 <h5><u>2024</u></h5>
 <ol reversed>
 <li>Anthony Preus (1986) Aristotle on Healthy and Sick Souls. The Monist, JULY, 1986, Vol. 69, No. 3, The Nature of the Soul (JULY, 1986), pp. 416-433.</li>
