@@ -17,7 +17,7 @@ layout: page
 
 
 <p>Lists:<br>
-» 10 Things Worth Sharing This Week<br>
+» 10 Things Worth Sharing<br>
 » Notebook of Things I Don't Know About<br>
 » <a href="https://ellisjalia.com/my-reading-years">My Reading Years</a><br>
 » <a href="https://ellisjalia.com/100-papers-challenge">100 Papers Challenge</a><br>
