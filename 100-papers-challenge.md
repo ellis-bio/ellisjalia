@@ -17,7 +17,7 @@ With the 100 Papers Challenge, the aim is to read 100 academic papers a year; th
 
 Last updated: 5 Nov 2024
 
-<h5><u>Special recommendations</h5></u>
+<h5><u>Special recommendations</u></h5>
 
 <li>John M. Cooper (1984) Plato’s Theory of Human Motivation. History of Philosophy Quarterly, Jan., 1984, Vol. 1, No. 1 (Jan., 1984), pp. 3-21.</li>
 <li>Wallace I. Matson (1971) Spinoza’s Theory of Mind. The Monist, OCTOBER, 1971, Vol. 55, No. 4, The Philosophy of Spinoza (OCTOBER, 1971), pp. 567-578.</li>
