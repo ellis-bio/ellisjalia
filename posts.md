@@ -13,4 +13,12 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
+Posts:
 Coming soon.
+
+Lists:
+» 10 Things Worth Sharing This Week
+» Notebook of Things I Don't Know About
+» Books I've Read
+» <a href="https://ellisjalia.com/posts/100-papers-challenge">100 Papers Challenge</a>
+» Quotes
