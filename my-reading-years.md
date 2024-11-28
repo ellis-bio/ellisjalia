@@ -13,31 +13,4 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-Last updated: 15 Nov 2024
-
-2024 (30)
-
-Lives of Eminent Philosophers Vol. 1 by Diogenes Laertius 
-The Masque of the Red Death by Edgar Allan Poe 
-The Seventh Letter by Plato 
-Anaximander by Carlo Rovelli 
-The Eudemian Ethics by Aristotle 
-Slow Productivity by Cal Newport 
-Parmenides by Plato 
-Mister Miracle by Tom King 
-We Can Build You by Philip K. Dick
-The Stars My Destination by Alfred Bester
-Flow My Tears, The Policeman Said by Philip K. Dick
-Elon Musk by Walter Isaacson
-Harry Potter 1-7 by J. K. Rowling 
-King Lear by William Shakespeare
-Leonardo: The Complete Drawings by Frank Zöllner 
-Valis by Philip K. Dick
-The Cyberiad by Stanislaw Lem
-God Emperor of Dune by Frank Herbert 
-Children of Dune by Frank Herbert
-Raphael: The Drawings by Catherine Whistler
-Oration on the Dignity of Man by Giovanni Pico della Mirandola
-Monday Starts on Saturday by Arkady Strugatsky 
-Hagakure by Yamamoto Tsunetomo
-The Path to Power by Robert Caro 
+Coming soon.
