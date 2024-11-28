@@ -42,9 +42,3 @@ Oration on the Dignity of Man by Giovanni Pico della Mirandola
 Monday Starts on Saturday by Arkady Strugatsky 
 Hagakure by Yamamoto Tsunetomo
 The Path to Power by Robert Caro 
-
-2023
-
-The World as Will and Representation by Arthur Schopenhauer
-Lord of Light by Roger Zelazny
-The True Life by Alain Badiou
