@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /posts/my-reading-years
 ---
 <center>
 <hr width="100%" size="3">
