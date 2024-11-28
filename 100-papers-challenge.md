@@ -19,7 +19,6 @@ Last updated: 5 Nov 2024
 
 <h5><u>Special recommendations</h5></u>
 
-<li>Anthony Preus (1986) Aristotle on Healthy and Sick Souls. The Monist, JULY, 1986, Vol. 69, No. 3, The Nature of the Soul (JULY, 1986), pp. 416-433.</li>
 <li>John M. Cooper (1984) Plato’s Theory of Human Motivation. History of Philosophy Quarterly, Jan., 1984, Vol. 1, No. 1 (Jan., 1984), pp. 3-21.</li>
 <li>Wallace I. Matson (1971) Spinoza’s Theory of Mind. The Monist, OCTOBER, 1971, Vol. 55, No. 4, The Philosophy of Spinoza (OCTOBER, 1971), pp. 567-578.</li>
 <li>Mohan Matthen (1998) Biological Universals and the Nature of Fear. The Journal of Philosophy, Mar., 1998, Vol. 95, No. 3 (Mar., 1998), pp. 105-132.</li>
