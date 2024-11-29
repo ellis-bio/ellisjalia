@@ -44,7 +44,7 @@ layout: page
 <li><i>Raphael: The Drawings</i> by Catherine Whistler</li>
 <li><i>Oration on the Dignity of Man</i> by Giovanni Pico della Mirandola</li>
 <li><i>Monday Starts on Saturday</i> by Arkady Strugatsky</li>
-<li><i>Hagakure: The Book of the Samurai</i> Yamamoto Tsunetomo</li>
+<li><i>Hagakure: The Book of the Samurai</i> by Yamamoto Tsunetomo</li>
 <li><i>The Path to Power</i> by Robert Caro</li>
 
 
