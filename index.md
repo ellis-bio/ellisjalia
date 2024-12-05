@@ -91,7 +91,7 @@ In his drawing "The Star of Bethlehem", he is able to depict the power of growth
 
 <center><img src="/assets/images/davinci-animals.jpeg"></center><br>
 
-Leonardo thought of life as both a mechanism and organism. He thought of the earth as possessing a "spirit of growth"; and the soil as the flesh, its bones as the rocks, limestone as the cartilage and "its blood, the springs of water". 
+Leonardo thought of life as both a mechanism and organism. He thought of the earth as possessing a "spirit of growth"; and the soil as the flesh, its rocks as bones, limestone as the cartilage and "its blood, the springs of water". 
 
 The motion of animals, the major one found in nature he called "serpegiamento", or snake-like. It is a movement that he studied extensively and can be seen in the animal drawings, from horses to cats and fantastical dragons. 
 
