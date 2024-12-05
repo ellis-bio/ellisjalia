@@ -66,7 +66,7 @@ Leonardo divided the science of painting into drawing and shading, and it was fo
 
 <br>
 
-<center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg/"></center>
+<center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg"></center>
 <center><p style="font-size:0.9em; color: grey">A detail from Saint John the Baptist by Leonardo da Vinci.</p></center>
 
 This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:
