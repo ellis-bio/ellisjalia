@@ -52,7 +52,7 @@ To peer into nature's mind, Da Vinci understood that the artist must learn the l
 
 These laws of perspective were to be kept in mind so that only what could be seen with certainty was depicted as certain; that which was seen with difficulty was to be made indefinite. Lines were to be blurred and suggestively left open. His drawings were only made of outlines and hatching marks in accordance with those laws, and yet they convey unrivalled volume and dynamism.
 <br>
-<center><img src="/assets/images/davinci-perspective.jpeg" style="height:350px"></center><br>
+<center><img src="/assets/images/davinci-perspective.jpeg"></center><br>
 
 Leonardo's technique can thus be seen as a solution to the duality between abstraction, and a naturalistic interpretation of reality. This is best exemplified in some of his hydrodynamic and geological drawings. In them, he wanted to carry across the dynamic forces of nature, stones slowly shifting across the ages, as the roots of plants growing in the crevices were tearing those very stones out, moving them ever so slightly from the old place they once occupied. Water rapids rippling and creating vortices. In these images, amongst others, Leonardo shows that nature transforms everything.
 
@@ -66,7 +66,7 @@ Leonardo divided the science of painting into drawing and shading, and it was fo
 
 <br>
 
-<center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg" style="height:500px"></center>
+<center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg/"></center>
 <center><p style="font-size:0.9em; color: grey">A detail from Saint John the Baptist by Leonardo da Vinci.</p></center>
 
 This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:
@@ -101,7 +101,7 @@ He used drawing to convey scientific knowledge (the empiricism aspect). Regardin
 
 <br>
 
-<center><img src="/assets/images/davinci-anatomy.png" style="height:600px"></center><br>
+<center><img src="/assets/images/davinci-anatomy.png"></center><br>
 
 Leonardo's concept of drawing meant a new era for the human mind had emerged. Had his notebooks been published during his lifetime, or even the anatomical treatises he set out to complete but never did, the most profound revolution would have occurred in science. Yet, progress in anatomy was left to other great minds like Andreas Vesalius, with the publication of his treatise "On the Fabric of the Human Body in Seven Books". 
 
@@ -112,7 +112,7 @@ On anatomy, Leonardo advised that the painter should be,
 
 <h4>Contributions to Neuroscience</h4>
 
-Beyond his pioneering work in painting and scientific drawing, Leonardo wanted to prove that the mind has a physical basis. He wished to show the mechanisms by which the brain makes sensory stimuli intelligible, and thus show the functioning of the mind. 
+Beyond his pioneering work in painting, anatomy and scientific drawing, Leonardo wanted to prove that the mind has a physical basis. He wished to show the mechanisms by which the brain makes sensory stimuli intelligible, and thus show the functioning of the mind. 
 
 A few of his drawings depict three ventricles in the brain, cavities filled with cerebrospinal fluid, the first being responsible for the processing of sensory stimuli; the second housing thought and the integration of the senses; and the last ventricle by means of which thought and sensation are imprinted into memory.
 <br>
