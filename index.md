@@ -16,12 +16,9 @@ layout: default
 <p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
 <p style="font-size:0.9em;">Thursday, 5 December 2024</p>
 
-<br>
-
 <center><img src="/assets/images/davinci.png"></center>
 <center><p style="font-size:0.9em; color: grey">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His notebook manuscripts are held in both public and private collections, notably by Bill Gates, the Ambrosiana, and the Royal Collection Trust.</p></center>
 
-<br>
 
 >“...the greatest geniuses sometimes accomplish more when they work less, since they are searching for inventions in their minds, and forming those perfect ideas which their hands then express and reproduce from what they previously conceived with their intellect." - Leonardo da Vinci
 
