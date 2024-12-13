@@ -36,7 +36,7 @@ So, I want to explore a few things: how these generative models work, how theyâ€
 Artificial neural networks are an architecture that link together mathematical representations of biological neurons. They enable machines to learn from experience. The function of artificial neurons is to make decisions in the form of positive or negative signals, that is, by sending a signal on to the next neuron, or not sending a signal; these decisions can be represented by 1 or 0.
 
 
-A common artificial neuron used in machine learning is the sigmoid neuron (named after the S-shaped sigmoid curve). In a sigmoid neuron, the total input z is a function of the bias b of the neuron and the sum over all it's incoming connections of the activity on an input line (represented by x) multiplied by w, the probabilistic weight on that input line:
+A common artificial neuron used in machine learning is the sigmoid neuron (named after the S-shaped sigmoid curve). In a sigmoid neuron, the total input z is a function of the bias b of the neuron and the sum over all its incoming connections of the activity on an input line (represented by x) multiplied by w, the probabilistic weight on that input line:
 
 <center><img src="/assets/images/input.png" style="width:150px"></center>
 <br>
