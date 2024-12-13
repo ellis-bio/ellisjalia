@@ -77,7 +77,7 @@ Artificial intelligence is going to transform society in rapid ways that we've n
 
 AI will have impacts on healthcare and medicine, pharmacology, transportation, finance, materials, art and other creative industries, education, engineering and space exploration––virtually all domains of human activity. These systems will be the ultimate recipe makers, in the sense that answers provided by an AGI system can be fed back into it, generating better and better outputs. What's really difficult to understand is that an AI system at some point will have the capability to improve or make a better version of itself, leading to exponential growth in its capabilities, until it finally becomes indistinguishable to us. 
 
-It is of course a different question when it comes to the role of human values in the age of artificial intelligence––as to what sort of life you want to live. But for questions of productivity or economic growth––anyone, individual or corporation, who does not augment their daily life or operations with AI systems––will go the way of the dinosaurs. They will be productively and economically decimated. 
+It is of course a different question when it comes to the role of human values––as to what sort of life you want to live. But for questions of productivity or economic growth––anyone, individual or corporation, who does not augment their daily life or operations with AI systems––will go the way of the dinosaurs. They will be productively and economically decimated. 
 
 The best way to keep up and not be left behind is to learn and use the tools available.
 
