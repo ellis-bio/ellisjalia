@@ -45,7 +45,7 @@ Whereas the output of the sigmoid neuron is a real-value number that is smooth a
 <center><img src="/assets/images/output.png" style="width:120px"></center>
 <br>
 
-If the total input z is large and positive, e to the minus a large positive number will be 0; so the output of the neuron is going to be 1. If the total input is large and negative, $e$ to the minus a large negative number is itself going to be a large number, so the output of the neuron will be 0. What this means is that if the input is 0, then the output will be 0.5, which is the resting threshold of sigmoid neurons. Positive inputs thus get a probability closer to 1, while negative inputs get a probability closer to 0. That is how artificial neurons compute decisions.
+If the total input z is large and positive, e to the minus a large positive number will be 0; so the output of the neuron is going to be 1. If the total input is large and negative, e to the minus a large negative number is itself going to be a large number, so the output of the neuron will be 0. What this means is that if the input is 0, then the output will be 0.5, which is the resting threshold of sigmoid neurons. Positive inputs thus get a probability closer to 1, while negative inputs get a probability closer to 0. That is how artificial neurons compute decisions.
 
 <h4>Generative AI</h4>
 
