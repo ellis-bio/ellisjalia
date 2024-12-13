@@ -53,7 +53,7 @@ Generative AI models like ChatGPT are based on the principle of next word predic
 
 The text is then split into smaller units called tokens, which are then mathematically represented into a numerical format using word embeddings. Word embeddings are vector representations of words, and they capture the semantic meaning of words based on context. Words that are similar in meaning to each other are given similar vectors, or are closer in vector space, just as with words that are more likely to follow one-another. For example, it can learn that in the sentence "Scientists have discovered a...", the word "new" is likely to follow. It assigns this word probability a closer to 1.
 
-Given some input, AI models treat language prediction as a conditional probability. For an input sequence of tokens w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n</sub>, their task is to calculate P (w<sub>n</sub> | w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n-1</sub>). This is the probability of the next token w<sub>n</sub> given the previous input tokens. 
+Given some input, AI models treat language prediction as a conditional probability. For an input sequence of tokens w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n</sub> their task is to calculate P (w<sub>n</sub> | w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n-1</sub>). This is the probability of the next token w<sub>n</sub> given the previous input tokens.
 
 I'm oversimplifying here; because the deep learning rabbit hole is a deep one. Concepts like attention, regression, gradient descent, bias, and back-propagation also play an indispensable role (not to mention convolutional neural networks for dynamic vision based tasks).
 
