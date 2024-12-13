@@ -36,7 +36,7 @@ So, I want to explore a few things: how these generative models work, how theyâ€
 Artificial neural networks are an architecture that link together mathematical representations of biological neurons. They enable machines to learn from experience. The function of artificial neurons is to make decisions in the form of positive or negative signals, that is, by sending a signal on to the next neuron, or not sending a signal; these decisions can be represented by 1 or 0.
 
 
-A common artificial neuron used in machine learning is the sigmoid neuron (named after the S-shaped sigmoid curve). In a sigmoid neuron, the total input z is a function of the bias b of the neuron and the sum over all it's incoming connections of the activity on an input line (represented by x) mulitplied by w, the probabilistic weight on that input line:
+A common artificial neuron used in machine learning is the sigmoid neuron (named after the S-shaped sigmoid curve). In a sigmoid neuron, the total input z is a function of the bias b of the neuron and the sum over all it's incoming connections of the activity on an input line (represented by x) multiplied by w, the probabilistic weight on that input line:
 
 <center><img src="/assets/images/input.png" style="width:150px"></center>
 <br>
@@ -57,8 +57,7 @@ The text is then split into smaller units called tokens, which are then mathemat
 Given some input, AI models treat language prediction as a conditional probability. For an input sequence of tokens w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n</sub> their task is to calculate P (w<sub>n</sub> | w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n-1</sub>). This is the probability of the next token w<sub>n</sub> given the previous input tokens.
 </body>
 </html>
-
-I'm oversimplifying here; because the deep learning rabbit hole is a deep one. Concepts like attention, regression, gradient descent, bias, and back-propagation also play an indispensable role (not to mention convolutional neural networks for dynamic vision based tasks).
+I am oversimplifying here; because the deep learning rabbit hole is a deep one. Concepts like attention, regression, gradient descent, bias, and back-propagation also play an indispensable role (not to mention convolutional neural networks for dynamic vision based tasks).
 
 <h4>The Path to AGI</h4>
 
