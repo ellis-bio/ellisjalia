@@ -55,9 +55,10 @@ The text is then split into smaller units called tokens, which are then mathemat
 <html>
 <body>
 Given some input, AI models treat language prediction as a conditional probability. For an input sequence of tokens w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n</sub> their task is to calculate P (w<sub>n</sub> | w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub>,..., w<sub>n-1</sub>). This is the probability of the next token w<sub>n</sub> given the previous input tokens.
+
+I am oversimplifying here; because the deep learning rabbit hole is a deep one. Concepts like attention, regression, gradient descent, bias, and back-propagation also play an indispensable role (not to mention convolutional neural networks for dynamic vision based tasks).
 </body>
 </html>
-I am oversimplifying here; because the deep learning rabbit hole is a deep one. Concepts like attention, regression, gradient descent, bias, and back-propagation also play an indispensable role (not to mention convolutional neural networks for dynamic vision based tasks).
 
 <h4>The Path to AGI</h4>
 
