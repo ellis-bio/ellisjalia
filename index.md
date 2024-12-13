@@ -82,8 +82,6 @@ AI will have impacts on healthcare and medicine, pharmacology, transportation, f
 
 It is of course a different question when it comes to the role of human values––as to what sort of life you want to live. But for questions of productivity or economic growth––anyone, individual or corporation, who does not augment their daily life or operations with AI systems––will go the way of the dinosaurs. They will be productively and economically decimated. 
 
-The best way to keep up and not be left behind is to learn and use the tools available.
-
 ---
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
