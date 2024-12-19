@@ -2,7 +2,7 @@
 layout: page
 ---
 <center>
-<hr width="100%" size="3">
+
 <div class="container">
         <a href="https://ellisjalia.com"><img src="/assets/icons/menu-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
         <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
@@ -19,9 +19,9 @@ layout: page
 <img src="/assets/images/10-books-header.png" style="width:100%">
 
 <br>
-
-<p style="font-size:1.3em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p>
-
+<hr>
+<p style="font-size:1.2em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p>
+<hr>
 <br>
 <p style="font-size:1.0em">Dear friends,</p>
 
