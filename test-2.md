@@ -13,8 +13,6 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<html>
-<body>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Thursday, December 19, 2024</p>
 
@@ -44,7 +42,10 @@ layout: page
 
 (2). Van Gogh Still Lifes by Obtrude Westheider“A great fire burns within me, but no one stops to warm themselves at it, and passers-by only see a wisp of smoke”. Man, every time I see a [new Van Gogh book](https://www.amazon.com/Through-Vincents-Eyes-Gogh-Sources/dp/0300251378), I just want to buy it. In the summer, I hope to go to New York, to finally see his great painting. 
 3. First Love by Ivan Turgenev Avrahm Yarmolinsky: “…when the page was warmed by the glow of a casual affair”. Supposedly the writer Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Leo Tolstoy (once I read War and Peace, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But since I loved Turgenev’s Fathers and Sons, I’m looking forward to giving this one a go at some point.  
-4. Dream Story by Arthur SchnitzlerThis story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. And, ahem, I definitely don’t want to read it because of some fantasy that I have to one day host my own masquerade ball, where I dress as Red Cloak. [Or was that the point of the film?](https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html) 
+4. Dream Story by Arthur SchnitzlerThis story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. And, ahem, I definitely don’t want to read it because of some fantasy that I have to one day host my own masquerade ball, where I dress as Red Cloak. [Or was that the point of the film?]
+
+(https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html)
+
 5. The Narrow Road to the Deep North and Other Travel Sketches by Matsuo BashoWho doesn’t love a good Basho poem? “an ancient pond / a frog jumps in / the splash of water”. There’s nothing else to say. 
 6. Night of the Milky Way Railway by Kenji MiyazawaI’m kinda drawn to this book like a Raven to shiny things (which, for, some reason, reminded me of the Raven paradox). Anyway–this book has such a great cover. I can’t wait to buy a copy and read it!
 7. A Beautiful Question: Finding Nature’s Deep Design by Frank WilczekBy accident one day, I discovered this giant of physics! I have his other books, The Lightness of Being and Fundamentals: Ten Keys to Reality, but this one has eluded me (I’m sure I’ll be able to find a good copy of the hardcover edition one day)! The idea of beauty inherent in the physical construction of the universe sounds fascinating, and perhaps 2025 will be the year when I finally get round to this gem. 
@@ -56,9 +57,6 @@ I don’t really know anything about Ricoeur, besides the fact that he wrote a b
 Honourable mentions for books yet to be released: Visual Arts and Human Flourishing by Selma Holo and Aristotle on the Essence of Human Thought by Klaus Corcilius, et al, both to be published in early 2025. I feel like 2024 wasn’t a great year for publishing, but 2025 looks like it might be one of the best yet.
 
 At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
-</body>
-</html>
-
 
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
