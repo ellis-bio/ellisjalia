@@ -10,11 +10,8 @@ layout: page
 .column {
   float: left;
   width: 33.33%;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
+  padding: 15px;
   padding-bottom: 15px;
-  background-color: CornSilk;
   border: 10px solid white;
 }
 /* Clearfix (clear floats) */
@@ -38,6 +35,24 @@ img {
 <body>
 <div class="row">
   <div class="column">
+    <img src="/assets/images/monet-3.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/images/musashi-3.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/images/laertius-1.png" style="width:100%">
+  </div>
+    <div class="column">
+    <img src="/assets/images/monet-3.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/images/musashi-3.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/images/laertius-1.png" style="width:100%">
+  </div>
+    <div class="column">
     <img src="/assets/images/monet-3.png" style="width:100%">
   </div>
   <div class="column">
