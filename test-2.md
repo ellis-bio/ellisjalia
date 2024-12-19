@@ -15,12 +15,9 @@ layout: page
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Thursday, December 19, 2024</p>
-
 <br>
-
 <img src="/assets/images/10-books-header.png" style="width:100%">
 
-<br>
 <br>
 
 <p style="font-size:1.3em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p>
