@@ -2,7 +2,6 @@
 layout: page
 ---
 <center>
-<hr width="100%" size="3">
 <div class="container">
         <a href="https://ellisjalia.com"><img src="/assets/icons/menu-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
         <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
@@ -24,8 +23,7 @@ layout: page
   width: 33%;
   padding: 20px;
   border: 10px solid white;
-  background-color: CornSilk;
-}
+  }
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -44,10 +42,10 @@ layout: page
 <body>
 <div class="row">
   <div class="column">
-    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
-  </div>
-  <div class="column">
     <img src="/assets/images/musashi-3.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+    <div class="column">
+    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
   </div>
   <div class="column">
     <img src="/assets/images/laertius-1.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
