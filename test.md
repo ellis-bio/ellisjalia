@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-<!DOCTYPE html>
 <html>
 <head>
 <style>
