@@ -13,6 +13,8 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
+<html>
+<body>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Thursday, December 19, 2024</p>
 <br>
@@ -50,7 +52,8 @@ I don’t really know anything about Ricoeur, besides the fact that he wrote a b
 Honourable mentions for books yet to be released: Visual Arts and Human Flourishing by Selma Holo and Aristotle on the Essence of Human Thought by Klaus Corcilius, et al, both to be published in early 2025. I feel like 2024 wasn’t a great year for publishing, but 2025 looks like it might be one of the best yet.
 
 At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
-
+</body>
+</html>
 
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
