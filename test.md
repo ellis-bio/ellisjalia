@@ -40,7 +40,7 @@ layout: page
 </style>
 </head>
 
-<strong>My Reading Year, 2024</strong>
+<strong>My Reading Year, 2024</strong><br>
 Here they are - all the books I read in 2024.
   
 <body>
