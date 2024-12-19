@@ -16,7 +16,7 @@ layout: page
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Thursday, December 19, 2024</p>
 <br>
-<img src="/assets/images/10-books-header.png" style="width:100%">
+<img src="/assets/images/10-books-header.png">
 <br>
 <hr>
 <center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p></center>
@@ -26,12 +26,7 @@ Dear friends, <br>
 
 Essentially, I see this list as a sort of peek-over-the-fence; what I could be reading if I didn’t have work to do! Anyway, here’s my take on it:
 
-<br>
-
-<img src="/assets/images/10-books-1.png" style="width:100%">
-
-<br>
-<br>
+<img src="/assets/images/10-books-1.png" style="margin-bottom:1em; margin-top:1em;">
 
 <p style="margin-bottom:0;">1. <b>The Invention of Hugo Cabret</b>, <a href="https://www.goodreads.com/book/show/9673436-the-invention-of-hugo-cabret" style="color:tomato"><b>Brian Selznick</b></a></p>
 <p style="font-size:1.0em">All I know about this book is that it’s about a boy who lives in a train station clock tower, and that it was made into a film. It won the 2008 Caldecott Medal, though, which is awarded to the “artist for the most distinguished American picture book for children”. Looks great!</p>
