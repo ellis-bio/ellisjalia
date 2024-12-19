@@ -10,12 +10,12 @@ layout: page
 .column {
   float: left;
   width: 33.33%;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: CornSilk;
-  border: 15px solid white;
+  border: 10px solid white;
 }
 /* Clearfix (clear floats) */
 .row::after {
