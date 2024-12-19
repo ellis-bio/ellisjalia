@@ -28,9 +28,7 @@ layout: page
 <br>
 <p style="font-size:1.0em">Dear friends,</p>
 
-<p style="font-size:1.0em">I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called “London Rain”, by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.” You can read the rest of the poem <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato">here</a>.</p>
-
-
+<p style="font-size:1.0em">I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.”</p>
 
 <p style="font-size:1.0em">Essentially, I see this list as a sort of peek-over-the-fence; what I could be reading if I didn’t have work to do! Anyway, here’s my take on it:</p>
 <br>
@@ -40,11 +38,13 @@ layout: page
 <p style="font-size:1.1em; margin-bottom:0;">1. <b>The Invention of Hugo Cabret</b>, <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato"><b>Brian Selznick</b></a>.</p>
 <p style="font-size:1.0em">All I know about this book is that it’s about a boy who lives in a train station clock tower, and that it was made into a film. It won the 2008 Caldecott Medal, though, which is awarded to the “artist for the most distinguished American picture book for children”. Looks great!</p>
 
-(2). Van Gogh Still Lifes by Obtrude Westheider“A great fire burns within me, but no one stops to warm themselves at it, and passers-by only see a wisp of smoke”. Man, every time I see a [new Van Gogh book](https://www.amazon.com/Through-Vincents-Eyes-Gogh-Sources/dp/0300251378), I just want to buy it. In the summer, I hope to go to New York, to finally see his great painting. 
-3. First Love by Ivan Turgenev Avrahm Yarmolinsky: “…when the page was warmed by the glow of a casual affair”. Supposedly the writer Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Leo Tolstoy (once I read War and Peace, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But since I loved Turgenev’s Fathers and Sons, I’m looking forward to giving this one a go at some point.  
-4. Dream Story by Arthur SchnitzlerThis story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. And, ahem, I definitely don’t want to read it because of some fantasy that I have to one day host my own masquerade ball, where I dress as Red Cloak. [Or was that the point of the film?]
+2. Van Gogh Still Lifes by Obtrude Westheider
+<p style="font-size:1.0em">“A great fire burns within me, but no one stops to warm themselves at it, and passers-by only see a wisp of smoke”. Man, every time I see a [new Van Gogh book](https://www.amazon.com/Through-Vincents-Eyes-Gogh-Sources/dp/0300251378), I just want to buy it. In the summer, I hope to go to New York, to finally see his great painting. 
 
-(https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html)
+3. First Love by Ivan Turgenev Avrahm Yarmolinsky: “…when the page was warmed by the glow of a casual affair”. Supposedly the writer Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Leo Tolstoy (once I read War and Peace, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But since I loved Turgenev’s Fathers and Sons, I’m looking forward to giving this one a go at some point.  
+
+4. Dream Story by Arthur Schnitzler
+This story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. And, ahem, I definitely don’t want to read it because of some fantasy that I have to one day host my own masquerade ball, where I dress as Red Cloak. <a href="https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html" style="color:tomato">Or was that the point of the film?</a> &#129300;
 
 5. The Narrow Road to the Deep North and Other Travel Sketches by Matsuo BashoWho doesn’t love a good Basho poem? “an ancient pond / a frog jumps in / the splash of water”. There’s nothing else to say. 
 6. Night of the Milky Way Railway by Kenji MiyazawaI’m kinda drawn to this book like a Raven to shiny things (which, for, some reason, reminded me of the Raven paradox). Anyway–this book has such a great cover. I can’t wait to buy a copy and read it!
@@ -58,8 +58,10 @@ Honourable mentions for books yet to be released: Visual Arts and Human Flourish
 
 At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
 
+
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
 <p style="font-size:1.0em"></p>
+
