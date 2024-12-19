@@ -14,6 +14,7 @@ layout: page
 
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
@@ -23,6 +24,7 @@ layout: page
   width: 33%;
   padding: 20px;
   border: 10px solid white;
+  background-color: cornsilk;
   }
 /* Clearfix (clear floats) */
 .row::after {
@@ -39,20 +41,38 @@ layout: page
 }
 </style>
 </head>
-
 <strong>My Reading Year, 2024</strong><br>
 Here they are - all the books I read in 2024.
-  
+<br>
+<br>
 <body>
 <div class="row">
   <div class="column">
-    <img src="/assets/images/musashi-3.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
+    <img src="/assets/images/musashi-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
   </div>
     <div class="column">
-    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
+    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
   </div>
   <div class="column">
-    <img src="/assets/images/laertius-1.png" style="width:100%; box-shadow: -10px 10px 7px rgba(27, 1, 1, 0.58);">
+    <img src="/assets/images/laertius-1.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+    <div class="column">
+    <img src="/assets/images/musashi-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+    <div class="column">
+    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/laertius-1.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+    <div class="column">
+    <img src="/assets/images/musashi-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+    <div class="column">
+    <img src="/assets/images/monet-3.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/laertius-1.png" style="width:100%; box-shadow: -7px 7px 7px rgba(27, 1, 1, 0.58);">
   </div>
 </div>
 </body>
