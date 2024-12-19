@@ -21,10 +21,10 @@ layout: page
 <img src="/assets/images/10-books-header.png" style="width:100%">
 <br>
 <hr>
-<p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p>
+<center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p></center>
 <hr>
-Dear friends,<br>
-I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.”
+Dear friends, <br>
+<br>I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.”
 
 Essentially, I see this list as a sort of peek-over-the-fence; what I could be reading if I didn’t have work to do! Anyway, here’s my take on it:
 <br>
