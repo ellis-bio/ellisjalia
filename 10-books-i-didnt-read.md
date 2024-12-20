@@ -68,3 +68,5 @@ xoxo,<br>
 Ellis
 
 <p>P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links that you're interested in.</p>
+
+<b>New: <a href="https://www.goodreads.com/book/show/312762.Opus_Postumum" style="color:tomato" target="_blank">10 books I didn't read</a></b>
