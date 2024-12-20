@@ -21,8 +21,8 @@ layout: page
 <hr>
 <center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato" target="_blank">Vincent Van Gogh</a></p></center>
 <hr>
-Dear friends, <br>
-<br>I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato" target="_blank">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato" target="_blank">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.” The list is supposed to tell you something about yourself, perhaps something moreso than your actual reading list.
+
+I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato" target="_blank">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato" target="_blank">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.” The list is supposed to tell you something about yourself, perhaps something moreso than your actual reading list.
 
 <p>Essentially, I see this list as a sort of peek-over-the-fence; what I could be reading if I didn't have work to do! Anyway, here’s my take on it:</p>
 
@@ -63,9 +63,3 @@ I love children’s books, and the fact that I haven’t read as many as I’d l
 <p>I don’t really know anything about Ricoeur, besides the fact that he wrote a book about <a href="https://www.goodreads.com/en/book/show/257134.Freud_and_Philosophy" style="color:tomato" target="_blank">Freud, Nietzsche and Marx</a>. But a book about the mind’s powers sounds right up my alley.</p>
 
 <p>At the end of the month, I’ll also post my top 10 books of 2024. So watch this space!</p>
-
-xoxo,<br>
-Ellis
-
-<p>P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links that you're interested in.</p>
-
