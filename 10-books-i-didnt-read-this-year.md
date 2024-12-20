@@ -14,7 +14,7 @@ layout: page
   </center>
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
-<p style="font-size:0.9em;">Thursday, December 19, 2024</p>
+<p style="font-size:0.9em;">Friday, December 20, 2024</p>
 <br>
 <img src="/assets/images/10-books-header.png">
 <br>
@@ -70,5 +70,3 @@ xoxo,<br>
 Ellis
 
 P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links you're interested in. Happy reading.
-
-
