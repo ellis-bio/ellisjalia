@@ -38,7 +38,7 @@ Dear friends, <br>
 The author Avrahm Yarmolinsky apparently <a href="https://www.nytimes.com/2020/03/11/theater/about-love-review-culture-project.html" style="color:tomato" target="_blank">said</a> of Turgenev's book that "the page was warmed by the glow of a casual affair”. Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Tolstoy and Dostoyevksy (once I read War and Peace and The Brothers Karamazov, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But, since I loved Turgenev’s <a href="https://www.goodreads.com/book/show/19117.Fathers_and_Sons" style="color:tomato" target="_blank">Fathers and Sons</a>, I’m looking forward to giving it a go.
 
 <p style="margin-bottom:0;">4. <b>Dream Story</b>, <a href="https://www.goodreads.com/book/show/157409.Dream_Story" style="color:tomato" target="_blank"><b>Arthur Schnitzler</b></a></p>
-This story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. If you haven't seen it, I recommend it. But then read this <a href="https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html" style="color:tomato" target="_blank">analysis</a>.</p>
+This story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. If you haven't seen it, I recommend it. Then afterwards read this <a href="https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html" style="color:tomato" target="_blank">analysis</a>.</p>
 
 <img src="/assets/images/10-books-2.png" style="margin-bottom:1em; margin-top:1em;">
 
