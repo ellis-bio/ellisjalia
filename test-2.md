@@ -38,7 +38,7 @@ Dear friends, <br>
 The author Avrahm Yarmolinsky apparently <a href="https://www.nytimes.com/2020/03/11/theater/about-love-review-culture-project.html" style="color:tomato" target="_blank">said</a> of Turgenev's book that "the page was warmed by the glow of a casual affair”. Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Tolstoy and Dostoyevksy (once I read War and Peace and The Brothers Karamazov, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But, since I loved Turgenev’s <a href="https://www.goodreads.com/book/show/19117.Fathers_and_Sons" style="color:tomato" target="_blank">Fathers and Sons</a>, I’m looking forward to giving it a go.
 
 <p style="margin-bottom:0;">4. <b>Dream Story</b>, <a href="https://www.goodreads.com/book/show/157409.Dream_Story" style="color:tomato" target="_blank"><b>Arthur Schnitzler</b></a></p>
-This story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. If you haven't seen it, I recommend it. Then afterwards read this <a href="https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html" style="color:tomato" target="_blank">analysis</a>.</p>
+This story is the inspiration for Stanley Kubrick’s Eyes Wide Shut, a film I love a lot. If you haven't seen it, I recommend it. Then afterwards read this <a href="https://web.archive.org/web/20140902030345/http://www.clas.ufl.edu/ipsa/2003/Greenwich%20conference.html" style="color:tomato" target="_blank">analysis</a>.
 
 <img src="/assets/images/10-books-2.png" style="margin-bottom:1em; margin-top:1em;">
 
@@ -62,9 +62,9 @@ I love children’s books, and the fact that I haven’t read as many as I’d l
 <p style="margin-bottom:0;">8. <b>Lectures on Imagination</b>, <a href="https://www.goodreads.com/book/show/126228052-lectures-on-imagination?ac=1&from_search=true&qid=Wjf4U5gKh2&rank=1" style="color:tomato" target="_blank"><b>Paul Ricoeur</b></a></p>
 <p>I don’t really know anything about Ricoeur, besides the fact that he wrote a book about <a href="https://www.goodreads.com/en/book/show/257134.Freud_and_Philosophy" style="color:tomato" target="_blank">Freud, Nietzsche and Marx</a>. But a book about the mind’s powers sounds right up my alley.</p>
 
-At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
+<p>At the end of the month, I’ll also post my top 10 books of 2024. So watch this space!</p>
 
-<p>xoxo,<br>
-<p>Ellis</p>
+xoxo,<br>
+Ellis
 
 <p>P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links that you're interested in.</p>
