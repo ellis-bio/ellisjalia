@@ -21,7 +21,7 @@ layout: page
 <img src="/assets/images/10-books-header.png">
 <br>
 <hr>
-<center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato">Vincent Van Gogh</a></p></center>
+<center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato" target="_blank">Vincent Van Gogh</a></p></center>
 <hr>
 Dear friends, <br>
 <br>I stole the idea for this list from <a href="https://austinkleon.com" style="color:tomato" target=”_blank">Austin Kleon</a>, who said that he stole it from another guy. The idea is quite intriguing, since it reminded me of a poem called <a href="https://docs.google.com/document/d/1uEUXvwuX_DyqFS0K4MeykW40VGQCGa8Rt1T5RlA-rHY/edit?usp=sharing" style="color:tomato" target=”_blank">“London Rain”</a> by Louis MacNeice: “My wishes turn to violent, horses black as coal–; The Randy mares of fancy, the stallions of the soul; Eager to take the fences, That fence about my soul.” The list is supposed to tell you something about yourself, perhaps something moreso than your actual reading list.</p>
