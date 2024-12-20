@@ -13,6 +13,8 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
+<html>
+<body>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Thursday, December 19, 2024</p>
 <br>
@@ -57,13 +59,10 @@ By accident one day, I discovered this giant of <a href="https://www.nobelprize.
 I love children’s books, and the fact that I haven’t read as many as I’d like this year is a shame (although I did read Hayao Miyazaki’s only published work, <a href="https://www.goodreads.com/book/show/60384799-shuna-s-journey" style="color:tomato" target=”_blank>Shuna's Journey</a>, which is fantastic and I highly recommend it). Maybe I’ll get round to this when I also get round to <a href="https://www.goodreads.com/book/show/348573.The_Borrowers" style="color:tomato" target=”_blank>The Borrowers</a> by Mary Norton.</p>
 
 <p style="margin-bottom:0;">8. <b>Substance, Force, and the Possibility of Knowledge: On Kant’s Philosophy of the Material World</b>, <a href="https://www.goodreads.com/book/show/9053800-substance-force-and-the-possibility-of-knowledge?ref=nav_sb_ss_1_51" style="color:tomato" target=”_blank><b>Jeffrey Edwards</b></a></p>
-Months after starting it, I’m still slogging through Kant’s Critique of Pure Reason (although I think I’m doing better than one other reader I came across, who took four years to finish it). What’s so surprising about Kant, contrary to popular opinion, is how clear he actually is as a writer; after every sentence, I stop to jot down notes. And then I spend a week thinking about it. His works are an amazing tapestry; and his <a href="https://www.goodreads.com/book/show/9673436-the-invention-of-hugo-cabret" style="color:tomato" target=”_blank>Opus Postumum</a> is one I'm really looking forward to, especially to see if he makes good on his claim of deriving natural science from his philosophy of nature.</p>
+<p>Months after starting it, I’m still slogging through Kant’s Critique of Pure Reason (although I think I’m doing better than one other reader I came across, who took four years to finish it). What’s so surprising about Kant, contrary to popular opinion, is how clear he actually is as a writer; after every sentence, I stop to jot down notes. And then I spend a week thinking about it. His works are an amazing tapestry; and his <a href="https://www.goodreads.com/book/show/9673436-the-invention-of-hugo-cabret" style="color:tomato" target=”_blank>Opus Postumum</a> is one I'm really looking forward to, especially to see if he makes good on his claim of deriving natural science from his philosophy of nature.</p>
 
 <p style="margin-bottom:0;">8. <b>Lectures on Imagination</b>, <a href="https://www.goodreads.com/book/show/126228052-lectures-on-imagination?ac=1&from_search=true&qid=Wjf4U5gKh2&rank=1" style="color:tomato" target=”_blank><b>Paul Ricoeur</b></a></p>
-I don’t really know anything about Ricoeur, besides the fact that he wrote a book about <a href="https://www.goodreads.com/en/book/show/257134.Freud_and_Philosophy" style="color:tomato" target=”_blank>Freud, Nietzsche and Marx</a>. But a book about the mind’s powers sounds right up my alley.</p>
-
-
-
+<p>I don’t really know anything about Ricoeur, besides the fact that he wrote a book about <a href="https://www.goodreads.com/en/book/show/257134.Freud_and_Philosophy" style="color:tomato" target=”_blank>Freud, Nietzsche and Marx</a>. But a book about the mind’s powers sounds right up my alley.</p>
 
 At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
 
