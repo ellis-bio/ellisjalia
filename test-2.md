@@ -64,7 +64,7 @@ I love children’s books, and the fact that I haven’t read as many as I’d l
 
 At the end of the month, I’ll also post my top 10 books of 2024. So watch this space! 
 
-<p>xoxo,</p>
+<p>xoxo,<br>
 <p>Ellis</p>
 
 <p>P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links that you're interested in.</p>
