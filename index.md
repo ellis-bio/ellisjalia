@@ -13,6 +13,8 @@ layout: default
   <hr width="100%" size="3">
   </center>
 
+<b><u style="color:tomato">New: <a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color:tomato" target="_blank">10 books I didn't read this year</a></u></b>
+
 <p style="font-size:1.7em; margin-bottom:0"><strong>Artificial General Intelligence</strong></p>
 <p style="font-size:0.9em;">Friday, 13 December 2024</p>
 
