@@ -21,9 +21,7 @@ layout: page
 <br>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Friday, December 20, 2024</p>
-
-
-<br>
+<p></p>
 <img src="/assets/images/10-books-header.png">
 <br>
 <hr>
