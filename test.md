@@ -13,9 +13,9 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<div style="background-color: cornsilk; color: black; border: 1px dotted tomato;">
-<p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
-<p style="font-size:0.9em;">Friday, December 20, 2024</p>
+<div style="background-color: floralwhite; border: 1px dotted tomato;">
+<p style="font-size:1.7em; margin-bottom:0; margin-left: 2%;margin-right: 2%;"><b>10 books I didn't read this year</b></p>
+<p style="font-size:0.9em; margin-left: 2%">Friday, December 20, 2024</p>
 </div>
 
 <br>
