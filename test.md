@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /posts/test
 ---
 <center>
 <hr width="100%" size="3">
