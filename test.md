@@ -13,11 +13,17 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
+<div style="background-color: floralwhite; border: 1px dotted tomato">
+<p></p>
+<p style="font-size:0.9em; margin-bottom:0; margin-left: 2%;margin-right: 2%;"><b>New Posts</b></p>
+<p style="font-size:0.9em; margin-left: 2%; color: grey"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: grey" target="_blank">20 Dec 2024 » 10 books I didn't read this year</a></p>
+</div>
+<p>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Friday, December 20, 2024</p>
 <br>
 <img src="/assets/images/10-books-header.png">
-<br>
+<p>
 <hr>
 <center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato" target="_blank">Vincent Van Gogh</a></p></center>
 <hr>
