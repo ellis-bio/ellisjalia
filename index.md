@@ -16,7 +16,7 @@ layout: default
 <div style="background-color: floralwhite; border: 1px dotted tomato">
 <p></p>
 <p style="font-size:0.9em; margin-bottom:0; margin-left: 2%;margin-right: 2%;"><b>New Posts</b></p>
-<p style="font-size:0.9em; margin-left: 2%"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: grey; text-decoration: none" target="_blank">20 Dec 2024 » 10 books I didn't read this year</a></p>
+<p style="font-size:0.9em; margin-left: 2%"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: tomato; text-decoration: none" target="_blank"><b>20 Dec 2024 » 10 books I didn't read this year</b></a></p>
 </div>
 <p></p>
 <p style="font-size:1.7em; margin-bottom:0"><strong>Artificial General Intelligence</strong></p>
