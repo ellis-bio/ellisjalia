@@ -18,13 +18,13 @@ layout: page
 <p style="font-size:0.9em; margin-bottom:0; margin-left: 2%;margin-right: 2%;"><b>New Posts</b></p>
 <p style="font-size:0.9em; margin-left: 2%; color: grey"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: grey" target="_blank">20 Dec 2024 » 10 books I didn't read this year</a></p>
 </div>
+
 <p>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
 <p style="font-size:0.9em;">Friday, December 20, 2024</p>
-
-<br>
+<p>
 <img src="/assets/images/10-books-header.png">
-<br>
+<p>
 <hr>
 <center><p style="font-size:1.1em">“It is looking at things for a long time that ripens you and gives you a deeper meaning.” - <a href="https://vangoghletters.org/vg/" style="color:tomato" target="_blank">Vincent Van Gogh</a></p></center>
 <hr>
@@ -41,7 +41,7 @@ I stole the idea for this list from <a href="https://austinkleon.com" style="col
 <p style="font-size:1.0em">All I know about this book is that it’s about a boy who lives in a train station clock tower, and that it was made into a film. It won the 2008 <a href="https://abqlibrary.org/caldecott/all" style="color:tomato" target="_blank">Caldecott Medal</a>, though, which is awarded to the “artist for the most distinguished American picture book for children”. Looks great.</p>
 
 <p style="margin-bottom:0;">2. <b>Van Gogh Still Lifes</b>, <a href="https://www.goodreads.com/book/show/52576063-van-gogh" style="color:tomato" target="_blank"><b>Obtrude Westheider</b></a></p>
-“A great fire burns within me, but no one stops to warm themselves at it, and passers-by only see a wisp of smoke”. It's hard to say whether Van Gogh intended a solipstic reading of that quote, but it just goes to show that, really, all the great artists have been great <a href="https://www.goodreads.com/book/show/51921466-through-vincent-s-eyes" style="color:tomato" target="_blank">intellectuals</a>. And in the summer, I hope to go to New York, to finally see his <a href="https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/where-is-the-starry-night" style="color:tomato" target="_blank">greatest painting</a>!
+<p>“A great fire burns within me, but no one stops to warm themselves at it, and passers-by only see a wisp of smoke”. It's hard to say whether Van Gogh intended a solipstic reading of that quote, but it just goes to show that, really, all the great artists have been great <a href="https://www.goodreads.com/book/show/51921466-through-vincent-s-eyes" style="color:tomato" target="_blank">intellectuals</a>. And in the summer, I hope to go to New York, to finally see his <a href="https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/where-is-the-starry-night" style="color:tomato" target="_blank">greatest painting</a>!</p>
 
 <p style="margin-bottom:0;">3. <b>First Love</b>, <a href="https://www.goodreads.com/book/show/3532.First_Love?ref=nav_sb_ss_1_19" style="color:tomato" target="_blank"><b>Ivan Turgenev</b></a></p>
 The author Avrahm Yarmolinsky apparently <a href="https://www.nytimes.com/2020/03/11/theater/about-love-review-culture-project.html" style="color:tomato" target="_blank">said</a> of Turgenev's book that "the page was warmed by the glow of a casual affair”. Henry James, who loved Turgenev, believed that Turgenev is more worth reading than Tolstoy and Dostoyevksy (once I read War and Peace and The Brothers Karamazov, I guess I’ll make up my own mind). The book is supposedly about unrequited love, which sucks! But, since I loved Turgenev’s <a href="https://www.goodreads.com/book/show/19117.Fathers_and_Sons" style="color:tomato" target="_blank">Fathers and Sons</a>, I’m looking forward to giving it a go.
@@ -76,4 +76,4 @@ I love children’s books, and the fact that I haven’t read as many as I’d l
 xoxo,<br>
 Ellis
 
-P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links you're interested in. 
+P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links you're interested in.  
