@@ -2,6 +2,10 @@
 layout: page
 permalink: /posts/test
 ---
+<!DOCTYPE html>
+<html>
+<head>
+
 <center>
 <hr width="100%" size="3">
 <div class="container">
@@ -17,7 +21,7 @@ permalink: /posts/test
 <div style="background-color: floralwhite; border: 1px dotted tomato">
 <p></p>
 <p style="font-size:0.9em; margin-bottom:0; margin-left: 2%;margin-right: 2%;"><b>New Posts</b></p>
-<p style="font-size:0.9em; margin-left: 2%"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: grey; text-decoration: none" target="_blank">20 Dec 2024 » 10 books I didn't read this year</a></p>
+<p style="font-size:0.9em; margin-left: 2%"><a href="https://ellisjalia.com/10-books-i-didnt-read-this-year" style="color: tomato; text-decoration: none" target="_blank">20 Dec 2024 » 10 books I didn't read this year</a></p>
 </div>
 <p></p>
 <p style="font-size:1.7em; margin-bottom:0"><strong>10 books I didn't read this year</strong></p>
@@ -77,3 +81,6 @@ xoxo,<br>
 Ellis
 
 P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links you're interested in. 
+
+</body>
+</html>
