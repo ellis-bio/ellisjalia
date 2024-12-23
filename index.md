@@ -20,7 +20,7 @@ layout: default
 </div>
 <p></p>
 <p style="font-size:1.7em; margin-bottom:0"><strong>Artificial General Intelligence</strong></p>
-<p style="font-size:0.9em;">Friday, 13 December 2024</p>
+<p style="font-size:0.9em;">Friday, December 13, 2024</p>
 
 <center><img src="/assets/images/agi.png"></center>
 <center><p style="font-size:0.9em; color: grey">A depiction of artificial general intelligence created using OpenAI's ChatGPT. Each node represents an artificial neuron, while the red spark at the centre of the head symbolizes the emergent property of phenomenal consciousness.</p></center>
@@ -91,7 +91,7 @@ It is of course a different question when it comes to the role of human valuesâ€
 ---
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
-<p style="font-size:0.9em;">Thursday, 5 December 2024</p>
+<p style="font-size:0.9em;">Thursday, December 5, 2024</p>
 
 <center><img src="/assets/images/davinci.png"></center>
 <center><p style="font-size:0.9em; color: grey">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His notebook manuscripts are held in both public and private collections, notably by Bill Gates, the Ambrosiana, and the Royal Collection Trust.</p></center>
