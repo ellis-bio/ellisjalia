@@ -23,7 +23,7 @@ layout: page
 
 <p>So here’s ten albums that I’ve loved this year:</p>
 
-<img src="/assets/images/albums-1.png" style="margin-bottom:1em; margin-top:1em;">
+<img src="/assets/images/albums-1.png" style="margin-bottom:1.5em; margin-top:1.5em;">
 
 <p style="margin-bottom:0;">1. <b>The New Four Seasons</b>, Max Richter</p>
 To title your album “The New Four Seasons” is big and presumptous; but Max Richter lives up to Vivaldi’s original. This album has incredible depth to it and is such a joy to listen to it over and over again.
@@ -34,7 +34,7 @@ Again, whoever conducts Beethoven has big shoes to fill. But dare I say that the
 <p style="margin-bottom:0;">3. <b>The Dark Side of the Moon</b>, Pink Floyd</p>
 What’s there to say about this album? The 2003 Vinyl LP sounds out of this world; especially “The Great Gig in the Sky”, which filled my soul with its soaring vocals, and “Us and Them”, which, while I have no idea what they’re singing about, sounds incredible.
 
-<img src="/assets/images/albums-2.png" style="margin-bottom:1em; margin-top:1em;">
+<img src="/assets/images/albums-2.png" style="margin-bottom:1.5em; margin-top:1.5em;">
 
 <p style="margin-bottom:0;">4. <b>The 50 Greatest Hits</b>, Elvis Presley</p>
 Every other month, I listen to a new Elvis album, and I discover some great hit. From this album, and amongst his greatest, I’ve discovered “Lawdy, Miss Clawdy” and “(Let Me Be Your) Teddy Bear”.
@@ -48,7 +48,7 @@ I can’t tell you how often I play this album. It’s definitely one of my favo
 <p style="margin-bottom:0;">7. <b>Why Do Fools Fall in Love</b>, Frankie Lymon & The Teenagers</p>
 The band’s vocalist, Frankie Lymon, died at the age 25 from a heroin overdose. The music industry missed out as a result of his unfortunate early death; what an astonishing voice he had.
 
-<img src="/assets/images/albums-3.png" style="margin-bottom:1em; margin-top:1em;">
+<img src="/assets/images/albums-3.png" style="margin-bottom:1.5em; margin-top:1.5em;">
 
 <p style="margin-bottom:0;">8. <b>Con Todo El Mundo</b>, Khruangbin</p>
 There's something about this album. It conveys some feeling, perhaps something which captures the title ‘Con Todo El Mundo’, which means “With Everybody”. It’s beautiful.
