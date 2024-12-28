@@ -2,9 +2,6 @@
 layout: page
 permalink: /posts/test
 ---
-<html>
-<head>
-
 <center>
 <hr width="100%" size="3">
 <div class="container">
@@ -80,6 +77,3 @@ xoxo,<br>
 Ellis
 
 P.S. This post is an experiment of sorts, and it may or may not stay on the blog, so bookmark any books or links you're interested in. 
-
-</body>
-</html>
