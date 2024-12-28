@@ -2,7 +2,6 @@
 layout: page
 permalink: /posts/test
 ---
-<!DOCTYPE html>
 <html>
 <head>
 
