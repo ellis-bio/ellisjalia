@@ -24,6 +24,9 @@ layout: page
 <center><p style="font-size:1.2em; margin-bottom: 0em;"><b>The Eudemian Ethics</b>
 <p style="font-size:1.2em; margin-bottom: 1.5em;">Aristotle</p></center>
 
+<p style="font-size:1em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
+
 <p style="font-size:1em; color: tomato"><b>"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</b></p>
 
-<p style="font-size:1em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
+
+<center><img src="/assets/images/strugatsky-2024.png"></center>
