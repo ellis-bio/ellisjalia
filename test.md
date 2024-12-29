@@ -35,7 +35,7 @@ layout: page
 
 <center><img src="/assets/images/laertius-2024.png"></center>
 
-<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>Lives of Eminent Philosophers Vol. I</b></p></center>
+<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>Lives of Eminent Philosophers I</b></p></center>
 <center><p style="font-size:1.15em; margin-bottom: 1.5em;">Diogenes Laertius</p></center>
 
 <p style="font-size:1.15em;">A masterpiece of philosophical biography, this work covers the lives, sayings and opinions of ancient Greek philosophers from the Academic school. It begins with Thales, and ends with Heraclides. In between there's the lives of Socrates, Plato, Aristotle, and Aristippus. Its content ranges from the restatement of philosophical doctrines, rumours and the wills of the great philosophers. For instance, it sweeps from the lost works of Aristotle (who apparently used to speak with a lisp) and the naturalist philosopher Theophrastus, to the scandalous rumours of Polemo, the head of Plato's Academy in 314 BC, who, in his youth, would hide money in alleyways for convenience. The editor of the book blames Diogenes Laertius for merely reporting on the philosophies of the Ancient Greeks without critically examining them. But in my opinion the book is much better because of it.</p>
