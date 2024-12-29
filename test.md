@@ -14,7 +14,7 @@ layout: page
   </center>
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>My Top 10 Books of 2024</strong></p>
-<p style="font-size:0.9em;">Sunday, December 29, 2024</p>
+<p style="font-size:1em;">Sunday, December 29, 2024</p>
 
 <center><img src="/assets/images/top-10-books-2024.png" style="margin-bottom:2em; margin-top: 2em;"></center>
 
