@@ -255,10 +255,9 @@ layout: default
 <center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg"></center>
 <center><p style="font-size:0.9em; color: grey">A detail from Saint John the Baptist by Leonardo da Vinci.</p></center>
 
-<p style="font-size:1.15em;">"The eyes have the lustre and moisture always seen in living people, while around them are the lashes and all the reddish tones which cannot be produced without the greatest care. The eyebrows could not be more natural, for they represent the way the hair grows in the skin—thicker in some places and thinner in others, following the pores of the skin. The nose seems lifelike with its beautiful pink and tender nostrils. The mouth, with its opening joining the red of the lips to the flesh of the face, seemed to be real flesh rather than paint. Anyone who looked very attentively at the hollow of her throat would see her pulse beating: to tell the truth, it can be said that portrait was painted in a way that would cause every brave artist to tremble and fear, whoever he might be."
+<p style="font-size:1.15em;">This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:</p>
 
-<p style="font-size:1.15em;">This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:
-</p>
+<p style="font-size:1.15em;">"The eyes have the lustre and moisture always seen in living people, while around them are the lashes and all the reddish tones which cannot be produced without the greatest care. The eyebrows could not be more natural, for they represent the way the hair grows in the skin—thicker in some places and thinner in others, following the pores of the skin. The nose seems lifelike with its beautiful pink and tender nostrils. The mouth, with its opening joining the red of the lips to the flesh of the face, seemed to be real flesh rather than paint. Anyone who looked very attentively at the hollow of her throat would see her pulse beating: to tell the truth, it can be said that portrait was painted in a way that would cause every brave artist to tremble and fear, whoever he might be."
 
 <p style="font-size:1.15em;">To breathe life into portraiture, anatomical details and structure were to be carefully extracted from reality itself, so that the mouth and the lips may be joined to the face as a continuous surface.</p>
 
