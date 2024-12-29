@@ -13,20 +13,20 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<p style="font-size:1.2em;">Here they are &mdash; my top 10 books of 2024.</p>
+<p style="font-size:1.15em;">Here they are &mdash; my top 10 books of 2024.</p>
 
-<p style="font-size:1.2em;">These are the books which, barring full-picture books like Leonardo: The Complete Drawings and Raphael: The Drawings, have made the biggest impression on me this year.</p>
+<p style="font-size:1.15em;">These are the books which, barring full-picture books like Leonardo: The Complete Drawings and Raphael: The Drawings, have made the biggest impression on me this year.</p>
 
-<p style="font-size:1.2em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
+<p style="font-size:1.15em;">My intention has been to intertwine knowledge and myth, each lending to the other, as an ideal of a rich inner life.</p>
 
 <center><img src="/assets/images/aristotle-2024.png"></center>
 
 <center><p style="font-size:1.3em; margin-bottom: 0em;"><b>The Eudemian Ethics</b></center>
-<center><p style="font-size:1.2em; margin-bottom: 1.5em;">Aristotle</p></center>
+<center><p style="font-size:1.15em; margin-bottom: 1.5em;">Aristotle</p></center>
 
-<p style="font-size:1.2em;">Named after a pupil of Aristotle's, Eudemus of Rhodes, The Eudemian Ethics</p>
+<p style="font-size:1.15em;">Named after a pupil of Aristotle's, Eudemus of Rhodes, The Eudemian Ethics</p>
 
-<p style="font-size:1.2em;">"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</p>
+<p style="font-size:1.15em;">"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</p>
 
 
 <center><img src="/assets/images/strugatsky-2024.png"></center>
