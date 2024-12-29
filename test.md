@@ -13,20 +13,22 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<p style="font-size:1em;">Here they are - my top 10 books of 2024.</p>
+<p style="font-size:1.1em;">Here they are &mdash; my top 10 books of 2024.</p>
 
-<p style="font-size:1em;">These are the books –– barring full-picture books like Leonardo: The Complete Drawings and Raphael: The Drawings –– which have made the biggest impression on me this year.</p>
+<p style="font-size:1.1em;">These are the books which, barring full-picture books like Leonardo: The Complete Drawings and Raphael: The Drawings, have made the biggest impression on me this year.</p>
 
-<p style="font-size:1em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
+<p style="font-size:1.1em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
 
 <center><img src="/assets/images/aristotle-2024.png"></center>
 
-<center><p style="font-size:1.2em; margin-bottom: 0em;"><b>The Eudemian Ethics</b>
-<p style="font-size:1.2em; margin-bottom: 1.5em;">Aristotle</p></center>
+<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>The Eudemian Ethics</b></center>
+<center><p style="font-size:1.1em; margin-bottom: 1.5em;">Aristotle</p></center>
 
-<p style="font-size:1em;">My intention has been to intertwine knowledge and mythology, each lending to the other, as an ideal of a rich inner life.</p>
+<p style="font-size:1.1em;">Named after a pupil of Aristotle's, Eudemus of Rhodes, The Eudemian Ethics</p>
 
-<p style="font-size:1em; color: tomato"><b>"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</b></p>
+<p style="font-size:1.1em;">"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</p>
 
 
 <center><img src="/assets/images/strugatsky-2024.png"></center>
+
+
