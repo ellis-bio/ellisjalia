@@ -118,7 +118,7 @@ layout: default
 <center><p style="font-size:1.3em; margin-bottom: 0em;"><b>Slow Productivity</b></p></center>
 <center><p style="font-size:1.15em; margin-bottom: 1.5em;">Cal Newport</p></center>
 
-<p style="font-size:1.15em;">There were quite a few contenders for the 10th spot on this list: Anaximander by Carlo Rovelli; The Seventh Letter by Plato, and the Path to Power by Robert Caro. But with Slow Productivity, Carl Newport has written a surprisingly great book. He mixes historical and scientific facts, including the working habits of great people from history, his own insight, and great prose. It was thoroughly enjoyable.</p>
+<p style="font-size:1.15em;">There were quite a few contenders for the 10th spot on this list: Anaximander by Carlo Rovelli; The Seventh Letter by Plato; and the Path to Power by Robert Caro. But with Slow Productivity, Carl Newport has written a surprisingly great book. He mixes historical and scientific facts, including the working habits of great people from history, his own insight, and great prose. It was thoroughly enjoyable.</p>
 
 <p style="font-size:1.15em;">“To embrace slow productivity, in other words, is to reorient your work to be a source of meaning instead of overwhelm, while still maintaining the ability to produce valuable output.”</p>
 
