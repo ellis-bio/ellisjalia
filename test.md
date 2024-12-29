@@ -26,7 +26,7 @@ layout: page
 
 <center><img src="/assets/images/aristotle-2024.png"></center>
 
-<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>The Eudemian Ethics</b></center>
+<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>The Eudemian Ethics</b></p></center>
 <center><p style="font-size:1.15em; margin-bottom: 1.5em;">Aristotle</p></center>
 
 <p style="font-size:1.15em;">Named after Eudemus of Rhodes, a pupil of Aristotle, The Eudemian Ethics is a treatise on the supreme good of human life: happiness, or eudaimonia. Aristotle's task is to inquire into the ends of human happiness, and their causes. There are eight chapters &mdash; in which he considers happiness as the chief good; justice; moral and intellectual virtue; pleasure; friendship; and knowledge and happiness &mdash; with three of the chapters also appearing in his other great work, the Nicomachean Ethics. The big takeaway for me is Aristotle's identification of happiness with the execution of the virtues. </p>
