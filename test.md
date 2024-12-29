@@ -31,7 +31,7 @@ layout: page
 
 <p style="font-size:1.15em;">Named after Eudemus of Rhodes, a pupil of Aristotle, The Eudemian Ethics is a treatise on the supreme good of human life: happiness, or eudaimonia. Aristotle's task is to inquire into the ends of human happiness, and their causes. There are eight chapters &mdash; in which he considers happiness as the chief good; justice; moral and intellectual virtue; pleasure; friendship; and knowledge and happiness &mdash; with three of the chapters also appearing in his other great work, the Nicomachean Ethics. The big takeaway for me is Aristotle's identification of happiness with the execution of the virtues. </p>
 
-<p style="font-size:1.15em;">"All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable."</p>
+<p style="font-size:1.15em;">“All goods, according to the distinction made also in our popular writings, are either external or internal to the soul, and among the goods thus distinguished, the goods in the soul are preferable.”</p>
 
 <center><img src="/assets/images/laertius-2024.png"></center>
 
@@ -40,7 +40,7 @@ layout: page
 
 <p style="font-size:1.15em;">A masterpiece of philosophical biography, this work covers the lives, sayings and opinions of ancient Greek philosophers from the Academic school. It begins with Thales, and ends with Heraclides. In between there's the lives of Socrates, Plato, Aristotle, and Aristippus. Its content ranges from the restatement of philosophical doctrines, rumours and the wills of the great philosophers. For instance, it sweeps from the lost works of Aristotle (who apparently used to speak with a lisp) and the naturalist philosopher Theophrastus, to the scandalous rumours of Polemo, the head of Plato's Academy in 314 BC, who, in his youth, would hide money in alleyways for convenience. The editor of the book blames Diogenes Laertius for merely reporting on the philosophies of the Ancient Greeks without critically examining them. But in my opinion the book is much better because of it.</p>
 
-<p style="font-size:1.15em;">"Slacken the bow of wisdom and it breaks."</p>
+<p style="font-size:1.15em;">“Slacken the bow of wisdom and it breaks.”</p>
 
 <center><img src="/assets/images/strugatsky-2024.png"></center>
 
@@ -58,7 +58,7 @@ layout: page
 
 <p style="font-size:1.15em;">It would seem, based on reviews for this book, that I'm in the minority who believe that Dune gets much better, and much more grand, as the series progresses. Admittedly, the writing does taper off in terms of quality; but surely no one reads Frank Herbert for his prose? Children of Dune is a work that explores psychology, empire, genetic engineering, the Messianic impulse, prophecy, war, ecology, economics, religion and fate. Barring perhaps Sun Tzu's The Art of War, there's probably no greater manual of military strategy.</p>
 
-<p style="font-size:1.15em;">“As poor as this sietch was, it still maintained the instruments of secrecy and mobility."</p>
+<p style="font-size:1.15em;">“As poor as this sietch was, it still maintained the instruments of secrecy and mobility.”</p>
 
 <center><img src="/assets/images/herbert-2024-2.png"></center>
 
@@ -67,7 +67,7 @@ layout: page
 
 <p style="font-size:1.15em;">Prophecies within prophecies; for the strong to survive, they must create those capable of bringing their own downfall. God Emperor of Dune is a tale that builds on the notion of the monster beneath the surface, who guards the golden treasure, and, by the end, Frank Herbert unwinds this tale in the most grand fashion. It has to be read to be believed.</p>
 
-<p style="font-size:1.15em;">"Leto smiled. 'Duncan, have I not told you that when you think you know something, that is a most perfect barrier against learning?'"</p>
+<p style="font-size:1.15em;">“Leto smiled. 'Duncan, have I not told you that when you think you know something, that is a most perfect barrier against learning?'”</p>
 
 <center><img src="/assets/images/shakespeare-2024.png"></center>
 
@@ -94,7 +94,7 @@ layout: page
 
 <p style="font-size:1.15em;">Generally I do not include graphic novels or comics in my top 10 lists; but Mister Miracle is an exception. This might be the most beautifully illustrated graphic novel I have ever read. It's about Scott Free, who sometimes descends into madness, and lives as his alter ego Mister Miracle, the world's greatest escape artist. It's philosophical, funny, adventurous, and just an all-round mind-bending experience. A truly fantastic read.
 
-<p style="font-size:1.15em;">"Darkseid is."</p>
+<p style="font-size:1.15em;">“Darkseid is.”</p>
 
 <center><img src="/assets/images/lem-2024.png"></center>
 
