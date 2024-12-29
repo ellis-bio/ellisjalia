@@ -21,7 +21,7 @@ layout: page
 
 <center><img src="/assets/images/aristotle-2024.png"></center>
 
-<center><p style="font-size:1.3em; margin-bottom: 0em;"><b>The Eudemian Ethics</b></center>
+<center><p style="font-size:1.3em; margin-bottom: 0em;"><b><a href="https://www.amazon.co.uk/Eudemian-Ethics-Oxford-Worlds-Classics/dp/0199586438/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.GYEl9lw6LfHVKVRTAbdCIRrU7GHrAV7f_GAPErErGcWfxxiaxceyjcIspigVnO9O910OPrNFwLr4IZjRGTZQjR2YCCrVDzOuuVZ6UUM4MJy_0liAQekOwbGuoXjlYUKeKe4NQaI0SGX3TB7luJfZCaHixDU_q-d9EWP1tvaOXjaVJltrONGWadHNgODKibsGHcv8isa19xUypc8_JfGh6YDyz75an84KBpqjG6IRSoE.-IWhp7UowD_D7WLG179bNfgkaOS7ixeSk0gcT0t10ys&qid=1735432797&sr=8-3">The Eudemian Ethics</a></b></center>
 <center><p style="font-size:1.15em; margin-bottom: 1.5em;">Aristotle</p></center>
 
 <p style="font-size:1.15em;">Named after a pupil of Aristotle's, Eudemus of Rhodes, The Eudemian Ethics</p>
@@ -32,3 +32,4 @@ layout: page
 <center><img src="/assets/images/strugatsky-2024.png"></center>
 
 
+<a href="https://www.amazon.co.uk/Eudemian-Ethics-Oxford-Worlds-Classics/dp/0199586438/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.GYEl9lw6LfHVKVRTAbdCIRrU7GHrAV7f_GAPErErGcWfxxiaxceyjcIspigVnO9O910OPrNFwLr4IZjRGTZQjR2YCCrVDzOuuVZ6UUM4MJy_0liAQekOwbGuoXjlYUKeKe4NQaI0SGX3TB7luJfZCaHixDU_q-d9EWP1tvaOXjaVJltrONGWadHNgODKibsGHcv8isa19xUypc8_JfGh6YDyz75an84KBpqjG6IRSoE.-IWhp7UowD_D7WLG179bNfgkaOS7ixeSk0gcT0t10ys&qid=1735432797&sr=8-3">The Eudemian Ethics</a>
