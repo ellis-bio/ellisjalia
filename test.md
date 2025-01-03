@@ -19,7 +19,7 @@ layout: default
 <center><img src="/assets/images/earthrise.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey">"Earthrise", a photo taken by astronaut William Anders, as part of the Apollo 8 mission that would be the first crewed voyage to orbit the Moon.</p></center>
 
-<p style="font-size:1.10em;">Just before Christmas, I was joking with a friend and we talked about the "cosmic perspective", namely about the futility of war and human suffering as seen from the universe––if it had a face. Our exchange went something like this:</p>
+<p style="font-size:1.10em;">Just before Christmas, I was joking with a friend and we talked about the "cosmic perspective", namely about the futility of war and human suffering as seen from the universe&mdash;if it had a face. Our exchange went something like this:</p>
 
 <p style="font-size:1.10em; margin: 1.5em;">Me: “Can you imagine what people must seem like if there were beings as big as black holes? We don't even know where the planet is traveling to, like it's destination in space.”</p>
 
@@ -44,3 +44,5 @@ layout: default
 <p style="font-size:1.10em;">And I love this site; the way it feels as I navigate across it, the colour scheme, and the fact that I'm not constrained by software besides the language of the internet itself. I have big plans for it.</p>
 
 <p style="font-size:1.10em;">I also know that it's not much. But it is mine, and I am simultaneously its architect and caretaker.</p>
+
+<hr>
