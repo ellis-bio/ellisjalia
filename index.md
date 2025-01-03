@@ -41,7 +41,7 @@ layout: default
 
 <p style="font-size:1.10em;">My thinking was to combine <b>architecture</b> (that there should balance, proportion and rhythm), <b>cartography</b> (legibility, contrast and organisation), <b>interaction design</b> (constraints, feedback and recognition rather than recall) and <b>psychology</b> (pleasure, happiness and guidance). 
 
-<p style="font-size:1.10em;">And I love this site; the way it feels as I navigate across it, the colour scheme, and the fact that I'm not constrained by software besides the language of the internet itself. I have big plans for it.</p>
+<p style="font-size:1.10em;">And I love this site; the way it feels as I navigate across it, the colour scheme, and the fact that I'm not constrained by software besides the language of the internet itself.</p>
 
 <p style="font-size:1.10em;">I also know that it's not much. But it is mine, and I am simultaneously its architect and caretaker.</p>
 
