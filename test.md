@@ -29,7 +29,7 @@ layout: default
 
 <p style="font-size:1.10em;">When I designed the navigation menu for this blog, I had in mind great interactive elements; when you click on an icon, and it lights up, a world of possibility opens up (I'm sorry that there's not much content on here at the moment).</p>
 
-<p style="font-size:1.10em;">I used inspiration from a variety of places; I killed some time looking at 90s websites on <a href="http://web.archive.org/" style="color:tomato">Wayback Machine</a> and old Apple software, particularly HyperCard</a>, a bitmap rolodex software that was a precursor to the web browser.</p>
+<p style="font-size:1.10em;">I used inspiration from a variety of places; I killed some time looking at 90s websites on <a href="http://web.archive.org/" style="color:tomato">Wayback Machine</a> and old Apple software, particularly HyperCard, a bitmap rolodex software that was a precursor to the web browser.</p>
 
 <center><img src="/assets/images/HyperCard.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey; margin-bottom:1em;">Apple HyperCard</p></center>
