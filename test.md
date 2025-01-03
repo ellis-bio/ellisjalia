@@ -34,7 +34,6 @@ layout: default
 <center><img src="/assets/images/HyperCard.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey; margin-bottom:1em;">Apple HyperCard</p></center>
 
-
 <p style="font-size:1.10em;">The original Microsoft Windows 1.0 also served as inspiration, primarily its colour scheme (PCjs have an <a href="https://www.pcjs.org/software/pcx86/sys/windows/1.00/" style="color: tomato">emulator</a> that you can try, if you're interested).</p>
 
 <center><img src="/assets/images/MS-windows-1.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
