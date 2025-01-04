@@ -43,7 +43,7 @@ layout: default
 
 <p style="font-size:1.10em;">And I love this site; the way it feels as I navigate across it, the colour scheme, and the fact that I'm not constrained by software besides the language of the internet itself.</p>
 
-<p style="font-size:1.10em;">I also know that it's not much. But it is mine, and I am simultaneously its architect and caretaker.</p>
+<p style="font-size:1.10em;">I also know that it's not much. But it is mine, and I am simultaneously its architect and groundskeeper.</p>
 
 <hr>
 
