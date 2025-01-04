@@ -17,7 +17,7 @@ layout: default
 <p style="font-size:0.95em; color: silver">Friday, January 3, 2025</p>
 
 <center><img src="/assets/images/earthrise.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
-<center><p style="font-size:0.9em; color: grey;">"Earthrise", a photo taken by astronaut William Anders, as part of the Apollo 8 mission that would be the first crewed voyage to orbit the Moon.</p></center>
+<center><p style="font-size:0.9em; color: grey;">Credit: "Earthrise", a photo taken by astronaut William Anders, as part of the Apollo 8 mission that would be the first crewed voyage to orbit the Moon.</p></center>
 
 <p style="font-size:1.10em; margin-top: 2em;">Just before Christmas, I was joking with a friend and we talked about the "cosmic perspective", namely about the futility of war and human suffering as seen from the universe&mdash;if it had a face. Our exchange went something like this:</p>
 
@@ -39,11 +39,13 @@ layout: default
 <center><img src="/assets/images/MS-windows-1.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey; margin-bottom:1em;">Microsoft Windows 1.01</p></center>
 
-<p style="font-size:1.10em;">My thinking was to combine <b>architecture</b> (that there should balance, proportion and rhythm), <b>cartography</b> (legibility, contrast and organisation), <b>interaction design</b> (constraints, feedback and recognition rather than recall) and <b>psychology</b> (pleasure, happiness and guidance). 
+<p style="font-size:1.10em;">My thinking was to combine <b>architecture</b> (that there should be balance, proportion and rhythm), <b>cartography</b> (legibility, contrast and organisation), <b>interaction design</b> (constraints, feedback and recognition rather than recall) and <b>psychology</b> (pleasure, happiness and guidance). 
 
 <p style="font-size:1.10em;">And I love this site; the way it feels as I navigate across it, the colour scheme, and the fact that I'm not constrained by software besides the language of the internet itself.</p>
 
-<p style="font-size:1.10em;">I also know that it's not much. But it is mine, and I am simultaneously its architect and groundskeeper.</p>
+<p style="font-size:1.10em;">I also know it's not much.</p>
+
+<p style="font-size:1.10em;">But it is mine, and I am simultaneously its architect and groundskeeper.</p>
 
 <hr>
 
