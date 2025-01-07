@@ -54,7 +54,7 @@ layout: default
 
 <p style="font-size:1.10em;">As the only Renaissance author to allude to sketchbooks, he deemed them important for close observations from nature. He revisited themes ‘ex novo’, meaning from the beginning, as is evidenced by his animal and anatomical drawings.</p>
 
-<p style="font-size:1.10em;">Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind the creative impulse. 
+<p style="font-size:1.10em;">Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind in the creative impulse. 
 </p>
 
 <p style="font-size:1.10em;">In the dazzling quick sketches that he produced, he allowed the creative imagination to be released through that process of rapid sketching and the brainstorming of ideas. He was also aware of the creative energy that is evident in an unfinished work of art. He owned a copy of Leon Battista Alberti’s work, De Pictura, in which Alberti says:</p>
