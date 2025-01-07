@@ -13,7 +13,7 @@ layout: default
   <hr width="100%" size="3">
   </center>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>Da Vinci's 'Libri di Bottega'</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><strong>Libri di Bottega</strong></p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
