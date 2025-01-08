@@ -15,7 +15,7 @@ permalink: /2025/01/07/libri-di-bottega/
   </center>
 
 <p style="font-size:1.7em; margin-bottom:0"><strong>Libri di Bottega</strong></p>
-<p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025 - <a href ="https://ellisjalia.com/2025/01/07/libri-di-bottega/" style="color:silver">permalink</p></a>
+<p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025 - <a href ="https://ellisjalia.com/2025/01/07/libri-di-bottega/" style="color:silver"><u>permalink</u></a></p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey;">A selection of drawings from Leonardo da Vinci's notebooks.</p></center>
