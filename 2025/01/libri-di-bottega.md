@@ -59,7 +59,7 @@ a:hover {
 
 <p style="font-size:1.10em;">He was also a student of metamorphosis; the changing aspects of the world. He saw the genetic proceedings in nature and as that which forms its history. His sketches depict a clear train of thought: scientific analysis and artistic synthesis both lend to each other. For instance, he understood geological processes as the “chain of the world”. He wanted to take as his task the investigation and visualisation of the productive forces of the world.</p>
 
-<p style="font-size:1.10em;">Da Vinci subjected everything to an inquisitive gaze. His drawings have vibrancy, dynamism, analysis of morphology; the definition of forms are subjects to his understanding of the laws of reality and perspective (e.g. the disappearance of figures as they recede into the distance”).</p>
+<p style="font-size:1.10em;">Da Vinci subjected everything to an inquisitive gaze. His drawings have vibrancy, dynamism, analysis of morphology; the definition of forms are subjects to his understanding of the laws of reality and perspective (e.g. the disappearance of figures as they recede into the distance).</p>
 
 <p style="font-size:1.10em;">He could give a sense of breadth of landscape; a breeze moving through the trees, and the roar and motion of the waterfall. Nature was thus to be observed not as a background to life’s happenings; but instead the very dynamic force which brings forth everything.</p>
 
