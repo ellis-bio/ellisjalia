@@ -20,6 +20,7 @@ text-decoration: none;
 }
 a:hover {
   color: tomato;
+  text-decoration: none;
 }
 </style>
 
