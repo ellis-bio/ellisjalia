@@ -75,5 +75,3 @@ a:hover {
 <p style="font-size:1.10em;">For ultimately, Leonardo wanted to capture in his drawings the convergence of sensory perception and the phenomena and movement of the world. Hence why his drawings often do not provide too much detail, but instead allude to the fact that, in them, an inquisitive mind is subjectively investigating the world.</p>
 
 <hr>
-
-Tag
