@@ -16,6 +16,7 @@ permalink: /2025/01/07/libri-di-bottega/
 <style>
 a:hover {
   color: tomato;
+  text-decoration: none;
 }
 </style>
 
