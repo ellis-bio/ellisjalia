@@ -19,7 +19,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong> <a href ="https://ellisjalia.com/2025/01/07/libri-di-bottega/">Libri di Bottega</strong></a></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/">Libri di Bottega</b></a></p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
