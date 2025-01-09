@@ -249,11 +249,11 @@ a:hover {
 
 <p style="font-size:1.10em;">A common artificial neuron used in machine learning is the sigmoid neuron (named after the S-shaped sigmoid curve). In a sigmoid neuron, the total input z is a function of the bias b of the neuron and the sum over all its incoming connections of the activity on an input line (represented by x) multiplied by w, the probabilistic weight on that input line:</p>
 
-<center><img src="/assets/images/input.png" style="width:150px; margin-top: 1em; margin-bottom:1em;"></center>
+<center><img src="/assets/images/input.png" style="width:150px; margin-top: 1em; margin-bottom:2em;"></center>
 
 <p style="font-size:1.10em;">Whereas the output of the sigmoid neuron is a real-value number that is smooth and always between the total input. The output is represented by the logistic function:</p>
 
-<center><img src="/assets/images/output.png" style="width:120px; margin-top: 1em; margin-bottom:1em;"></center>
+<center><img src="/assets/images/output.png" style="width:120px; margin-top: 1em; margin-bottom:2em;"></center>
 
 <p style="font-size:1.10em;">If the total input z is large and positive, e to the minus a large positive number will be 0; so the output of the neuron is going to be 1. If the total input is large and negative, e to the minus a large negative number is itself going to be a large number, so the output of the neuron will be 0. What this means is that if the input is 0, then the output will be 0.5, which is the resting threshold of sigmoid neurons. Positive inputs thus get a probability closer to 1, while negative inputs get a probability closer to 0. That is how artificial neurons compute decisions.</p>
 
@@ -294,7 +294,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>The Mind of Leonardo</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">The Mind of Leonardo</b></a></p>
 <p style="font-size:0.95em; color: silver">Thursday, December 5, 2024</p>
 
 <center><img src="/assets/images/davinci.png"></center>
@@ -312,7 +312,7 @@ a:hover {
 
 <p style="font-size:1.10em;">Yet, Leonardo's skill and outlook earned him a great reputation, which only grew after his death, and it culminates in our understanding and appreciation of him as the archetypal Renaissance figure. This is what Vasari writes about the qualities exemplified in his work:</p>
 
-<p style="font-size:1.10em;">“...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works." </p>
+<p style="font-size:1.10em; margin: 1.5em;">“...Nature so favoured him that, wherever he turned his thought, his mind, and his heart, he demonstrated with such divine inspiration that no one else was ever equal to him in the perfection, liveliness, vitality, excellence, and grace of his works." </p>
 
 <p style="font-size:1.10em;">He had elegance, finesse and neatness, and he enquired with unparalleled genius into the unity of nature and its variety of astonishing patterns. What is it that made da Vinci's mind special?</p>
 
@@ -325,12 +325,12 @@ a:hover {
 <p style="font-size:1.10em;">Da Vinci revered the sense of vision, and placed it as man's highest sense. He described the eye as "the window to the soul", and the most important basis of all experience. Vision's role, beyond providing fundamental perceptual knowledge, involves the artist's use of the faculty in faithfully interpreting nature: 
 </p>
 
-<p style="font-size:1.10em;">"The painter's mind must of necessity enter into nature's mind in order to act as an interpreter between nature and art".</p>
+<p style="font-size:1.10em; margin: 1.5em;">"The painter's mind must of necessity enter into nature's mind in order to act as an interpreter between nature and art".</p>
 
 <p style="font-size:1.10em;">To peer into nature's mind, Da Vinci understood that the artist must learn the laws of reality and its manifestations as perspective. He conceived of perspective as the seeing of an object behind a sheet of glass, and by which a pyramidal cross section is cut by the glass; thus all points of perspective can be expressed by point, line, angle, surface, and body. He also devised three branches of perspective:
 </p>
 
-<p style="font-size:1.10em;">"...the first deals with the reasons of the [apparent] diminution of the volume of opaque bodies as they recede from the eye, and is known as Diminishing or Linear Perspective. The second contains the way in which colours vary as they recede from the eye. The third and last is concerned with how the outlines of objects [in a picture] ought to be less finished in proportion as they are remote."</p>
+<p style="font-size:1.10em; margin: 1.5em;">"...the first deals with the reasons of the [apparent] diminution of the volume of opaque bodies as they recede from the eye, and is known as Diminishing or Linear Perspective. The second contains the way in which colours vary as they recede from the eye. The third and last is concerned with how the outlines of objects [in a picture] ought to be less finished in proportion as they are remote."</p>
 
 <p style="font-size:1.10em;">These laws of perspective were to be kept in mind so that only what could be seen with certainty was depicted as certain; that which was seen with difficulty was to be made indefinite. Lines were to be blurred and suggestively left open. His drawings were only made of outlines and hatching marks in accordance with those laws, and yet they convey unrivalled volume and dynamism.
 </p>
@@ -345,20 +345,20 @@ a:hover {
 
 <p style="font-size:1.10em;">Leonardo divided the science of painting into drawing and shading, and it was for him the "true knowledge and legitimate issue of nature". There's a further passage in which he explains his thought process as to how the artist should best consider painting:</p>
 
-<p style="font-size:1.10em;">"...as subtle invention which brings philosophy and subtle speculation to the consideration of all forms - seas and plains, trees, animals, plants and flowers - which are surrounded by light and shade".</p>
+<p style="font-size:1.10em; margin: 1.5em;">"...as subtle invention which brings philosophy and subtle speculation to the consideration of all forms - seas and plains, trees, animals, plants and flowers - which are surrounded by light and shade".</p>
 
 <center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg"></center>
 <center><p style="font-size:0.9em; color: grey">A detail from Saint John the Baptist by Leonardo da Vinci.</p></center>
 
 <p style="font-size:1.10em;">This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:</p>
 
-<p style="font-size:1.10em;">"The eyes have the lustre and moisture always seen in living people, while around them are the lashes and all the reddish tones which cannot be produced without the greatest care. The eyebrows could not be more natural, for they represent the way the hair grows in the skin—thicker in some places and thinner in others, following the pores of the skin. The nose seems lifelike with its beautiful pink and tender nostrils. The mouth, with its opening joining the red of the lips to the flesh of the face, seemed to be real flesh rather than paint. Anyone who looked very attentively at the hollow of her throat would see her pulse beating: to tell the truth, it can be said that portrait was painted in a way that would cause every brave artist to tremble and fear, whoever he might be."
+<p style="font-size:1.10em; margin: 1.5em;">"The eyes have the lustre and moisture always seen in living people, while around them are the lashes and all the reddish tones which cannot be produced without the greatest care. The eyebrows could not be more natural, for they represent the way the hair grows in the skin—thicker in some places and thinner in others, following the pores of the skin. The nose seems lifelike with its beautiful pink and tender nostrils. The mouth, with its opening joining the red of the lips to the flesh of the face, seemed to be real flesh rather than paint. Anyone who looked very attentively at the hollow of her throat would see her pulse beating: to tell the truth, it can be said that portrait was painted in a way that would cause every brave artist to tremble and fear, whoever he might be."
 
 <p style="font-size:1.10em;">To breathe life into portraiture, anatomical details and structure were to be carefully extracted from reality itself, so that the mouth and the lips may be joined to the face as a continuous surface.</p>
 
 <p style="font-size:1.10em;">Only by seeing and learning from direct observation how each thing is formed can the artist learn to reproduce each part. And by faithfully combining parts that he has learnt how to draw, he may reproduce the whole. But he also knew that this process must be achieved step by step:</p>
 
-<p style="font-size:1.10em;">"The organ of sight is one of the quickest, and takes in at a single glance an infinite variety of forms; notwithstanding which, it cannot perfectly comprehend more than one object at a time. For example, the reader, at one look over this page, immediately perceives it full of different characters; but he cannot at the same moment distinguish each letter, much less can he comprehend their meaning. He must consider it word by word, and line by line, if he be desirous of forming a just notion of these characters. In like manner, if we wish to ascend to the top of an edifice, we must be content to advance step by step, otherwise we shall never be able to attain it."</p>
+<p style="font-size:1.10em; margin: 1.5em;">"The organ of sight is one of the quickest, and takes in at a single glance an infinite variety of forms; notwithstanding which, it cannot perfectly comprehend more than one object at a time. For example, the reader, at one look over this page, immediately perceives it full of different characters; but he cannot at the same moment distinguish each letter, much less can he comprehend their meaning. He must consider it word by word, and line by line, if he be desirous of forming a just notion of these characters. In like manner, if we wish to ascend to the top of an edifice, we must be content to advance step by step, otherwise we shall never be able to attain it."</p>
 
 <h4>Scientific Drawing & Anatomy</h4>
 
@@ -378,7 +378,7 @@ a:hover {
 
 <p style="font-size:1.10em;">He used drawing to convey scientific knowledge (the empiricism aspect). Regarding the capturing of man in his anatomical studies, he warned against description without visualisation:</p>
 
-<p style="font-size:1.10em;">"And you who wish to represent by words the form of man and all the aspects of his membrification, get away from that idea. For the more minutely you describe, the more you will confuse the mind of the reader and the more you will prevent him from a knowledge of the thing described. And so it is necessary to draw and to describe".</p>
+<p style="font-size:1.10em; margin: 1.5em;">"And you who wish to represent by words the form of man and all the aspects of his membrification, get away from that idea. For the more minutely you describe, the more you will confuse the mind of the reader and the more you will prevent him from a knowledge of the thing described. And so it is necessary to draw and to describe".</p>
 
 <center><img src="/assets/images/davinci-anatomy.png"></center><br>
 
@@ -386,7 +386,7 @@ a:hover {
 
 <p style="font-size:1.10em;">On anatomy, Leonardo advised that the painter should be,</p>
 
-<p style="font-size:1.10em;">"...thoroughly familiar with the limbs in all the positions and actions of which they are capable, in the nude. [Then he will] know the anatomy of the sinews, bones, muscles, and tendons so that, in their various movements and exertions, he may know which nerve or muscle is the cause of each movement and show those only as prominent and thickened..." </p>
+<p style="font-size:1.10em; margin: 1.5em;">"...thoroughly familiar with the limbs in all the positions and actions of which they are capable, in the nude. [Then he will] know the anatomy of the sinews, bones, muscles, and tendons so that, in their various movements and exertions, he may know which nerve or muscle is the cause of each movement and show those only as prominent and thickened..." </p>
 
 <h4>Contributions to Neuroscience</h4>
 
@@ -398,10 +398,12 @@ a:hover {
 
 <p style="font-size:1.10em;">The second ventricle is depicted as being in the geometric centre of the brain, thus denoting "the locus of the soul". This for Da Vinci was the place where the senses came together to form the "sense communis", or common sense, the seat of universal judgment:</p>
 
-<p style="font-size:1.10em;">"The soul apparently resides in the seat of the judgment, and the judgment apparently resides in the place where all the senses meet, which is called the common sense."</p>
+<p style="font-size:1.10em; margin: 1.5em;">"The soul apparently resides in the seat of the judgment, and the judgment apparently resides in the place where all the senses meet, which is called the common sense."</p>
 
 <p style="font-size:1.10em;">While this theory is known to be false, since we know the physical basis of the mind rests on electro-chemical communication between specialised neurons, it is nevertheless a triumph of his era, since he went beyond anything that had been put forward before. </p>
 
 <p style="font-size:1.10em;">To conclude, let's read an extract from Otto Benesch's essay, Leonardo da Vinci and Scientific Drawing (1943) that captures some aspects of his genius (and the likes of which I hope humanity will see again):</p>
 
-<p style="font-size:1.10em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
+<p style="font-size:1.10em; margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
+
+<hr>
