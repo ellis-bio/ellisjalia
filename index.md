@@ -36,7 +36,7 @@ a:hover {
 
 <p style="font-size:1.10em;">In December 2024, I wrote about <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/" style="color:tomato">da Vinci’s view of the world.</a> In this post, I want to delve deeper into his notebooks.</p>
 
-<p style="font-size:1.10em;">Because of their flexible typology, the libri di bottega are instruments for expression, and it meant that da Vinci could use the workbooks as a repository for creative ideas, a place which could provide continuity for visual exercises and creative thoughts, and a means of practicing for fresh sketches. The workbooks are moreover anthologies of motifs, written reminders and sketches.</p>
+<p style="font-size:1.10em;">The libri di bottega are instruments for expression. Because of their flexible typology, it meant that da Vinci could use the workbooks as a repository for creative ideas, a place which could provide continuity for visual exercises and creative thoughts, and a means of practicing for fresh sketches. The workbooks are moreover anthologies of motifs, written reminders and sketches.</p>
 
 <p style="font-size:1.10em;">He thus used drawing as an instrument for cognitive investigation - to fix in place teaching furnished by experience; the suggestion of forms upon the mind; and the depiction of the curved and parallel lines which make up everything in the world. His drawings also play with hazy colours and outlines to depict distances; perspective was also given by colour, by the fact that colour fades in the distance.</p>
 
