@@ -68,7 +68,7 @@ a:hover {
 <p style="font-size:1.10em;">As the only Renaissance author to allude to sketchbooks, he deemed them important for close observations from nature. He revisited themes ‘ex novo’, meaning from the beginning, as is evidenced by his animal and anatomical drawings.</p>
 
 <center><img src="/assets/images/da-vinci-2025-4.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
-<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog's head (c. 1497-1499); and studies of the proportions of a horse's leg (c. 1485-1490).</p></center>
+<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog's head (c. 1497-1499); and study of the proportions of a horse's leg (c. 1485-1490).</p></center>
 
 <p style="font-size:1.10em;">Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind in the creative impulse. </p>
 
