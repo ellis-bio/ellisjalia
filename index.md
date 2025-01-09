@@ -294,7 +294,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">The Mind of Leonardo</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">The Mind of Leonardo</a></b></p>
 <p style="font-size:0.95em; color: silver">Thursday, December 5, 2024</p>
 
 <center><img src="/assets/images/davinci.png"></center>
