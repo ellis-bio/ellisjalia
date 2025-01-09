@@ -35,7 +35,7 @@ a:hover {
 
 <p style="font-size:1.10em;">‘Libri di bottega’ translates to something like ‘work books’ or ‘workshop books’. Leonardo da Vinci obtained the practice of using ‘libri di bottega’ - notebooks that combine notes, sketches, models and records for consultation - during his training with Verocchio.</p>
 
-<p style="font-size:1.10em;">In December 2024, I wrote about da Vinci’s view of the world (forgive me that I’ve yet to implement permalinks on this site but you can find it by scrolling down this page, it’s the first post). But in this post, I want to delve deeper into Leonardo’s use of his notebooks.</p>
+<p style="font-size:1.10em;">In December 2024, I wrote about <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/" style="color:tomato">da Vinci’s view of the world.</a> In this post, I want to delve deeper into his notebooks.</p>
 
 <p style="font-size:1.10em;">The libri di bottega are instruments for expression. Because of their flexible typology, it meant that da Vinci could use the workbooks as a repository for creative ideas, a place which could provide continuity for visual exercises and creative thoughts, and a means of practicing for fresh sketches. The workbooks are moreover anthologies of motifs, written reminders and sketches.</p>
 
