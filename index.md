@@ -12,8 +12,18 @@ layout: default
  </div>
   <hr width="100%" size="3">
   </center>
+<style>
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+</style>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>Libri di Bottega</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/"><b>Libri di Bottega</b></a></p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
@@ -32,6 +42,9 @@ layout: default
 
 <p style="font-size:1.10em;">Sketching for him was a motive for ongoing thinking. He used them to derive life-like movement and gestures to communicate “atti mentali” - the mental acts of subjects.</p>
 
+<center><img src="/assets/images/da-vinci-2025-3.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Head and shoulders of a Christ figure (c. 1490-1495); bald man in profile (c. 1495); and roaring lion (c. ?).</p></center>
+
 <p style="font-size:1.10em;">Drawings and sketches were “short signs” of bigger ideas, and hence why his uncultivated compositions placed a focus on the mental acts of figures, people and animals instead of a focus on the limbs. Leonardo writes:</p>
 
 <p style="font-size:1.10em; margin: 1.5em;">“Therefore, painter, roughly compose the limbs of your figures and first attend to the movements appropriate to the mental accidents (acts) of the animals who compose the story, rather than to the beauty of and goodness of their limbs.”</p>
@@ -39,7 +52,7 @@ layout: default
 <p style="font-size:1.10em;">He studied the dynamic rhythms of life, and the aboriginal forces of nature which destroy everything: waves, whirls, spirals, centrifugal and centripetal forces. He saw these as the vital values inherent in nature, as its creative impulses, and as its way of the continuous transformation of forms.</p>
 
 <center><img src="/assets/images/da-vinci-2025-2.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
-<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of water flowing past obstacles and sketch of whirlpool (1508-1510); study of horse (1503); and anatomical studies on the rotation of the arm (1509-1510).</p></center>
+<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of water flowing past obstacles and sketch of whirlpool (c. 1508-1510); study of horse (c. 1503); and anatomical studies on the rotation of the arm (c. 1509-1510).</p></center>
 
 <p style="font-size:1.10em;">Leonardo saw the world in terms of laws - ‘reasons’ that govern nature, and the mechanisms which underlie it. The relationship between cause and affect was always on his mind.</p>
 
@@ -48,14 +61,16 @@ layout: default
 
 <p style="font-size:1.10em;">He was also a student of metamorphosis; the changing aspects of the world. He saw the genetic proceedings in nature and as that which forms its history. His sketches depict a clear train of thought: scientific analysis and artistic synthesis both lend to each other. For instance, he understood geological processes as the “chain of the world”. He wanted to take as his task the investigation and visualisation of the productive forces of the world.</p>
 
-<p style="font-size:1.10em;">Da Vinci subjected everything to an inquisitive gaze. His drawings have vibrancy, dynamism, analysis of morphology; the definition of forms are subjects to his understanding of the laws of reality and perspective (e.g. the disappearance of figures as they recede into the distance”).</p>
+<p style="font-size:1.10em;">Da Vinci subjected everything to an inquisitive gaze. His drawings have vibrancy, dynamism, analysis of morphology; the definition of forms are subjects to his understanding of the laws of reality and perspective (e.g. the disappearance of figures as they recede into the distance).</p>
 
 <p style="font-size:1.10em;">He could give a sense of breadth of landscape; a breeze moving through the trees, and the roar and motion of the waterfall. Nature was thus to be observed not as a background to life’s happenings; but instead the very dynamic force which brings forth everything.</p>
 
 <p style="font-size:1.10em;">As the only Renaissance author to allude to sketchbooks, he deemed them important for close observations from nature. He revisited themes ‘ex novo’, meaning from the beginning, as is evidenced by his animal and anatomical drawings.</p>
 
-<p style="font-size:1.10em;">Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind in the creative impulse. 
-</p>
+<center><img src="/assets/images/da-vinci-2025-4.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog's head (c. 1497-1499); and studies of the proportions of a horse's leg (c. 1485-1490).</p></center>
+
+<p style="font-size:1.10em;">Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind in the creative impulse. </p>
 
 <p style="font-size:1.10em;">In the dazzling quick sketches that he produced, he allowed the creative imagination to be released through that process of rapid sketching and the brainstorming of ideas. He was also aware of the creative energy that is evident in an unfinished work of art. He owned a copy of Leon Battista Alberti’s work, De Pictura, in which Alberti says:</p>
 
