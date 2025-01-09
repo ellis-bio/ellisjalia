@@ -80,7 +80,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>Design Inspiration</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com//2025/01/03/design-inspiration/">Design Inspiration</a></b></p>
 <p style="font-size:0.95em; color: silver">Friday, January 3, 2025</p>
 
 <center><img src="/assets/images/earthrise.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
@@ -116,7 +116,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>My Top 10 Books of 2024</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/29/my-top-10-books-of-2024/">My Top 10 Books of 2024</a></b></p>
 <p style="font-size:0.95em; color: silver">Sunday, December 29, 2024</p>
 
 <center><img src="/assets/images/top-10-books-2024.png" style="margin-bottom:2em; margin-top: 2em;"></center>
