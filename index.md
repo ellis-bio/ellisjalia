@@ -34,11 +34,11 @@ a:hover {
 
 <p style="font-size:1.10em;">‘Libri di bottega’ translates to something like ‘work books’ or ‘workshop books’. Leonardo da Vinci obtained the practice of using ‘libri di bottega’ - notebooks that combine notes, sketches, models and records for consultation - during his training with Verocchio.</p>
 
-<p style="font-size:1.10em;">In December 2024, I wrote about da Vinci’s view of the world (forgive me that I’ve yet to implement permalinks on this site but you can find it by scrolling down this page, it’s the first post). But in this post, I want to delve deeper into Leonardo’s use of his notebooks.</p>
+<p style="font-size:1.10em;">In December 2024, I wrote about <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">da Vinci’s view of the world.</a> In this post, I want to delve deeper into his notebooks.</p>
 
-<p style="font-size:1.10em;">The libri di bottega are instruments for expression. Because of their flexible typology, it meant that da Vinci could use the workbooks as a repository for creative ideas, a place which could provide continuity for visual exercises and creative thoughts, and a means of practicing for fresh sketches. The workbooks are moreover anthologies of motifs, written reminders and sketches.</p>
+<p style="font-size:1.10em;">Because of their flexible typology, the libri di bottega are instruments for expression, and it meant that da Vinci could use the workbooks as a repository for creative ideas, a place which could provide continuity for visual exercises and creative thoughts, and a means of practicing for fresh sketches. The workbooks are moreover anthologies of motifs, written reminders and sketches.</p>
 
-<p style="font-size:1.10em;">Drawing was thus to be used as an instrument of cognitive investigation - to fix in place teaching furnished by experience; the suggestion of forms upon the mind; and the depiction of the curved and parallel lines which make up everything in the world. His drawings also play with hazy colours and outlines to depict distances; perspective was also given by colour, by the fact that colour fades in the distance.</p>
+<p style="font-size:1.10em;">He thus used drawing as an instrument for cognitive investigation - to fix in place teaching furnished by experience; the suggestion of forms upon the mind; and the depiction of the curved and parallel lines which make up everything in the world. His drawings also play with hazy colours and outlines to depict distances; perspective was also given by colour, by the fact that colour fades in the distance.</p>
 
 <p style="font-size:1.10em;">Sketching for him was a motive for ongoing thinking. He used them to derive life-like movement and gestures to communicate “atti mentali” - the mental acts of subjects.</p>
 
@@ -219,7 +219,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><strong>Artificial General Intelligence</strong></p>
+<p style="font-size:1.7em; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/13/artificial-general-intelligence/">Artificial General Intelligence</a></b></p>
 <p style="font-size:0.95em; color: silver">Friday, December 13, 2024</p>
 
 <center><img src="/assets/images/agi.png"></center>
@@ -290,7 +290,9 @@ a:hover {
 
 <p style="font-size:1.10em;">AI will have impacts on healthcare and medicine, pharmacology, transportation, finance, materials, art and other creative industries, education, engineering and space exploration––virtually all domains of human activity. These systems will be the ultimate recipe makers, in the sense that answers provided by an AGI system can be fed back into it, generating better and better outputs. What's really difficult to understand is that an AI system at some point will have the capability to improve or make a better version of itself, leading to exponential growth in its capabilities, until it finally becomes indistinguishable to us. </p>
 
-<p style="font-size:1.10em;">It is of course a different question when it comes to the role of human values––as to what sort of life you want to live. But for questions of productivity or economic growth––anyone, individual or corporation, who does not augment their daily life or operations with AI systems––will go the way of the dinosaurs. They will be productively and economically decimated.</p>
+<p style="font-size:1.10em;">It is of course a different question when it comes to human values––as to what sort of life you want to live. But for questions of productivity or economic growth––anyone, individual or corporation, who does not augment their daily life or operations with AI systems––will go the way of the dinosaurs. They will be productively and economically decimated.</p>
+
+<p style="font-size:1.10em;">The best way to stay ahead is to learn to use the tools available.</p>
 
 <hr>
 
