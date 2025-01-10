@@ -33,7 +33,7 @@ a:hover {
 
 <center><img src="/assets/images/reading-paths-1.png" style="margin-bottom:1em; margin-top: 1em;"></center>
 
-<p style="font-size:1.10em;">Likewise with Musashi. Following him as he grows up, and as he learns that mastery of the sword comes through <a href=“https://en.wikipedia.org/wiki/Bushido” style="color:tomato">mastery of unrelated disciplines</a> like calligraphy, pottery and painting, has opened up so many avenues. The Kant book is a different beast altogether, however, but I’m committed now. Even if it takes me a year, I will finish it.</p>
+<p style="font-size:1.10em;">Likewise with Musashi. Following him as he grows up, and as he learns that mastery of the sword comes through mastery of unrelated disciplines like calligraphy, pottery and painting, has opened up so many avenues. The Kant book is a different beast altogether, however, but I’m committed now. Even if it takes me a year, I will finish it.</p>
 
 <p style="font-size:1.10em;">A question I’ve been posing myself recently is, <b>what reading paths should I take in the future?</b></p>
 
