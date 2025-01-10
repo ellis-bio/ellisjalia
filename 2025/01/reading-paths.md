@@ -27,7 +27,7 @@ a:hover {
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
 <p style="font-size:0.95em; color: silver">Friday, January 10, 2025</p>
 
-<p style="font-size:1.10em;">For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschlager; and Critique of Pure Reason by Immanuel Kant.</p>
+<p style="font-size:1.10em;">For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschläger; and Critique of Pure Reason by Immanuel Kant.</p>
 
 <p style="font-size:1.10em;">Little did I know the first two are basically whole lives. Monet is what I’ve been reading a lot of lately. It’s been such an immersive experience, from reading about him begging his friends to send him wine, to the tragic death of his wife, and the circumstances around the painting of <a href="https://en.wikipedia.org/wiki/The_Magpie_(Monet)" style="color:tomato">“The Magpie”</a>.</p>
 
