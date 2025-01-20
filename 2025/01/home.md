@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /2025/01/19/workspace-redesign/
+permalink: /2025/01/19/home/
 ---
 <center>
 <hr width="100%" size="3">
@@ -24,7 +24,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/workspace-redesign/"><b>Workspace Redesign</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/home/"><b>Home</b></a></p>
 <p style="font-size:0.95em; color: silver">Sunday, January 19, 2025</p>
 
 <p style="font-size:1.10em;">I’m supposed to be working on an essay about the philosophy of perception, but I’ve been really unwell and research has been difficult. So instead I turned my attention to redesigning my living room and workspace.</p>

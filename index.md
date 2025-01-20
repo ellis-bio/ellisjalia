@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/workspace-redesign/"><b>Workspace Redesign</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/home/"><b>Home</b></a></p>
 <p style="font-size:0.95em; color: silver">Sunday, January 19, 2025</p>
 
 <p style="font-size:1.10em;">I’m supposed to be working on an essay about the philosophy of perception, but I’ve been really unwell and research has been difficult. So instead I turned my attention to redesigning my living room and workspace.</p>
@@ -41,7 +41,6 @@ a:hover {
 <p style="font-size:1.10em;">Then I turned to my workspace area. The antique desk usually serves me well. But as I’ve placed an order for a new computer, I thought this would be a good opportunity for an overhaul.</p>
 
 <center><img src="/assets/images/workspace-redesign-3.jpeg" style="margin-bottom:1em; margin-top: 1em;"></center>
-
 
 <p style="font-size:1.10em;">The new desk is made from oak, and it’s almost twice as large as my previous one. There would be enough space for a ceramic lamp, and potentially for two anglepoise lamps so the light is evenly distributed throughout.</p>
 
