@@ -463,7 +463,6 @@ a:hover {
   border-bottom-right-radius: 5px;
 }
 </style>
-</head>
 <body>
 
 <div class="pagination">
