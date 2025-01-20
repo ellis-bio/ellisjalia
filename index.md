@@ -492,7 +492,7 @@ a:hover {
 <body>
 
 <div class="pagination">
-  <a class="active" href="https://ellisjalia.com/index">1</a>
+  <a class="active" href="https://ellisjalia.com">1</a>
   <a href="https://ellisjalia.com/page/2/">2</a>
   <a href="https://ellisjalia.com/page/2/">&raquo;</a>
 </div>
