@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7em; margin-bottom:0"><b>Workspace Redesign</b></p>
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/workspace-redesign/"><b>Workspace Redesign</b></a></p>
 <p style="font-size:0.95em; color: silver">Sunday, January 19, 2025</p>
 
 <p style="font-size:1.10em;">I’m supposed to be working on an essay about the philosophy of perception, but I’ve been really unwell and research has been difficult. So instead I turned my attention to redesigning my living room and workspace.</p>
@@ -282,10 +282,7 @@ a:hover {
 <p style="font-size:1.10em;">The creation of "narrow" AI systems, like ChatGPT, has already been surprising. These systems are constrained to specific tasks, such as conversations, answering questions, creating images from prompts, and even providing domain-specific expertise. OpenAI models can now exceed PhD-level human expertise in mathematics, science, and law.
 </p>
 
-<p style="font-size:1.10em;">When ChatGPT was first released to the public two years ago, I remember raising an eyebrow. I was intrigued, but also knew its limitations–—it couldn’t even reverse a numbered list–—and its veer-off-the-ramp hallucinations were also quite laughable. 
-</p>
-
-<p style="font-size:1.10em;">But now it’s no longer funny. These generative AI models have become significantly more powerful. The possibility that AGI could become a reality within the next decade is something we should take extremely seriously.</p>
+<p style="font-size:1.10em;">When ChatGPT was first released to the public two years ago, I remember raising an eyebrow. I was intrigued, but also knew its limitations–—it couldn’t even reverse a numbered list–—and its veer-off-the-ramp hallucinations were also quite laughable.</p>
 
 <p style="font-size:1.10em;">But now it’s no longer funny. These generative AI models have become significantly more powerful. The possibility that AGI could become a reality within the next decade is something we should take extremely seriously.</p>
 
