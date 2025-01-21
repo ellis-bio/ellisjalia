@@ -46,7 +46,7 @@ a:hover {
 
 <p style="font-size:1.10em;">I’ve tried to seek inspiration from a variety of sources. Some of the colours have come from the ukiyo-e drawings of Hokusai, Yoshitoshi and Kuniyoshi. Whereas material choice was mainly based on a concoction of old photos that I have from Obama’s terms in the White House, and other random pieces.</p>
 
-<p style="font-size:1.10em;">Ultimately what I’ve tried to create is a place that comes from deep within me, that combines beauty and care, and where over the next few years I can test what I’m really capable of.</p>
+<p style="font-size:1.10em;">Ultimately what I’ve tried to create is a place that comes from deep within me, that combines beauty and care, and where I can test what I’m really capable of.</p>
 
 <hr>
 
