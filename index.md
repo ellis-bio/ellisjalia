@@ -23,6 +23,27 @@ a:hover {
 }
 </style>
 
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/21/the-sight-of-sound/"><b>The Sight of Sound</b></a></p>
+<p style="font-size:0.95em; color: silver">Tuesday, January 21, 2025</p>
+
+<b>How does music look like to you?</b> I did some doodling while listening to music, and this is what the tracks look like to me.
+
+<center><img src="/assets/images/the-sight-of-sound-1.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+
+<center><p style="font-size:0.9em; color: grey;">Pink Floyd, "Time"</p></center>
+
+<center><img src="/assets/images/the-sight-of-sound-2.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">Beethoven, "Symphony No.5"</p></center>
+
+<center><img src="/assets/images/the-sight-of-sound-3.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+
+<center><p style="font-size:0.9em; color: grey;">Beethoven, "Symphony No.7"</p></center>
+
+<center><img src="/assets/images/the-sight-of-sound-4.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">J.S Bach, "Goldberg Variations"</p></center>
+
+<hr>
+
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/home/"><b>Home</b></a></p>
 <p style="font-size:0.95em; color: silver">Sunday, January 19, 2025</p>
 
