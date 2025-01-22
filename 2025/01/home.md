@@ -45,7 +45,7 @@ a:hover {
 
 <p style="font-size:1.10em;">The new desk is made from oak, and it’s almost twice as large as my previous one. There would be enough space for a ceramic lamp, and potentially for two anglepoise lamps so the light is evenly distributed throughout.</p>
 
-<p style="font-size:1.10em;">I’ve tried to seek inspiration from a variety of sources. Some of the colours have come from <a href="https://ukiyo-e.org/">ukiyo-e prints</a> made by Hokusai, Yoshitoshi and Kuniyoshi. Whereas material choice was mainly based on a concoction of old photos that I have from Obama’s terms in the White House, and other random pieces.</p>
+<p style="font-size:1.10em;">I’ve tried to seek inspiration from a variety of sources. Some of the colours have come from <a href="https://ukiyo-e.org/" style="color:tomato">ukiyo-e prints</a> made by Hokusai, Yoshitoshi and Kuniyoshi. Whereas material choice was mainly based on a concoction of old photos that I have from Obama’s terms in the White House, and other random pieces.</p>
 
 <p style="font-size:1.10em;">Ultimately what I’ve tried to create is a place that comes from deep within me, that combines beauty and care, and where I can test what I’m really capable of.</p>
 
