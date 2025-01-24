@@ -23,10 +23,25 @@ a:hover {
 }
 </style>
 
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/24/atlas/"><b>Atlas</b></a></p>
+<p style="font-size:0.95em; color: silver">Friday, January 24, 2025</p>
+
+<center><img src="/assets/images/atlas-1.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+
+<p style="font-size:1.10em;">My favourite ancient myth is the trio of Atlas (meaning ‘uphold’), and his brothers Epimetheus (‘afterthought’) and Prometheus (‘forethought’). The latter two are supposed to represent the duality of mankind. </p>
+
+<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the celestial spheres for eternity. 
+</p>
+
+<p style="font-size:1.10em;">Whereas Epimetheus was tasked with dividing the divine powers amongst the animals, but he forgot about mankind, who were left without a ‘telos’ or ultimate object or aim. Prometheus then had the forethought to steal the fire from the gods to give to humans, endowing us with knowledge, technology and civilisation.
+</p>
+
+<hr>
+
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/21/the-sight-of-sound/"><b>The Sight of Sound</b></a></p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 21, 2025</p>
 
-<b>How does music look like to you?</b> I did some doodling while listening to music, and this is what the tracks look like to me.
+<p style="font-size:1.10em;"><b>How does music look like to you?</b> I did some doodling while listening to music, and this is what the tracks look like to me.</p>
 
 <center><img src="/assets/images/the-sight-of-sound-1.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
