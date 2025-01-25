@@ -490,283 +490,44 @@ a:hover {
 
 <hr>
 
-<div id="footer-pagination" class="pagination">
-  <ul>
-    <li class="active"><a href="https://ellisjalia.com">1</a></li>
-    <li><a href="https://ellisjalia.com/page/2/">2</a></li>
-    <li><a href="#3">3</a></li>
-    <li><a href="#4">4</a></li>
-    <li><a href="#5">5</a></li>
-    <li><a href="#6">6</a></li>
-    <li><a href="#7">7</a></li>
-    <li><a href="#8">8</a></li>
-    <li><a href="#9">9</a></li>
-    <li><a href="#10">10</a></li>
-    <li><a href="#11">11</a></li>
-    <li><a href="#12">12</a></li>
-  </ul>
-</div>
-
 <style>
-
-h1 {
-  font-weight: 200;
-}
-hr {
-  border-top: 1px solid #ddd;
-  border-bottom: 0;
-  margin: 20px 0;
-}
 .pagination {
-  margin: 20px 0 0;
-  font-size: 0;
-  text-align: center;
+  display: inline-block;
 }
-a {
-  text-decoration: none;
+
+.pagination a {
   color: black;
-  display: inline-block;
-  background: white;
-  border: 1px solid #000;
-  border-radius: 3px;
-  padding: 10px 10px;
-  font-size: 15px;
-  
-  &:hover {
-    text-decoration: none;
-    color: black;
-    background: tomato;
-  }
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-li {
-  display: inline-block;
-  margin: 0 2.5px;
-
-  &.active {
-    a {
-      background: #fff;
-
-      &:hover {
-        text-decoration: none;
-        cursor: default;
-      }
-    }
-  }
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  margin: 0 3px;
+  border-radius: 5px;
 }
 
-.prev, .next {
-  &.disabled {
-    cursor: default;
-    background: #ccc;
-    color: #888;
-    border-color: #888;
-    
-    &:hover {
-      cursor: default;
-      text-decoration: none;
-    }
-  }
-}
-.prev {
-  margin-right: 2.5px;
-}
-.next {
-  margin-left: 2.5px;
-}
-///////// END: For demo only
-
-@mixin ellipsis($before:true) {
-  content: "\2026";
-  font-size: 24px;
-  display: inline-block;
-  @if($before) {
-    margin-right: 2.5px;
-  } @else {
-    margin-left: 2.5px;
-  }
+.pagination a.active {
+  background-color: tomato;
+  color: black;
+  border: 1px solid tomato;
+  border-radius: 5px;
 }
 
-// Too much to override, just do the difference
-@media(max-width:767px) {
-  li {
-    
-    &:first-child,
-    &.active,
-    &.active-sibling:nth-last-child(2), // Show second to last child if the last one is active
-    &:last-child {
-      display: inline-block !important;
-    }
-    
-    $how-many-on-ends: 3; // 1,2,3,...,10 || 1,...,8,9,10
-    // There are >= 5 pages
-    &:first-child:nth-last-child(n+6) {
-      
-      &~li {
-        // Start out with all siblings hidden
-        display: none;
-          
-        // Show the last children in the list by default
-        &:nth-last-child(-n+#{$how-many-on-ends}) {
-          display: inline-block;
-        }
-        
-        // The child at the beginning of the last group shows ellipsis for the group
-        &:nth-last-child(#{$how-many-on-ends}) {
-          &:before {
-            @include ellipsis(true);
-          }
-        }
-        
-        // The very beginning elements do not need to show ellipsis
-        // The very end elements do not need to show ellipsis
-      }
-      
-      &.active,
-       &~li.active {
-         
-         // Show ellipsis before and after the active element
-         &:before {
-           @include ellipsis(true);
-         }
-         &:after {
-           @include ellipsis(false);
-         }
-         
-         // If the active element is in the first or last group, don't show ellipsis (siblings will take care of it)
-         &:nth-child(-n+#{$how-many-on-ends - 1}),
-         &:nth-last-child(-n+#{$how-many-on-ends - 1}) {
-           &:before, &:after {
-             display: none;
-           }
-         }
-         
-         // Hide the last group if "active" comes before them
-         &~li:nth-last-child(-n+#{$how-many-on-ends}) {
-           display: none;
-         }
-         
-         // Show the first group together if "active" comes before them
-         &~li:nth-child(-n+#{$how-many-on-ends}) {
-           display: inline-block;
-         }
-         
-         // If "active" is before the last member in the group, don't show ellipsis
-         &~li:nth-child(-n+#{$how-many-on-ends - 1}) {
-            &:after {
-              display: none;
-            }
-         }
-         
-         
-        // The child at the end of the first group shows ellipsis for the group
-        &~li:nth-child(#{$how-many-on-ends}) {
-          &:after {
-            @include ellipsis(false);
-          }
-        }
-      }
-    }
-  }
-}
-@media (min-width: 768px) {
-  li {
-    &:first-child,
-    &.active-sibling,
-    &.active,
-    &.active + li,
-    &:last-child {
-      display: inline-block !important;
-    }
-    
-    // There are >= 7 pages
-    &:first-child:nth-last-child(n+8) {
-      $how-many-on-ends: 5; // 1,2,3,4,5,...,10 || 1,...6,7,8,9,10
-      
-      &~li {
-        // Start out with all siblings hidden
-        display: none;
-        
-        // Show ellipsis before the previous one
-        &.active-sibling:before {
-            @include ellipsis(true);          
-        }
-        // Show ellipsis after the next one
-        &.active + li:after {
-            @include ellipsis(false);
-        }
-          
-        // Show the last children in the list by default
-        &:nth-last-child(-n+#{$how-many-on-ends}) {
-          display: inline-block;
-        }
-        
-        // The child at the beginning of the last group shows ellipsis for the group
-        &:nth-last-child(#{$how-many-on-ends}) {
-          &:before {
-            @include ellipsis(true);
-          }
-        }
-        
-        // The very beginning elements do not need to show ellipsis
-        &:nth-child(-n+#{$how-many-on-ends - 3}),
-        // The very end elements do not need to show ellipsis
-        &:nth-last-child(-n+#{$how-many-on-ends - 3}),
-        // Even if it's a sibling to "active"
-        &.active-sibling:nth-last-child(-n+#{$how-many-on-ends - 1}) {
-          &:before, &:after {
-            display: none !important;
-          }
-        }
-      }
-      
-      &.active,
-       &~li.active {
-         
-         // Hide the last group if "active" comes before them
-         &~li:nth-last-child(-n+#{$how-many-on-ends}) {
-           display: none;
-           
-           // If there is overlap, the element will show, but hide it's ellipsis
-           &:before {
-            display: none;
-           }
-         }
-         
-         // Show the first group together if "active" comes before them
-         &~li:nth-child(-n+#{$how-many-on-ends}) {
-           display: inline-block;
-         }
-         
-         // If "active" is before the last member in the group, don't show ellipsis
-         &~li:nth-child(-n+#{$how-many-on-ends - 1}) {
-            &:after {
-              display: none;
-            }
-         }
-         
-         
-        // The child at the end of the first group shows ellipsis for the group
-        &~li:nth-child(#{$how-many-on-ends}) {
-          &:after {
-            @include ellipsis(false);
-          }
-        }
-         
-         // "active" should never show ellipsis
-         &:before, &:after {
-           display: none;
-         }
-      }
-    }
-  }
+.pagination a:hover:not(.active) {background-color: tomato;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="/assets/js/pagination.js" defer></script>
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+</style>
+<body>
 
+<div class="pagination">
+  <a class="active" href="https://ellisjalia.com">1</a>
+  <a href="https://ellisjalia.com/page/2/">2</a>
+  <a href="https://ellisjalia.com/page/2/">&raquo;</a>
+</div>
