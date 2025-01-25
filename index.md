@@ -30,8 +30,7 @@ a:hover {
 
 <p style="font-size:1.10em;">My favourite ancient myth is the trio of Atlas (meaning ‘uphold’), and his brothers Epimetheus (‘afterthought’) and Prometheus (‘forethought’). The latter two are supposed to represent the duality of mankind. </p>
 
-<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the celestial spheres for eternity. 
-</p>
+<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the celestial spheres for eternity. </p>
 
 <p style="font-size:1.10em;">Whereas Epimetheus was tasked with dividing the divine powers amongst the animals, but he forgot about mankind, who were left without a ‘telos’ or ultimate object or aim. Prometheus then had the forethought to steal the fire from the gods to give to humans, endowing us with knowledge, technology and civilisation.
 </p>
@@ -491,44 +490,178 @@ a:hover {
 
 <hr>
 
+<footer>
+  <div id="footer-pagination" class="pagination">
+    <ul>
+      <li data-page="1"><a href="https://ellisjalia.com">1</a></li>
+      <li data-page="2"><a href="https://ellisjalia.com/page/2/">2</a></li>
+      <li data-page="3">3</li>
+      <li data-page="4">4</li>
+      <li data-page="5">5</li>
+      <li data-page="6">6</li>
+      <li data-page="7">7</li>
+      <li data-page="8">8</li>
+      <li data-page="9">9</li>
+      <li data-page="10">10</li>
+      <li data-page="11">11</li>
+      <li data-page="12">12</li>
+    </ul>
+    <button class="next">Next</button>
+  </div>
+
 <style>
+
 .pagination {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.pagination a {
-  color: black;
+.pagination ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li,
+.pagination button {
   float: left;
+  display: inline-block;
   padding: 8px 16px;
-  text-decoration: none;
   border: 1px solid #ddd;
   margin: 0 3px;
   border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-.pagination a.active {
+.pagination li.active,
+.pagination button.active {
   background-color: tomato;
   color: black;
-  border: 1px solid tomato;
+  cursor: default;
+}
+
+.pagination li:hover:not(.active),
+.pagination button:hover:not(.active) {
+  background-color: tomato;
+  color: black;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination li.active {
+  background-color: tomato;
+  color: black;
+  cursor: default;
+}
+
+.pagination button {
+  /* Same size and styling as pagination numbers */
+  padding: 8px 16px;
+  border: 1px solid #ddd;
   border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.pagination a:hover:not(.active) {background-color: tomato;}
-
-.pagination a:first-child {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
-.pagination a:last-child {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+.pagination button:hover:not(:disabled) {
+  background-color: tomato;
+  color: black;
 }
-</style>
-<body>
 
-<div class="pagination">
-  <a class="active" href="https://ellisjalia.com">1</a>
-  <a href="https://ellisjalia.com/page/2/">2</a>
-  <a href="https://ellisjalia.com/page/2/">&raquo;</a>
-</div>
+<script>
+
+$(document).ready(function () {
+  const totalPages = 12; // Total number of pages
+  const visiblePages = 5; // Maximum number of visible pages at a time
+  const $pagination = $("#footer-pagination");
+  let currentPage = 1;
+
+  function renderPagination(currentPage) {
+    const $list = $pagination.find("ul");
+    $list.empty();
+
+    const half = Math.floor(visiblePages / 2);
+    let start = Math.max(1, currentPage - half);
+    let end = Math.min(totalPages, currentPage + half);
+
+    if (currentPage <= half) {
+      end = Math.min(totalPages, visiblePages);
+    }
+    if (currentPage > totalPages - half) {
+      start = Math.max(1, totalPages - visiblePages + 1);
+    }
+
+    // Add "Previous" button state
+    $pagination.find(".prev").prop("disabled", currentPage === 1);
+
+    // Add "Next" button state
+    $pagination.find(".next").prop("disabled", currentPage === totalPages);
+
+    // Add the first page and ellipsis if needed
+    if (start > 1) {
+      $list.append(`<li data-page="1">1</li>`);
+      if (start > 2) {
+        $list.append(`<li class="ellipsis">...</li>`);
+      }
+    }
+
+    // Add visible page numbers
+    for (let i = start; i <= end; i++) {
+      $list.append(`<li data-page="${i}" class="${i === currentPage ? "active" : ""}">${i}</li>`);
+    }
+
+    // Add the last page and ellipsis if needed
+    if (end < totalPages) {
+      if (end < totalPages - 1) {
+        $list.append(`<li class="ellipsis">...</li>`);
+      }
+      $list.append(`<li data-page="${totalPages}">${totalPages}</li>`);
+    }
+  }
+
+  // Handle "Previous" and "Next" button clicks
+  $pagination.on("click", ".prev", function () {
+    if (currentPage > 1) {
+      currentPage--;
+      renderPagination(currentPage);
+    }
+  });
+
+  $pagination.on("click", ".next", function () {
+    if (currentPage < totalPages) {
+      currentPage++;
+      renderPagination(currentPage);
+    }
+  });
+
+  // Handle page number clicks
+  $pagination.on("click", "li", function () {
+    const page = $(this).data("page");
+    if (page) {
+      currentPage = page;
+      renderPagination(currentPage);
+    }
+  });
+
+  // Initial render
+  renderPagination(currentPage);
+});
+
+<script>
