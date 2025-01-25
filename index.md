@@ -492,8 +492,8 @@ a:hover {
 
 <footer>
   <div id="footer-pagination" class="pagination">
-    <button class="prev" disabled>Previous</button>
     <ul>
+      <!-- Pagination buttons are manually added here -->
       <li data-page="1">1</li>
       <li data-page="2">2</li>
       <li data-page="3">3</li>
@@ -507,7 +507,6 @@ a:hover {
       <li data-page="11">11</li>
       <li data-page="12">12</li>
     </ul>
-    <button class="next">Next</button>
   </div>
 
 <style>
@@ -587,54 +586,24 @@ a:hover {
 }
 
 <script>
-
 $(document).ready(function () {
   const totalPages = 12; // Total number of pages
-  const visiblePages = 5; // Maximum number of visible pages at a time
+  const visiblePages = 5; // Number of visible pages at a time
   const $pagination = $("#footer-pagination");
   let currentPage = 1;
 
   function renderPagination(currentPage) {
     const $list = $pagination.find("ul");
-    $list.empty();
+    
+    // Reset page numbers
+    $list.find("li").removeClass("active");
+    
+    // Mark the active page
+    $list.find(`[data-page="${currentPage}"]`).addClass("active");
 
-    const half = Math.floor(visiblePages / 2);
-    let start = Math.max(1, currentPage - half);
-    let end = Math.min(totalPages, currentPage + half);
-
-    if (currentPage <= half) {
-      end = Math.min(totalPages, visiblePages);
-    }
-    if (currentPage > totalPages - half) {
-      start = Math.max(1, totalPages - visiblePages + 1);
-    }
-
-    // Add "Previous" button state
+    // Handle "Previous" and "Next" buttons
     $pagination.find(".prev").prop("disabled", currentPage === 1);
-
-    // Add "Next" button state
     $pagination.find(".next").prop("disabled", currentPage === totalPages);
-
-    // Add the first page and ellipsis if needed
-    if (start > 1) {
-      $list.append(`<li data-page="1">1</li>`);
-      if (start > 2) {
-        $list.append(`<li class="ellipsis">...</li>`);
-      }
-    }
-
-    // Add visible page numbers
-    for (let i = start; i <= end; i++) {
-      $list.append(`<li data-page="${i}" class="${i === currentPage ? "active" : ""}">${i}</li>`);
-    }
-
-    // Add the last page and ellipsis if needed
-    if (end < totalPages) {
-      if (end < totalPages - 1) {
-        $list.append(`<li class="ellipsis">...</li>`);
-      }
-      $list.append(`<li data-page="${totalPages}">${totalPages}</li>`);
-    }
   }
 
   // Handle "Previous" and "Next" button clicks
@@ -664,5 +633,4 @@ $(document).ready(function () {
   // Initial render
   renderPagination(currentPage);
 });
-
 <script>
