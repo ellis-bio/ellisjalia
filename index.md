@@ -490,24 +490,22 @@ a:hover {
 
 <hr>
 
-<footer>
-  <div id="footer-pagination" class="pagination">
-    <ul>
-      <!-- Pagination buttons are manually added here -->
-      <li data-page="1">1</li>
-      <li data-page="2">2</li>
-      <li data-page="3">3</li>
-      <li data-page="4">4</li>
-      <li data-page="5">5</li>
-      <li data-page="6">6</li>
-      <li data-page="7">7</li>
-      <li data-page="8">8</li>
-      <li data-page="9">9</li>
-      <li data-page="10">10</li>
-      <li data-page="11">11</li>
-      <li data-page="12">12</li>
-    </ul>
-  </div>
+<div id="footer-pagination" class="pagination">
+  <ul>
+    <li class="active"><a href="https://ellisjalia.com">1</a></li>
+    <li><a href="https://ellisjalia.com/page/2/">2</a></li>
+    <li><a href="#3">3</a></li>
+    <li><a href="#4">4</a></li>
+    <li><a href="#5">5</a></li>
+    <li><a href="#6">6</a></li>
+    <li><a href="#7">7</a></li>
+    <li><a href="#8">8</a></li>
+    <li><a href="#9">9</a></li>
+    <li><a href="#10">10</a></li>
+    <li><a href="#11">11</a></li>
+    <li><a href="#12">12</a></li>
+  </ul>
+</div>
 
 <style>
 
@@ -585,52 +583,6 @@ a:hover {
   color: black;
 }
 
-<script>
-$(document).ready(function () {
-  const totalPages = 12; // Total number of pages
-  const visiblePages = 5; // Number of visible pages at a time
-  const $pagination = $("#footer-pagination");
-  let currentPage = 1;
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/pagination.js" defer></script>
 
-  function renderPagination(currentPage) {
-    const $list = $pagination.find("ul");
-    
-    // Reset page numbers
-    $list.find("li").removeClass("active");
-    
-    // Mark the active page
-    $list.find(`[data-page="${currentPage}"]`).addClass("active");
-
-    // Handle "Previous" and "Next" buttons
-    $pagination.find(".prev").prop("disabled", currentPage === 1);
-    $pagination.find(".next").prop("disabled", currentPage === totalPages);
-  }
-
-  // Handle "Previous" and "Next" button clicks
-  $pagination.on("click", ".prev", function () {
-    if (currentPage > 1) {
-      currentPage--;
-      renderPagination(currentPage);
-    }
-  });
-
-  $pagination.on("click", ".next", function () {
-    if (currentPage < totalPages) {
-      currentPage++;
-      renderPagination(currentPage);
-    }
-  });
-
-  // Handle page number clicks
-  $pagination.on("click", "li", function () {
-    const page = $(this).data("page");
-    if (page) {
-      currentPage = page;
-      renderPagination(currentPage);
-    }
-  });
-
-  // Initial render
-  renderPagination(currentPage);
-});
-<script>
