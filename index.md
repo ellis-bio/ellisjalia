@@ -492,9 +492,10 @@ a:hover {
 
 <footer>
   <div id="footer-pagination" class="pagination">
+    <button class="prev" disabled>Previous</button>
     <ul>
-      <li data-page="1"><a href="https://ellisjalia.com">1</a></li>
-      <li data-page="2"><a href="https://ellisjalia.com/page/2/">2</a></li>
+      <li data-page="1">1</li>
+      <li data-page="2">2</li>
       <li data-page="3">3</li>
       <li data-page="4">4</li>
       <li data-page="5">5</li>
