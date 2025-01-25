@@ -1,85 +1,57 @@
-$(document).ready(function () {
-    const totalPages = 13; // Total number of pages
-    const visiblePages = 5; // Maximum number of visible pages
-    const $pagination = $("#footer-pagination");
-    let currentPage = 1;
+$(document).ready(function() {
+  var CLASS_DISABLED = "disabled",
+      CLASS_ACTIVE = "active",
+      CLASS_SIBLING_ACTIVE = "active-sibling",
+      DATA_KEY = "pagination";
   
-    function renderPagination(currentPage) {
-      const $list = $pagination.find("ul");
-      $list.empty();
+  $(".pagination").each(initPagination);
   
-      // Calculate start and end of the visible range
-      const half = Math.floor(visiblePages / 2);
-      let start = Math.max(1, currentPage - half);
-      let end = Math.min(totalPages, currentPage + half);
+  function initPagination() {
+    var $this = $(this);
+    
+    $this.data(DATA_KEY, $this.find("li").index(".active"));
+    
+    $this.find(".prev").on("click", navigateSinglePage);
+    $this.find(".next").on("click", navigateSinglePage);
+    $this.find("li").on("click", function() {
+      var $parent = $(this).closest(".pagination");
+      $parent.data(DATA_KEY, $parent.find("li").index(this));
+      changePage.apply($parent);
+    });
+  }
   
-      // Adjust if the range is too small at the edges
-      if (currentPage <= half) {
-        end = Math.min(totalPages, visiblePages);
-      }
-      if (currentPage > totalPages - half) {
-        start = Math.max(1, totalPages - visiblePages + 1);
-      }
-  
-      // Add "Previous" button state
-      if (currentPage === 1) {
-        $pagination.find(".prev").addClass("disabled");
-      } else {
-        $pagination.find(".prev").removeClass("disabled");
-      }
-  
-      // Add "Next" button state
-      if (currentPage === totalPages) {
-        $pagination.find(".next").addClass("disabled");
-      } else {
-        $pagination.find(".next").removeClass("disabled");
-      }
-  
-      // Add the first page and ellipsis if needed
-      if (start > 1) {
-        $list.append(`<li data-page="1">1</li>`);
-        if (start > 2) {
-          $list.append(`<li class="ellipsis">...</li>`);
-        }
-      }
-  
-      // Add the visible page numbers
-      for (let i = start; i <= end; i++) {
-        $list.append(`<li data-page="${i}" class="${i === currentPage ? "active" : ""}">${i}</li>`);
-      }
-  
-      // Add the last page and ellipsis if needed
-      if (end < totalPages) {
-        if (end < totalPages - 1) {
-          $list.append(`<li class="ellipsis">...</li>`);
-        }
-        $list.append(`<li data-page="${totalPages}">${totalPages}</li>`);
-      }
+  function navigateSinglePage() {
+    if(!$(this).hasClass(CLASS_DISABLED)) {
+      var $parent = $(this).closest(".pagination"),
+          currActive = parseInt($parent.data("pagination"), 10);
+      
+      currActive += 1 * ($(this).hasClass("prev") ? -1 : 1);
+      $parent.data(DATA_KEY, currActive);
+      
+      changePage.apply($parent);
     }
+  }
   
-    // Handle page clicks
-    $pagination.on("click", "li", function () {
-      if (!$(this).hasClass("ellipsis")) {
-        currentPage = parseInt($(this).data("page"), 10);
-        renderPagination(currentPage);
-      }
-    });
-  
-    // Handle "Previous" and "Next" buttons
-    $pagination.find(".prev").on("click", function () {
-      if (!$(this).hasClass("disabled") && currentPage > 1) {
-        currentPage--;
-        renderPagination(currentPage);
-      }
-    });
-  
-    $pagination.find(".next").on("click", function () {
-      if (!$(this).hasClass("disabled") && currentPage < totalPages) {
-        currentPage++;
-        renderPagination(currentPage);
-      }
-    });
-  
-    // Initial render
-    renderPagination(currentPage);
-  });
+  function changePage(currActive) {
+    var $list = $(this).find("li"),
+        currActive = parseInt($(this).data(DATA_KEY), 10);
+    
+    $list.filter("."+CLASS_ACTIVE).removeClass(CLASS_ACTIVE);
+    $list.filter("."+CLASS_SIBLING_ACTIVE).removeClass(CLASS_SIBLING_ACTIVE);
+    
+    $list.eq(currActive).addClass(CLASS_ACTIVE);
+      
+    if(currActive === 0) {
+      $(this).find(".prev").addClass(CLASS_DISABLED);
+    } else {
+      $list.eq(currActive-1).addClass(CLASS_SIBLING_ACTIVE);
+      $(this).find(".prev").removeClass(CLASS_DISABLED);
+    }
+
+    if(currActive == ($list.length - 1)) {
+      $(this).find(".next").addClass(CLASS_DISABLED);
+    } else {
+      $(this).find(".next").removeClass(CLASS_DISABLED);
+    }
+  }
+});
