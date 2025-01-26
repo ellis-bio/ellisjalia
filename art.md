@@ -17,11 +17,11 @@ layout: page
 
 &nbsp;
 
-<center><img src="/assets/images/art-4.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><img src="/assets/images/art-2.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
 &nbsp;
 
-<center><img src="/assets/images/art-2.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><img src="/assets/images/art-4.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
 &nbsp;
 
