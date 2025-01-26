@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /page/3/
 ---
 <center>
 <hr width="100%" size="3">
@@ -12,5 +13,12 @@ layout: default
  </div>
   <hr width="100%" size="3">
   </center>
-
-Test page.
+<style>
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
