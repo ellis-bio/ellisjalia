@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /essays/my-reading-years/
 ---
 <center>
 <hr width="100%" size="3">
@@ -13,7 +14,9 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-Coming soon.
+<h5><u>2025</u></h5>
+<ol reversed>
+<li><a href="https://www.amazon.co.uk/Keep-Going-Austin-Kleon/dp/1523506644/ref=sr_1_1?crid=F2GAG6IHHBFW&dib=eyJ2IjoiMSJ9.m0fA9fp9TBlXcUHBlFIti9fitnFMEJZ0bt5bmoW8Fbu3NOuQVJAsJ2RGsBfBz45nbMkZhC7GA6u8vrP1ztTwZljf5xyWShceZCwWbDCjD2d5c0iGUGJhTSGnMFlfRZ9RDZzlqJQ4I0RAdsSGp1yjMT-wO-biI_YxL6hG2hknypF_TNflmrq6B0TZlWILeaJVQPuE8GJs5V3by0fDaUebR7loeZX9jndRlPt8KNZ3rbc.DXjthrHnIzsQIPtRx-KrIyjPN6OZB9eOUx-D4mng5pA&dib_tag=se&keywords=keep+going+austin+kleon&qid=1738177355&sprefix=keep+going+austin%2Caps%2C94&sr=8-1" style="color:tomato">Keep Going</li>
 
 
 
