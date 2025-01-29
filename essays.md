@@ -13,12 +13,6 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<p>Essays:<br>
-Coming soon.</p>
+Coming soon.
 
-<p>Lists:<br>
-» 10 Things Worth Sharing<br>
-» Notebook of Things I Don't Know About<br>
-» <a href="https://ellisjalia.com/essays/my-reading-years/">My Reading Years</a><br>
-» <a href="https://ellisjalia.com/essays/100-papers-challenge/">100 Papers Challenge</a><br>
-» Quotes</p>
+<a href="https://ellisjalia.com//essays/100-papers-challenge/">» 100 Papers Challenge</a>
