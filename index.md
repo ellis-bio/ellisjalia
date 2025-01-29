@@ -73,6 +73,21 @@ Sleeping.</p>
 
 <hr>
 
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/21/the-sight-of-sound/"><b>Atlas</b></a></p>
+<p style="font-size:0.95rem; color: silver">Friday, January 24, 2025</p>
+
+<center><img src="/assets/images/atlas-1.png" style="margin-bottom:1.5rem; margin-top: 1.5rem;"></center>
+
+<p style="font-size:1.10rem;">My favourite ancient myth is the trio of Atlas (meaning ‘uphold’), and his brothers Epimetheus (‘afterthought’) and Prometheus (‘forethought’). The latter two are supposed to represent the duality of mankind. </p>
+
+<p style="font-size:1.10rem;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the celestial spheres for eternity. 
+</p>
+
+<p style="font-size:1.10rem;">Whereas Epimetheus was tasked with dividing the divine powers amongst the animals, but he forgot about mankind, who were left without a ‘telos’ or ultimate object or aim. Prometheus then had the forethought to steal the fire from the gods to give to humans, endowing us with knowledge, technology and civilisation.
+</p>
+
+<hr>
+
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/21/the-sight-of-sound/"><b>The Sight of Sound</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, January 21, 2025</p>
 
