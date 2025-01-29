@@ -26,7 +26,7 @@ a:hover {
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/moments/"><b>Moments</b></a></p>
 <p style="font-size:0.95em; color: silver">Wednesday, January 29, 2025</p>
 
-<center><img src="/assets/images/moments-header.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><img src="/assets/images/moments.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
 <p style="font-size:1.10em;">Before atoms were empirically verified, the philosopher Leibniz postulated that the universe is composed of an infinite number of ‘monads’, indivisible entities which only possess qualities. He wrote:
 </p>
