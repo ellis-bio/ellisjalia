@@ -15,4 +15,3 @@ layout: page
 
 Coming soon.
 
-<a href="https://ellisjalia.com//essays/100-papers-challenge/">» 100 Papers Challenge</a>
