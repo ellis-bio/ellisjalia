@@ -54,7 +54,7 @@ elements of things.”</p>
 
 <p style="font-size:1.10em;">Just maybe, that’s what our brains are for: to lift a snapshot of reality, and to hold it in place for long enough so that we can point to it and say “Now”. </p>
 
-<p style="font-size:1.10em;">And I love also drawing (when it goes right). It makes me feel really involved in my greatest passion, the joy of seeing.</p>
+<p style="font-size:1.10em;">And I also love drawing (when it goes right). It makes me feel really involved in my greatest passion, the joy of seeing.</p>
 
 <p style="font-size:1.10em; margin: 1.5em;">“I think I need to keep being creative, not to prove anything but because it makes me happy just to do it... I think trying to be creative, keeping busy, has a lot to do with keeping you alive.” - Willie Nelson</p>
 
