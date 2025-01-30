@@ -28,7 +28,7 @@ a:hover {
 
 <center><img src="/assets/images/picasso-bull.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>At the age of 65, Picasso made "La Taureau", a lithograph series which depicts the deconstruction of a bull drawing into its essential form.</p>
+<p>At the age of 64, Picasso made "La Taureau", a lithograph series which depicts the deconstruction of a bull drawing into its essential form.</p>
 
 <p>The printer who helped Picasso make it, Fernand Mourlot, had this to say about it:</p>
 
