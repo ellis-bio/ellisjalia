@@ -29,7 +29,7 @@ a:hover {
 
 <center><img src="/assets/images/get-out-of-your-way-header.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>So often I stand in my own way.</p>
+<p>So often I catch myself standing in my own way.</p>
 
 <p>Sometimes, it’s just necessary to be, and let whatever image is lurking beneath the surface break through and have its day. The images of the mind can speak for themselves.</p>
 
