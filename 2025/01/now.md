@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /2025/01/29/moments/
+permalink: /2025/01/29/now/
 ---
 <center>
 <hr width="100%" size="3">
@@ -24,7 +24,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/moments/"><b>Moments</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/now/"><b>Now</b></a></p>
 <p style="font-size:0.95em; color: silver">Wednesday, January 29, 2025</p>
 
 <center><img src="/assets/images/moments.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>

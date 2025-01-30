@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/moments/"><b>Moments</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/now/"><b>Now</b></a></p>
 <p style="font-size:0.95rem; color: silver">Wednesday, January 29, 2025</p>
 
 <center><img src="/assets/images/moments.jpeg" style="margin-bottom:1.5rem; margin-top: 1.5rem;"></center>
@@ -31,8 +31,7 @@ a:hover {
 <p style="font-size:1.10rem;">Before atoms were empirically verified, <a href="https://www.amazon.co.uk/Leibnizs-Monadology-New-Translation-Guide/dp/074869322X/ref=sr_1_1?crid=355OSBV9QMY12&dib=eyJ2IjoiMSJ9.P74slB61DL_NxxCJjOYyV1Z8---gFQEmsfcdtpa92EkWkVtN0XwDBVFyq0ypJ9Ro0vnYCUiMB-bWRLeb64hNsI60kTVlNGye_-ZDiASLCmoyoI_PacK5nUJIbWsCEcU4Zy0SeO2iA_DDeb_hj0f4CV-oPh__IaTPF-EWIC183gWnoiJhXVvysE56aszObNFPnaVz0FMugP2ICCTYo75stxMvmdzF_AKA15cGTykEPy4.pQRWl4J13A03ULgjMSCqNoNPx1o_5Se-n7u9HrXkmEI&dib_tag=se&keywords=leibniz+monadology&qid=1738189077&sprefix=leibniz+monadology%2Caps%2C108&sr=8-1" style="color:tomato">Leibniz</a> postulated that the universe is composed of an infinite number of ‘monads’, indivisible entities which only possess qualities. He wrote:
 </p>
 
-<p style="font-size:1.10rem; margin: 1.5rem;">“4. These Monads are the real atoms of nature and, in a word, the
-elements of things.”</p>
+<p style="font-size:1.10rem; margin: 1.5rem;">“4. These Monads are the real atoms of nature and, in a word, the elements of things.”</p>
 
 <p style="font-size:1.10rem; margin: 1.5rem;">“19. If we are to give the name of Soul to everything which has perceptions and desires [appetits] in the general sense which I have explained, then all simple substances or created Monads might be called souls…”</p>
 
