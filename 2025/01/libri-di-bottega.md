@@ -30,7 +30,7 @@ a:hover {
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey;">A selection of drawings from Leonardo da Vinci's notebooks.</p></center>
 
-<p style="font-size:1.10em; margin-top: 2em;">“The senses are of the earth; reason stands apart from them in contemplation.” - Leonardo da Vinci
+<p style="margin-top: 2em;">“The senses are of the earth; reason stands apart from them in contemplation.” - Leonardo da Vinci
 </p>
 
 <p>‘Libri di bottega’ translates to something like ‘work books’ or ‘workshop books’. Leonardo da Vinci obtained the practice of using ‘libri di bottega’ - notebooks that combine notes, sketches, models and records for consultation - during his training with Verocchio.</p>
