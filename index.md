@@ -112,6 +112,8 @@ Sleeping.</p>
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/19/home/"><b>Home</b></a></p>
 <p style="font-size:0.95rem; color: silver">Sunday, January 19, 2025</p>
 
+<body>
+
 <p style="font-size:1.10rem;">I’m supposed to be working on an essay about the philosophy of perception, but I’ve been really unwell and research has been difficult. So, instead, I've turned my attention to redesigning my living room and workspace.</p>
 
 <center><img src="/assets/images/home-2.jpeg" style="margin-bottom:1.5rem; margin-top: 1.5rem;"></center>
@@ -154,6 +156,8 @@ Sleeping.</p>
 <p style="font-size:1.10rem;">This quote by Jean Piaget got me thinking about reading as a path that you can take to increase your powers to order the world:
 
 <p style="font-size:1.10rem; margin: 1.5rem;">"The goal of education is not to increase the amount of knowledge but to create the possibilities for a child to invent and discover, to create men who are capable of doing new things."</p>
+
+</body>
 
 <hr>
 

@@ -173,3 +173,9 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+@media screen and (max-width: 430px) { /* Targets iPhones */
+  body {
+      font-size: 1.25rem; /* Slightly larger font for iPhones */
+  }
+}
