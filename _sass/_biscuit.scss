@@ -173,3 +173,9 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+@media screen and (max-width: 430px) and (min-width: 376px) {
+  p {
+      font-size: 1.15rem;
+  }
+}
