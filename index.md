@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/now/"><b>Now</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/29/moments/"><b>Moments</b></a></p>
 <p style="font-size:0.95rem; color: silver">Wednesday, January 29, 2025</p>
 
 <center><img src="/assets/images/moments.jpeg" style="margin-bottom:1.5rem; margin-top: 1.5rem;"></center>
