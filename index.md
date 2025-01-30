@@ -28,8 +28,6 @@ a:hover {
 
 <center><img src="/assets/images/get-out-of-your-way-header.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>So often I catch myself standing in my own way.</p>
-
 <p>Sometimes, it’s just necessary to be, and let whatever image is lurking beneath the surface break through and have its day. The images of the mind can speak for themselves.</p>
 
 <p style="margin: 1.5em;">“The fact is that archetypal images are so packed with meaning in themselves that people never think of asking what they really do mean...In reality, however, he has merely discovered that up till then he has never thought about his images at all. And when he starts thinking about them, he does so with the help of what he calls “reason”—which in point of fact is nothing more than the sum-total of all his prejudices and myopic views.” - Carl Jung</p>
