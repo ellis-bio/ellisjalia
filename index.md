@@ -72,7 +72,7 @@ Sleeping.</p>
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/21/the-sight-of-sound/"><b>Atlas</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/24/atlas/"><b>Atlas</b></a></p>
 <p style="font-size:0.95rem; color: silver">Friday, January 24, 2025</p>
 
 <center><img src="/assets/images/atlas-1.png" style="margin-bottom:1.5rem; margin-top: 1.5rem;"></center>
