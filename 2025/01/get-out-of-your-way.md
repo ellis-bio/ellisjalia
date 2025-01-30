@@ -27,7 +27,7 @@ a:hover {
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/30/get-out-of-your-way/"><b>Get out of your way</b></a></p>
 <p style="font-size:0.95em; color: silver">Thursday, January 30, 2025</p>
 
-<center><img src="/assets/images/get-out-of-your-way-header.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><img src="/assets/images/get-out-of-your-way-header.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
 <p>So often I catch myself standing in my own way.</p>
 
