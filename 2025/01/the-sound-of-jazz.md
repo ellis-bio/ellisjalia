@@ -27,7 +27,7 @@ a:hover {
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/31/the-sound-of-jazz/"><b>The Sound of Jazz</b></a></p>
 <p style="font-size:0.95em; color: silver">Friday, January 31, 2025</p>
 
-<p>While listening to "The Sound of Jazz", one of my favourite albums, I did some doodles of the first four tracks. It's got some great tracks, especially "Wild Man Blues", "Fine and Mellow" and "Nervous".</p>
+<p>While listening to <a href="https://www.youtube.com/watch?v=OyykMHvDT88" style="color:tomato">"The Sound of Jazz"</a>, one of my favourite albums, I did some doodles of the first four tracks. "Wild Man Blues", "Fine and Mellow", and "Nervous" are especially great tracks.</p>
 
 <p>Generally, I wouldn't describe myself as having synesthesia. But as of late there have been moments. When the drum, trumpet or saxophone fires off on some track, notes get tangled with a colour. 
 
