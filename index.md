@@ -23,6 +23,27 @@ a:hover {
 }
 </style>
 
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/30/get-out-of-your-own-way/"><b>The Sound of Jazz</b></a></p>
+<p style="font-size:0.95em; color: silver">Friday, January 31, 2025</p>
+
+<p>While listening to "The Sound of Jazz", one of my favourite albums, I did some doodles of the first four tracks. It's got some great tracks, especially "Wild Man Blues", "Fine and Mellow" and "Nervous".</p>
+
+<p>Generally, I wouldn't describe myself as having synesthesia. But as of late there have been moments. When the drum, trumpet or saxophone fires off on some track, notes get tangled with a colour. 
+
+<center><img src="/assets/images/the-sound-of-jazz-1.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">The Henry "Red" Allen All-Stars, "Wild Man Blues"</p></center>
+
+<center><img src="/assets/images/the-sound-of-jazz-2.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">Henry Allen and His Orchestra, "Rosetta"</p></center>
+
+<center><img src="/assets/images/the-sound-of-jazz-3.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">Billie Holiday with Mal Waldron & All-Stars, "Fine and Mellow"</p></center>
+
+<center><img src="/assets/images/the-sound-of-jazz-4.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+<center><p style="font-size:0.9em; color: grey;">Jimmy Giuffre & Pee Wee Russell, "Blues"</p></center>
+
+<hr>
+
 <p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/30/get-out-of-your-own-way/"><b>Get out of your own way</b></a></p>
 <p style="font-size:0.95em; color: silver">Thursday, January 30, 2025</p>
 
