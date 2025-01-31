@@ -28,7 +28,7 @@ a:hover {
 
 <center><img src="/assets/images/books-for-2025-1.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>One of my favourite books is Einstein’s Relativity. I’ve read it a few times over the years, and despite the sound logic, its always counterintuitive. Then last year, I read Einstein’s paper on General Relativity, The Foundation of the General Theory of Relativity. It was amazing to see how he worked out the relations between dynamic curvature, distances, mass-energy content and the cosmological constant. If you bear in mind these relations, the paper isn’t as intractable as one would think.</p>
+<p>One of my favourite books is Einstein’s Relativity. I’ve read it a few times over the years, and despite the sound logic, it's always counterintuitive. Then last year, I read Einstein’s paper on General Relativity, The Foundation of the General Theory of Relativity. It was amazing to see how he worked out the relations between dynamic curvature, distances, mass-energy content and the cosmological constant. If you bear in mind these relations, the paper isn’t as intractable as one would think.</p>
 
 <p>Einstein was a philosopher above all else (in my humble opinion), knowing how much he was influenced by Spinoza, Leibniz and Newton. And over the years, despite knowing quite a bit about his background, his work and his life, I’ve wanted to delve deeper into his thought about the unification of nature at the most fundamental level.</p>
 
