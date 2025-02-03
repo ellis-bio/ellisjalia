@@ -30,7 +30,7 @@ a:hover {
 <center><img src="/assets/images/earthrise.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
 <center><p style="font-size:0.9em; color: grey;">Credit: "Earthrise", a photo taken by Apollo 8 astronaut William Anders in the first crewed voyage around the Moon.</p></center>
 
-<p style="margin-top: 2em;">Just before Christmas, I was joking with a friend and we talked about the "cosmic perspective", namely about the futility of war and human suffering as seen from the universe&mdash;if it had a face. Our exchange went something like this:</p>
+<p style="margin-top: 2em;">Just before Christmas, I was talking with a friend about the "cosmic perspective", namely about the futility of war and human suffering as seen from the universe&mdash;if it had a face. Our exchange went something like this:</p>
 
 <p style="margin: 1.5em;">Me: “Can you imagine what people must seem like if there were beings as big as black holes? We don't even know where the planet is traveling to, like it's destination in space.”</p>
 
