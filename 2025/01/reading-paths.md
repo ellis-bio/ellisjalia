@@ -24,7 +24,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths"><b>Reading Paths</b></a></p>
 <p style="font-size:0.95rem; color: silver">Friday, January 10, 2025</p>
 
 <p>For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschläger; and Critique of Pure Reason by Immanuel Kant.</p>
