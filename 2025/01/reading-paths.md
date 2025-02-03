@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /2025/01/10/reading-paths/
 ---
 <center>
 <hr width="100%" size="3">
@@ -43,45 +44,3 @@ a:hover {
 <p style="margin: 1.5em;">"The goal of education is not to increase the amount of knowledge but to create the possibilities for a child to invent and discover, to create men who are capable of doing new things."</p>
 
 <hr>
-
-<style>
-.pagination {
-  display: inline-block;
-}
-
-.pagination a {
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  margin: 0 3px;
-  border-radius: 5px;
-}
-
-.pagination a.active {
-  background-color: tomato;
-  color: black;
-  border: 1px solid tomato;
-  border-radius: 5px;
-}
-
-.pagination a:hover:not(.active) {background-color: tomato;}
-
-.pagination a:first-child {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.pagination a:last-child {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-</style>
-<body>
-
-<div class="pagination">
-  <a class="active" href="https://ellisjalia.com">1</a>
-  <a href="https://ellisjalia.com/page/2/">2</a>
-  <a href="https://ellisjalia.com/page/2/">&raquo;</a>
-</div>
