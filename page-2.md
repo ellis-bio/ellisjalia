@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: 
+permalink: /page/2/
 ---
 <center>
 <hr width="100%" size="3">
