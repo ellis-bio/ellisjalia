@@ -1,6 +1,6 @@
 ---
 layout: default
-permalinnk: /2025/01/10/reading-paths/
+permalink: /2025/01/10/reading-paths/
 ---
 <center>
 <hr width="100%" size="3">
