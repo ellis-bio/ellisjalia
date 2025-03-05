@@ -26,6 +26,8 @@ a:hover {
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/03/04/invention/"><b>Invention</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, March 4, 2025</p>
 
+<center><img src="/assets/images/invention-2.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+
 <p>One thing I’m interested in is finding new ways to combine my reading. In my previous post, I talked about reading paths. This is the idea that through reading, one can reason about things not by asking, “what happened?”, but “how could things be put together in new ways?”.</p>
 
 <p>It’s also a Platonic view: that the reading paths are a way of becoming, or making yourself over time, as a conditional on the path you choose to take.</p>
