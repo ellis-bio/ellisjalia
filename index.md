@@ -44,6 +44,21 @@ a:hover {
 
 <hr>
 
+<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/24/atlas/"><b>Atlas</b></a></p>
+<p style="font-size:0.95em; color: silver">Friday, January 24, 2025</p>
+
+<center><img src="/assets/images/atlas-1.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
+
+<p style="font-size:1.10em;">My favourite ancient myth is the trio of Atlas (meaning ‘uphold’), and his brothers Epimetheus (‘afterthought’) and Prometheus (‘forethought’). The latter two are supposed to represent the duality of mankind. </p>
+
+<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the sky for eternity. 
+</p>
+
+<p style="font-size:1.10em;">Whereas Epimetheus was tasked with dividing the divine powers amongst the animals, but he forgot about mankind, who were left without a ‘telos’ or ultimate object or aim. Prometheus then had the forethought to steal the fire from the gods to give to humans, endowing us with knowledge, technology and civilisation.
+</p>
+
+<hr>
+
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
 <p style="font-size:0.95rem; color: silver">Friday, January 10, 2025</p>
 
