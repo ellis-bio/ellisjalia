@@ -28,7 +28,7 @@ a:hover {
 
 <center><img src="/assets/images/invention-2.jpeg" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>One thing I’m interested in is finding new ways to combine my reading. In my previous post, I talked about reading paths. This is the idea that through reading, one can reason about things not by asking, “what happened?”, but “how could things be put together in new ways?”.</p>
+<p>One thing I’m interested in is finding new ways to combine my reading. In one of my previous posts, I talked about reading paths. This is the idea that through reading, one can reason about things not by asking, “what happened?”, but “how could things be put together in new ways?”.</p>
 
 <p>It’s also a Platonic view: that the reading paths are a way of becoming, or making yourself over time, as a conditional on the path you choose to take.</p>
 
