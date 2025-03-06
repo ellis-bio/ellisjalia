@@ -31,7 +31,7 @@ a:hover {
 
 <p style="font-size:1.10em;">My favourite ancient myth is the trio of Atlas (meaning ‘uphold’), and his brothers Epimetheus (‘afterthought’) and Prometheus (‘forethought’). The latter two are supposed to represent the duality of mankind. </p>
 
-<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the sky for eternity. 
+<p style="font-size:1.10em;">Following the mythological battle between the Titans and the Olympians, Atlas was condemned to uphold the celestial spheres for eternity. 
 </p>
 
 <p style="font-size:1.10em;">Whereas Epimetheus was tasked with dividing the divine powers amongst the animals, but he forgot about mankind, who were left without a ‘telos’ or ultimate object or aim. Prometheus then had the forethought to steal the fire from the gods to give to humans, endowing us with knowledge, technology and civilisation.
