@@ -42,7 +42,7 @@ a:hover {
 
 <p>What I have said so far is neither original nor out of the extraordinary - because this knowledge goes back one hundred years to the great founding psychologists, and to the Ancient Greeks before that. So what, then, is the point that I’m making? It’s simply this: the unconscious can be as powerful in guiding you towards the right path as any information received externally.</p>
 
-<p>But let me urge that you take great caution - the unconscious is truly a heavy burden to carry, and it has broken me more times than I care to admit. It is fortunate that I have discovered ways of stitching the psyche back together again. So take great care should you go diving into that vast lake where monsters, gods, and kings - the archetypes - pull the strings behind Man’s emotions and behaviours. Journey into yourself, if you haven’t already done so. For I assure you my friend, reader, the treasure that you seek is within you.</p>
+<p>But let me urge that you take great caution - the unconscious is truly a heavy burden to carry, and it has broken me more times than I care to admit. It is fortunate that I have discovered ways of stitching the psyche back together again. So take great care should you go diving into that vast lake where monsters, gods, and kings - the archetypes - pull the strings behind Man’s emotions and behaviours. Journey into yourself, if you haven’t already done so. For I assure you my dear friend, reader, the treasure that you seek is within you.</p>
 
 <p>Further reading:</p>
 
