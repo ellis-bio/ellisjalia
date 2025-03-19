@@ -27,8 +27,6 @@ a:hover {
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/03/18/journey-into-the-unconscious/"><b>Journey into the Unconscious</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, March 18, 2025</p>
 
-<p style="margin-top: 2em;">"One, two, three, — but where, my dear Timaeus, is the fourth...?" - Plato</p>
-
 <p>Recently, I’ve experimented with active imagination, a technique made famous by the psychiatrist Carl Jung. The aim of the method is to draw up images from the unconscious, as a means of providing the self with information about its state and condition, and as a means of arriving to the true nature of the self.</p>
 
 <p>It begins with actively imagining a state of affairs, or closing your eyes and drawing images, and the idea is that naturally a bridge will be built between the “empirical self” - what one actively perceives and thinks - and the total self, which includes the contents of the unconscious.</p>
