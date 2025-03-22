@@ -23,17 +23,6 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/03/22/ascenscion/"><b>Ascenscion</b></a></p>
-<p style="font-size:0.95rem; color: silver">Saturday, March 22, 2025</p>
-
-<p>Earth! This land, this life, and this light! Now that you have seen the condition of man’s existence––darkness and the light––live this life completely. Let your will carry you forward, and let it live through you, within the river of time which rushes into that great unknown. For as the stream of life moves through you, renewing itself every second, so too you determine your stance.<p> 
-
-<p>For do you not see the aspects of the gods, surrounded by them in their protection, their aspects which you can adorn, to do life justice? Yes, for me and my soul have at last been united. She walks by my side, with the wish that I make myself into him which I wish to become, him that she loves. Man of knowledge! Balance your gaze.</p>
-
-<p>Great Mother! How I turn to you for love and nourishment. Protect me in my time of need through the lands of this great world. Help me keep my soul. For I have been naive to think that I know much, when I know little. I humble myself before this Universe. Guide me with your infinite wisdom. So that I might lead a good life, and be a man who walks between the darkness and the light.</p>
-
-<hr>
-
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/03/18/journey-into-the-unconscious/"><b>Journey into the Unconscious</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, March 18, 2025</p>
 
