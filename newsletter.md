@@ -70,7 +70,7 @@ layout: page
 
 <div class="form-container">
   <h2>If you enjoy my blog, you'll love the membership experience.<h2>
-  <p class="subtext">£19 per month. Cancel anytime.</p>
+  <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
   <form id="login-form">
     <input type="email" id="email" placeholder="Email" required>
