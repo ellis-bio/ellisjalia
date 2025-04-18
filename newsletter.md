@@ -77,7 +77,6 @@ layout: page
     <input type="password" id="password" placeholder="Password" required>
     <button type="submit">Log In or Sign Up</button>
   </form>
-</div>
 
 <script>
   document.getElementById("login-form").addEventListener("submit", async (e) => {
