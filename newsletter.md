@@ -14,12 +14,33 @@ layout: page
   </center>
 
 <style>
+  .form-container {
+    background-color:rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 380px;
+    margin: 60px auto;
+    text-align: center;
+  }
+
+  .form-container h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .form-container p.subtext {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+
   #login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
-    margin: 50px auto;
     gap: 15px;
   }
 
@@ -37,33 +58,49 @@ layout: page
     border: none;
     background-color: black;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
 
-  #login-form button:hover {
+  #login-form button:hover {background-color: #FEF9E7;
     background-color: tomato;
   }
 </style>
 
-<form id="login-form">
-  <input type="email" id="email" placeholder="Email" required>
-  <input type="password" id="password" placeholder="Password" required>
-  <button type="submit">Log In</button>
-</form>
+<div class="form-container">
+  <h2>If you enjoy my blog, you'll love the membership experience.<h2>
+  <p class="subtext">It's £19 per month. Cancel anytime.</p>
+
+  <form id="login-form">
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Log In or Sign Up</button>
+  </form>
+</div>
 
 <script>
   document.getElementById("login-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const email = document.getElementById("email").value;
     const pass = document.getElementById("password").value;
+
     try {
       await firebase.auth().signInWithEmailAndPassword(email, pass);
       alert("Logged in!");
       window.location.href = "/premium.html";
     } catch (err) {
-      alert("Error: " + err.message);
+      if (err.code === 'auth/user-not-found') {
+        try {
+          await firebase.auth().createUserWithEmailAndPassword(email, pass);
+          alert("Signed up and logged in!");
+          window.location.href = "/premium.html";
+        } catch (signupErr) {
+          alert("Sign-up error: " + signupErr.message);
+        }
+      } else {
+        alert("Error: " + err.message);
+      }
     }
   });
 </script>
