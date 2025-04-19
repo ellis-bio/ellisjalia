@@ -22,7 +22,19 @@ layout: page
     margin: 60px auto;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
 
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust this height as needed */
+    margin-bottom: 16px;
+  }
+
+  .form-container img.shape {
+    width: 80px;
+    display: inline-block;
   }
 
   .form-container h2 {
@@ -37,12 +49,6 @@ layout: page
     color: #555;
     margin-bottom: 20px;
     font-weight: normal;
-  }
-
-  .form-container img.shape {
-    width: 80px;
-    margin-bottom: 20px;
-    display: inline-block;
   }
 
   #login-form {
@@ -77,7 +83,9 @@ layout: page
 </style>
 
 <div class="form-container">
-  <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
+  <div class="image-wrapper">
+    <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
+  </div>
   <h2>If you enjoy my blog, you'll love the membership experience.</h2>
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
