@@ -37,6 +37,12 @@ layout: page
     font-weight: normal;
   }
 
+  .form-container img.shape {
+    width: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
   #login-form {
     display: flex;
     flex-direction: column;
@@ -63,43 +69,47 @@ layout: page
     transition: background-color 0.3s ease;
   }
 
-  #login-form button:hover {background-color: #FEF9E7;
+  #login-form button:hover {
     background-color: tomato;
   }
 </style>
 
 <div class="form-container">
-  <h2>If you enjoy my blog, you'll love the membership experience.<h2>
+  <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
+  <h2>If you enjoy my blog, you'll love the membership experience.</h2>
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
   <form id="login-form">
-    <input type="email" id="email" placeholder="Email" required="" />
-    <input type="password" id="password" placeholder="Password" required="" />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
     <button type="submit">Log In or Sign Up</button>
   </form>
 
-<script>
-  document.getElementById("login-form").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const pass = document.getElementById("password").value;
+  <script>
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      const pass = document.getElementById("password").value;
 
-    try {
-      await firebase.auth().signInWithEmailAndPassword(email, pass);
-      alert("Logged in!");
-      window.location.href = "/premium.html";
-    } catch (err) {
-      if (err.code === 'auth/user-not-found') {
-        try {
-          await firebase.auth().createUserWithEmailAndPassword(email, pass);
-          alert("Signed up and logged in!");
-          window.location.href = "/premium.html";
-        } catch (signupErr) {
-          alert("Sign-up error: " + signupErr.message);
+      try {
+        await firebase.auth().signInWithEmailAndPassword(email, pass);
+        alert("Logged in!");
+        window.location.href = "/premium.html";
+      } catch (err) {
+        if (err.code === 'auth/user-not-found') {
+          try {
+            await firebase.auth().createUserWithEmailAndPassword(email, pass);
+            alert("Signed up and logged in!");
+            window.location.href = "/premium.html";
+          } catch (signupErr) {
+            alert("Sign-up error: " + signupErr.message);
+          }
+        } else {
+          alert("Error: " + err.message);
         }
-      } else {
-        alert("Error: " + err.message);
       }
-    }
-  });
-</script>
+    });
+  </script>
+</div>
+
+<center><p style="margin-top:-2.5em; color: blue">Sign ups are currently restricted due to a server-side issue. Please check back later for more information.</p></center>
