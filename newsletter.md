@@ -56,7 +56,7 @@ layout: page
     padding: 14px 24px;
     border-radius: 10px;
     border: none;
-    background-color: tomato;
+    background-color: black;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -64,7 +64,7 @@ layout: page
   }
 
   #login-form button:hover {background-color: #FEF9E7;
-    background-color: #CD5C5C;
+    background-color: tomato;
   }
 </style>
 
