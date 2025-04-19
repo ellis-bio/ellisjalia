@@ -15,7 +15,7 @@ layout: page
 
 <style>
   .form-container {
-    background-color:rgb(255, 255, 255);
+    background-color: #F4F6F6;
     padding: 30px;
     border-radius: 16px;
     max-width: 380px;
@@ -56,7 +56,7 @@ layout: page
     padding: 14px 24px;
     border-radius: 10px;
     border: none;
-    background-color: black;
+    background-color: tomato;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -64,7 +64,7 @@ layout: page
   }
 
   #login-form button:hover {background-color: #FEF9E7;
-    background-color: tomato;
+    background-color: #CD5C5C;
   }
 </style>
 
@@ -73,8 +73,8 @@ layout: page
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
   <form id="login-form">
-    <input type="email" id="email" placeholder="Email" required>
-    <input type="password" id="password" placeholder="Password" required>
+    <input type="email" id="email" placeholder="Email" required="" />
+    <input type="password" id="password" placeholder="Password" required="" />
     <button type="submit">Log In or Sign Up</button>
   </form>
 
