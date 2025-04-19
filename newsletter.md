@@ -21,6 +21,8 @@ layout: page
     max-width: 380px;
     margin: 60px auto;
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
   }
 
   .form-container h2 {
