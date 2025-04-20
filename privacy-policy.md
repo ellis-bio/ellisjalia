@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /privacy-policy/
 ---
 <center>
 <hr width="100%" size="3">
@@ -14,32 +13,13 @@ permalink: /privacy-policy/
   <hr width="100%" size="3">
   </center>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 800px; }
-    h1, h2 { color: #333; }
-    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background-color: #f4f4f4; }
-    ul, ol { margin-left: 20px; }
-    a { color: #1a0dab; }
-    hr { margin: 40px 0; }
-  </style>
-</head>
-<body>
-
 <h1>Privacy Policy</h1>
 <p><em>Last updated: Thursday, April 17, 2025</em></p>
 
 <h2>1. Who we are</h2>
 <p><strong>Palinode Limited</strong> (trading as 'ellisjalia.com'), referred to as ("<strong>we</strong>", "<strong>us</strong>", "<strong>our</strong>"), is incorporated in the United Kingdom with its registered office at PO BOX 9 Golden Lion Court, London, N9 0TY, United Kingdom. We act as the <strong>Data Controller</strong> for the personal data described in this policy.</p>
 <ul>
-  <li><strong>Email:</strong> info@ellisjalia.com</li>
+<li><strong>Email:</strong> info@ellisjalia.com</li>
 </ul>
 <hr>
 
