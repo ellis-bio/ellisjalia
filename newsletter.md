@@ -122,6 +122,6 @@ layout: page
   </script>
 </div>
 
-<center><p style="margin-top:-4em; font-size:0.8em; color: grey; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;">By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/">Privacy Policy.</a></p></center>
+<center><p style="margin-top:-4em; font-size:0.8em">By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/">Privacy Policy.</a></p></center>
 
 <center><p style="margin-top:0em; color: blue">Sign ups are currently restricted due to a server-side issue. Please check back later for more information.</p></center>
