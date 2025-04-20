@@ -20,10 +20,10 @@ permalink: /test-page-wrxm/
   <meta charset="UTF-8">
   <title>Interactive Headings with PNG Icons</title>
 </head>
-<body style="text-align:left !important;">
+<body style="text-align:left!important;">
 
   <!-- Main heading, flush left with space below -->
-  <h2 style="margin-bottom:1em; text-align:left !important;">
+  <h2 style="margin-bottom:1em; text-align:center!important;">
     Why become a paid member?
   </h2>
 
@@ -31,12 +31,13 @@ permalink: /test-page-wrxm/
   <div
     data-content="section1"
     style="
-      display: flex !important;
-      justify-content: flex-start !important;
-      align-items: center !important;
-      text-align: left !important;
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
       cursor: pointer;
-      margin-top: 1em !important;
+      margin-top: 1em!important;
     "
   >
     <img
@@ -51,8 +52,11 @@ permalink: /test-page-wrxm/
       Human Knowledge and its Horizons
     </span>
   </div>
-  <div id="section1">
-    <p style="margin:0; text-align:left !important;">
+  <div
+    id="section1"
+    style="align-self:flex-start!important;"
+  >
+    <p style="margin:0; text-align:left!important;">
       You’ll get a scan of human knowledge like never before – in a way that promotes quality living, decision‑making, and insight. Knowledge and wisdom will be our advantage.
     </p>
   </div>
@@ -63,12 +67,13 @@ permalink: /test-page-wrxm/
   <div
     data-content="section2"
     style="
-      display: flex !important;
-      justify-content: flex-start !important;
-      align-items: center !important;
-      text-align: left !important;
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
       cursor: pointer;
-      margin-top: 1em !important;
+      margin-top: 1em!important;
     "
   >
     <img
@@ -83,8 +88,11 @@ permalink: /test-page-wrxm/
       High quality insight
     </span>
   </div>
-  <div id="section2" style="display:none;">
-    <p style="margin:0; text-align:left !important;">
+  <div
+    id="section2"
+    style="display:none; align-self:flex-start!important;"
+  >
+    <p style="margin:0; text-align:left!important;">
       This means deep, unique insight through weekly articles (and other goodies) in the fields of art, science, philosophy, and technology – amongst others, published right here. Here’s an example of the quality you can expect.
     </p>
   </div>
@@ -95,12 +103,13 @@ permalink: /test-page-wrxm/
   <div
     data-content="section3"
     style="
-      display: flex !important;
-      justify-content: flex-start !important;
-      align-items: center !important;
-      text-align: left !important;
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
       cursor: pointer;
-      margin-top: 1em !important;
+      margin-top: 1em!important;
     "
   >
     <img
@@ -115,8 +124,11 @@ permalink: /test-page-wrxm/
       Membership in a community
     </span>
   </div>
-  <div id="section3" style="display:none;">
-    <p style="margin:0; text-align:left !important;">
+  <div
+    id="section3"
+    style="display:none; align-self:flex-start!important;"
+  >
+    <p style="margin:0; text-align:left!important;">
       To learn from each other through a community dedicated to ideas, illustrations, techniques, tools, and everything else. Join us!
     </p>
   </div>
@@ -142,4 +154,3 @@ permalink: /test-page-wrxm/
 
 </body>
 </html>
-
