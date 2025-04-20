@@ -123,7 +123,7 @@ permalink: /privacy-policy/
 
 <h2>15. Complaints</h2>
 <p>If you have concerns about our use of personal data, please contact us first. You also have the right to lodge a complaint with the Information Commissioner’s Office:</p>
-<p>Information Commissioner’s Office<br>Wycliffe House, Water Lane, Wilmslow, SK9 5AF<br><a href=\"https://ico.org.uk\">ico.org.uk</a> / 0303 123 1113</p>
+<p>Information Commissioner’s Office<br>Wycliffe House, Water Lane, Wilmslow, SK9 5AF<br><a href="https://ico.org.uk">ico.org.uk</a> / 0303 123 1113</p>
 
 <h2>16. Changes to this policy</h2>
 <p>We may update this policy from time to time. The latest version will always be posted on this page and, where appropriate, notified to you by e‑mail or in‑app.</p>
