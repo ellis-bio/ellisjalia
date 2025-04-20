@@ -36,7 +36,7 @@ permalink: /test-page-wrxm/
   <!-- 2nd item -->
   <div data-content="section2"
        style="display:flex; align-items:center; cursor:pointer; margin-top:1em;">
-    <img src="assets/images/insight.png"
+    <img src="/assets/images/insight.png"
          alt="Insight Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
     <span class="tab-label"
