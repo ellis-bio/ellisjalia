@@ -14,14 +14,6 @@ permalink: /test-page-wrxm/
   <hr width="100%" size="3">
   </center>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Interactive Headings with PNG Icons</title>
-</head>
-<body>
-
   <!-- Centered H2 with space below -->
   <center>
     <h2 style="margin-bottom:1em;">Why become a paid member?</h2>
