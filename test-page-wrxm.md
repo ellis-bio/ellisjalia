@@ -14,62 +14,106 @@ permalink: /test-page-wrxm/
   <hr width="100%" size="3">
   </center>
 
-  <!-- Centered H2 with space below -->
-  <center>
-    <h2 style="margin-bottom:1em;">Why become a paid member?</h2>
-  </center>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Headings with PNG Icons</title>
+</head>
+<body style="text-align: left;">
+
+  <!-- Main heading, flush left with some space below -->
+  <h2 style="margin-bottom: 1em; text-align: center;">Why become a paid member?</h2>
 
   <!-- 1st item (shown by default) -->
-  <div data-content="section1"
-       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
-    <img src="/assets/images/drawing-compass.png"
-         alt="Knowledge Icon"
-         style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
-    <span class="tab-label"
-          style="font-weight:bold; color:#000; text-align:left; display:inline-block;">
+  <div
+    data-content="section1"
+    style="
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      cursor: pointer;
+      margin-top: 1em;
+    "
+  >
+    <img
+      src="/assets/images/drawing-compass.png"
+      alt="Knowledge Icon"
+      style="width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;"
+    >
+    <span
+      class="tab-label"
+      style="font-weight: bold; color: #000;"
+    >
       Human Knowledge and its Horizons
     </span>
   </div>
   <div id="section1">
-    <p>
+    <p style="text-align: left;">
       You’ll get a scan of human knowledge like never before – in a way that promotes quality living, decision‑making, and insight. Knowledge and wisdom will be our advantage.
     </p>
   </div>
 
-  <hr style="border:none; border-top:1px solid #666; margin:1em 0;">
+  <hr style="border: none; border-top: 1px solid #666; margin: 1em 0;">
 
   <!-- 2nd item -->
-  <div data-content="section2"
-       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
-    <img src="/assets/images/insight.png"
-         alt="Insight Icon"
-         style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
-    <span class="tab-label"
-          style="font-weight:bold; color:#666; text-align:left; display:inline-block;">
+  <div
+    data-content="section2"
+    style="
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      cursor: pointer;
+      margin-top: 1em;
+    "
+  >
+    <img
+      src="/assets/images/insight.png"
+      alt="Insight Icon"
+      style="width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;"
+    >
+    <span
+      class="tab-label"
+      style="font-weight: bold; color: #666;"
+    >
       High quality insight
     </span>
   </div>
-  <div id="section2" style="display:none;">
-    <p>
+  <div id="section2" style="display: none;">
+    <p style="text-align: left;">
       This means deep, unique insight through weekly articles (and other goodies) in the fields of art, science, philosophy, and technology – amongst others, published right here. Here’s an example of the quality you can expect.
     </p>
   </div>
 
-  <hr style="border:none; border-top:1px solid #666; margin:1em 0;">
+  <hr style="border: none; border-top: 1px solid #666; margin: 1em 0;">
 
   <!-- 3rd item -->
-  <div data-content="section3"
-       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
-    <img src="/assets/images/united.png"
-         alt="Community Icon"
-         style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
-    <span class="tab-label"
-          style="font-weight:bold; color:#666; text-align:left; display:inline-block;">
+  <div
+    data-content="section3"
+    style="
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      cursor: pointer;
+      margin-top: 1em;
+    "
+  >
+    <img
+      src="/assets/images/united.png"
+      alt="Community Icon"
+      style="width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;"
+    >
+    <span
+      class="tab-label"
+      style="font-weight: bold; color: #666;"
+    >
       Membership in a community
     </span>
   </div>
-  <div id="section3" style="display:none;">
-    <p>
+  <div id="section3" style="display: none;">
+    <p style="text-align: left;">
       To learn from each other through a community dedicated to ideas, illustrations, techniques, tools, and everything else. Join us!
     </p>
   </div>
@@ -77,19 +121,25 @@ permalink: /test-page-wrxm/
   <script>
     document.querySelectorAll('[data-content]').forEach(tab => {
       tab.addEventListener('click', () => {
-        // hide all panels
-        document.querySelectorAll('div[id^="section"]').forEach(sec => {
-          sec.style.display = 'none';
-        });
-        // show the clicked panel
-        document.getElementById(tab.dataset.content).style.display = 'block';
-        // reset all tab labels to grey
-        document.querySelectorAll('.tab-label').forEach(lbl => {
-          lbl.style.color = '#666';
-        });
-        // set clicked tab label to black
+        // Hide all panels
+        document
+          .querySelectorAll('div[id^="section"]')
+          .forEach(sec => sec.style.display = 'none');
+        // Show the clicked panel
+        document
+          .getElementById(tab.dataset.content)
+          .style.display = 'block';
+        // Reset all tab labels to grey
+        document
+          .querySelectorAll('.tab-label')
+          .forEach(lbl => lbl.style.color = '#666');
+        // Set clicked tab label to black
         tab.querySelector('.tab-label').style.color = '#000';
       });
     });
   </script>
+
+</body>
+</html>
+
 
