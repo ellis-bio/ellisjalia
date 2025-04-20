@@ -18,7 +18,7 @@ permalink: /test-page-wrxm/
 
   <!-- 1st item (shown by default) -->
   <div data-content="section1"
-       style="display:flex; align-items:center; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/drawing-compass.png"
          alt="Knowledge Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
@@ -35,7 +35,7 @@ permalink: /test-page-wrxm/
 
   <!-- 2nd item -->
   <div data-content="section2"
-       style="display:flex; align-items:center; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/insight.png"
          alt="Insight Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
@@ -52,7 +52,7 @@ permalink: /test-page-wrxm/
 
   <!-- 3rd item -->
   <div data-content="section3"
-       style="display:flex; align-items:center; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/united.png"
          alt="Placeholder Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
