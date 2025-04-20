@@ -121,3 +121,5 @@ layout: page
     });
   </script>
 </div>
+
+<center><p style="margin-top:-2.5em; color: blue">Sign ups are currently restricted due to a server-side issue. Please check back later for more information.</p></center>
