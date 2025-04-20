@@ -86,7 +86,7 @@ layout: page
   <div class="image-wrapper">
     <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
   </div>
-  <h2>If you enjoy my blog, you'll love the <u>membership experience.</u></h2>
+  <h2>If you enjoy my blog, you'll love the membership experience.</h2>
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
   <form id="login-form">
