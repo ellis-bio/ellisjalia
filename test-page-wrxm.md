@@ -101,5 +101,3 @@ permalink: /test-page-wrxm/
     });
   </script>
 
-</body>
-</html>
