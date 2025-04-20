@@ -210,5 +210,3 @@ permalink: /privacy-policy/
   <p style="font-size: 0.9em;"><em>Last updated: Thursday, April 17, 2025</em></p>
 
 </body>
-
-
