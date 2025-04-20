@@ -16,14 +16,6 @@ permalink: /test-page-wrxm/
 
   <center><h2>Why become a paid member?</h2></center>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Interactive Headings with PNG Icons</title>
-</head>
-<body>
-
   <!-- 1st item (shown by default) -->
   <div data-content="section1"
        style="display:flex; align-items:center; cursor:pointer; margin-top:1em;">
