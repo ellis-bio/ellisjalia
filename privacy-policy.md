@@ -14,8 +14,6 @@ permalink: /privacy-policy/
   <hr width="100%" size="3">
   </center>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Privacy Policy</title>
