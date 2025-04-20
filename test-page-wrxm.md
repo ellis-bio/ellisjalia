@@ -14,16 +14,29 @@ permalink: /test-page-wrxm/
   <hr width="100%" size="3">
   </center>
 
-  <center><h2>Why become a paid member?</h2></center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Headings with PNG Icons</title>
+</head>
+<body>
+
+  <!-- Centered H2 with space below -->
+  <center>
+    <h2 style="margin-bottom:1em;">Why become a paid member?</h2>
+  </center>
 
   <!-- 1st item (shown by default) -->
   <div data-content="section1"
-       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/drawing-compass.png"
          alt="Knowledge Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
     <span class="tab-label"
-          style="font-weight:bold; color:#000;">Human Knowledge and its Horizons</span>
+          style="font-weight:bold; color:#000; text-align:left; display:inline-block;">
+      Human Knowledge and its Horizons
+    </span>
   </div>
   <div id="section1">
     <p>
@@ -35,12 +48,14 @@ permalink: /test-page-wrxm/
 
   <!-- 2nd item -->
   <div data-content="section2"
-       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/insight.png"
          alt="Insight Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
     <span class="tab-label"
-          style="font-weight:bold; color:#666;">High quality insight</span>
+          style="font-weight:bold; color:#666; text-align:left; display:inline-block;">
+      High quality insight
+    </span>
   </div>
   <div id="section2" style="display:none;">
     <p>
@@ -52,12 +67,14 @@ permalink: /test-page-wrxm/
 
   <!-- 3rd item -->
   <div data-content="section3"
-       style="display:flex; align-items:left; cursor:pointer; margin-top:1em;">
+       style="display:flex; align-items:center; justify-content:flex-start; cursor:pointer; margin-top:1em;">
     <img src="/assets/images/united.png"
-         alt="Placeholder Icon"
+         alt="Community Icon"
          style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;">
     <span class="tab-label"
-          style="font-weight:bold; color:#666;">Membership in a community</span>
+          style="font-weight:bold; color:#666; text-align:left; display:inline-block;">
+      Membership in a community
+    </span>
   </div>
   <div id="section3" style="display:none;">
     <p>
