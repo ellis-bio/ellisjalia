@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink:/test-page-wrxm/
 ---
   <!-- Main heading, flush left with space below -->
   <h2 style="margin-bottom:1em; text-align:center!important;">
