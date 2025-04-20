@@ -1,13 +1,6 @@
 ---
 layout: page
 ---
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Interactive Headings with PNG Icons</title>
-</head>
-<body style="text-align:left!important;">
-
   <!-- Main heading, flush left with space below -->
   <h2 style="margin-bottom:1em; text-align:center!important;">
     Why become a paid member?
@@ -98,16 +91,3 @@ layout: page
       });
     });
   </script>
-
-</body>
-</html>
-
-  </div>
-<div id="footer">
-<center>
-<small></small>
-</center>
-</div>
-
-</body>
-</html>
