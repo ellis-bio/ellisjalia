@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink:/test-page-wrxm/
+permalink: /test-page-wrxm/
 ---
 <center>
 <hr width="100%" size="3">
