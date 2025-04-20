@@ -13,7 +13,15 @@ permalink: /privacy-policy/
  </div>
   <hr width="100%" size="3">
   </center>
-  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy</title>
+</head>
+<body style="font-family: Arial, sans-serif; font-size: 1em; line-height: 1.6;">
+
   <h1 style="font-size: 1em; margin-top: 1.5em;">Privacy Policy</h1>
   <p><em>Last updated: Thursday, April 17, 2025</em></p>
 
