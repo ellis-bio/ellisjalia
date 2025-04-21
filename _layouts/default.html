@@ -6,54 +6,14 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="css/main.css">
-{% include head.html %}
-<link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<!-- If stored in /assets -->
-<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-
-<!-- OR if stored in root -->
-<!-- <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon"> -->
-
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 </head>
 <body>
   <div class="container">
     {{ content }}
   </div>
-
-<!-- Firebase SDKs -->
-
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
-<script src="https://js.stripe.com/v3/"></script>
-
-<script>
-const functions = firebase.app().functions("europe-west2");
-const createCheckout = functions.httpsCallable("createCheckoutSession");
-
-createCheckout().then((result) => {
-  return stripe.redirectToCheckout({ sessionId: result.data.sessionId });
-});
-</script>
-
-<!-- Firebase config & init -->
-<script>
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
-    authDomain: "ellisjalia-db.firebaseapp.com",
-    projectId: "ellisjalia-db",
-    storageBucket: "ellisjalia-db.firebasestorage.app",
-    messagingSenderId: "269108432993",
-    appId: "1:269108432993:web:93262054eb937faf789a20",
-    measurementId: "G-NYXXY0PL56"
-  };
-
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 </body>
 </html>
