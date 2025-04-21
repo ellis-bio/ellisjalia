@@ -128,6 +128,7 @@ layout: page
   };
 
   firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth(); // ✅ added line
   const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
 
   const loginForm = document.getElementById("login-form");
@@ -152,18 +153,18 @@ layout: page
     }
   });
 
+console.log("Login form script loaded");
+
 document.getElementById("login-form").addEventListener("submit", async (e) => {
-  e.preventDefault(); // ✅ this prevents the form from refreshing the page
+  e.preventDefault();
   const email = document.getElementById("email").value;
   const pass = document.getElementById("password").value;
 
   try {
-    await firebase.auth().signInWithEmailAndPassword(email, pass);
-    // show paywall / redirect / whatever
+    await auth.signInWithEmailAndPassword(email, pass); // ✅ using `auth`
   } catch (err) {
     if (err.code === 'auth/user-not-found') {
-      await firebase.auth().createUserWithEmailAndPassword(email, pass);
-      // show paywall / redirect
+      await auth.createUserWithEmailAndPassword(email, pass); // ✅ using `auth`
     } else {
       alert("Login error: " + err.message);
     }
