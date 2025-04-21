@@ -111,14 +111,14 @@ layout: page
   </div>
 </div>
 
-<!-- Firebase & Stripe SDKs (Compat Version) -->
+<!-- Firebase (Compat version) -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- Paywall Logic -->
+<!-- Your Login + Paywall Logic -->
 <script>
   const firebaseConfig = {
     apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
@@ -169,7 +169,7 @@ layout: page
           email: user.email,
           status: "unpaid"
         });
-        console.log("Signed up and added to Firestore");
+        console.log("User signed up and added to Firestore");
       } else {
         alert("Login error: " + err.message);
       }
