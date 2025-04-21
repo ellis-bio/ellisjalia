@@ -59,22 +59,16 @@ layout: page
     gap: 15px;
   }
 
-  /* make inputs & button full‑width and boxed */
-  #login-form input,
-  #login-form button {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
   #login-form input {
     padding: 12px 16px;
     border-radius: 8px;
     border: 1px solid #ccc;
+    width: 100%;
     font-size: 16px;
   }
 
   #login-form button {
-    padding: 14px 0;
+    padding: 14px 24px;
     border-radius: 10px;
     border: none;
     background-color: black;
@@ -82,8 +76,6 @@ layout: page
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: center;
-    margin-top: 8px;
   }
 
   #login-form button:hover {
@@ -119,15 +111,15 @@ layout: page
   </div>
 </div>
 
-<!-- Firebase (Compat Version) -->
+<!-- Firebase & Stripe SDKs (Compat Version) -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
 <script src="https://js.stripe.com/v3/"></script>
 
+<!-- Paywall Logic -->
 <script>
-  // ✅ Define config BEFORE using it
   const firebaseConfig = {
     apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
     authDomain: "ellisjalia-db.firebaseapp.com",
@@ -135,7 +127,6 @@ layout: page
     appId: "1:269108432993:web:93262054eb937faf789a20"
   };
 
-  // ✅ Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
   const db = firebase.firestore();
@@ -162,44 +153,28 @@ layout: page
     }
   });
 
-loginForm.addEventListener("submit", async (e) => {
-  e.preventDefault();
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    const pass = document.getElementById("password").value;
 
-  const email = document.getElementById("email").value.trim();
-  const pass = document.getElementById("password").value;
-
-  console.log("🔍 Attempting sign in with:");
-  console.log("Email:", email);
-  console.log("Password:", pass ? "(entered)" : "(empty)");
-
-  try {
-    const userCred = await auth.signInWithEmailAndPassword(email, pass);
-    console.log("✅ Logged in:", userCred.user.uid);
-  } catch (err) {
-    console.warn("⚠️ Firebase login error:", err.code, err.message);
-
-    if (err.code === 'auth/user-not-found') {
-      try {
-        const newUser = await auth.createUserWithEmailAndPassword(email, pass);
-        const user = newUser.user;
-
-        console.log("🆕 Created user:", user.uid);
-
+    try {
+      await auth.signInWithEmailAndPassword(email, pass);
+      console.log("Logged in");
+    } catch (err) {
+      if (err.code === 'auth/user-not-found') {
+        await auth.createUserWithEmailAndPassword(email, pass);
+        const user = auth.currentUser;
         await db.collection("users").doc(user.uid).set({
           email: user.email,
           status: "unpaid"
         });
-
-        console.log("📦 Added to Firestore");
-      } catch (signupErr) {
-        console.error("❌ Signup failed:", signupErr.code, signupErr.message);
-        alert("Signup error: " + signupErr.message);
+        console.log("Signed up and added to Firestore");
+      } else {
+        alert("Login error: " + err.message);
       }
-    } else {
-      alert("Login error: " + err.message);
     }
-  }
-});
+  });
 
   subscribeButton.addEventListener("click", async () => {
     try {
