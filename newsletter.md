@@ -201,5 +201,4 @@ firebase.auth().onAuthStateChanged(async (user) => {
 
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
 </p>
-
 <center><p style="margin-top:0em; color: blue">Sign ups are currently restricted due to a server-side issue. Please check back later for more information.</p></center>
