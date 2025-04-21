@@ -114,6 +114,7 @@ layout: page
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
 <script src="https://js.stripe.com/v3/"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js"></script>
 
 <script>
   const firebaseConfig = {
