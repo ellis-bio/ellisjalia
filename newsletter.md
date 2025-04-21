@@ -152,21 +152,23 @@ layout: page
     }
   });
 
-  loginForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const pass = document.getElementById("password").value;
+document.getElementById("login-form").addEventListener("submit", async (e) => {
+  e.preventDefault(); // ✅ this prevents the form from refreshing the page
+  const email = document.getElementById("email").value;
+  const pass = document.getElementById("password").value;
 
-    try {
-      await firebase.auth().signInWithEmailAndPassword(email, pass);
-    } catch (err) {
-      if (err.code === 'auth/user-not-found') {
-        await firebase.auth().createUserWithEmailAndPassword(email, pass);
-      } else {
-        alert("Login error: " + err.message);
-      }
+  try {
+    await firebase.auth().signInWithEmailAndPassword(email, pass);
+    // show paywall / redirect / whatever
+  } catch (err) {
+    if (err.code === 'auth/user-not-found') {
+      await firebase.auth().createUserWithEmailAndPassword(email, pass);
+      // show paywall / redirect
+    } else {
+      alert("Login error: " + err.message);
     }
-  });
+  }
+});
 
   subscribeButton.addEventListener("click", async () => {
     try {
