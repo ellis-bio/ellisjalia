@@ -67,7 +67,7 @@ permalink: /test-page-wrxm/
     <div id="section1" class="tab-content active">
       <p>
         You’ll get a scan of human knowledge like never before – in a way that promotes quality
-        living, decision‑making, and insight. Knowledge and wisdom will be our advantage.
+        living, decision‑making, and insight. 
       </p>
     </div>
     <hr>
