@@ -128,7 +128,7 @@ layout: page
   };
 
   firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth(); // ✅ added line
+  const auth = firebase.auth(); 
   const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
 
   const loginForm = document.getElementById("login-form");
@@ -162,7 +162,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
 
   try {
     await firebase.auth().signInWithEmailAndPassword(email, pass);
-    // show paywall / redirect / whatever
+    // show paywall / redirect 
   } catch (err) {
     if (err.code === 'auth/user-not-found') {
       await firebase.auth().createUserWithEmailAndPassword(email, pass);
@@ -197,7 +197,6 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
   }
 </script>
 
-<!-- Footer & Notice -->
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">
   By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
 </p>
