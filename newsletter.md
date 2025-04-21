@@ -154,28 +154,44 @@ layout: page
     }
   });
 
-  loginForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const pass = document.getElementById("password").value;
+loginForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
 
-    try {
-      await auth.signInWithEmailAndPassword(email, pass);
-      console.log("✅ Logged in");
-    } catch (err) {
-      if (err.code === 'auth/user-not-found') {
-        await auth.createUserWithEmailAndPassword(email, pass);
-        const user = auth.currentUser;
+  const email = document.getElementById("email").value.trim();
+  const pass = document.getElementById("password").value;
+
+  console.log("🔍 Attempting sign in with:");
+  console.log("Email:", email);
+  console.log("Password:", pass ? "(entered)" : "(empty)");
+
+  try {
+    const userCred = await auth.signInWithEmailAndPassword(email, pass);
+    console.log("✅ Logged in:", userCred.user.uid);
+  } catch (err) {
+    console.warn("⚠️ Firebase login error:", err.code, err.message);
+
+    if (err.code === 'auth/user-not-found') {
+      try {
+        const newUser = await auth.createUserWithEmailAndPassword(email, pass);
+        const user = newUser.user;
+
+        console.log("🆕 Created user:", user.uid);
+
         await db.collection("users").doc(user.uid).set({
           email: user.email,
           status: "unpaid"
         });
-        console.log("✅ User signed up and added to Firestore");
-      } else {
-        alert("Login error: " + err.message);
+
+        console.log("📦 Added to Firestore");
+      } catch (signupErr) {
+        console.error("❌ Signup failed:", signupErr.code, signupErr.message);
+        alert("Signup error: " + signupErr.message);
       }
+    } else {
+      alert("Login error: " + err.message);
     }
-  });
+  }
+});
 
   subscribeButton.addEventListener("click", async () => {
     try {
