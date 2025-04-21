@@ -2,119 +2,93 @@
 layout: page
 permalink: /test-page-wrxm/
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tabbed Content Interface</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    .tabs {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .tab-list {
-      display: flex;
-      border-bottom: 2px solid #ccc;
-    }
-    .tab {
-      display: flex;
-      align-items: center;
-      padding: 10px 15px;
+  <!-- Main heading, flush left with space below -->
+  <h2 style="margin-bottom:1em; text-align:center!important;">
+    Why become a paid member?
+  </h2>
+
+  <!-- 1st item (shown by default) -->
+  <div data-content="section1" style="
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
       cursor: pointer;
-      border: none;
-      background: none;
-      outline: none;
-      transition: background-color 0.3s;
-    }
-    .tab img {
-      width: 40px;
-      height: 40px;
-      object-fit: cover;
-      border-radius: 4px;
-      margin-right: 10px;
-    }
-    .tab.active {
-      border-bottom: 3px solid #007acc;
-      background-color: #fff;
-    }
-    .tab:not(.active):hover {
-      background-color: #eee;
-    }
-    .tab-content {
-      display: none;
-      padding: 20px;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-top: none;
-    }
-    .tab-content.active {
-      display: block;
-    }
-  </style>
-</head>
-<body>
-  <div class="tabs">
-    <div class="tab-list">
-      <button class="tab active" data-tab-target="#knowledge">
-        <img src="knowledge.jpg" alt="Human Knowledge" />
-        <span>Human Knowledge and its Horizons</span>
-      </button>
-      <button class="tab" data-tab-target="#insight">
-        <img src="insight.jpg" alt="High Quality Insight" />
-        <span>High quality insight</span>
-      </button>
-      <button class="tab" data-tab-target="#community">
-        <img src="community.jpg" alt="Community Membership" />
-        <span>Membership in a community</span>
-      </button>
-    </div>
+      margin-top: 1em!important;
+    ">
+    <img src="/assets/images/drawing-compass.png" alt="Knowledge Icon" style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;" />
+    <span class="tab-label" style="font-weight:bold; color:#000;">
+      Human Knowledge and its Horizons
+    </span>
+  </div>
+  <div id="section1" style="align-self:flex-start!important;">
+    <p style="margin:0; text-align:left!important;">
+      You’ll get a scan of human knowledge like never before – in a way that promotes quality living, decision‑making, and insight. Knowledge and wisdom will be our advantage.
+    </p>
+  </div>
 
-    <div id="knowledge" class="tab-content active">
-      <p>
-        You’ll get a scan of human knowledge like never before - in a way that promotes quality living,
-        decision-making, and insight. Knowledge and wisdom will be our advantage.
-      </p>
-    </div>
+  <hr style="border:none; border-top:1px solid #666; margin:1em 0;" />
 
-    <div id="insight" class="tab-content">
-      <p>
-        This means deep, unique insight through weekly articles (and other goodies) in the fields of art,
-        science, philosophy, and technology – amongst others, published right here.
-      </p>
-      <p>Here’s an example of the quality you can expect.</p>
-    </div>
+  <!-- 2nd item -->
+  <div data-content="section2" style="
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
+      cursor: pointer;
+      margin-top: 1em!important;
+    ">
+    <img src="/assets/images/insight.png" alt="Insight Icon" style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;" />
+    <span class="tab-label" style="font-weight:bold; color:#666;">
+      High quality insight
+    </span>
+  </div>
+  <div id="section2" style="display:none; align-self:flex-start!important;">
+    <p style="margin:0; text-align:left!important;">
+      This means deep, unique insight through weekly articles (and other goodies) in the fields of art, science, philosophy, and technology – amongst others, published right here. Here’s an example of the quality you can expect.
+    </p>
+  </div>
 
-    <div id="community" class="tab-content">
-      <p>
-        To learn from each other through a community dedicated to ideas, illustrations, techniques,
-        tools, and everything else. Join us!
-      </p>
-    </div>
+  <hr style="border:none; border-top:1px solid #666; margin:1em 0;" />
+
+  <!-- 3rd item -->
+  <div data-content="section3" style="
+      display: flex!important;
+      justify-content: flex-start!important;
+      align-items: center!important;
+      align-self: flex-start!important;
+      text-align: left!important;
+      cursor: pointer;
+      margin-top: 1em!important;
+    ">
+    <img src="/assets/images/united.png" alt="Community Icon" style="width:1.5em; height:1.5em; margin-right:0.5em; vertical-align:middle;" />
+    <span class="tab-label" style="font-weight:bold; color:#666;">
+      Membership in a community
+    </span>
+  </div>
+  <div id="section3" style="display:none; align-self:flex-start!important;">
+    <p style="margin:0; text-align:left!important;">
+      To learn from each other through a community dedicated to ideas, illustrations, techniques, tools, and everything else. Join us!
+    </p>
   </div>
 
   <script>
-    const tabs = document.querySelectorAll('.tab');
-    const contents = document.querySelectorAll('.tab-content');
-
-    tabs.forEach(tab => {
+    document.querySelectorAll('[data-content]').forEach(tab => {
       tab.addEventListener('click', () => {
-        const target = document.querySelector(tab.dataset.tabTarget);
-
-        // Remove active classes
-        tabs.forEach(t => t.classList.remove('active'));
-        contents.forEach(c => c.classList.remove('active'));
-
-        // Add active classes to clicked tab and corresponding content
-        tab.classList.add('active');
-        target.classList.add('active');
+        // Hide all panels
+        document.querySelectorAll('div[id^="section"]').forEach(sec => {
+          sec.style.display = 'none';
+        });
+        // Show the clicked panel
+        document.getElementById(tab.dataset.content).style.display = 'block';
+        // Reset all tab labels to grey
+        document.querySelectorAll('.tab-label').forEach(lbl => {
+          lbl.style.color = '#666';
+        });
+        // Set clicked tab label to black
+        tab.querySelector('.tab-label').style.color = '#000';
       });
     });
   </script>
-</body>
-</html>
