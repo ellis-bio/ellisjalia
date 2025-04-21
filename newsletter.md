@@ -59,16 +59,22 @@ layout: page
     gap: 15px;
   }
 
+  /* make inputs & button full‑width and boxed */
+  #login-form input,
+  #login-form button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   #login-form input {
     padding: 12px 16px;
     border-radius: 8px;
     border: 1px solid #ccc;
-    width: 100%;
     font-size: 16px;
   }
 
   #login-form button {
-    padding: 14px 24px;
+    padding: 14px 0;
     border-radius: 10px;
     border: none;
     background-color: black;
@@ -76,6 +82,8 @@ layout: page
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 8px;
   }
 
   #login-form button:hover {
