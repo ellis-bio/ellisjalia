@@ -111,15 +111,15 @@ layout: page
   </div>
 </div>
 
-<!-- Firebase & Stripe SDKs -->
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js"></script>
+<!-- Firebase (Compat Version) -->
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- Your Login + Paywall Logic -->
 <script>
+  // ✅ Define config BEFORE using it
   const firebaseConfig = {
     apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
     authDomain: "ellisjalia-db.firebaseapp.com",
@@ -127,6 +127,7 @@ layout: page
     appId: "1:269108432993:web:93262054eb937faf789a20"
   };
 
+  // ✅ Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
   const db = firebase.firestore();
@@ -160,7 +161,7 @@ layout: page
 
     try {
       await auth.signInWithEmailAndPassword(email, pass);
-      console.log("Logged in");
+      console.log("✅ Logged in");
     } catch (err) {
       if (err.code === 'auth/user-not-found') {
         await auth.createUserWithEmailAndPassword(email, pass);
@@ -169,7 +170,7 @@ layout: page
           email: user.email,
           status: "unpaid"
         });
-        console.log("User signed up and added to Firestore");
+        console.log("✅ User signed up and added to Firestore");
       } else {
         alert("Login error: " + err.message);
       }
@@ -199,7 +200,6 @@ layout: page
     }
   }
 </script>
-
 
 <!-- Footer & Notice -->
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">
