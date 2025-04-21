@@ -1,18 +1,21 @@
 ---
 layout: page
 ---
-<center>
-<hr width="100%" size="3">
-<div class="container">
-        <a href="https://ellisjalia.com"><img src="/assets/icons/menu-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/newsletter"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown-bw.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
- </div>
-  <hr width="100%" size="3">
-  </center>
 
+<!-- Navigation Bar -->
+<div style="text-align: center;">
+  <hr width="100%" size="3">
+  <div class="container">
+    <a href="https://ellisjalia.com"><img src="/assets/icons/menu-bw.png" style="width:43px;height:43px;margin: 0px 8px;padding:2px;"/></a>
+    <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill-bw.png" style="width:43px;height:43px;margin: 0px 8px;padding:2px;"/></a>
+    <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette-bw.png" style="width:43px;height:43px;margin: 0px 8px;padding:2px;"/></a>
+    <a href="https://ellisjalia.com/newsletter"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;margin: 0px 8px;padding:2px;"/></a>
+    <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown-bw.png" style="width:43px;height:43px;margin: 0px 8px;padding:2px;"/></a>
+  </div>
+  <hr width="100%" size="3">
+</div>
+
+<!-- Styles -->
 <style>
   .form-container {
     background-color: #F4F6F6;
@@ -28,7 +31,7 @@ layout: page
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Adjust this height as needed */
+    height: 100px;
     margin-bottom: 16px;
   }
 
@@ -82,6 +85,7 @@ layout: page
   }
 </style>
 
+<!-- Paywall Container -->
 <div class="form-container">
   <div class="image-wrapper">
     <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
@@ -89,33 +93,34 @@ layout: page
   <h2>If you enjoy my blog, you'll love the membership experience.</h2>
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
-  <!-- 🔐 Login Form -->
+  <!-- Login Form -->
   <form id="login-form">
     <input type="email" id="email" placeholder="Email" required />
     <input type="password" id="password" placeholder="Password" required />
     <button type="submit">Log In or Sign Up</button>
   </form>
 
-  <!-- 💳 Stripe Checkout -->
+  <!-- Stripe Paywall -->
   <div id="paywall-section" style="display: none; margin-top: 20px;">
     <p>You're logged in. Unlock premium content for £19/month.</p>
     <button id="subscribe-button">Subscribe Now</button>
   </div>
 
-  <!-- 🌟 Premium Content -->
+  <!-- Premium Content -->
   <div id="premium-content" style="display: none; margin-top: 20px;">
     <h3>Premium Content</h3>
     <p>Testing premium content.</p>
   </div>
 </div>
 
-<!-- Firebase & Stripe Scripts -->
+<!-- Firebase + Stripe -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
-<script src="https://js.stripe.com/v3/"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
 
+<!-- Login + Checkout Logic -->
 <script>
   const firebaseConfig = {
     apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
@@ -125,34 +130,29 @@ layout: page
   };
 
   firebase.initializeApp(firebaseConfig);
-  const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC"); // Replace with your real public key
+  const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
 
   const loginForm = document.getElementById("login-form");
   const subscribeButton = document.getElementById("subscribe-button");
   const paywallSection = document.getElementById("paywall-section");
   const premiumContent = document.getElementById("premium-content");
 
-const hasPaid = async (uid) => {
-  const db = firebase.firestore();
-  const doc = await db.collection('users').doc(uid).get();
-  return doc.exists && doc.data().status === 'active';
-};
+  const hasPaid = async (uid) => {
+    const db = firebase.firestore();
+    const doc = await db.collection('users').doc(uid).get();
+    return doc.exists && doc.data().status === 'active';
+  };
 
-firebase.auth().onAuthStateChanged(async (user) => {
-  if (user) {
-    const paid = await hasPaid(user.uid);
-    if (paid) {
+  firebase.auth().onAuthStateChanged(async (user) => {
+    if (user) {
+      const paid = await hasPaid(user.uid);
       loginForm.style.display = "none";
-      paywallSection.style.display = "none";
-      premiumContent.style.display = "block";
+      paywallSection.style.display = paid ? "none" : "block";
+      premiumContent.style.display = paid ? "block" : "none";
     } else {
-      loginForm.style.display = "none";
-      paywallSection.style.display = "block";
+      loginForm.style.display = "block";
     }
-  } else {
-    loginForm.style.display = "block";
-  }
-});
+  });
 
   loginForm.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -171,18 +171,12 @@ firebase.auth().onAuthStateChanged(async (user) => {
   });
 
   subscribeButton.addEventListener("click", async () => {
-    
     try {
       const functions = firebase.app().functions("europe-west2");
       const createCheckout = functions.httpsCallable("createCheckoutSession");
       const result = await createCheckout();
-
       localStorage.setItem("postPaymentRedirect", "true");
-
-      await stripe.redirectToCheckout({
-        sessionId: result.data.sessionId
-      });
-
+      await stripe.redirectToCheckout({ sessionId: result.data.sessionId });
     } catch (err) {
       console.error("Stripe error:", err);
       alert("Checkout failed. Please try again.");
@@ -192,9 +186,7 @@ firebase.auth().onAuthStateChanged(async (user) => {
   if (window.location.href.includes("success")) {
     const user = firebase.auth().currentUser;
     if (user && localStorage.getItem("postPaymentRedirect")) {
-      localStorage.setItem("hasPaid", "true");
       localStorage.removeItem("postPaymentRedirect");
-
       loginForm.style.display = "none";
       paywallSection.style.display = "none";
       premiumContent.style.display = "block";
@@ -202,7 +194,11 @@ firebase.auth().onAuthStateChanged(async (user) => {
   }
 </script>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
+<!-- Footer & Notice -->
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">
+  By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
 </p>
 
-<center><p style="margin-top:0em; color: blue">Sign ups are currently restricted due to a server-side issue. Please check back later for more information.</p></center>
+<p style="text-align:center; color: blue; margin-top:0;">
+  Sign ups are currently restricted due to a server-side issue. Please check back later for more information.
+</p>
