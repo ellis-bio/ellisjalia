@@ -111,14 +111,14 @@ layout: page
   </div>
 </div>
 
-<!-- Firebase & Stripe SDKs (Compat Version) -->
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
+<!-- Firebase + Stripe -->
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js"></script>
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- Paywall Logic -->
+<!-- Login + Checkout Logic -->
 <script>
   const firebaseConfig = {
     apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
@@ -128,8 +128,7 @@ layout: page
   };
 
   firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth();
-  const db = firebase.firestore();
+  const auth = firebase.auth(); // ✅ added line
   const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
 
   const loginForm = document.getElementById("login-form");
@@ -138,11 +137,12 @@ layout: page
   const premiumContent = document.getElementById("premium-content");
 
   const hasPaid = async (uid) => {
+    const db = firebase.firestore();
     const doc = await db.collection('users').doc(uid).get();
     return doc.exists && doc.data().status === 'active';
   };
 
-  auth.onAuthStateChanged(async (user) => {
+  firebase.auth().onAuthStateChanged(async (user) => {
     if (user) {
       const paid = await hasPaid(user.uid);
       loginForm.style.display = "none";
@@ -153,28 +153,25 @@ layout: page
     }
   });
 
-  loginForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const pass = document.getElementById("password").value;
+console.log("Login form script loaded");
 
-    try {
-      await auth.signInWithEmailAndPassword(email, pass);
-      console.log("Logged in");
-    } catch (err) {
-      if (err.code === 'auth/user-not-found') {
-        await auth.createUserWithEmailAndPassword(email, pass);
-        const user = auth.currentUser;
-        await db.collection("users").doc(user.uid).set({
-          email: user.email,
-          status: "unpaid"
-        });
-        console.log("Signed up and added to Firestore");
-      } else {
-        alert("Login error: " + err.message);
-      }
+document.getElementById("login-form").addEventListener("submit", async (e) => {
+  e.preventDefault(); // ✅ this prevents the form from refreshing the page
+  const email = document.getElementById("email").value;
+  const pass = document.getElementById("password").value;
+
+  try {
+    await firebase.auth().signInWithEmailAndPassword(email, pass);
+    // show paywall / redirect / whatever
+  } catch (err) {
+    if (err.code === 'auth/user-not-found') {
+      await firebase.auth().createUserWithEmailAndPassword(email, pass);
+      // show paywall / redirect
+    } else {
+      alert("Login error: " + err.message);
     }
-  });
+  }
+});
 
   subscribeButton.addEventListener("click", async () => {
     try {
@@ -190,7 +187,7 @@ layout: page
   });
 
   if (window.location.href.includes("success")) {
-    const user = auth.currentUser;
+    const user = firebase.auth().currentUser;
     if (user && localStorage.getItem("postPaymentRedirect")) {
       localStorage.removeItem("postPaymentRedirect");
       loginForm.style.display = "none";
