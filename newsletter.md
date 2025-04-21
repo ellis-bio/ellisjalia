@@ -171,6 +171,7 @@ firebase.auth().onAuthStateChanged(async (user) => {
   });
 
   subscribeButton.addEventListener("click", async () => {
+    
     try {
       const functions = firebase.app().functions("europe-west2");
       const createCheckout = functions.httpsCallable("createCheckoutSession");
@@ -181,6 +182,7 @@ firebase.auth().onAuthStateChanged(async (user) => {
       await stripe.redirectToCheckout({
         sessionId: result.data.sessionId
       });
+
     } catch (err) {
       console.error("Stripe error:", err);
       alert("Checkout failed. Please try again.");
