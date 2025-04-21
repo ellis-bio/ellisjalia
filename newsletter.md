@@ -89,38 +89,115 @@ layout: page
   <h2>If you enjoy my blog, you'll love the membership experience.</h2>
   <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
+  <!-- 🔐 Login Form -->
   <form id="login-form">
     <input type="email" id="email" placeholder="Email" required />
     <input type="password" id="password" placeholder="Password" required />
     <button type="submit">Log In or Sign Up</button>
   </form>
 
-  <script>
-    document.getElementById("login-form").addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const email = document.getElementById("email").value;
-      const pass = document.getElementById("password").value;
+  <!-- 💳 Stripe Checkout -->
+  <div id="paywall-section" style="display: none; margin-top: 20px;">
+    <p>You're logged in. Unlock premium content for £19/month.</p>
+    <button id="subscribe-button">Subscribe Now</button>
+  </div>
 
-      try {
-        await firebase.auth().signInWithEmailAndPassword(email, pass);
-        alert("Logged in!");
-        window.location.href = "/premium.html";
-      } catch (err) {
-        if (err.code === 'auth/user-not-found') {
-          try {
-            await firebase.auth().createUserWithEmailAndPassword(email, pass);
-            alert("Signed up and logged in!");
-            window.location.href = "/premium.html";
-          } catch (signupErr) {
-            alert("Sign-up error: " + signupErr.message);
-          }
-        } else {
-          alert("Error: " + err.message);
-        }
-      }
-    });
-  </script>
+  <!-- 🌟 Premium Content -->
+  <div id="premium-content" style="display: none; margin-top: 20px;">
+    <h3>Premium Content</h3>
+    <p>Testing premium content.</p>
+  </div>
 </div>
+
+<!-- Firebase & Stripe Scripts -->
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
+    authDomain: "ellisjalia-db.firebaseapp.com",
+    projectId: "ellisjalia-db",
+    appId: "1:269108432993:web:93262054eb937faf789a20"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC"); // Replace with your real public key
+
+  const loginForm = document.getElementById("login-form");
+  const subscribeButton = document.getElementById("subscribe-button");
+  const paywallSection = document.getElementById("paywall-section");
+  const premiumContent = document.getElementById("premium-content");
+
+const hasPaid = async (uid) => {
+  const db = firebase.firestore();
+  const doc = await db.collection('users').doc(uid).get();
+  return doc.exists && doc.data().status === 'active';
+};
+
+firebase.auth().onAuthStateChanged(async (user) => {
+  if (user) {
+    const paid = await hasPaid(user.uid);
+    if (paid) {
+      loginForm.style.display = "none";
+      paywallSection.style.display = "none";
+      premiumContent.style.display = "block";
+    } else {
+      loginForm.style.display = "none";
+      paywallSection.style.display = "block";
+    }
+  } else {
+    loginForm.style.display = "block";
+  }
+});
+
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    const pass = document.getElementById("password").value;
+
+    try {
+      await firebase.auth().signInWithEmailAndPassword(email, pass);
+    } catch (err) {
+      if (err.code === 'auth/user-not-found') {
+        await firebase.auth().createUserWithEmailAndPassword(email, pass);
+      } else {
+        alert("Login error: " + err.message);
+      }
+    }
+  });
+
+  subscribeButton.addEventListener("click", async () => {
+    try {
+      const functions = firebase.app().functions("europe-west2");
+      const createCheckout = functions.httpsCallable("createCheckoutSession");
+      const result = await createCheckout();
+
+      localStorage.setItem("postPaymentRedirect", "true");
+
+      await stripe.redirectToCheckout({
+        sessionId: result.data.sessionId
+      });
+    } catch (err) {
+      console.error("Stripe error:", err);
+      alert("Checkout failed. Please try again.");
+    }
+  });
+
+  if (window.location.href.includes("success")) {
+    const user = firebase.auth().currentUser;
+    if (user && localStorage.getItem("postPaymentRedirect")) {
+      localStorage.setItem("hasPaid", "true");
+      localStorage.removeItem("postPaymentRedirect");
+
+      loginForm.style.display = "none";
+      paywallSection.style.display = "none";
+      premiumContent.style.display = "block";
+    }
+  }
+</script>
 
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
 </p>
