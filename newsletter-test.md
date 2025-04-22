@@ -53,12 +53,26 @@ layout: page
     const functions = firebase.app().functions("europe-west2");
     const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
 
-    const ui = new firebaseui.auth.AuthUI(auth);
+const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
+
+auth.onAuthStateChanged(async (user) => {
+  if (user) {
+    loginBox.style.display = "none";
+    const paid = await hasPaid(user.uid);
+    paywall.style.display = paid ? "none" : "block";
+    premium.style.display = paid ? "block" : "none";
+  } else {
+    loginBox.style.display = "block";
+    paywall.style.display = "none";
+    premium.style.display = "none";
+
     ui.start("#firebaseui-auth-container", {
       signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
       credentialHelper: firebaseui.auth.CredentialHelper.NONE,
       signInSuccessUrl: window.location.href
     });
+  }
+});
 
     const loginBox = document.getElementById("firebaseui-auth-container");
     const paywall = document.getElementById("paywall-section");
