@@ -14,66 +14,7 @@ permalink: /newsletter-test/
 <hr width="100%" size="3">
 </center>
 
-<style>
-  .form-container {
-    background-color: #F4F6F6;
-    padding: 30px;
-    border-radius: 16px;
-    max-width: 380px;
-    margin: 60px auto;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  }
-  .image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-bottom: 16px;
-  }
-  .form-container img.shape {
-    width: 80px;
-    display: inline-block;
-  }
-  .form-container h2 {
-    margin-bottom: 8px;
-    font-size: 22px;
-    color: #333;
-    line-height: 1.4;
-  }
-  .form-container p.subtext {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  #firebaseui-auth-container,
-  #paywall-section,
-  #premium-content {
-    display: none;
-    margin-top: 20px;
-  }
-  #subscribe-button {
-    padding: 14px 24px;
-    border-radius: 10px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-  }
-  #subscribe-button:hover {
-    background-color: tomato;
-  }
 </style>
-
-<div class="form-container">
-  <div class="image-wrapper">
-    <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
-  </div>
-  <h2>If you enjoy my blog, you'll love the membership experience.</h2>
-  <p class="subtext">It's £19 per month. Cancel anytime.</p>
 
   <!-- FirebaseUI Auth Widget -->
   <div id="firebaseui-auth-container"></div>
