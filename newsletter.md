@@ -121,11 +121,14 @@ layout: page
 <!-- Login + Checkout Logic -->
 <script>
   const firebaseConfig = {
-    apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
-    authDomain: "ellisjalia-db.firebaseapp.com",
-    projectId: "ellisjalia-db",
-    appId: "1:269108432993:web:93262054eb937faf789a20"
-  };
+  apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
+  authDomain: "ellisjalia-db.firebaseapp.com",
+  projectId: "ellisjalia-db",
+  storageBucket: "ellisjalia-db.firebasestorage.app",
+  messagingSenderId: "269108432993",
+  appId: "1:269108432993:web:93262054eb937faf789a20",
+  measurementId: "G-NYXXY0PL56"
+};
 
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth(); 
