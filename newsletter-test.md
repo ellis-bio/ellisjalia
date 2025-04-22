@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /newsletter-test/
 ---
 <center>
 <hr width="100%" size="3">
