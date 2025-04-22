@@ -13,22 +13,40 @@ layout: page
 <hr width="100%" size="3">
 </center>
 
-<div class="form-container">
-  <div class="image-wrapper">
-    <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
-  </div>
-  <h2>If you enjoy my blog, you'll love the membership experience.</h2>
-  <p class="subtext">It's £19 per month. Cancel anytime.</p>
+<style>
+  #firebaseui-auth-container,
+  #paywall-section,
+  #premium-content {
+    display: none;
+    margin: 40px auto;
+    max-width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+  }
+  #subscribe-button {
+    padding: 14px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  #subscribe-button:hover {
+    background-color: tomato;
+  }
+</style>
 
-  <div id="firebaseui-auth-container"></div>
-  <div id="paywall-section">
-    <p>You're logged in. Unlock premium content for £19/month.</p>
-    <button id="subscribe-button">Subscribe Now</button>
-  </div>
-  <div id="premium-content">
-    <h3>Premium Content</h3>
-    <p>Here is your exclusive article or media.</p>
-  </div>
+<div id="firebaseui-auth-container"></div>
+<div id="paywall-section">
+  <p>You're logged in. Unlock premium content for £19/month.</p>
+  <button id="subscribe-button">Subscribe Now</button>
+</div>
+<div id="premium-content">
+  <h3>Premium Content</h3>
+  <p>This is your exclusive members-only content.</p>
 </div>
 
 <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
