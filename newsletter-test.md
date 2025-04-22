@@ -97,7 +97,7 @@ layout: page
 <script src="https://js.stripe.com/v3/"></script>
 
 <!-- FirebaseUI JS (global) -->
-<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script></script>
+<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
 
 <!-- Module Script: Firebase, FirebaseUI & Stripe Integration -->
 <script type="module">
@@ -105,7 +105,6 @@ layout: page
   import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
   import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
   import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js";
-const ui = new firebaseui.auth.AuthUI(auth);
 
   // ─── Firebase Config ──────────────────────────────────────────────
   const firebaseConfig = {
