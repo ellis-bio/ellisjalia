@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /newsletter-test/
 ---
 <center>
 <hr width="100%" size="3">
@@ -97,13 +96,16 @@ permalink: /newsletter-test/
 <!-- Stripe.js -->
 <script src="https://js.stripe.com/v3/"></script>
 
+<!-- FirebaseUI JS (global) -->
+<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script></script>
+
 <!-- Module Script: Firebase, FirebaseUI & Stripe Integration -->
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
   import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
   import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
   import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js";
-  import * as firebaseui from "https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js";
+const ui = new firebaseui.auth.AuthUI(auth);
 
   // ─── Firebase Config ──────────────────────────────────────────────
   const firebaseConfig = {
