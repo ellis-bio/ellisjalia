@@ -130,8 +130,3 @@ layout: page
     }
   });
 </script>
-
-<!-- 📃 Footer -->
-<p style="font-size:0.7rem;color:grey;text-align:center;margin-top:30px;">
-  By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color:grey;">Privacy Policy</a>.
-</p>
