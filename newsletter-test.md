@@ -97,25 +97,31 @@ auth.onAuthStateChanged(async (user) => {
       }
     });
 
-    subscribeBtn.addEventListener("click", async () => {
-      if (!auth.currentUser) return alert("Please log in first.");
-      subscribeBtn.disabled = true;
-      try {
-        const createCheckout = functions.httpsCallable("createCheckoutSession");
-        const { data } = await createCheckout({
-          successUrl: window.location.origin + "/newsletter?success=true",
-          cancelUrl: window.location.origin + "/newsletter?canceled=true"
-        });
-        if (data?.url) window.open(data.url, "_blank");
-        else alert("Could not start checkout.");
-      } catch (err) {
-        console.error("Stripe error:", err);
-        alert("Checkout failed: " + err.message);
-      } finally {
-        subscribeBtn.disabled = false;
-      }
+subscribeBtn.addEventListener("click", async () => {
+  if (!auth.currentUser) return alert("Please log in first.");
+
+  subscribeBtn.disabled = true;
+
+  try {
+    const createCheckout = functions.httpsCallable("createCheckoutSession");
+    const { data } = await createCheckout({
+      successUrl: window.location.origin + "/newsletter?success=true",
+      cancelUrl: window.location.origin + "/newsletter?canceled=true"
     });
-  });
+
+    if (data?.url) {
+      // ✅ Seamless redirect — no popup
+      window.location.href = data.url;
+    } else {
+      alert("Could not start checkout.");
+    }
+  } catch (err) {
+    console.error("Stripe error:", err);
+    alert("Checkout failed: " + err.message);
+  } finally {
+    subscribeBtn.disabled = false;
+  }
+});
 </script>
 
 
