@@ -15,7 +15,7 @@ layout: page
 <!-- 🔒 FirebaseUI + Premium Paywall -->
 <div id="firebaseui-auth-container"></div>
 
-<div id="paywall-section" style="display:none; max-width: 400px; margin: 40px auto; text-align: center;">
+<div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
   <p>You're logged in. Unlock premium content for £19/month.</p>
   <button id="subscribe-button">Subscribe Now</button>
 </div>
