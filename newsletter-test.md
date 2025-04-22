@@ -1,6 +1,8 @@
 ---
 layout: page
+permalink: /paywalltest
 ---
+
 <style>
   #firebaseui-auth-container,
   #paywall-section,
@@ -43,6 +45,8 @@ layout: page
 
 <script type="module">
   document.addEventListener("DOMContentLoaded", async () => {
+    console.log("🚀 DOM loaded, initializing Firebase");
+
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
     import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
     import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
@@ -69,19 +73,27 @@ layout: page
     const premiumContent = document.getElementById("premium-content");
     const subscribeBtn   = document.getElementById("subscribe-button");
 
+    console.log("✅ Firebase initialized");
+
     const ui = new firebaseui.auth.AuthUI(auth);
     ui.start("#firebaseui-auth-container", {
-      signInSuccessUrl: window.location.href + "?signedIn=true",
+      signInSuccessUrl: window.location.href,
       signInOptions: [firebaseui.auth.EmailAuthProvider.PROVIDER_ID],
       credentialHelper: firebaseui.auth.CredentialHelper.NONE
     });
 
     async function hasPaid(uid) {
-      const snap = await getDoc(doc(db, "users", uid));
-      return snap.exists() && snap.data().status === "active";
+      try {
+        const snap = await getDoc(doc(db, "users", uid));
+        return snap.exists() && snap.data().status === "active";
+      } catch (e) {
+        console.error("❌ Error checking payment status:", e);
+        return false;
+      }
     }
 
     onAuthStateChanged(auth, async (user) => {
+      console.log("👤 Auth state changed:", user);
       if (user) {
         uiContainer.style.display = "none";
         const paid = await hasPaid(user.uid);
@@ -95,12 +107,11 @@ layout: page
     });
 
     subscribeBtn?.addEventListener("click", async () => {
-      console.log("Subscribe button clicked ✅");
+      console.log("🛒 Subscribe button clicked");
       if (!auth.currentUser) {
         alert("Please log in first.");
         return;
       }
-
       subscribeBtn.disabled = true;
       try {
         const createCheckout = httpsCallable(functions, "createCheckoutSession");
@@ -109,12 +120,13 @@ layout: page
           cancelUrl: window.location.origin + "/newsletter?canceled=true"
         });
         if (data?.url) {
+          console.log("➡️ Redirecting to checkout...");
           window.open(data.url, "_blank");
         } else {
-          alert("Checkout could not be initiated.");
+          alert("Unable to start checkout.");
         }
       } catch (err) {
-        console.error("Checkout error:", err);
+        console.error("❌ Checkout error:", err);
         alert("Checkout failed: " + err.message);
       } finally {
         subscribeBtn.disabled = false;
@@ -122,3 +134,7 @@ layout: page
     });
   });
 </script>
+
+<p style="font-size:0.7rem;color:grey;text-align:center;margin-top:30px;">
+  By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color:grey;">Privacy Policy</a>.
+</p>
