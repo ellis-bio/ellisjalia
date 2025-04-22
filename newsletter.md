@@ -111,107 +111,118 @@ layout: page
   </div>
 </div>
 
-<!-- Firebase + Stripe -->
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js"></script>
+<!-- Stripe.js (for global Stripe constructor) -->
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- Login + Checkout Logic -->
-<script>
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+<!-- Single module script for Firebase & Stripe logic -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+  import {
+    getAuth,
+    onAuthStateChanged,
+    signInWithEmailAndPassword,
+    createUserWithEmailAndPassword
+  } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+  import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+  import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  // Firebase config & initialization
   const firebaseConfig = {
-  apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
-  authDomain: "ellisjalia-db.firebaseapp.com",
-  projectId: "ellisjalia-db",
-  storageBucket: "ellisjalia-db.firebasestorage.app",
-  messagingSenderId: "269108432993",
-  appId: "1:269108432993:web:93262054eb937faf789a20",
-  measurementId: "G-NYXXY0PL56"
-};
+    apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
+    authDomain: "ellisjalia-db.firebaseapp.com",
+    projectId: "ellisjalia-db",
+    storageBucket: "ellisjalia-db.firebasestorage.app",
+    messagingSenderId: "269108432993",
+    appId: "1:269108432993:web:93262054eb937faf789a20",
+    measurementId: "G-NYXXY0PL56"
+  };
+  const stripePubKey = "pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC";
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+  const app       = initializeApp(firebaseConfig);
+  const auth      = getAuth(app);
+  const db        = getFirestore(app);
+  const functions = getFunctions(app, "europe-west2");
+  const stripe    = Stripe(stripePubKey);
 
-  firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth(); 
-  const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
-
-  const loginForm = document.getElementById("login-form");
-  const subscribeButton = document.getElementById("subscribe-button");
+  // UI elements
+  const loginForm      = document.getElementById("login-form");
+  const emailInput     = document.getElementById("email");
+  const passwordInput  = document.getElementById("password");
+  const subscribeBtn   = document.getElementById("subscribe-button");
   const paywallSection = document.getElementById("paywall-section");
   const premiumContent = document.getElementById("premium-content");
 
-  const hasPaid = async (uid) => {
-    const db = firebase.firestore();
-    const doc = await db.collection('users').doc(uid).get();
-    return doc.exists && doc.data().status === 'active';
-  };
+  // Check if user has active subscription
+  async function hasPaid(uid) {
+    const userDoc = doc(db, "users", uid);
+    const snap    = await getDoc(userDoc);
+    return snap.exists() && snap.data().status === "active";
+  }
 
-  firebase.auth().onAuthStateChanged(async (user) => {
+  // Observe auth state
+  onAuthStateChanged(auth, async (user) => {
     if (user) {
-      const paid = await hasPaid(user.uid);
-      loginForm.style.display = "none";
-      paywallSection.style.display = paid ? "none" : "block";
+      loginForm.style.display      = "none";
+      const paid                   = await hasPaid(user.uid);
+      paywallSection.style.display = paid ? "none"  : "block";
       premiumContent.style.display = paid ? "block" : "none";
     } else {
-      loginForm.style.display = "block";
-    }
-  });
-
-console.log("Login form script loaded");
-
-document.getElementById("login-form").addEventListener("submit", async (e) => {
-  e.preventDefault(); // ✅ this prevents the form from refreshing the page
-  const email = document.getElementById("email").value;
-  const pass = document.getElementById("password").value;
-
-  try {
-    await firebase.auth().signInWithEmailAndPassword(email, pass);
-    // show paywall / redirect 
-  } catch (err) {
-    if (err.code === 'auth/user-not-found') {
-      await firebase.auth().createUserWithEmailAndPassword(email, pass);
-      // show paywall / redirect
-    } else {
-      alert("Login error: " + err.message);
-    }
-  }
-});
-
-  subscribeButton.addEventListener("click", async () => {
-    try {
-      const functions = firebase.app().functions("europe-west2");
-      const createCheckout = functions.httpsCallable("createCheckoutSession");
-      const result = await createCheckout();
-      localStorage.setItem("postPaymentRedirect", "true");
-      await stripe.redirectToCheckout({ sessionId: result.data.sessionId });
-    } catch (err) {
-      console.error("Stripe error:", err);
-      alert("Checkout failed. Please try again.");
-    }
-  });
-
-  if (window.location.href.includes("success")) {
-    const user = firebase.auth().currentUser;
-    if (user && localStorage.getItem("postPaymentRedirect")) {
-      localStorage.removeItem("postPaymentRedirect");
-      loginForm.style.display = "none";
+      loginForm.style.display      = "block";
       paywallSection.style.display = "none";
-      premiumContent.style.display = "block";
+      premiumContent.style.display = "none";
     }
-  }
-</script>
+  });
 
+  // Log in or sign up form handler
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email    = emailInput.value.trim();
+    const password = passwordInput.value;
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+    } catch (err) {
+      if (err.code === "auth/user-not-found") {
+        await createUserWithEmailAndPassword(auth, email, password);
+      } else {
+        alert("Auth error: " + err.message);
+      }
+    }
+  });
+
+  // Subscribe button handler
+  subscribeBtn.addEventListener("click", async () => {
+    subscribeBtn.disabled = true;
+    try {
+      const createCheckout = httpsCallable(functions, "createCheckoutSession");
+      const { data }       = await createCheckout({
+        successUrl: window.location.origin + "?success=true",
+        cancelUrl:  window.location.origin + "?canceled=true"
+      });
+      if (data.url) {
+        window.open(data.url, "_blank");
+      } else {
+        alert("Unable to start checkout.");
+      }
+    } catch (err) {
+      console.error("Checkout error:", err);
+      alert("Checkout failed: " + err.message);
+    } finally {
+      subscribeBtn.disabled = false;
+    }
+  });
+
+  // Post-payment redirect handling
+  window.addEventListener("load", () => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("success") === "true") {
+      if (auth.currentUser) {
+        loginForm.style.display      = "none";
+        paywallSection.style.display = "none";
+        premiumContent.style.display = "block";
+      }
+    }
+  });
+</script>
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 0.7rem; color: grey; text-align: center; margin-top: -3rem;">
   By continuing, you acknowledge our <a href="https://ellisjalia.com/privacy-policy/" style="color: grey; text-decoration: underline;">Privacy Policy</a>.
 </p>
