@@ -26,7 +26,7 @@ layout: page
 <!-- FirebaseUI + Premium Paywall -->
 <div id="firebaseui-auth-container"></div>
 
-<!-- 🔒 Wrap paywall & premium content -->
+<!-- Wrap paywall & premium content -->
 <div id="auth-controlled-content" style="display: none;">
   <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
     <p>You're logged in. Unlock premium content for £19/month.</p>
@@ -38,7 +38,6 @@ layout: page
     <p>This is your exclusive members-only content.</p>
   </div>
 </div>
-
 
 <!-- Firebase & FirebaseUI -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
