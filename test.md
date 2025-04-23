@@ -12,8 +12,8 @@ layout: page
  </div>
   <hr width="100%" size="3">
   </center>
-
-  <!-- 🔒 Minimal Style -->
+  
+<!-- 🔒 Minimal Style -->
 <style>
   #firebaseui-auth-container {
     margin: 60px auto;
@@ -60,7 +60,7 @@ layout: page
 
     const auth = firebase.auth();
     const db = firebase.firestore();
-    db.enableNetwork().catch(console.error); // ✅ ensure Firestore online
+    db.enableNetwork().catch(console.error); // 🔧 Ensure Firestore is online
 
     const functions = firebase.app().functions("europe-west2");
     const stripe = Stripe("pk_live_51QNBnKEEjZULKoNrdlW6uTVgvy0T3pss5P07c1vFtEhLIncQtHLXcRAoT7Nea2PfdfrK3hmd1YwHE9dK1aentQdf00BB9B0YGC");
@@ -71,19 +71,32 @@ layout: page
     const contentWrapper = document.getElementById("auth-controlled-content");
 
     async function hasPaid(uid) {
-      const snap = await db.collection("users").doc(uid).get();
-      return snap.exists && snap.data().status === "active";
+      try {
+        const snap = await db.collection("users").doc(uid).get();
+        console.log("📄 Firestore read:", snap.exists, snap.data());
+        return snap.exists && snap.data().status === "active";
+      } catch (err) {
+        console.error("🚨 hasPaid() error:", err);
+        return false;
+      }
     }
 
     async function postLoginFlow(user) {
+      console.log("🔑 postLoginFlow started for:", user.email);
       loginBox.style.display = "none";
 
       const paid = await hasPaid(user.uid);
+      console.log("💳 hasPaid result:", paid);
+
       if (paid) {
         premium.style.display = "block";
         contentWrapper.style.display = "block";
+        console.log("✅ User is paid. Showing premium content.");
       } else {
+        console.log("🚀 User is unpaid. Starting Stripe Checkout…");
+
         document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+
         try {
           const createCheckout = functions.httpsCallable("createCheckoutSession");
           const { data } = await createCheckout({
@@ -91,13 +104,15 @@ layout: page
             cancelUrl: window.location.origin + "/newsletter?canceled=true"
           });
 
+          console.log("✅ Checkout session created:", data);
+
           if (data?.url) {
             window.location.href = data.url;
           } else {
             alert("Could not start checkout.");
           }
         } catch (err) {
-          console.error("Stripe error:", err);
+          console.error("🔥 Stripe error:", err);
           alert("Checkout failed: " + err.message);
         }
       }
