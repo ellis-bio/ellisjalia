@@ -71,11 +71,11 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
-    // ✅ Handle login if user clicked a magic link
+    // ✅ Handle the case where the user clicks the email link
     if (auth.isSignInWithEmailLink(window.location.href)) {
       let email = window.localStorage.getItem("emailForSignIn");
       if (!email) {
-        email = window.prompt("Please enter your email to complete sign-in");
+        email = window.prompt("Please enter your email to complete sign-in:");
       }
 
       auth.signInWithEmailLink(email, window.location.href)
@@ -91,11 +91,14 @@ layout: page
     auth.onAuthStateChanged(async (user) => {
       if (user) {
         loginBox.style.display = "none";
-        const paid = await hasPaid(user.uid);
 
+        const paid = await hasPaid(user.uid);
         if (paid) {
           premium.style.display = "block";
         } else {
+          // Show a message while redirecting
+          document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+
           try {
             const createCheckout = functions.httpsCallable("createCheckoutSession");
             const { data } = await createCheckout({
@@ -117,27 +120,28 @@ layout: page
         loginBox.style.display = "block";
         premium.style.display = "none";
 
-ui.start("#firebaseui-auth-container", {
-  signInOptions: [{
-    provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-    signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
-  }],
-  signInFlow: "popup",
-  callbacks: {
-    signInSuccessWithAuthResult: () => false, // don’t redirect
-    uiShown: () => {
-      // Store the email entered so we can use it later
-      const input = document.querySelector('input[type="email"]');
-      if (input) {
-        input.addEventListener('change', () => {
-          localStorage.setItem("emailForSignIn", input.value);
+        // ✅ Setup passwordless sign-in with email link
+        ui.start("#firebaseui-auth-container", {
+          signInOptions: [{
+            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+          }],
+          signInFlow: "popup",
+          callbacks: {
+            signInSuccessWithAuthResult: () => false,
+            uiShown: () => {
+              // Save the entered email so we can finish sign-in later
+              const input = document.querySelector('input[type="email"]');
+              if (input) {
+                input.addEventListener('input', () => {
+                  localStorage.setItem("emailForSignIn", input.value);
+                });
+              }
+            }
+          }
         });
-      }
-    }
-  }
-});
 
-        // Optional: reword the button label
+        // Optional: update UI label text
         setTimeout(() => {
           const emailButton = document.querySelector('.firebaseui-idp-text');
           if (emailButton && emailButton.textContent.includes('Sign in with email')) {
@@ -146,8 +150,8 @@ ui.start("#firebaseui-auth-container", {
         }, 100);
       }
 
-      // ✅ Show the content wrapper after auth finishes
       contentWrapper.style.display = "block";
     });
   });
 </script>
+
