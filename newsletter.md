@@ -23,14 +23,11 @@ layout: page
   }
 </style>
 
-<!-- FirebaseUI + Premium Paywall -->
 <div id="firebaseui-auth-container"></div>
 
-<!-- Wrap paywall & premium content -->
 <div id="auth-controlled-content" style="display: none;">
   <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
     <p>You're logged in. Unlock premium content for £19/month.</p>
-    <button id="subscribe-button">Subscribe Now</button>
   </div>
 
   <div id="premium-content" style="display: none; max-width: 400px; margin: 40px auto; text-align: center;">
@@ -48,7 +45,6 @@ layout: page
 <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- Main Script -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
@@ -80,65 +76,15 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
-auth.onAuthStateChanged(async (user) => {
-  const contentWrapper = document.getElementById("auth-controlled-content");
-  const loginBox = document.getElementById("firebaseui-auth-container");
-  const paywall = document.getElementById("paywall-section");
-  const premium = document.getElementById("premium-content");
+    auth.onAuthStateChanged(async (user) => {
+      if (user) {
+        loginBox.style.display = "none";
+        const paid = await hasPaid(user.uid);
 
-  if (user) {
-    loginBox.style.display = "none";
-    const paid = await hasPaid(user.uid);
-
-    if (paid) {
-      paywall.style.display = "none";
-      premium.style.display = "block";
-    } else {
-      // 👇 Auto-start Stripe Checkout
-      try {
-        const createCheckout = functions.httpsCallable("createCheckoutSession");
-        const { data } = await createCheckout({
-          successUrl: window.location.origin + "/newsletter?success=true",
-          cancelUrl: window.location.origin + "/newsletter?canceled=true"
-        });
-
-        if (data?.url) {
-          window.location.href = data.url; // seamless redirect
+        if (paid) {
+          paywall.style.display = "none";
+          premium.style.display = "block";
         } else {
-          alert("Could not start checkout.");
-        }
-      } catch (err) {
-        console.error("Stripe error:", err);
-        alert("Checkout failed: " + err.message);
-      }
-    }
-  } else {
-    loginBox.style.display = "block";
-    paywall.style.display = "none";
-    premium.style.display = "none";
-
-    ui.start("#firebaseui-auth-container", {
-      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-      credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-      signInSuccessUrl: window.location.href
-    });
-  }
-
-  // Reveal content wrapper once auth is resolved
-  contentWrapper.style.display = "block";
-});
-
-      const subscribeBtn = document.getElementById("subscribe-button");
-
-      if (subscribeBtn) {
-        subscribeBtn.addEventListener("click", async () => {
-          if (!auth.currentUser) {
-            alert("Please log in first.");
-            return;
-          }
-
-          subscribeBtn.disabled = true;
-
           try {
             const createCheckout = functions.httpsCallable("createCheckoutSession");
             const { data } = await createCheckout({
@@ -154,11 +100,29 @@ auth.onAuthStateChanged(async (user) => {
           } catch (err) {
             console.error("Stripe error:", err);
             alert("Checkout failed: " + err.message);
-          } finally {
-            subscribeBtn.disabled = false;
           }
+        }
+      } else {
+        loginBox.style.display = "block";
+        paywall.style.display = "none";
+        premium.style.display = "none";
+
+        ui.start("#firebaseui-auth-container", {
+          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+          signInSuccessUrl: window.location.href
         });
+
+        setTimeout(() => {
+          const emailButton = document.querySelector('.firebaseui-idp-text');
+          if (emailButton && emailButton.textContent.includes('Sign in with email')) {
+            emailButton.textContent = "Sign in or sign up with email";
+          }
+        }, 100);
       }
+
+      // ✅ Always reveal content after auth check completes
+      contentWrapper.style.display = "block";
     });
   });
 </script>
