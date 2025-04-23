@@ -73,8 +73,8 @@ layout: page
 
     async function postLoginFlow(user) {
       loginBox.style.display = "none";
-
       const paid = await hasPaid(user.uid);
+
       if (paid) {
         premium.style.display = "block";
         contentWrapper.style.display = "block";
@@ -99,7 +99,6 @@ layout: page
       }
     }
 
-    // ✅ Handle email magic link
     if (auth.isSignInWithEmailLink(window.location.href)) {
       let email = window.localStorage.getItem("emailForSignIn");
       if (!email) {
@@ -109,50 +108,48 @@ layout: page
       auth.signInWithEmailLink(email, window.location.href)
         .then((result) => {
           window.localStorage.removeItem("emailForSignIn");
-          postLoginFlow(result.user); // ✅ Seamless post-login
         })
         .catch((error) => {
           console.error("Error signing in with email link:", error);
           alert("There was an issue signing in. Please try again.");
         });
-    } else {
-      // Standard login flow
-      auth.onAuthStateChanged(async (user) => {
-        if (user) {
-          postLoginFlow(user);
-        } else {
-          loginBox.style.display = "block";
-          premium.style.display = "none";
-          contentWrapper.style.display = "block";
+    }
 
-          ui.start("#firebaseui-auth-container", {
-            signInOptions: [{
-              provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-              signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
-            }],
-            signInFlow: "popup",
-            callbacks: {
-              signInSuccessWithAuthResult: () => false,
-              uiShown: () => {
-                const input = document.querySelector('input[type="email"]');
-                if (input) {
-                  input.addEventListener('input', () => {
-                    localStorage.setItem("emailForSignIn", input.value);
-                  });
-                }
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        postLoginFlow(user);
+      } else {
+        loginBox.style.display = "block";
+        premium.style.display = "none";
+        contentWrapper.style.display = "block";
+
+        ui.start("#firebaseui-auth-container", {
+          signInOptions: [{
+            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+          }],
+          signInFlow: "popup",
+          callbacks: {
+            signInSuccessWithAuthResult: () => false,
+            uiShown: () => {
+              const input = document.querySelector('input[type="email"]');
+              if (input) {
+                input.addEventListener('input', () => {
+                  localStorage.setItem("emailForSignIn", input.value);
+                });
               }
             }
-          });
+          }
+        });
 
-          setTimeout(() => {
-            const emailButton = document.querySelector('.firebaseui-idp-text');
-            if (emailButton && emailButton.textContent.includes('Sign in with email')) {
-              emailButton.textContent = "Sign in or sign up with email";
-            }
-          }, 100);
-        }
-      });
-    }
+        setTimeout(() => {
+          const emailButton = document.querySelector('.firebaseui-idp-text');
+          if (emailButton && emailButton.textContent.includes('Sign in with email')) {
+            emailButton.textContent = "Sign in or sign up with email";
+          }
+        }, 100);
+      }
+    });
   });
 </script>
 
