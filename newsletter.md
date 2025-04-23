@@ -71,7 +71,35 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
-    // ✅ Handle the case where the user clicks the email link
+    async function postLoginFlow(user) {
+      loginBox.style.display = "none";
+
+      const paid = await hasPaid(user.uid);
+      if (paid) {
+        premium.style.display = "block";
+        contentWrapper.style.display = "block";
+      } else {
+        document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+        try {
+          const createCheckout = functions.httpsCallable("createCheckoutSession");
+          const { data } = await createCheckout({
+            successUrl: window.location.origin + "/newsletter?success=true",
+            cancelUrl: window.location.origin + "/newsletter?canceled=true"
+          });
+
+          if (data?.url) {
+            window.location.href = data.url;
+          } else {
+            alert("Could not start checkout.");
+          }
+        } catch (err) {
+          console.error("Stripe error:", err);
+          alert("Checkout failed: " + err.message);
+        }
+      }
+    }
+
+    // ✅ Handle email magic link
     if (auth.isSignInWithEmailLink(window.location.href)) {
       let email = window.localStorage.getItem("emailForSignIn");
       if (!email) {
@@ -79,79 +107,53 @@ layout: page
       }
 
       auth.signInWithEmailLink(email, window.location.href)
-        .then(() => {
+        .then((result) => {
           window.localStorage.removeItem("emailForSignIn");
+          postLoginFlow(result.user); // ✅ Seamless post-login
         })
         .catch((error) => {
           console.error("Error signing in with email link:", error);
           alert("There was an issue signing in. Please try again.");
         });
-    }
-
-    auth.onAuthStateChanged(async (user) => {
-      if (user) {
-        loginBox.style.display = "none";
-
-        const paid = await hasPaid(user.uid);
-        if (paid) {
-          premium.style.display = "block";
+    } else {
+      // Standard login flow
+      auth.onAuthStateChanged(async (user) => {
+        if (user) {
+          postLoginFlow(user);
         } else {
-          // Show a message while redirecting
-          document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+          loginBox.style.display = "block";
+          premium.style.display = "none";
+          contentWrapper.style.display = "block";
 
-          try {
-            const createCheckout = functions.httpsCallable("createCheckoutSession");
-            const { data } = await createCheckout({
-              successUrl: window.location.origin + "/newsletter?success=true",
-              cancelUrl: window.location.origin + "/newsletter?canceled=true"
-            });
-
-            if (data?.url) {
-              window.location.href = data.url;
-            } else {
-              alert("Could not start checkout.");
-            }
-          } catch (err) {
-            console.error("Stripe error:", err);
-            alert("Checkout failed: " + err.message);
-          }
-        }
-      } else {
-        loginBox.style.display = "block";
-        premium.style.display = "none";
-
-        // ✅ Setup passwordless sign-in with email link
-        ui.start("#firebaseui-auth-container", {
-          signInOptions: [{
-            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
-          }],
-          signInFlow: "popup",
-          callbacks: {
-            signInSuccessWithAuthResult: () => false,
-            uiShown: () => {
-              // Save the entered email so we can finish sign-in later
-              const input = document.querySelector('input[type="email"]');
-              if (input) {
-                input.addEventListener('input', () => {
-                  localStorage.setItem("emailForSignIn", input.value);
-                });
+          ui.start("#firebaseui-auth-container", {
+            signInOptions: [{
+              provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+              signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+            }],
+            signInFlow: "popup",
+            callbacks: {
+              signInSuccessWithAuthResult: () => false,
+              uiShown: () => {
+                const input = document.querySelector('input[type="email"]');
+                if (input) {
+                  input.addEventListener('input', () => {
+                    localStorage.setItem("emailForSignIn", input.value);
+                  });
+                }
               }
             }
-          }
-        });
+          });
 
-        // Optional: update UI label text
-        setTimeout(() => {
-          const emailButton = document.querySelector('.firebaseui-idp-text');
-          if (emailButton && emailButton.textContent.includes('Sign in with email')) {
-            emailButton.textContent = "Sign in or sign up with email";
-          }
-        }, 100);
-      }
-
-      contentWrapper.style.display = "block";
-    });
+          setTimeout(() => {
+            const emailButton = document.querySelector('.firebaseui-idp-text');
+            if (emailButton && emailButton.textContent.includes('Sign in with email')) {
+              emailButton.textContent = "Sign in or sign up with email";
+            }
+          }, 100);
+        }
+      });
+    }
   });
 </script>
+
 
