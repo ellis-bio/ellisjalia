@@ -26,10 +26,6 @@ layout: page
 <div id="firebaseui-auth-container"></div>
 
 <div id="auth-controlled-content" style="display: none;">
-  <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
-    <p>You're logged in. Unlock premium content for £19/month.</p>
-  </div>
-
   <div id="premium-content" style="display: none; max-width: 400px; margin: 40px auto; text-align: center;">
     <h3>Premium Content</h3>
     <p>This is your exclusive members-only content.</p>
