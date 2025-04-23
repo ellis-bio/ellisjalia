@@ -80,25 +80,53 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
-    auth.onAuthStateChanged(async (user) => {
-      if (user) {
-        loginBox.style.display = "none";
-        const paid = await hasPaid(user.uid);
-        paywall.style.display = paid ? "none" : "block";
-        premium.style.display = paid ? "block" : "none";
-      } else {
-        loginBox.style.display = "block";
-        paywall.style.display = "none";
-        premium.style.display = "none";
+auth.onAuthStateChanged(async (user) => {
+  const contentWrapper = document.getElementById("auth-controlled-content");
+  const loginBox = document.getElementById("firebaseui-auth-container");
+  const paywall = document.getElementById("paywall-section");
+  const premium = document.getElementById("premium-content");
 
-        ui.start("#firebaseui-auth-container", {
-          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-          signInSuccessUrl: window.location.href
+  if (user) {
+    loginBox.style.display = "none";
+    const paid = await hasPaid(user.uid);
+
+    if (paid) {
+      paywall.style.display = "none";
+      premium.style.display = "block";
+    } else {
+      // 👇 Auto-start Stripe Checkout
+      try {
+        const createCheckout = functions.httpsCallable("createCheckoutSession");
+        const { data } = await createCheckout({
+          successUrl: window.location.origin + "/newsletter?success=true",
+          cancelUrl: window.location.origin + "/newsletter?canceled=true"
         });
-      }
 
-      contentWrapper.style.display = "block";
+        if (data?.url) {
+          window.location.href = data.url; // seamless redirect
+        } else {
+          alert("Could not start checkout.");
+        }
+      } catch (err) {
+        console.error("Stripe error:", err);
+        alert("Checkout failed: " + err.message);
+      }
+    }
+  } else {
+    loginBox.style.display = "block";
+    paywall.style.display = "none";
+    premium.style.display = "none";
+
+    ui.start("#firebaseui-auth-container", {
+      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+      credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+      signInSuccessUrl: window.location.href
+    });
+  }
+
+  // Reveal content wrapper once auth is resolved
+  contentWrapper.style.display = "block";
+});
 
       const subscribeBtn = document.getElementById("subscribe-button");
 
