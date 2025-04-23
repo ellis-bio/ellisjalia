@@ -63,7 +63,6 @@ layout: page
     const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
 
     const loginBox = document.getElementById("firebaseui-auth-container");
-    const paywall = document.getElementById("paywall-section");
     const premium = document.getElementById("premium-content");
     const contentWrapper = document.getElementById("auth-controlled-content");
 
@@ -78,7 +77,6 @@ layout: page
         const paid = await hasPaid(user.uid);
 
         if (paid) {
-          paywall.style.display = "none";
           premium.style.display = "block";
         } else {
           try {
