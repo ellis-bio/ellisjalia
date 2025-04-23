@@ -98,7 +98,6 @@ layout: page
         }
       } else {
         loginBox.style.display = "block";
-        paywall.style.display = "none";
         premium.style.display = "none";
 
         ui.start("#firebaseui-auth-container", {
