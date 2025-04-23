@@ -12,7 +12,7 @@ layout: page
  </div>
   <hr width="100%" size="3">
   </center>
-  
+
 <!-- 🔒 Minimal Style -->
 <style>
   #firebaseui-auth-container {
