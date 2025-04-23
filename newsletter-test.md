@@ -27,7 +27,7 @@ layout: page
 <div id="firebaseui-auth-container"></div>
 
 <!-- Wrap paywall & premium content -->
-<div id="auth-controlled-content">
+<div id="auth-controlled-content" style="display: none;">
   <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
     <p>You're logged in. Unlock premium content for £19/month.</p>
     <button id="subscribe-button">Subscribe Now</button>
