@@ -80,24 +80,29 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
-    auth.onAuthStateChanged(async (user) => {
-      if (user) {
-        loginBox.style.display = "none";
-        const paid = await hasPaid(user.uid);
-        paywall.style.display = paid ? "none" : "block";
-        premium.style.display = paid ? "block" : "none";
-      } else {
-        loginBox.style.display = "block";
-        paywall.style.display = "none";
-        premium.style.display = "none";
+const contentWrapper = document.getElementById("auth-controlled-content");
 
-        ui.start("#firebaseui-auth-container", {
-          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-          signInSuccessUrl: window.location.href
-        });
-      }
+auth.onAuthStateChanged(async (user) => {
+  if (user) {
+    loginBox.style.display = "none";
+    const paid = await hasPaid(user.uid);
+    paywall.style.display = paid ? "none" : "block";
+    premium.style.display = paid ? "block" : "none";
+  } else {
+    loginBox.style.display = "block";
+    paywall.style.display = "none";
+    premium.style.display = "none";
+
+    ui.start("#firebaseui-auth-container", {
+      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+      credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+      signInSuccessUrl: window.location.href
     });
+  }
+
+  // ✅ Reveal the main wrapper AFTER login state is checked
+  contentWrapper.style.display = "block";
+});
 
     if (subscribeBtn) {
       subscribeBtn.addEventListener("click", async () => {
