@@ -13,7 +13,7 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<!-- 🔒 Minimal Style -->
+<!-- Minimal Style -->
 <style>
   #firebaseui-auth-container {
     margin: 60px auto;
@@ -48,14 +48,14 @@ layout: page
 <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- 🔧 Main Script -->
+<!-- Main Script -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
       apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
       authDomain: "ellisjalia-db.firebaseapp.com",
       projectId: "ellisjalia-db",
-      storageBucket: "ellisjalia-db.appspot.com", // ✅ fixed .app → .com
+      storageBucket: "ellisjalia-db.appspot.com",
       messagingSenderId: "269108432993",
       appId: "1:269108432993:web:93262054eb937faf789a20",
       measurementId: "G-NYXXY0PL56"
@@ -73,66 +73,65 @@ layout: page
     const loginBox = document.getElementById("firebaseui-auth-container");
     const paywall = document.getElementById("paywall-section");
     const premium = document.getElementById("premium-content");
-    const subscribeBtn = document.getElementById("subscribe-button");
+    const contentWrapper = document.getElementById("auth-controlled-content");
 
     async function hasPaid(uid) {
       const snap = await db.collection("users").doc(uid).get();
       return snap.exists && snap.data().status === "active";
     }
 
-const contentWrapper = document.getElementById("auth-controlled-content");
+    auth.onAuthStateChanged(async (user) => {
+      if (user) {
+        loginBox.style.display = "none";
+        const paid = await hasPaid(user.uid);
+        paywall.style.display = paid ? "none" : "block";
+        premium.style.display = paid ? "block" : "none";
+      } else {
+        loginBox.style.display = "block";
+        paywall.style.display = "none";
+        premium.style.display = "none";
 
-auth.onAuthStateChanged(async (user) => {
-  if (user) {
-    loginBox.style.display = "none";
-    const paid = await hasPaid(user.uid);
-    paywall.style.display = paid ? "none" : "block";
-    premium.style.display = paid ? "block" : "none";
-  } else {
-    loginBox.style.display = "block";
-    paywall.style.display = "none";
-    premium.style.display = "none";
+        ui.start("#firebaseui-auth-container", {
+          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+          signInSuccessUrl: window.location.href
+        });
+      }
 
-    ui.start("#firebaseui-auth-container", {
-      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-      credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-      signInSuccessUrl: window.location.href
-    });
-  }
+      contentWrapper.style.display = "block";
 
-  // ✅ Reveal the main wrapper AFTER login state is checked
-  contentWrapper.style.display = "block";
-});
+      const subscribeBtn = document.getElementById("subscribe-button");
 
-    if (subscribeBtn) {
-      subscribeBtn.addEventListener("click", async () => {
-        if (!auth.currentUser) {
-          alert("Please log in first.");
-          return;
-        }
-
-        subscribeBtn.disabled = true;
-
-        try {
-          const createCheckout = functions.httpsCallable("createCheckoutSession");
-          const { data } = await createCheckout({
-            successUrl: window.location.origin + "/newsletter?success=true",
-            cancelUrl: window.location.origin + "/newsletter?canceled=true"
-          });
-
-          if (data?.url) {
-            window.location.href = data.url; // ✅ seamless
-          } else {
-            alert("Could not start checkout.");
+      if (subscribeBtn) {
+        subscribeBtn.addEventListener("click", async () => {
+          if (!auth.currentUser) {
+            alert("Please log in first.");
+            return;
           }
-        } catch (err) {
-          console.error("Stripe error:", err);
-          alert("Checkout failed: " + err.message);
-        } finally {
-          subscribeBtn.disabled = false;
-        }
-      });
-    }
+
+          subscribeBtn.disabled = true;
+
+          try {
+            const createCheckout = functions.httpsCallable("createCheckoutSession");
+            const { data } = await createCheckout({
+              successUrl: window.location.origin + "/newsletter?success=true",
+              cancelUrl: window.location.origin + "/newsletter?canceled=true"
+            });
+
+            if (data?.url) {
+              window.location.href = data.url;
+            } else {
+              alert("Could not start checkout.");
+            }
+          } catch (err) {
+            console.error("Stripe error:", err);
+            alert("Checkout failed: " + err.message);
+          } finally {
+            subscribeBtn.disabled = false;
+          }
+        });
+      }
+    });
   });
 </script>
 
