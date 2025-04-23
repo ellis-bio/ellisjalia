@@ -71,6 +71,23 @@ layout: page
       return snap.exists && snap.data().status === "active";
     }
 
+    // ✅ Handle login if user clicked a magic link
+    if (auth.isSignInWithEmailLink(window.location.href)) {
+      let email = window.localStorage.getItem("emailForSignIn");
+      if (!email) {
+        email = window.prompt("Please enter your email to complete sign-in");
+      }
+
+      auth.signInWithEmailLink(email, window.location.href)
+        .then(() => {
+          window.localStorage.removeItem("emailForSignIn");
+        })
+        .catch((error) => {
+          console.error("Error signing in with email link:", error);
+          alert("There was an issue signing in. Please try again.");
+        });
+    }
+
     auth.onAuthStateChanged(async (user) => {
       if (user) {
         loginBox.style.display = "none";
@@ -101,11 +118,21 @@ layout: page
         premium.style.display = "none";
 
         ui.start("#firebaseui-auth-container", {
-          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-          signInSuccessUrl: window.location.href
+          signInOptions: [{
+            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+          }],
+          signInFlow: "popup",
+          callbacks: {
+            signInSuccessWithAuthResult: (authResult) => {
+              // Store the email to complete sign-in later
+              localStorage.setItem("emailForSignIn", authResult.user.email);
+              return false; // prevent redirect
+            }
+          }
         });
 
+        // Optional: reword the button label
         setTimeout(() => {
           const emailButton = document.querySelector('.firebaseui-idp-text');
           if (emailButton && emailButton.textContent.includes('Sign in with email')) {
@@ -114,7 +141,7 @@ layout: page
         }, 100);
       }
 
-      // ✅ Always reveal content after auth check completes
+      // ✅ Show the content wrapper after auth finishes
       contentWrapper.style.display = "block";
     });
   });
