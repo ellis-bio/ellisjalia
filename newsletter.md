@@ -117,20 +117,25 @@ layout: page
         loginBox.style.display = "block";
         premium.style.display = "none";
 
-        ui.start("#firebaseui-auth-container", {
-          signInOptions: [{
-            provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-            signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
-          }],
-          signInFlow: "popup",
-          callbacks: {
-            signInSuccessWithAuthResult: (authResult) => {
-              // Store the email to complete sign-in later
-              localStorage.setItem("emailForSignIn", authResult.user.email);
-              return false; // prevent redirect
-            }
-          }
+ui.start("#firebaseui-auth-container", {
+  signInOptions: [{
+    provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+    signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD
+  }],
+  signInFlow: "popup",
+  callbacks: {
+    signInSuccessWithAuthResult: () => false, // don’t redirect
+    uiShown: () => {
+      // Store the email entered so we can use it later
+      const input = document.querySelector('input[type="email"]');
+      if (input) {
+        input.addEventListener('change', () => {
+          localStorage.setItem("emailForSignIn", input.value);
         });
+      }
+    }
+  }
+});
 
         // Optional: reword the button label
         setTimeout(() => {
