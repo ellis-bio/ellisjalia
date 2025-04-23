@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<!-- 🔒 Minimal Style -->
+<!-- Minimal Style -->
 <style>
   #firebaseui-auth-container {
     margin: 60px auto;
@@ -12,17 +12,20 @@ layout: page
   }
 </style>
 
-<!-- 🔒 FirebaseUI + Premium Paywall -->
+<!-- FirebaseUI + Premium Paywall -->
 <div id="firebaseui-auth-container"></div>
 
-<div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
-  <p>You're logged in. Unlock premium content for £19/month.</p>
-  <button id="subscribe-button">Subscribe Now</button>
-</div>
+<!-- Wrap paywall & premium content -->
+<div id="auth-controlled-content" style="display: none;">
+  <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
+    <p>You're logged in. Unlock premium content for £19/month.</p>
+    <button id="subscribe-button">Subscribe Now</button>
+  </div>
 
-<div id="premium-content" style="display:none; max-width: 400px; margin: 40px auto; text-align: center;">
-  <h3>Premium Content</h3>
-  <p>This is your exclusive members-only content.</p>
+  <div id="premium-content" style="display: none; max-width: 400px; margin: 40px auto; text-align: center;">
+    <h3>Premium Content</h3>
+    <p>This is your exclusive members-only content.</p>
+  </div>
 </div>
 
 <!-- Firebase & FirebaseUI -->
@@ -34,14 +37,14 @@ layout: page
 <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- 🔧 Main Script -->
+<!-- Main Script -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
       apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
       authDomain: "ellisjalia-db.firebaseapp.com",
       projectId: "ellisjalia-db",
-      storageBucket: "ellisjalia-db.appspot.com", // ✅ fixed .app → .com
+      storageBucket: "ellisjalia-db.appspot.com", 
       messagingSenderId: "269108432993",
       appId: "1:269108432993:web:93262054eb937faf789a20",
       measurementId: "G-NYXXY0PL56"
@@ -102,7 +105,7 @@ layout: page
           });
 
           if (data?.url) {
-            window.location.href = data.url; // ✅ seamless
+            window.location.href = data.url;
           } else {
             alert("Could not start checkout.");
           }
