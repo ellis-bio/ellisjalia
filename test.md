@@ -13,101 +13,37 @@ layout: page
   <hr width="100%" size="3">
   </center>
 
-<!-- Custom Login Style -->
+<!-- 🔒 Minimal Style -->
 <style>
-  .form-container {
-    background-color: #F4F6F6;
-    padding: 30px;
-    border-radius: 16px;
-    max-width: 380px;
+  #firebaseui-auth-container {
     margin: 60px auto;
-    text-align: center;
+    max-width: 400px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  }
-
-  .image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-bottom: 16px;
-  }
-
-  .form-container img.shape {
-    width: 80px;
-    display: inline-block;
-  }
-
-  .form-container h2 {
-    margin-bottom: 8px;
-    font-size: 22px;
-    color: #333;
-    line-height: 1.4;
-  }
-
-  .form-container p.subtext {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-    font-weight: normal;
-  }
-
-  #login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  #login-form input {
-    padding: 12px 16px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    width: 100%;
-    font-size: 16px;
-  }
-
-  #login-form button {
-    padding: 14px 24px;
-    border-radius: 10px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  #login-form button:hover {
-    background-color: tomato;
+    text-align: center;
   }
 </style>
 
-<div class="form-container" id="auth-section">
-  <div class="image-wrapper">
-    <img class="shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/First_stellation_of_dodecahedron.svg/600px-First_stellation_of_dodecahedron.svg.png" alt="Stellated dodecahedron" />
+<!-- FirebaseUI login form -->
+<div id="firebaseui-auth-container"></div>
+
+<!-- Premium content wrapper -->
+<div id="auth-controlled-content" style="display: none;">
+  <div id="premium-content" style="display: none; max-width: 400px; margin: 40px auto; text-align: center;">
+    <h3>Premium Content</h3>
+    <p>This is your exclusive members-only content.</p>
   </div>
-  <h2>If you enjoy my blog, you'll love the membership experience.</h2>
-  <p class="subtext">It's £19 per month. Cancel anytime.</p>
-  <form id="login-form">
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <button type="submit">Log In or Sign Up</button>
-  </form>
 </div>
 
-<div id="premium-content" style="display:none; max-width: 400px; margin: 40px auto; text-align: center;">
-  <h3>Premium Content</h3>
-  <p>This is your exclusive members-only content.</p>
-</div>
-
-<!-- Firebase -->
+<!-- Firebase & Stripe SDKs -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
+<link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
 <script src="https://js.stripe.com/v3/"></script>
 
+<!-- 🔧 Paywall Logic -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
@@ -126,30 +62,41 @@ layout: page
     const functions = firebase.app().functions("europe-west2");
     const stripe = Stripe("pk_test_51RHASqEIRcgFdVmxdqinCh52Khs11e9HL2boBXeZrd2gBZaVhOx7vLaNcVELgoJMruZswd8tyjJgx5pyEt3LlOpe005GelRYPh");
 
-    db.enableNetwork().catch(console.error); // Ensure Firestore isn't offline
+    db.enableNetwork().catch(console.error);
 
-    const loginForm = document.getElementById("login-form");
+    const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
+    const loginBox = document.getElementById("firebaseui-auth-container");
     const premium = document.getElementById("premium-content");
-    const authSection = document.getElementById("auth-section");
+    const contentWrapper = document.getElementById("auth-controlled-content");
 
     async function hasPaid(uid) {
-      const snap = await db.collection("users").doc(uid).get();
-      return snap.exists && snap.data().status === "active";
+      try {
+        const snap = await db.collection("users").doc(uid).get();
+        console.log("📄 Firestore user status:", snap.exists, snap.data());
+        return snap.exists && snap.data().status === "active";
+      } catch (err) {
+        console.error("🚨 hasPaid() error:", err);
+        return false;
+      }
     }
 
     async function postLoginFlow(user) {
-      authSection.style.display = "none";
+      loginBox.style.display = "none";
 
       const paid = await hasPaid(user.uid);
       if (paid) {
         premium.style.display = "block";
+        contentWrapper.style.display = "block";
+        console.log("✅ User is paid. Showing premium content.");
       } else {
+        console.log("🚀 User is unpaid. Redirecting to Stripe Checkout...");
+        document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+
         try {
-          document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
           const createCheckout = functions.httpsCallable("createCheckoutSession");
           const { data } = await createCheckout({
-            successUrl: window.location.origin + "/newsletter?success=true",
-            cancelUrl: window.location.origin + "/newsletter?canceled=true"
+            successUrl: window.location.origin + "/test",
+            cancelUrl: window.location.origin + "/"
           });
 
           if (data?.url) {
@@ -158,39 +105,39 @@ layout: page
             alert("Could not start checkout.");
           }
         } catch (err) {
-          console.error("Stripe error:", err);
+          console.error("🔥 Stripe error:", err);
           alert("Checkout failed: " + err.message);
         }
       }
     }
 
     auth.onAuthStateChanged((user) => {
-      if (user) postLoginFlow(user);
-    });
+      if (user) {
+        postLoginFlow(user);
+      } else {
+        loginBox.style.display = "block";
+        premium.style.display = "none";
+        contentWrapper.style.display = "block";
 
-    loginForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const email = document.getElementById("email").value.trim();
-      const password = document.getElementById("password").value;
-
-      try {
-        await auth.signInWithEmailAndPassword(email, password);
-      } catch (err) {
-        if (err.code === "auth/user-not-found") {
-          try {
-            await auth.createUserWithEmailAndPassword(email, password);
-          } catch (signupErr) {
-            console.error("Signup error:", signupErr);
-            alert(signupErr.message);
+        ui.start("#firebaseui-auth-container", {
+          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+          signInFlow: "popup",
+          callbacks: {
+            uiShown: () => {
+              // Optional: relabel the login button
+              setTimeout(() => {
+                const label = document.querySelector('.firebaseui-title');
+                if (label && label.textContent.includes('Sign in with email')) {
+                  label.textContent = 'Sign in or sign up with email';
+                }
+              }, 100);
+            },
+            signInSuccessWithAuthResult: () => false
           }
-        } else {
-          console.error("Login error:", err);
-          alert(err.message);
-        }
+        });
       }
     });
   });
 </script>
-
 
 
