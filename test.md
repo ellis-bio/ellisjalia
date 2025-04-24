@@ -165,7 +165,7 @@ layout: page
                 "createCheckoutSession"
               );
               const { data } = await createCheckout({
-                successUrl: `${window.location.origin}/premium`, // Adjust as needed
+                successUrl: `${window.location.origin}/test`, // Adjust as needed
                 cancelUrl: `${window.location.origin}/`,
               });
 
