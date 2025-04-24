@@ -12,132 +12,186 @@ layout: page
  </div>
   <hr width="100%" size="3">
   </center>
+  
+  <!-- Minimal, reusable styles -->
+  <style>
+    :root {
+      --max-width: 420px;
+      --spacing: 2rem;
+      --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    }
+          
+    body {
+      margin: 0;
+      font-family: var(--font-stack);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: var(--spacing) 1rem;
+      box-sizing: border-box;
+    }
 
-<!-- Minimal Style -->
-<style>
-  #firebaseui-auth-container {
-    margin: 60px auto;
-    max-width: 400px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-align: center;
-  }
-</style>
+    #firebaseui-auth-container,
+    #premium-content {
+      width: 100%;
+      max-width: var(--max-width);
+      text-align: center;
+    }
 
-<!-- FirebaseUI login form -->
-<div id="firebaseui-auth-container"></div>
+    .hidden {
+      display: none !important;
+    }
 
-<!-- Premium content wrapper -->
-<div id="auth-controlled-content" style="display: none;">
-  <div id="premium-content" style="display: none; max-width: 400px; margin: 40px auto; text-align: center;">
+    #loader {
+      margin-top: var(--spacing);
+    }
+  </style>
+
+  <!-- FirebaseUI core CSS -->
+  <link
+    rel="stylesheet"
+    href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css"
+  />
+</head>
+<body>
+  <!-- Login -->
+  <div id="firebaseui-auth-container" class="hidden"></div>
+
+  <!-- Premium Content -->
+  <section id="premium-content" class="hidden">
     <h3>Premium Content</h3>
-    <p>This is your exclusive members-only content.</p>
-  </div>
-</div>
+    <p>This is your exclusive members‑only content.</p>
+  </section>
 
-<!-- Firebase & Stripe SDKs -->
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
-<link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
-<script src="https://js.stripe.com/v3/"></script>
+  <!-- Simple loader -->
+  <p id="loader">Loading…</p>
 
-<!-- Paywall Logic -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const firebaseConfig = {
-      apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
-      authDomain: "ellisjalia-db.firebaseapp.com",
-      projectId: "ellisjalia-db",
-      storageBucket: "ellisjalia-db.appspot.com",
-      messagingSenderId: "269108432993",
-      appId: "1:269108432993:web:93262054eb937faf789a20",
-    };
+  <!-- Firebase & Stripe SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-functions-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
+  <script src="https://js.stripe.com/v3/"></script>
 
-    firebase.initializeApp(firebaseConfig);
+  <script>
+    (function init() {
+      /** ---------------------------------------------
+       * 1️⃣  Firebase initialisation
+       * ------------------------------------------ */
+      const firebaseConfig = {
+        apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
+        authDomain: "ellisjalia-db.firebaseapp.com",
+        projectId: "ellisjalia-db",
+        storageBucket: "ellisjalia-db.appspot.com",
+        messagingSenderId: "269108432993",
+        appId: "1:269108432993:web:93262054eb937faf789a20",
+      };
 
-    const auth = firebase.auth();
-    const db = firebase.firestore();
-    const functions = firebase.app().functions("europe-west2");
-    const stripe = Stripe("pk_test_51RHASqEIRcgFdVmxdqinCh52Khs11e9HL2boBXeZrd2gBZaVhOx7vLaNcVELgoJMruZswd8tyjJgx5pyEt3LlOpe005GelRYPh");
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+      const functions = firebase.app().functions("europe-west2");
 
-    db.enableNetwork().catch(console.error);
+      /** ---------------------------------------------
+       * 2️⃣  Stripe initialisation (client‑side)
+       *      ⚠️  Replace with live pub key in prod
+       * ------------------------------------------ */
+      const stripe = Stripe(
+        "pk_test_51RHASqEIRcgFdVmxdqinCh52Khs11e9HL2boBXeZrd2gBZaVhOx7vLaNcVELgoJMruZswd8tyjJgx5pyEt3LlOpe005GelRYPh"
+      );
 
-    const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
-    const loginBox = document.getElementById("firebaseui-auth-container");
-    const premium = document.getElementById("premium-content");
-    const contentWrapper = document.getElementById("auth-controlled-content");
+      /** ---------------------------------------------
+       * 3️⃣  DOM helpers
+       * ------------------------------------------ */
+      const $loginBox = document.getElementById("firebaseui-auth-container");
+      const $premium = document.getElementById("premium-content");
+      const $loader = document.getElementById("loader");
 
-    async function hasPaid(uid) {
-      try {
-        const snap = await db.collection("users").doc(uid).get();
-        console.log("📄 Firestore user status:", snap.exists, snap.data());
-        return snap.exists && snap.data().status === "active";
-      } catch (err) {
-        console.error("🚨 hasPaid() error:", err);
-        return false;
-      }
-    }
+      const show = (el) => el.classList.remove("hidden");
+      const hide = (el) => el.classList.add("hidden");
 
-    async function postLoginFlow(user) {
-      loginBox.style.display = "none";
+      /** ---------------------------------------------
+       * 4️⃣  FirebaseUI configuration
+       * ------------------------------------------ */
+      const ui =
+        firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
 
-      const paid = await hasPaid(user.uid);
-      if (paid) {
-        premium.style.display = "block";
-        contentWrapper.style.display = "block";
-        console.log("✅ User is paid. Showing premium content.");
-      } else {
-        console.log("🚀 User is unpaid. Redirecting to Stripe Checkout...");
-        document.body.innerHTML = "<p style='text-align:center;'>Redirecting to checkout...</p>";
+      const uiConfig = {
+        signInFlow: "popup",
+        signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+        credentialHelper: firebaseui.auth.CredentialHelper.NONE, // No Google Smart Lock pop‑ups
+        callbacks: {
+          uiShown: () => hide($loader),
+          signInSuccessWithAuthResult: () => false, // Prevent redirect
+        },
+      };
 
+      /** ---------------------------------------------
+       * 5️⃣  Helper – check paid status in Firestore
+       * ------------------------------------------ */
+      const hasPaid = async (uid) => {
         try {
-          const createCheckout = functions.httpsCallable("createCheckoutSession");
-          const { data } = await createCheckout({
-            successUrl: window.location.origin + "/test",
-            cancelUrl: window.location.origin + "/"
-          });
-
-          if (data?.url) {
-            window.location.href = data.url;
-          } else {
-            alert("Could not start checkout.");
-          }
-        } catch (err) {
-          console.error("🔥 Stripe error:", err);
-          alert("Checkout failed: " + err.message);
+          const snap = await db.collection("users").doc(uid).get();
+          return snap.exists && snap.data()?.status === "active";
+        } catch (error) {
+          console.error("❌ hasPaid error", error);
+          return false;
         }
-      }
-    }
+      };
 
-    auth.onAuthStateChanged((user) => {
-      if (user) {
-        postLoginFlow(user);
-      } else {
-        loginBox.style.display = "block";
-        premium.style.display = "none";
-        contentWrapper.style.display = "block";
+      /** ---------------------------------------------
+       * 6️⃣  Handle auth state changes
+       * ------------------------------------------ */
+      auth.onAuthStateChanged(async (user) => {
+        if (user) {
+          // Logged in: hide login, show loader while we check payment
+          hide($loginBox);
+          show($loader);
 
-        ui.start("#firebaseui-auth-container", {
-          signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-          signInFlow: "popup",
-          callbacks: {
-            uiShown: () => {
-              // Optional: relabel the login button
-              setTimeout(() => {
-                const label = document.querySelector('.firebaseui-title');
-                if (label && label.textContent.includes('Sign in with email')) {
-                  label.textContent = 'Sign in or sign up with email';
-                }
-              }, 100);
-            },
-            signInSuccessWithAuthResult: () => false
+          const paid = await hasPaid(user.uid);
+
+          if (paid) {
+            hide($loader);
+            show($premium);
+            console.info("✅ User is paid – showing premium content");
+          } else {
+            console.info("💸 Unpaid – creating Stripe Checkout session");
+            try {
+              const createCheckout = functions.httpsCallable(
+                "createCheckoutSession"
+              );
+              const { data } = await createCheckout({
+                successUrl: `${window.location.origin}/premium`, // Adjust as needed
+                cancelUrl: `${window.location.origin}/`,
+              });
+
+              if (data?.url) {
+                window.location.assign(data.url);
+              } else {
+                throw new Error("No checkout URL returned");
+              }
+            } catch (error) {
+              console.error("🔥 Stripe Checkout error", error);
+              alert(`Checkout failed: ${error.message}`);
+              auth.signOut();
+            }
           }
-        });
-      }
-    });
-  });
-</script>
+        } else {
+          // Logged out: show login widget
+          hide($premium);
+          hide($loader);
+          show($loginBox);
+          ui.start("#firebaseui-auth-container", uiConfig);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
+
 
 
