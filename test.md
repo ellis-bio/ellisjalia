@@ -47,7 +47,7 @@ layout: page
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
+      apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
       authDomain: "ellisjalia-db.firebaseapp.com",
       projectId: "ellisjalia-db",
       storageBucket: "ellisjalia-db.firebasestorage.app",
