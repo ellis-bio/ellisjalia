@@ -23,7 +23,7 @@ layout: page
   }
 </style>
 
-<!-- FirebaseUI + Premium Paywall -->
+<!-- FirebaseUI + Paywall -->
 <div id="firebaseui-auth-container"></div>
 
 <div id="paywall-section" style="max-width: 400px; margin: 40px auto; text-align: center;">
@@ -36,6 +36,12 @@ layout: page
   <p>This is your exclusive members-only content.</p>
 </div>
 
+// Import the functions you need from the SDKs you need
+<script>
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+</script>
+
 <!-- Firebase & FirebaseUI -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
@@ -45,20 +51,22 @@ layout: page
 <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
 <script src="https://js.stripe.com/v3/"></script>
 
-<!-- 🔧 Main Script -->
+<!-- Main Script -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const firebaseConfig = {
       apiKey: "AIzaSyDLRxkrPfPbskX2kyNgNMk4MDg-5volGTI",
       authDomain: "ellisjalia-db.firebaseapp.com",
       projectId: "ellisjalia-db",
-      storageBucket: "ellisjalia-db.appspot.com",
+      storageBucket: "ellisjalia-db.firebasestorage.app",
       messagingSenderId: "269108432993",
       appId: "1:269108432993:web:93262054eb937faf789a20",
       measurementId: "G-NYXXY0PL56"
     };
 
-    firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
     const auth = firebase.auth();
     const db = firebase.firestore();
