@@ -36,12 +36,6 @@ layout: page
   <p>This is your exclusive members-only content.</p>
 </div>
 
-// Import the functions you need from the SDKs you need
-<script>
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-</script>
-
 <!-- Firebase & FirebaseUI -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
