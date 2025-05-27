@@ -33,7 +33,7 @@ a:hover {
 
 <p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
 
-<p>But this site is just one arm of Palinode, a company I started to bring artificial intelligence into everyday objects. The proceeds from this site will enable me to purchase materials to build robots.</p>
+<p>This site is one arm of Palinode, a company I started to bring artificial intelligence into everyday objects. The proceeds from this site will enable me to purchase materials to build robots.</p>
 
 <p>Large Language Models are just the beginning of the artificial intelligence revolution. If humanity's to evolve to a Star Trek like society, we're going to need to embed AI into things. AI is going to be the third pillar in society, after fire (or nuclear fusion) and electricity.</p>
 
