@@ -43,6 +43,6 @@ a:hover {
 
 <p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
 
-<p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
+<p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. We begin with the qualia we want to see.</p>
 
 <hr>
