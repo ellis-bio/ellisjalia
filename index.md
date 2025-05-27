@@ -23,6 +23,29 @@ a:hover {
 }
 </style>
 
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Qualia and Programming</b></a></p>
+<p style="font-size:0.95rem; color: silver">Tuesday, May 27, 2025</p>
+
+<center><img src="/assets/images/qualia-and-programming.jpg" style="margin-bottom:1em; margin-top: 1em;"></center>
+
+<p>For the past three months, I've been working on-and-off on a paywall. I want this site to be one of the best on the internet. But I also want to make a living off of it.</p> 
+
+<p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
+
+<p>But this site is just one arm of Palinode, a company I started to bring artificial intelligence into everyday objects. The proceeds from this site will enable me to purchase materials to build robots.</p>
+
+<p>Large Language Models are just the beginning of the artificial intelligence revolution. If humanity's to evolve to a Star Trek like society, we're going to need to embed AI into things. AI is going to be the third pillar in society, after fire (or nuclear fusion) and electricity.</p>
+
+<p>I'm at an early concept stage, but I believe I can have a working prototype within six months to a year that will demonstrate several key breakthroughs. The first will be a new way of understanding dynamics. Robots will be able to move in new ways.</p>
+
+<p>The second will be a new way of embedding AI into physical objects. Components will learn and adapt. This stage will take slightly longer, since the cloud architecture required is not yet available. But it will be, and we will be ready for it.</p>
+
+<p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
+
+<p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
+
+<hr>
+
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
 <p style="font-size:0.95rem; color: silver">Friday, January 10, 2025</p>
 
