@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Qualia and Programming</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Qualia and Programming</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, May 27, 2025</p>
 
 <center><img src="/assets/images/qualia-and-programming.jpg" style="margin-bottom:1em; margin-top: 1em;"></center>
