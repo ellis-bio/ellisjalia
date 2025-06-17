@@ -24,7 +24,7 @@ a:hover {
 </style>
 
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Monet and Freedom in Art</b></a></p>
-<p style="font-size:0.95rem; color: silver">Tuesday, June 10, 2025</p>
+<p style="font-size:0.95rem; color: silver">Tuesday, June 17, 2025</p>
 
 <div style="text-align: center;">
 <img src="/assets/images/monet-cover-4400x1202.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
