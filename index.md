@@ -7,7 +7,7 @@ layout: default
         <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
         <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
         <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/newsletter"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
         <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
  </div>
   <hr width="100%" size="3">
@@ -22,6 +22,19 @@ a:hover {
   text-decoration: none;
 }
 </style>
+
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Monet and Freedom in Art</b></a></p>
+<p style="font-size:0.95rem; color: silver">Tuesday, June 10, 2025</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/monet-cover-4400x1202.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that. 
+
+You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
+
+<hr>
 
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Qualia and Programming</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, May 27, 2025</p>
