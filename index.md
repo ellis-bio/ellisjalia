@@ -23,7 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Monet and Freedom in Art</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Monet and Freedom in Art</b></a></p>
 <p style="font-size:0.95rem; color: silver">Tuesday, June 10, 2025</p>
 
 <div style="text-align: center;">
