@@ -2,90 +2,104 @@
 layout: default
 permalink: /test-home-page/
 ---
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: url('https://images.unsplash.com/photo-1581322338260-9439cbd51b9e?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
-      background-size: cover;
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-.container {
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px; /* optimal spacing between icons */
-  max-width: 90vw;
-}
-
-.glass-icon {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 14px;
-  padding: 6px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(20px) saturate(150%);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow:
-    0 6px 20px rgba(31, 38, 135, 0.2),
-    inset 0 1px 1px rgba(255, 255, 255, 0.3);
-  transition: transform 0.2s ease, background 0.3s ease;
-  width: 52px;
-  height: 52px;
-}
-
-.glass-icon:hover {
-  transform: scale(1.05);
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.glass-icon img {
-  width: 32px;
-  height: 32px;
-  display: block;
-}
-
-    hr {
-      width: 100%;
-      height: 3px;
-      border: none;
-      background: rgba(255, 255, 255, 0.15);
-      margin: 20px 0;
-    }
-  </style>
-
-  <hr>
+<center>
+  <hr width="100%" size="3">
   <div class="container">
-    <a href="https://ellisjalia.com" class="glass-icon">
-      <img src="/assets/icons/menu.png" alt="Menu">
+    <a href="https://ellisjalia.com" class="icon-link">
+      <img src="/assets/icons/menu.png" alt="Menu Icon">
     </a>
-    <a href="https://ellisjalia.com/essays" class="glass-icon">
-      <img src="/assets/icons/quill.png" alt="Essays">
+    <a href="https://ellisjalia.com/essays" class="icon-link">
+      <img src="/assets/icons/quill.png" alt="Quill Icon">
     </a>
-    <a href="https://ellisjalia.com/art" class="glass-icon">
-      <img src="/assets/icons/paint-palette.png" alt="Art">
+    <a href="https://ellisjalia.com/art" class="icon-link">
+      <img src="/assets/icons/paint-palette.png" alt="Art Icon">
     </a>
-    <a href="https://ellisjalia.substack.com/" class="glass-icon">
-      <img src="/assets/icons/newsletter.png" alt="Newsletter">
+    <a href="https://ellisjalia.substack.com/" class="icon-link">
+      <img src="/assets/icons/newsletter.png" alt="Newsletter Icon">
     </a>
-    <a href="https://ellisjalia.com/about" class="glass-icon">
-      <img src="/assets/icons/unknown.png" alt="About">
+    <a href="https://ellisjalia.com/about" class="icon-link">
+      <img src="/assets/icons/unknown.png" alt="About Icon">
     </a>
   </div>
-  <hr>
+  <hr width="100%" size="3">
+</center>
 
-</body>
-</html>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px; /* optimal spacing */
+    padding: 10px 0;
+  }
 
+  .icon-link img {
+    width: 43px;
+    height: 43px;
+    padding: 2px;
+    border: 1px solid transparent;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    display: inline-block;
+  }
 
+  .icon-link:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+</style>
+
+<center>
+  <hr width="100%" size="3">
+  <div class="container">
+    <a href="https://ellisjalia.com" class="icon-wrapper">
+      <img src="/assets/icons/menu.png" alt="Menu Icon">
+    </a>
+    <a href="https://ellisjalia.com/essays" class="icon-wrapper">
+      <img src="/assets/icons/quill.png" alt="Quill Icon">
+    </a>
+    <a href="https://ellisjalia.com/art" class="icon-wrapper">
+      <img src="/assets/icons/paint-palette.png" alt="Art Icon">
+    </a>
+    <a href="https://ellisjalia.substack.com/" class="icon-wrapper">
+      <img src="/assets/icons/newsletter.png" alt="Newsletter Icon">
+    </a>
+    <a href="https://ellisjalia.com/about" class="icon-wrapper">
+      <img src="/assets/icons/unknown.png" alt="About Icon">
+    </a>
+  </div>
+  <hr width="100%" size="3">
+</center>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .icon-wrapper {
+    padding: 6px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+
+  .icon-wrapper img {
+    width: 43px;
+    height: 43px;
+    display: block;
+  }
+
+  .icon-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+  }
+</style>
 
 
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Monet and Freedom in Art</b></a></p>
@@ -315,147 +329,3 @@ permalink: /test-home-page/
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
 
 <hr>
-
-  <style>
-    body {
-      font-family: Georgia, 'Times New Roman', serif;
-      padding: 2rem;
-      background: #fff;
-      color: #333;
-    }
-
-    .pagination {
-      display: flex;
-      justify-content: space-between;
-      max-width: 600px;
-      margin: 3rem auto 0 auto;
-    }
-
-    .pagination-button {
-      text-decoration: none;
-      padding: 0.5em 1.2em;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      color: #333;
-      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-      font-size: 1rem;
-      display: inline-block;
-      width: 150px;
-      text-align: center; /* This centers the text */
-    }
-
-    .pagination-button:hover {
-      background: #f9f9f9;
-      color: #ff6347;
-      border-color: #ff6347;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="pagination">
-    <a href="/previous-page" class="pagination-button">&#8592; Previous</a>
-    <a href="/next-page" class="pagination-button">Next &#8594;</a>
-  </div>
-
-<br>
-<br>
-
-<!-- 🔍 Search Box in Black Bar -->
-<div id="search-bar-wrapper">
-  <input type="text" id="search-box" placeholder="Search this website">
-  <ul id="search-results"></ul>
-</div>
-
-<!-- 💅 Styling -->
-<style>
-  #search-bar-wrapper {
-    background-color: #000;
-    padding: 1.5rem;
-  }
-
-  #search-box {
-    font-size: 1.1rem;
-    padding: 0.75rem 1rem;
-    width: 280px;
-    max-width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    color: #333;
-    outline: none;
-    box-shadow: none;
-  }
-
-  #search-box::placeholder {
-    color: #999;
-  }
-
-  #search-results {
-    margin-top: 1rem;
-    list-style: none;
-    padding-left: 0;
-  }
-
-  #search-results li a {
-    display: block;
-    padding: 0.5rem 0;
-    text-decoration: none;
-    color: #007acc;
-    border-bottom: 1px solid #eee;
-  }
-
-  #search-results li a:hover {
-    background-color: #f0f8ff;
-  }
-</style>
-
-<!-- 🔧 JavaScript (Lunr.js-powered Search) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    let idx = null;
-    let posts = [];
-
-    // Load search index
-    fetch("/search.json")
-      .then(res => res.json())
-      .then(data => {
-        posts = data;
-        idx = lunr(function () {
-          this.ref("url");
-          this.field("title");
-          this.field("content");
-
-          data.forEach(doc => this.add(doc));
-        });
-      });
-
-    // Search on Enter
-    document.getElementById("search-box").addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        const query = e.target.value.trim();
-        const results = idx.search(query);
-        const resultsList = document.getElementById("search-results");
-        resultsList.innerHTML = "";
-
-        if (results.length === 0) {
-          resultsList.innerHTML = "<li>No results found.</li>";
-          return;
-        }
-
-        results.forEach(result => {
-          const post = posts.find(p => p.url === result.ref);
-          const li = document.createElement("li");
-          li.innerHTML = `<a href="${post.url}">${post.title}</a>`;
-          resultsList.appendChild(li);
-        });
-      }
-    });
-  });
-</script>
-
-
-
-
