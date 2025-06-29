@@ -47,7 +47,7 @@ a:hover {
 <center><p style="font-size:0.9rem; color: grey">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p></center>
 
 <p>Nearly thirty years later, e-ink has now been adapted in the body of the BMW “I Vision Dee” - their colour-changing car:</p>
-<br>
+
 <div style="text-align: center;">
   <iframe width="560" height="315" 
     src="https://www.youtube.com/embed/BbbkExGbVDI" 
@@ -57,7 +57,7 @@ a:hover {
     allowfullscreen>
   </iframe>
 </div>
-<br>
+
 <p>I know of no other instances where matter –– in this case microparticles - is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
 
 <p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v-hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
