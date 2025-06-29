@@ -57,7 +57,7 @@ a:hover {
     allowfullscreen>
   </iframe>
 </div>
-
+<br>
 <p>I know of no other instances where matter –– in this case microparticles - is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
 
 <p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v-hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
