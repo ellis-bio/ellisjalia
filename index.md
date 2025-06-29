@@ -31,9 +31,9 @@ a:hover {
 </div>
 <center><p style="font-size:0.9rem; color: grey">A close-up photo of an electrophoretic display</p></center>
 
-<p>In <a href="https://www.goodreads.com/book/show/34274957-life-3-0” style="color:tomato;”>Life 3.0: Being Human in the Age of Artificial Intelligence</a>, Max Tegmark says that, with AI, we’re going to figure out how to rebuild cities atom by atom. Control of matter will be possible.</p>
+<p>In <a href="https://www.goodreads.com/book/show/34274957-life-3-0" style="color:tomato;">Life 3.0: being Human in the Age of Artificial Intelligence</a>, Max Tegmark says that, with AI, we're going to figure out how to rebuild cities atom by atom. Control of matter will be possible.</a>
 
-<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a href="http://fulltext.calis.edu.cn/nature/nature/394/6690/394253.pdf” style="color:tomato”>electrophoretic display</a> – also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
+<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a ref="https://fultext.calis.edu.cn/nature/nature/394/6690/394253.pdf" style="color:tomato;">electrophoretic display</a> – also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
 
 <p>If you’re not familiar with it, here’s how it works. The electrophoretic ink is synthesised by microencapsulating black and white charged microparticles in a dielectric fluid interposed by two glass electrodes.</p>
 
@@ -60,7 +60,7 @@ a:hover {
 <br>
 <p>I know of no other instances where matter –– in this case microparticles - is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
 
-<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v=hI5UDKaWJOo” style=“color:tomato”>MIT’s M-Blocks</a< and their <a href="https://www.nature.com/articles/s44172-022-00034-3” style="color:tomato"> modular building blocks and assembler</a> “constructors” that move along a passive lattice structure.</p>
+<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v-hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
 
 <p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
 
