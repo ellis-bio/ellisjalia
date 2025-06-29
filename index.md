@@ -46,7 +46,7 @@ a:hover {
 </div>
 <center><p style="font-size:0.9rem; color: grey">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p></center>
 
-<p>Nearly thirty years later, e-ink has now been adapted into the body of the BMW “I Vision Dee” - their colour-changing car:</p>
+<p>Nearly thirty years later, e-ink has now been adapted in the body of the BMW “I Vision Dee” - their colour-changing car:</p>
 <br>
 <div style="text-align: center;">
   <iframe width="560" height="315" 
