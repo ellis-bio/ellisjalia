@@ -1,108 +1,115 @@
 ---
 layout: default
-permalink: /test-home-page/
+permalink: /test-home/
 ---
 <center>
+<hr width="100%" size="3">
+<div class="container">
+        <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+ </div>
   <hr width="100%" size="3">
-  <div class="container">
-    <a href="https://ellisjalia.com" class="icon-link">
-      <img src="/assets/icons/menu.png" alt="Menu Icon">
-    </a>
-    <a href="https://ellisjalia.com/essays" class="icon-link">
-      <img src="/assets/icons/quill.png" alt="Quill Icon">
-    </a>
-    <a href="https://ellisjalia.com/art" class="icon-link">
-      <img src="/assets/icons/paint-palette.png" alt="Art Icon">
-    </a>
-    <a href="https://ellisjalia.substack.com/" class="icon-link">
-      <img src="/assets/icons/newsletter.png" alt="Newsletter Icon">
-    </a>
-    <a href="https://ellisjalia.com/about" class="icon-link">
-      <img src="/assets/icons/unknown.png" alt="About Icon">
-    </a>
-  </div>
-  <hr width="100%" size="3">
-</center>
-
+  </center>
 <style>
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px; /* optimal spacing */
-    padding: 10px 0;
-  }
-
-  .icon-link img {
-    width: 43px;
-    height: 43px;
-    padding: 2px;
-    border: 1px solid transparent;
-    transition: transform 0.2s ease, filter 0.2s ease;
-    display: inline-block;
-  }
-
-  .icon-link:hover img {
-    transform: scale(1.1);
-    filter: brightness(1.2);
-  }
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
 </style>
 
-<center>
-  <hr width="100%" size="3">
-  <div class="container">
-    <a href="https://ellisjalia.com" class="icon-wrapper">
-      <img src="/assets/icons/menu.png" alt="Menu Icon">
-    </a>
-    <a href="https://ellisjalia.com/essays" class="icon-wrapper">
-      <img src="/assets/icons/quill.png" alt="Quill Icon">
-    </a>
-    <a href="https://ellisjalia.com/art" class="icon-wrapper">
-      <img src="/assets/icons/paint-palette.png" alt="Art Icon">
-    </a>
-    <a href="https://ellisjalia.substack.com/" class="icon-wrapper">
-      <img src="/assets/icons/newsletter.png" alt="Newsletter Icon">
-    </a>
-    <a href="https://ellisjalia.com/about" class="icon-wrapper">
-      <img src="/assets/icons/unknown.png" alt="About Icon">
-    </a>
-  </div>
-  <hr width="100%" size="3">
-</center>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    21st Century Philosophical Canon
+  </a>
+</p>
+<p style="font-size:0.95rem; color: silver">Monday, June 30, 2025</p>
 
-<style>
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 14px;
-    padding: 10px 0;
-  }
+<div style="text-align: center;">
+<img src="/assets/images/21stcentury.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.5em; margin-top: 0.3em;">
+</div>
 
-  .icon-wrapper {
-    padding: 6px;
-    border-radius: 10px;
-    transition: all 0.2s ease;
-    display: inline-block;
-  }
+In yesterday's newsletter, I made a list of 20 books that I think are going to be part of the 21st century philosophical canon: books and authors who might leave a lasting impression.
 
-  .icon-wrapper img {
-    width: 43px;
-    height: 43px;
-    display: block;
-  }
+<p><b>Here's a question for you: which books (philosophy or otherwise) would you consider to be part of the 21st century canon?</b></p>
 
-  .icon-wrapper:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
-  }
-</style>
+<p>By the way: if you want to come along on this journey I'm taking into the frontiers of knowledge, consider becoming a paid subscriber.</p>
 
+<p><b>What you'll get:</b> every week I will send you The World Knot &mdash; an exclusive newsletter with ideas, tools, and methods for living a life of the highest possible quality.</p>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Monet and Freedom in Art</b></a></p>
+<p>To celebrate its launch, <a href="https://ellisjalia.substack.com/c22e2235" style="color:tomato">for the next week I'm offering 20% off for new subscribers.</a>
+
+<hr>
+
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Programmable Matter
+  </a>
+</p>
+<p style="font-size:0.95rem; color: silver">Sunday, June 29, 2025</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/electrophoretic-display.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.3em; margin-top: 1em;">
+</div>
+<center><p style="font-size:0.9rem; color: grey">A close-up photo of an electrophoretic display</p></center>
+
+<p>In <a href="https://www.goodreads.com/book/show/34274957-life-3-0" style="color:tomato;">Life 3.0: Being Human in the Age of Artificial Intelligence</a>, Max Tegmark says that, with AI, we're going to figure out how to rebuild cities atom by atom. Control of matter will be possible.</p>
+
+<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a ref="https://fultext.calis.edu.cn/nature/nature/394/6690/394253.pdf" style="color:tomato;">electrophoretic display</a> &mdash; also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
+
+<p>If you’re not familiar with it, here’s how it works. The electrophoretic ink is synthesised by microencapsulating black and white charged microparticles in a dielectric fluid interposed by two glass electrodes.</p>
+
+<p>The microcapsules range from 30-300um in diameter, and the differently coloured particles are migrated towards the viewer by the application of an external electric field. Black is obtained from an inorganic black pigment, and white is titanium dioxide.</p>
+
+<p>Positively charged white particles move towards the top electrode layer, and opposite charged black particles move towards the bottom electrode. The fine control of the electric field results in a display that is the analogue of ink on paper.</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/electrophoretic-display-figures.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.3em; margin-top: 1em;">
+</div>
+<center><p style="font-size:0.9rem; color: grey">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p></center>
+
+<p>Nearly thirty years later, e-ink has now been adapted in the body of the BMW “I Vision Dee” &mdash; their colour-changing car:</p>
+
+<div style="text-align: center;">
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/BbbkExGbVDI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+<br>
+<p>I know of no other instances where matter &mdash; in this case microparticles &mdash; is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
+
+<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v-hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
+
+<p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
+
+<p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
+
+<hr>
+
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Monet and Freedom in Art
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Tuesday, June 17, 2025</p>
 
 <div style="text-align: center;">
@@ -115,7 +122,14 @@ permalink: /test-home-page/
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Qualia and Programming</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Qualia and Programming
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Tuesday, May 27, 2025</p>
 
 <center><img src="/assets/images/qualia-and-programming.jpg" style="margin-bottom:1em; margin-top: 1em;"></center>
@@ -138,7 +152,14 @@ permalink: /test-home-page/
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com/2025/01/10/reading-paths/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Reading Paths
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Friday, January 10, 2025</p>
 
 <p>For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschläger; and Critique of Pure Reason by Immanuel Kant.</p>
@@ -159,7 +180,14 @@ permalink: /test-home-page/
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/"><b>Libri di Bottega</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/" 
+     style="text-decoration:none; color:inherit; transition:color 0.3s;" 
+     onmouseover="this.style.color='tomato'" 
+     onmouseout="this.style.color='inherit'">
+    Libri di Bottega
+  </a>
+</p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
@@ -216,8 +244,15 @@ permalink: /test-home-page/
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">The Mind of Leonardo</a></b></p>
-<p style="font-size:0.95rem; color: silver">Thursday, December 5, 2024</p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+  <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    The Mind of Leonardo
+  </a>
+</p>
+<p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/davinci.png"></center>
 <center><p style="font-size:0.9rem; color: grey">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His notebook manuscripts are held in both public and private collections, notably by Bill Gates, the Ambrosiana, and the Royal Collection Trust.</p></center>
@@ -329,3 +364,5 @@ permalink: /test-home-page/
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
 
 <hr>
+
+
