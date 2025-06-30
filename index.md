@@ -224,7 +224,7 @@ a:hover {
      onmouseout="this.style.color='inherit'">
     The Mind of Leonardo
   </a>
-</p>
+</p> 
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/davinci.png"></center>
