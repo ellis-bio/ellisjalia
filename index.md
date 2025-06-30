@@ -23,7 +23,14 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>21st Century Philosophical Canon</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    21st Century Philosophical Canon
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Monday, June 30, 2025</p>
 
 <div style="text-align: center;">
@@ -42,7 +49,14 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Programmable Matter</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Programmable Matter
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Sunday, June 29, 2025</p>
 
 <div style="text-align: center;">
@@ -87,7 +101,14 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Monet and Freedom in Art</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Monet and Freedom in Art
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Tuesday, June 17, 2025</p>
 
 <div style="text-align: center;">
@@ -100,7 +121,14 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"><b>Qualia and Programming</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Qualia and Programming
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Tuesday, May 27, 2025</p>
 
 <center><img src="/assets/images/qualia-and-programming.jpg" style="margin-bottom:1em; margin-top: 1em;"></center>
@@ -123,7 +151,14 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/10/reading-paths/"><b>Reading Paths</b></a></p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com/2025/01/10/reading-paths/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    Reading Paths
+  </a>
+</p>
 <p style="font-size:0.95rem; color: silver">Friday, January 10, 2025</p>
 
 <p>For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschläger; and Critique of Pure Reason by Immanuel Kant.</p>
@@ -144,7 +179,14 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0"><a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/"><b>Libri di Bottega</b></a></p>
+<p style="font-size:1.7em; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/" 
+     style="text-decoration:none; color:inherit; transition:color 0.3s;" 
+     onmouseover="this.style.color='tomato'" 
+     onmouseout="this.style.color='inherit'">
+    Libri di Bottega
+  </a>
+</p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/da-vinci-2025.png" style="margin-bottom:0.3em; margin-top: 1em;"></center>
@@ -202,7 +244,12 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 <hr>
 
 <p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
-  <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/" style="text-decoration:none; color:inherit;">The Mind of Leonardo</a>
+  <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
+    The Mind of Leonardo
+  </a>
 </p>
 <p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
