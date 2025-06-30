@@ -23,33 +23,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
-  <a href="https://ellisjalia.com"
-     style="text-decoration:none; color:inherit; transition:color 0.3s;"
-     onmouseover="this.style.color='tomato'"
-     onmouseout="this.style.color='inherit'">
-    21st Century Philosophical Canon
-  </a>
-</p>
-<p style="font-size:0.95rem; color: silver">Monday, June 30, 2025</p>
-
-<div style="text-align: center;">
-<img src="/assets/images/21stcentury.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.5em; margin-top: 0.3em;">
-</div>
-
-In yesterday's newsletter, I made a list of 20 books that I think are going to be part of the 21st century philosophical canon: books and authors who might leave a lasting impression.
-
-<p><b>Here's a question for you: which books (philosophy or otherwise) would you consider to be part of the 21st century canon?</b></p>
-
-<p>By the way: if you want to come along on this journey I'm taking into the frontiers of knowledge, consider becoming a paid subscriber.</p>
-
-<p><b>What you'll get:</b> every week I will send you The World Knot &mdash; an exclusive newsletter with ideas, tools, and methods for living a life of the highest possible quality.</p>
-
-<p>To celebrate its launch, <a href="https://ellisjalia.substack.com/c22e2235" style="color:tomato">for the next week I'm offering 20% off for new subscribers.</a>
-
-<hr>
-
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -101,7 +75,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -121,7 +95,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -151,7 +125,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/10/reading-paths/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -179,7 +153,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7em; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/" 
      style="text-decoration:none; color:inherit; transition:color 0.3s;" 
      onmouseover="this.style.color='tomato'" 
@@ -243,7 +217,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Inter', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
