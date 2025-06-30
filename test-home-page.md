@@ -24,7 +24,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
