@@ -24,7 +24,7 @@ a:hover {
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -50,7 +50,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -102,7 +102,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -122,7 +122,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -152,7 +152,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/10/reading-paths/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -180,7 +180,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7em; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/" 
      style="text-decoration:none; color:inherit; transition:color 0.3s;" 
      onmouseover="this.style.color='tomato'" 
@@ -244,7 +244,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
   <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
