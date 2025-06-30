@@ -2,29 +2,45 @@
 layout: default
 permalink: /test-home/
 ---
-<center>
 <hr width="100%" size="3">
-<div class="container">
-        <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
-        <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
- </div>
-  <hr width="100%" size="3">
-  </center>
+
+<div class="icon-row">
+  <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" alt="Menu" /></a>
+  <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" alt="Essays" /></a>
+  <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" alt="Art" /></a>
+  <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" alt="Newsletter" /></a>
+  <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" alt="About" /></a>
+</div>
+
+<hr width="100%" size="3">
+
 <style>
-a {
-color: black;
-text-decoration: none;
+.icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; /* optimal spacing between icons */
+  padding: 10px 0;
 }
+
+.icon-row img {
+  width: 43px;
+  height: 43px;
+  display: block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
 a:hover {
   color: tomato;
   text-decoration: none;
 }
 </style>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -68,7 +84,7 @@ a:hover {
 <br>
 <p>I know of no other instances where matter &mdash; in this case microparticles &mdash; is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
 
-<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v-hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
+<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v=hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
 
 <p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
 
@@ -76,7 +92,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -96,7 +112,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/05/27/qualia-and-programming/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -126,7 +142,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/10/reading-paths/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
@@ -154,7 +170,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7em; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7em; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com/2025/01/07/libri-di-bottega/" 
      style="text-decoration:none; color:inherit; transition:color 0.3s;" 
      onmouseover="this.style.color='tomato'" 
@@ -218,7 +234,7 @@ a:hover {
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0; font-family:'Montserrat', sans-serif; font-weight:700;">
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
   <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/"
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
