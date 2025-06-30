@@ -43,7 +43,7 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <p>By the way: if you want to come along on this journey I'm taking into the frontiers of knowledge, consider becoming a paid subscriber.</p>
 
-<p><b>What you'll get:</b> every week I will send you a copy of The World Knot &mdash; an exclusive newsletter with ideas, tools, and methods for living a life of the highest possible quality.</p>
+<p><b>What you'll get:</b> every week I will send you The World Knot &mdash; an exclusive newsletter with ideas, tools, and methods for living a life of the highest possible quality.</p>
 
 <p>To celebrate its launch, <a href="https://ellisjalia.substack.com/c22e2235" style="color:tomato">for the next week I'm offering 20% off for new subscribers.</a>
 
