@@ -201,8 +201,10 @@ In yesterday's newsletter, I made a list of 20 books that I think are going to b
 
 <hr>
 
-<p style="font-size:1.7rem; margin-bottom:0"><b><a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/">The Mind of Leonardo</a></b></p>
-<p style="font-size:0.95rem; color: silver">Thursday, December 5, 2024</p>
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Merriweather Sans', sans-serif; font-weight:600;">
+  <a href="https://ellisjalia.com/2024/12/05/the-mind-of-leonardo/" style="text-decoration:none; color:inherit;">The Mind of Leonardo</a>
+</p>
+<p style="font-size:0.95em; color: silver">Tuesday, January 7, 2025</p>
 
 <center><img src="/assets/images/davinci.png"></center>
 <center><p style="font-size:0.9rem; color: grey">A few examples of Leonardo's drawings, with self-portrait at age 60 in the centre. His notebook manuscripts are held in both public and private collections, notably by Bill Gates, the Ambrosiana, and the Royal Collection Trust.</p></center>
