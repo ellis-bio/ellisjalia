@@ -23,6 +23,25 @@ a:hover {
 }
 </style>
 
+<p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>21st Century Philosophical Canon</b></a></p>
+<p style="font-size:0.95rem; color: silver">Monday, June 30, 2025</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/21st-century-philosophical-canon.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.5em; margin-top: 0.3em;">
+</div>
+
+In yesterday's newsletter, I made a list of 20 books that I think are going to be part of the 21st century philosophical canon: books and authors who might leave a lasting impression.
+
+<p><b>Here's a question for you: which books (philosophy or otherwise) would you consider to be part of the 21st century canon?</b></p>
+
+<p>By the way: if you want to come along on this journey I'm taking into the frontiers of knowledge, consider becoming a paid subscriber.</p>
+
+<p><b>What you'll get:</b> every week I will send you a copy of The World Knot &mdash; an exclusive newsletter with ideas, tools, and methods for living a life of the highest possible quality.</p>
+
+<p>To celebrate its launch, <a href="https://ellisjalia.substack.com/c22e2235" style="color:tomato">for the next week I'm offering 20% off for new subscribers.</a>
+
+<hr>
+
 <p style="font-size:1.7rem; margin-bottom:0"><a href="https://ellisjalia.com"><b>Programmable Matter</b></a></p>
 <p style="font-size:0.95rem; color: silver">Sunday, June 29, 2025</p>
 
@@ -295,3 +314,5 @@ a:hover {
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
 
 <hr>
+
+
