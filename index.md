@@ -27,7 +27,7 @@ a:hover {
 <p style="font-size:0.95rem; color: silver">Monday, June 30, 2025</p>
 
 <div style="text-align: center;">
-<img src="/assets/images/21st-century-philosophical-canon.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.5em; margin-top: 0.3em;">
+<img src="/assets/images/21st-century-philosophical-canon.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.5em; margin-top: 0.4em;">
 </div>
 
 In yesterday's newsletter, I made a list of 20 books that I think are going to be part of the 21st century philosophical canon: books and authors who might leave a lasting impression.
