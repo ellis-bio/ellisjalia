@@ -1,0 +1,83 @@
+{% comment %}
+Reusable lightbox include for image zoom
+Usage: {% include lightbox.html src="/assets/image.jpg" alt="Some Alt Text" %}
+{% endcomment %}
+
+<div class="zoomable-image">
+  <img src="{{ include.src }}" alt="{{ include.alt | default: 'Zoomable Image' }}" onclick="openLightbox(this.src)">
+</div>
+
+<style>
+.zoomable-image img {
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  cursor: zoom-in;
+  height: auto;
+}
+.zoomable-image img:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+}
+
+#lightbox-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(4px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#lightbox-overlay img {
+  width: auto;
+  max-width: 100%;
+  max-height: 90vh;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  cursor: zoom-out;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .zoomable-image img {
+    max-width: 100%;
+  }
+
+  #lightbox-overlay img {
+    max-height: 80vh;
+  }
+}
+</style>
+
+<script>
+function openLightbox(src) {
+  const overlay = document.getElementById('lightbox-overlay');
+  const img = overlay.querySelector('img');
+  img.src = src;
+  overlay.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  document.addEventListener('keydown', escCloseHandler);
+}
+
+function closeLightbox() {
+  const overlay = document.getElementById('lightbox-overlay');
+  overlay.style.display = 'none';
+  document.body.style.overflow = '';
+  document.removeEventListener('keydown', escCloseHandler);
+}
+
+function escCloseHandler(e) {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  }
+}
+</script>
+
+<div id="lightbox-overlay" onclick="closeLightbox()">
+  <img src="" alt="Zoomed Image">
+</div>

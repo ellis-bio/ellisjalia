@@ -19,7 +19,7 @@ permalink: /test-home/
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px; /* optimal spacing between icons */
+  gap: 20px;
   padding: 10px 0;
 }
 
@@ -27,6 +27,12 @@ permalink: /test-home/
   width: 43px;
   height: 43px;
   display: block;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.icon-row img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
 }
 
 a {
@@ -340,6 +346,8 @@ a:hover {
 <p>Beyond his pioneering work in painting, anatomy and scientific drawing, Leonardo wanted to prove that the mind has a physical basis. He wished to show the mechanisms by which the brain makes sensory stimuli intelligible, and thus show the functioning of the mind. </p>
 
 <p>A few of his drawings depict three ventricles in the brain, cavities filled with cerebrospinal fluid, the first being responsible for the processing of sensory stimuli; the second housing thought and the integration of the senses; and the last ventricle by means of which thought and sensation are imprinted into memory.</p>
+
+{% include lightbox.html src="/assets/images/davinci-brain.png" alt="Some Alt Text" %}
 
 <center><img src="/assets/images/davinci-brain.png"></center><br>
 
