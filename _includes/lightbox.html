@@ -10,15 +10,14 @@ Usage: {% include lightbox.html src="/assets/image.jpg" alt="Some Alt Text" %}
 <style>
 .zoomable-image img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  max-width: 300px;
+  transition: transform 0.2s ease, filter 0.2s ease;
   cursor: zoom-in;
+  height: auto;
 }
-
-/* Remove hover effect */
 .zoomable-image img:hover {
-  filter: none;
-  transform: none;
+  filter: brightness(1.1);
+  transform: scale(1.02);
 }
 
 #lightbox-overlay {

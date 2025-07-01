@@ -1,45 +1,22 @@
 ---
 layout: default
-permalink: /test-home/
 ---
+<center>
 <hr width="100%" size="3">
-
-<div class="icon-row">
-  <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" alt="Menu" /></a>
-  <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" alt="Essays" /></a>
-  <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" alt="Art" /></a>
-  <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" alt="Newsletter" /></a>
-  <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" alt="About" /></a>
-</div>
-
-<hr width="100%" size="3">
-
+<div class="container">
+        <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+        <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" style="width:43px;height:43px;justify-content:center;display:inline-block;border:1px;margin: 0px 8px;padding:2px;"/></a>
+ </div>
+  <hr width="100%" size="3">
+  </center>
 <style>
-.icon-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 10px 0;
-}
-
-.icon-row img {
-  width: 43px;
-  height: 43px;
-  display: block;
-  transition: filter 0.2s ease, transform 0.2s ease;
-}
-
-.icon-row img:hover {
-  filter: brightness(1.2);
-  transform: scale(1.05);
-}
-
 a {
-  color: black;
-  text-decoration: none;
+color: black;
+text-decoration: none;
 }
-
 a:hover {
   color: tomato;
   text-decoration: none;
