@@ -311,7 +311,7 @@ a:hover {
 
 <p style="margin: 1.5em;">"And you who wish to represent by words the form of man and all the aspects of his membrification, get away from that idea. For the more minutely you describe, the more you will confuse the mind of the reader and the more you will prevent him from a knowledge of the thing described. And so it is necessary to draw and to describe".</p>
 
-<center><img src="/assets/images/davinci-anatomy.png"></center><br>
+{% include lightbox.html src="/assets/images/davinci-anatomy.png" %}
 
 <p>Leonardo's concept of drawing meant a new era for the human mind had emerged. Had his notebooks been published during his lifetime, or even the anatomical treatises he set out to complete but never did, the most profound revolution would have occurred in science. Yet, progress in anatomy was left to other great minds like Andreas Vesalius, with the publication of his treatise "On the Fabric of the Human Body in Seven Books".</p> 
 
@@ -325,9 +325,7 @@ a:hover {
 
 <p>A few of his drawings depict three ventricles in the brain, cavities filled with cerebrospinal fluid, the first being responsible for the processing of sensory stimuli; the second housing thought and the integration of the senses; and the last ventricle by means of which thought and sensation are imprinted into memory.</p>
 
-{% include lightbox.html src="/assets/images/davinci-brain.png" alt="Some Alt Text" %}
-
-<center><img src="/assets/images/davinci-brain.png"></center><br>
+{% include lightbox.html src="/assets/images/davinci-brain.png" %}
 
 <p>The second ventricle is depicted as being in the geometric centre of the brain, thus denoting "the locus of the soul". This for Da Vinci was the place where the senses came together to form the "sense communis", or common sense, the seat of universal judgment:</p>
 
