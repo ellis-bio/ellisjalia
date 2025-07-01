@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /test-home/
 ---
 <center>
 <hr width="100%" size="3">
