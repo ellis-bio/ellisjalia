@@ -41,7 +41,7 @@ a:hover {
 
 <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
 
-<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/publish/posts/detail/167400986?referrer=%2Fpublish%2Fhome" style="color:tomato">here.</p>
+<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/publish/posts/detail/167400986?referrer=%2Fpublish%2Fhome" style="color:tomato">here.</a>
 
 <hr>
 
