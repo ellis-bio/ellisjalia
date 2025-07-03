@@ -37,7 +37,7 @@ a:hover {
 <img src="/assets/images/the-imagination.jpg" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
 </div>
 
-<p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">The Imagination”</a>, and its cover image, was wholly inspired by a quote from Leonardo da Vinci:<p>
+<p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination”</a>, and its cover image, was wholly inspired by a quote from Leonardo da Vinci:<p>
 
 <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
 
