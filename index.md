@@ -28,6 +28,28 @@ a:hover {
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
      onmouseout="this.style.color='inherit'">
+    The Imagination
+  </a>
+</p>
+<p style="font-size:0.95rem; color: silver">Thursday, July 3, 2025</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/the-imagination.jpg" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.3em; margin-top: 1em;">
+</div>
+
+<p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">The Imagination”</a>, and its cover image, was wholly inspired by a quote from Leonardo da Vinci:<p>
+
+<p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
+
+<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/publish/posts/detail/167400986?referrer=%2Fpublish%2Fhome" style="color:tomato">here.</p>
+
+<hr>
+
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
     Programmable Matter
   </a>
 </p>
