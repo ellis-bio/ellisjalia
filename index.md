@@ -34,7 +34,7 @@ a:hover {
 <p style="font-size:0.95rem; color: silver">Thursday, July 3, 2025</p>
 
 <div style="text-align: center;">
-<img src="/assets/images/the-imagination.jpg" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+<img src="/assets/images/the-imagination.jpg" alt="The Imagination" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
 </div>
 
 <p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">“The Imagination”</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:<p>
