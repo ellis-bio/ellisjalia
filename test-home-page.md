@@ -105,8 +105,8 @@ a:hover {
 <body>
     <div class="pagination" id="pagination"></div>
     <script>
-        const totalPages = 1623;
-        let currentPage = 7;
+        const totalPages = 7;
+        let currentPage = 1;
         function renderPagination() {
             // Validate currentPage
             if (currentPage < 1) currentPage = 1;
