@@ -27,7 +27,7 @@ a:hover {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Working Pagination</title>
+    <title>Pagination</title>
     <style>
         body {
             background-color: white;
@@ -113,10 +113,6 @@ a:hover {
             if (currentPage > totalPages) currentPage = totalPages;
             const container = document.getElementById("pagination");
             container.innerHTML = "";
-            // Info text
-            const info = document.createElement("span");
-            info.textContent = `page ${currentPage} of ${totalPages}`;
-            container.appendChild(info);
             // Prev button
             const prev = document.createElement("button");
             prev.textContent = "‹ PREV";
