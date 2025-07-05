@@ -24,7 +24,6 @@ a:hover {
 }
 </style>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,6 +43,38 @@ a:hover {
             padding: 20px;
             gap: 6px;
             flex-wrap: wrap;
+            max-width: 612px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        /* Responsive design */
+        @media (max-width: 640px) {
+            .pagination {
+                padding: 15px 10px;
+                gap: 4px;
+            }
+            .pagination span {
+                margin-right: 8px;
+                font-size: 14px;
+            }
+            .pagination button {
+                padding: 6px 8px;
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            .pagination {
+                padding: 10px 5px;
+                gap: 3px;
+            }
+            .pagination span {
+                margin-right: 6px;
+                font-size: 12px;
+            }
+            .pagination button {
+                padding: 5px 6px;
+                font-size: 11px;
+            }
         }
         .pagination span {
             margin-right: 12px;
