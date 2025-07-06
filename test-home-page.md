@@ -6,56 +6,76 @@ permalink: /test-home-page/
 body {
   background-color: white;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
 }
+
 a {
   color: black;
   text-decoration: none;
 }
+
 a:hover {
   color: tomato;
   text-decoration: none;
 }
+
 .container {
   text-align: center;
 }
+
 .post {
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
+
 .post:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
+
 .post-title {
   font-size: 1.7rem;
   margin-bottom: 0;
   font-family: 'Georgia', serif;
   font-weight: 700;
+  text-align: left;
 }
+
 .post-date {
   font-size: 0.95rem;
   color: silver;
+  font-family: 'Georgia', serif;
   margin-bottom: 1em;
+  text-align: left;
 }
+
 .post-image {
   text-align: center;
   margin: 1em 0;
 }
+
 .post-image img {
   max-width: 100%;
   height: auto;
 }
+
 .post-caption {
   font-size: 0.9rem;
   color: grey;
   text-align: center;
   margin-top: 0.3em;
 }
+
+.post p {
+  text-align: left;
+}
+
 .quote {
   margin: 1.5em;
+  font-style: italic;
 }
+
 .pagination {
   display: flex;
   align-items: center;
@@ -67,10 +87,12 @@ a:hover {
   margin: 0 auto;
   width: 100%;
 }
+
 .pagination span {
   margin-right: 12px;
   font-size: 16px;
 }
+
 .pagination button {
   border: none;
   background-color: #e0e0e0;
@@ -80,17 +102,21 @@ a:hover {
   font-size: 14px;
   transition: background-color 0.2s;
 }
+
 .pagination button:hover:not(.active):not(:disabled) {
   background-color: tomato;
 }
+
 .pagination .active {
   background-color: #fdf6d8;
   font-weight: bold;
 }
+
 .pagination button:disabled {
   cursor: not-allowed;
   opacity: 0.5;
 }
+
 /* Responsive design */
 @media (max-width: 640px) {
   .pagination {
@@ -106,6 +132,7 @@ a:hover {
     font-size: 12px;
   }
 }
+
 @media (max-width: 480px) {
   .pagination {
     padding: 10px 5px;
@@ -120,12 +147,11 @@ a:hover {
     font-size: 11px;
   }
 }
+
 .hidden {
   display: none;
 }
 </style>
-</head>
-<body>
 
 <center>
 <hr width="100%" size="3">
