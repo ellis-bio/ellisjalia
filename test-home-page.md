@@ -183,6 +183,7 @@ a:hover {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+      <hr>
     </div>
   </div>
 
@@ -226,6 +227,7 @@ a:hover {
       <p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v=hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
       <p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
       <p>What's for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
+      <hr>
     </div>
   </div>
 </div>
