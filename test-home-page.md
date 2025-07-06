@@ -299,6 +299,3 @@ function renderPagination() {
 // Initial render
 renderPagination();
 </script>
-
-</body>
-</html>
