@@ -73,7 +73,6 @@ a:hover {
 
 .quote {
   margin: 1.5em;
-  font-style: italic;
 }
 
 .pagination {
