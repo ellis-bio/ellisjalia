@@ -33,7 +33,7 @@ a:hover {
 </p>
 <p style="font-size:0.95rem; color: silver">Monday, July 7, 2025</p>
 
-<p>In one form or another, I knew what I liked by the time I was ten years old. It was around then that I decided I was going to be an automotive designer. The problem was that I didn’t actually care about making the car – I just wanted to sit back and marvel at the drawings. </p>
+<p>In one way or another, I knew what I liked by the time I was ten years old. It was around then that I decided I was going to be an automotive designer. The problem was that I didn’t actually care about making the car – I just wanted to sit back and marvel at the drawings. </p>
 
 <p>As it turns out, not a whole lot changes from when you’re ten years old. I still love looking at drawings. In search of further inspiration, I listened to a <a href="https://www.youtube.com/watch?v=nncrQGpe9bQ&t=1665s" style="color:tomato">lecture</a> by Flavio Manzoni, the Ferrari Chief Design Officer, on their design methodology. </p>
 
