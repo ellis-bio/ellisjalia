@@ -28,6 +28,54 @@ a:hover {
      style="text-decoration:none; color:inherit; transition:color 0.3s;"
      onmouseover="this.style.color='tomato'"
      onmouseout="this.style.color='inherit'">
+    Ferrari Design and 4-d Geometry
+  </a>
+</p>
+<p style="font-size:0.95rem; color: silver">Monday, July 7, 2025</p>
+
+<p>In one form or another, I knew what I liked by the time I was ten years old. It was around then that I decided I was going to be an automotive designer. The problem was that I didn’t actually care about making the car – I just wanted to sit back and marvel at the drawings. </p>
+
+<p>As it turns out, not a whole lot changes from when you’re ten years old. I still love looking at drawings. In search of further inspiration, I listened to a <a href="https://www.youtube.com/watch?v=nncrQGpe9bQ&t=1665s" style="color:tomato">lecture</a> by Flavio Manzoni, the Ferrari Chief Design Officer, on their design methodology. </p>
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-1.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<p><b>Connect: Innovation, Functionality, and Art</b> - “There are continuous meetings, between designers, engineers, aerodynamicists, ergonomists, in order to find the best combination of several elements that are very difficult to combine.”
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-2.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+“As you can see, there was an aerospacial inspiration. And for me this is very important, to be contaminated, to be influenced by different fields when we work on a car.”
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-3.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-4.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<p>“This project started with a sketch. It represents conceptually the technological transfer from Formula One to road cars, that was the aim of this project. This is the so-called Speciale that we make every ten years representing the pinnacle of the Ferrari technology and the Ferrari beauty.”</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-5.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+“The Mobius ribbon is very interesting because there are two surfaces. If you connect the ribbon like this [gestures to a half twist] you create one infinite surface. So you can see that there is four dimensions, the time taking part on this. This bottle [Klein bottle] has a very peculiar thing. The inner and the outer surfaces are just one. Just one infinite surface. This is the idea that we had. As you can see in these sketches [below]. So surfaces that are twisting and changing sections continuously could create the feeling of a very organic object.”
+
+<div style="text-align: center;">
+<img src="/assets/images/ferrari-design-6.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<hr>
+
+<p style="font-size:1.7rem; margin-bottom:0; font-family:'Georgia', serif; font-weight:700;">
+  <a href="https://ellisjalia.com"
+     style="text-decoration:none; color:inherit; transition:color 0.3s;"
+     onmouseover="this.style.color='tomato'"
+     onmouseout="this.style.color='inherit'">
     Japanese Prints
   </a>
 </p>
