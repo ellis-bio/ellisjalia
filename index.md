@@ -47,7 +47,7 @@ a:hover {
 <img src="/assets/images/ferrari-design-2.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
 </div>
 
-“As you can see, there was an aerospacial inspiration. And for me this is very important, to be contaminated, to be influenced by different fields when we work on a car.”
+<p>“As you can see, there was an aerospacial inspiration. And for me this is very important, to be contaminated, to be influenced by different fields when we work on a car.”</p>
 
 <div style="text-align: center;">
 <img src="/assets/images/ferrari-design-3.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
@@ -63,7 +63,7 @@ a:hover {
 <img src="/assets/images/ferrari-design-5.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
 </div>
 
-“The Mobius ribbon is very interesting because there are two surfaces. If you connect the ribbon like this [gestures to a half twist] you create one infinite surface. So you can see that there is four dimensions, the time taking part on this. This bottle [Klein bottle] has a very peculiar thing. The inner and the outer surfaces are just one. Just one infinite surface. This is the idea that we had. As you can see in these sketches [below]. So surfaces that are twisting and changing sections continuously could create the feeling of a very organic object.”
+<p>“The Mobius ribbon is very interesting because there are two surfaces. If you connect the ribbon like this [gestures to a half twist] you create one infinite surface. So you can see that there is four dimensions, the time taking part on this. This bottle [Klein bottle] has a very peculiar thing. The inner and the outer surfaces are just one. Just one infinite surface. This is the idea that we had. As you can see in these sketches [below]. So surfaces that are twisting and changing sections continuously could create the feeling of a very organic object.”</p>
 
 <div style="text-align: center;">
 <img src="/assets/images/ferrari-design-6.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
