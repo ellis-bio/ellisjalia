@@ -60,7 +60,7 @@ a:hover {
 <p>“This project started with a sketch. It represents conceptually the technological transfer from Formula One to road cars, that was the aim of this project. This is the so-called Speciale that we make every ten years representing the pinnacle of the Ferrari technology and the Ferrari beauty.”</p>
 
 <div style="text-align: center;">
-<img src="/assets/images/ferrari-design-5.png" style="max-width: 100%; height: auto; margin-bottom:1.5em; margin-top: 1.5em;">
+<img src="/assets/images/ferrari-design-5.png" style="max-width: 100%; height: auto; margin-bottom:1.5em; margin-top: 1em;">
 </div>
 
 <p>“The Mobius ribbon is very interesting because there are two surfaces. If you connect the ribbon like this [gestures to a half twist] you create one infinite surface. So you can see that there is four dimensions, the time taking part on this. This bottle [Klein bottle] has a very peculiar thing. The inner and the outer surfaces are just one. Just one infinite surface. This is the idea that we had. As you can see in these sketches [below]. So surfaces that are twisting and changing sections continuously could create the feeling of a very organic object.”</p>
