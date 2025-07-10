@@ -178,7 +178,6 @@ hr {
 
 <div id="posts-container">
   <!-- Page 1 Posts -->
-  
   <div class="page-content" data-page="1">
     <div class="post">
       <p class="post-title">
@@ -222,7 +221,7 @@ hr {
 <div style="text-align: center;">
 <img src="/assets/images/ferrari-design-6.png" style="max-width: 100%; height: auto; margin-bottom:1em; margin-top: 1em;">
     </div>
-</div>
+    </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -239,8 +238,7 @@ hr {
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
     <hr>
-  </div>
-  </div>
+</div>
 
   <!-- Page 2 Posts -->
   <div class="page-content hidden" data-page="2">
