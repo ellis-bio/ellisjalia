@@ -183,6 +183,27 @@ a:hover {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+      <hr>
+    </div>
+  </div>
+
+  <div class="page-content" data-page="1">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           style="text-decoration:none; color:inherit; transition:color 0.3s;"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
   </div>
 
