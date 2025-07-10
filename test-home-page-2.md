@@ -240,6 +240,7 @@ hr {
     </div>
     <hr>
   </div>
+  </div>
 
   <!-- Page 2 Posts -->
   <div class="page-content hidden" data-page="2">

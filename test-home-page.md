@@ -263,7 +263,8 @@ hr {
   </div>
 </div>
 
-<div class="pagination" id="pagination"></div>
+<div class="pagination" id="pagination">
+</div>
 
 <script>
 const totalPages = 2;
