@@ -328,21 +328,46 @@ hr {
         <a href="https://ellisjalia.com"
            onmouseover="this.style.color='tomato'"
            onmouseout="this.style.color='inherit'">
-          The Imagination
+          Monet and Freedom in Art
         </a>
       </p>
-      <p class="post-date">Thursday, July 3, 2025</p>
+      <p class="post-date">Tuesday, June 17, 2025</p>
       <div class="post-image">
-        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+        <img src="/assets/images/monet-cover-4400x1202.png" alt="Monet and Freedom in Art">
       </div>
-      <p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">“The Imagination”</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:</p>
-    <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
+<p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that. 
 
-<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+<p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
     </div>
     <hr>
     <div class="post">
-      <!-- Add additional Page 2 posts here -->
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          Qualia and Programming
+        </a>
+      </p>
+      <p class="post-date">Tuesday, May 27, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/qualia-and-programming.jpg" alt="Monet and Freedom in Art">
+
+<p>For the past three months, I've been working on-and-off on a paywall. I want this site to be one of the best on the internet. But I also want to make a living off of it.</p> 
+
+<p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
+
+<p>This site is one arm of Palinode, a company I started to bring artificial intelligence into everyday objects. The proceeds from this site will enable me to purchase materials to build robots.</p>
+
+<p>Large Language Models are just the beginning of the artificial intelligence revolution. If humanity's to evolve to a Star Trek like society, we're going to need to embed AI into things. AI is going to be the third pillar in society, after fire (or nuclear fusion) and electricity.</p>
+
+<p>I'm at an early concept stage, but I believe I can have a working prototype within six months to a year that will demonstrate several key breakthroughs. The first will be a new way of understanding dynamics. Robots will be able to move in new ways.</p>
+
+<p>The second will be a new way of embedding AI into physical objects. Components will learn and adapt. This stage will take slightly longer, since the cloud architecture required is not yet available. But it will be, and we will be ready for it.</p>
+
+<p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
+
+<p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
+      </div>
     </div>
   </div>
   <!-- /end page-content[data-page="2"] -->
