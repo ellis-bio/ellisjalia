@@ -42,7 +42,7 @@ a:hover {
 .post-title {
   font-size: 1.7rem;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: 700;
   text-align: left;
 }
@@ -266,6 +266,15 @@ hr {
 <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
   </div>
   <hr>
+  <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Monday, July 7, 2025</p>
   </div>
   <!-- /end page-content[data-page="1"] -->
 
