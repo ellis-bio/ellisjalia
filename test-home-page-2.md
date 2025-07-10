@@ -265,6 +265,7 @@ hr {
 
 <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
   </div>
+  </div>
   <hr>
   <div class="post">
       <p class="post-title">
@@ -317,6 +318,7 @@ hr {
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
 </div>
+<hr>
 </div>
   <!-- /end page-content[data-page="1"] -->
 
