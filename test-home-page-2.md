@@ -276,6 +276,7 @@ hr {
       </p>
       <p class="post-date">Monday, July 7, 2025</p>
   </div>
+  </div>
   <!-- /end page-content[data-page="1"] -->
 
   <!-- Page 2 Posts -->
