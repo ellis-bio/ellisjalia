@@ -37,7 +37,7 @@ a:hover {
 .post-title {
   font-size: 1.7rem;
   margin-bottom: 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-align: left;
 }
