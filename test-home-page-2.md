@@ -424,8 +424,13 @@ hr {
 
 <p>Sketching for him was a motive for ongoing thinking. He used them to derive life-like movement and gestures to communicate “atti mentali” - the mental acts of subjects.</p>
 
-<center><img src="/assets/images/da-vinci-2025-3.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
-<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Head and shoulders of a Christ figure (c. 1490-1495); bald man in profile (c. 1495); and roaring lion (c. ?).</p></center>
+<div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
+  <img src="/assets/images/da-vinci-2025-3.png"
+       alt="Libri di Bottega">
+</div>
+<p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
+ Head and shoulders of a Christ figure (c. 1490-1495); bald man in profile (c. 1495); and roaring lion (c. ?).
+</p>
 
 <p>Drawings and sketches were “short signs” of bigger ideas, and hence why his uncultivated compositions placed a focus on the mental acts of figures, people and animals instead of a focus on the limbs. Leonardo writes:</p>
 
@@ -433,8 +438,13 @@ hr {
 
 <p>He studied the dynamic rhythms of life, and the aboriginal forces of nature which destroy everything: waves, whirls, spirals, centrifugal and centripetal forces. He saw these as the vital values inherent in nature, as its creative impulses, and as its way of the continuous transformation of forms.</p>
 
-<center><img src="/assets/images/da-vinci-2025-2.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
-<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of water flowing past obstacles and sketch of whirlpool (c. 1508-1510); study of horse (c. 1503); and anatomical studies on the rotation of the arm (c. 1509-1510).</p></center>
+<div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
+  <img src="/assets/images/da-vinci-2025-2.png"
+       alt="Libri di Bottega">
+</div>
+<p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
+Studies of water flowing past obstacles and sketch of whirlpool (c. 1508-1510); study of horse (c. 1503); and anatomical studies on the rotation of the arm (c. 1509-1510).
+</p>
 
 <p>Leonardo saw the world in terms of laws - ‘reasons’ that govern nature, and the mechanisms which underlie it. The relationship between cause and affect was always on his mind.</p>
 
@@ -449,8 +459,13 @@ hr {
 
 <p>As the only Renaissance author to allude to sketchbooks, he deemed them important for close observations from nature. He revisited themes ‘ex novo’, meaning from the beginning, as is evidenced by his animal and anatomical drawings.</p>
 
-<center><img src="/assets/images/da-vinci-2025-4.png" style="margin-bottom:0.3em; margin-top: 1.5em;"></center>
-<center><p style="font-size:0.9em; color: grey; margin-bottom: 2em;">Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog's head (c. 1497-1499); and study of the proportions of a horse's leg (c. 1485-1490).</p></center>
+<div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
+  <img src="/assets/images/da-vinci-2025-4.png"
+       alt="Libri di Bottega">
+</div>
+<p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
+Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog's head (c. 1497-1499); and study of the proportions of a horse's leg (c. 1485-1490).
+</p>
 
 <p>Leonardo above all understood the necessity of technical spontaneity and virtuosity. He was aware of the role required by both the conscious and unconscious mind in the creative impulse. </p>
 
@@ -526,8 +541,12 @@ hr {
 
 <p style="margin: 1.5em;">"...as subtle invention which brings philosophy and subtle speculation to the consideration of all forms - seas and plains, trees, animals, plants and flowers - which are surrounded by light and shade".</p>
 
-<center><img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg"></center>
-<center><p style="font-size:0.9em; color: grey">A detail from Saint John the Baptist by Leonardo da Vinci.</p></center>
+<div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
+  <img src="/assets/images/saint-john-the-baptist-leonardo-da-vinci.jpeg">
+</div>
+<p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
+A detail from Saint John the Baptist by Leonardo da Vinci.
+</p>
 
 <p>This is a philosophy that is evident more so in the Mona Lisa and Saint John the Baptist, than any of his other paintings. About the former, read what Vasari had to say:</p>
 
@@ -544,12 +563,16 @@ hr {
 <p>Leonardo was a student of reality; being the first to draw in the open air, he inquired into the cause and reason of all visible things, and can be described as a visual empiricist. While he was knowledgeable of the scientific literature of his time and what had come before, he kept himself free and unconstrained by past thinkers. He accepted those things only which he could prove by the direct perception of his own eyes.
 </p>
 
-<center><img src="/assets/images/davinci-star-bethlehem.jpeg" style="height:500px"></center><br>
+<div class="post-image" style="margin-bottom: 1em; text-align: center;">
+  <img src="/assets/images/davinci-star-bethlehem.jpeg">
+</div>
 
 <p>In his drawing "The Star of Bethlehem", he is able to depict the power of growth inherent in plants, the elasticity of twigs; and the correct observation and order of spiral shapes found in nature. There exists in them a combinatorial understanding of morphology and function of physiological principles that govern life. His drawings extract the "atmosphere of life" and make plants and animals look alive, since he is able to visualise the macro forces which we might characterise as the engine of life itself.
 </p>
 
-<center><img src="/assets/images/davinci-animals.jpeg"></center><br>
+<div class="post-image" style="margin-bottom: 1em; text-align: center;">
+  <img src="/assets/images/davinci-animals.jpeg">
+</div>
 
 <p>Leonardo thought of life as both a mechanism and organism. He thought of the earth as possessing a "spirit of growth"; and the soil as the flesh, its rocks as bones, limestone as the cartilage and "its blood, the springs of water".</p>
 
@@ -559,7 +582,9 @@ hr {
 
 <p style="margin: 1.5em;">"And you who wish to represent by words the form of man and all the aspects of his membrification, get away from that idea. For the more minutely you describe, the more you will confuse the mind of the reader and the more you will prevent him from a knowledge of the thing described. And so it is necessary to draw and to describe".</p>
 
-<center><img src="/assets/images/davinci-anatomy.png"></center><br>
+<div class="post-image" style="margin-bottom: 1em; text-align: center;">
+  <img src="/assets/images/davinci-anatomy.png">
+</div>
 
 <p>Leonardo's concept of drawing meant a new era for the human mind had emerged. Had his notebooks been published during his lifetime, or even the anatomical treatises he set out to complete but never did, the most profound revolution would have occurred in science. Yet, progress in anatomy was left to other great minds like Andreas Vesalius, with the publication of his treatise "On the Fabric of the Human Body in Seven Books".</p> 
 
@@ -573,7 +598,9 @@ hr {
 
 <p>A few of his drawings depict three ventricles in the brain, cavities filled with cerebrospinal fluid, the first being responsible for the processing of sensory stimuli; the second housing thought and the integration of the senses; and the last ventricle by means of which thought and sensation are imprinted into memory.</p>
 
-<center><img src="/assets/images/davinci-brain.png"></center><br>
+<div class="post-image" style="margin-bottom: 1em; text-align: center;">
+  <img src="/assets/images/davinci-brain.png">
+</div>
 
 <p>The second ventricle is depicted as being in the geometric centre of the brain, thus denoting "the locus of the soul". This for Da Vinci was the place where the senses came together to form the "sense communis", or common sense, the seat of universal judgment:</p>
 
