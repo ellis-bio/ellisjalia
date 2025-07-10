@@ -274,7 +274,6 @@ hr {
       <p>This is page 2.</p>
     </div>
     <hr>
-  </div>
 
 <div id="posts-container">
   <!-- Page 3 Posts -->
@@ -310,7 +309,6 @@ hr {
       <p>This is page 3.</p>
     </div>
     <hr>
-  </div>
 
 <div id="posts-container">
   <!-- Page 4 Posts -->
@@ -346,7 +344,6 @@ hr {
       <p>This is page 4.</p>
     </div>
     <hr>
-  </div>
 
 <div id="posts-container">
   <!-- Page 5 Posts -->
