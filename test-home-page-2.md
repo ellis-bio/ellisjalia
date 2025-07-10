@@ -231,8 +231,8 @@ hr {
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
+    <hr>
   </div>
-  <hr>
   <!-- /end page-content[data-page="1"] -->
 
   <!-- Page 2 Posts -->
