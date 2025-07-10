@@ -240,7 +240,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 2 Posts -->
   <div class="page-content hidden" data-page="2">
     <div class="post">
@@ -276,7 +275,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 3 Posts -->
   <div class="page-content hidden" data-page="3">
     <div class="post">
@@ -312,7 +310,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 4 Posts -->
   <div class="page-content hidden" data-page="4">
     <div class="post">
@@ -348,7 +345,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 5 Posts -->
   <div class="page-content hidden" data-page="5">
     <div class="post">
@@ -384,7 +380,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 6 Posts -->
   <div class="page-content hidden" data-page="6">
     <div class="post">
@@ -420,7 +415,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 7 Posts -->
   <div class="page-content hidden" data-page="7">
     <div class="post">
@@ -456,7 +450,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 8 Posts -->
   <div class="page-content hidden" data-page="8">
     <div class="post">
@@ -492,7 +485,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 9 Posts -->
   <div class="page-content hidden" data-page="9">
     <div class="post">
@@ -528,7 +520,6 @@ hr {
     <hr>
   </div>
 
-<div id="posts-container">
   <!-- Page 10 Posts -->
   <div class="page-content hidden" data-page="10">
     <div class="post">
