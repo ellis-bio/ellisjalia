@@ -83,7 +83,7 @@ a:hover {
   gap: 6px;
   flex-wrap: wrap;
   max-width: 612px;
-  margin: 0 auto;
+  margin: 4px auto 0 auto; /* Moved closer to the <hr> */
   width: 100%;
 }
 
