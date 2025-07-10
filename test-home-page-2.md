@@ -554,6 +554,7 @@ hr {
     </div>
     <hr>
   </div>
+</div> <!-- closes #posts-container -->
 
 <div class="pagination" id="pagination"></div>
 
