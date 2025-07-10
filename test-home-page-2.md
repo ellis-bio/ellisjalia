@@ -265,6 +265,7 @@ hr {
 
 <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
   </div>
+  <hr>
   </div>
   <!-- /end page-content[data-page="1"] -->
 
