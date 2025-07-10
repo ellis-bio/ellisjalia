@@ -130,15 +130,17 @@ hr {
 @media (max-width: 640px) {
   .pagination {
     padding: 3px 0 12px 0;
-    gap: 4px;
+    gap: 5px;
   }
+
   .pagination span {
     margin-right: 8px;
     font-size: 14px;
   }
+
   .pagination button {
-    padding: 6px 8px;
-    font-size: 12px;
+    padding: 7px 10px;
+    font-size: 13px;
   }
 }
 
@@ -267,6 +269,15 @@ hr {
 const totalPages = 2;
 let currentPage = 1;
 
+// Read ?page=X from URL and validate
+const urlParams = new URLSearchParams(window.location.search);
+const pageFromUrl = parseInt(urlParams.get('page'), 10);
+if (!isNaN(pageFromUrl) && pageFromUrl >= 1 && pageFromUrl <= totalPages) {
+  currentPage = pageFromUrl;
+} else {
+  currentPage = 1;
+}
+
 function showPage(pageNumber) {
   const allPages = document.querySelectorAll('.page-content');
   allPages.forEach(page => page.classList.add('hidden'));
@@ -275,14 +286,18 @@ function showPage(pageNumber) {
 }
 
 function renderPagination() {
-  if (currentPage < 1) currentPage = 1;
-  if (currentPage > totalPages) currentPage = totalPages;
-
   const container = document.getElementById("pagination");
   container.innerHTML = "";
 
+  // Show correct content
   showPage(currentPage);
 
+  // Update browser URL and history
+  const url = new URL(window.location);
+  url.searchParams.set('page', currentPage);
+  window.history.pushState({ page: currentPage }, '', url);
+
+  // Prev button
   const prev = document.createElement("button");
   prev.textContent = "‹ PREV";
   prev.disabled = currentPage === 1;
@@ -292,6 +307,7 @@ function renderPagination() {
   };
   container.appendChild(prev);
 
+  // Page buttons
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement("button");
     btn.textContent = i;
@@ -303,6 +319,7 @@ function renderPagination() {
     container.appendChild(btn);
   }
 
+  // Next button
   const next = document.createElement("button");
   next.textContent = "NEXT ›";
   next.disabled = currentPage === totalPages;
@@ -312,6 +329,16 @@ function renderPagination() {
   };
   container.appendChild(next);
 }
+
+// Handle browser Back/Forward navigation
+window.onpopstate = function (event) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const page = parseInt(urlParams.get('page'), 10);
+  if (!isNaN(page) && page >= 1 && page <= totalPages) {
+    currentPage = page;
+    renderPagination();
+  }
+};
 
 renderPagination();
 </script>
