@@ -318,8 +318,8 @@ hr {
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
 </div>
-</div>
 <hr>
+</div>
 
   <!-- /end page-content[data-page="1"] -->
 
