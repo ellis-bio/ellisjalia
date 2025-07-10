@@ -285,7 +285,7 @@ hr {
       <p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">“The Imagination”</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:</p>
     <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
 
-<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a>
+<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
     <hr>
     <div class="post">
