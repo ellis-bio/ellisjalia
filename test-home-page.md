@@ -185,7 +185,6 @@ a:hover {
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
   </div>
-  <hr>
 
   <!-- Page 2 Posts -->
   <div class="page-content hidden" data-page="2">
