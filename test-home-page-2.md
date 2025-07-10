@@ -3,95 +3,638 @@ layout: default
 permalink: /test-home-page-2/
 ---
 <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        .nav-container {
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .nav-separator {
-            border: none;
-            height: 3px;
-            background-color: #333;
-            margin: 20px 0;
-        }
-        
-        .icon-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 24px; /* Optimal spacing between icons */
-            flex-wrap: wrap;
-            padding: 16px 0;
-        }
-        
-        .icon-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 8px;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-            text-decoration: none;
-        }
-        
-        .icon-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-        
-        .icon-link img {
-            width: 43px;
-            height: 43px;
-            display: block;
-        }
-        
-        /* Responsive spacing */
-        @media (max-width: 600px) {
-            .icon-nav {
-                gap: 20px;
-            }
-        }
-        
-        @media (max-width: 400px) {
-            .icon-nav {
-                gap: 16px;
-            }
-            
-            .icon-link img {
-                width: 36px;
-                height: 36px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="nav-container">
-        <hr class="nav-separator">
-        <nav class="icon-nav">
-            <a href="https://ellisjalia.com" class="icon-link">
-                <img src="/assets/icons/menu.png" alt="Home">
-            </a>
-            <a href="https://ellisjalia.com/essays" class="icon-link">
-                <img src="/assets/icons/quill.png" alt="Essays">
-            </a>
-            <a href="https://ellisjalia.com/art" class="icon-link">
-                <img src="/assets/icons/paint-palette.png" alt="Art">
-            </a>
-            <a href="https://ellisjalia.substack.com/" class="icon-link">
-                <img src="/assets/icons/newsletter.png" alt="Newsletter">
-            </a>
-            <a href="https://ellisjalia.com/about" class="icon-link">
-                <img src="/assets/icons/unknown.png" alt="About">
-            </a>
-        </nav>
-        <hr class="nav-separator">
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.nav-icons a img {
+  width: 43px;
+  height: 43px;
+  padding: 2px;
+}
+
+.post {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.post-title {
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.post-date {
+  font-size: 0.95rem;
+  color: silver;
+  font-family: 'Georgia', serif;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.post-image {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.post-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-caption {
+  font-size: 0.9rem;
+  color: grey;
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+.post p {
+  text-align: left;
+}
+
+.quote {
+  margin: 1.5em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.5em 0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 0 16px 0;
+  gap: 6px;
+  flex-wrap: wrap;
+  max-width: 612px;
+  margin: 4px auto 0 auto;
+  width: 100%;
+}
+
+.pagination span {
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.pagination button {
+  border: none;
+  background-color: #e0e0e0;
+  color: black;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.pagination button:hover:not(.active):not(:disabled) {
+  background-color: tomato;
+}
+
+.pagination .active {
+  background-color: #fdf6d8;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width: 640px) {
+  .pagination {
+    padding: 3px 0 12px 0;
+    gap: 5px;
+  }
+
+  .pagination span {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .pagination button {
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination {
+    padding: 4px 0 10px 0;
+    gap: 6px;
+  }
+
+  .pagination span {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .pagination button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+</style>
+
+<hr width="100%" size="3">
+<div class="nav-icons">
+  <a href="https://ellisjalia.com"><img src="/assets/icons/menu.png" /></a>
+  <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" /></a>
+  <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette.png" /></a>
+  <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter.png" /></a>
+  <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown.png" /></a>
+</div>
+<hr width="100%" size="3">
+
+<div id="posts-container">
+  <!-- Page 1 Posts -->
+  <div class="page-content" data-page="1">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
-</body>
-</html>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 2 Posts -->
+  <div class="page-content" data-page="2">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 3 Posts -->
+  <div class="page-content" data-page="3">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 4 Posts -->
+  <div class="page-content" data-page="4">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 5 Posts -->
+  <div class="page-content" data-page="5">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 6 Posts -->
+  <div class="page-content" data-page="6">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 7 Posts -->
+  <div class="page-content" data-page="7">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 8 Posts -->
+  <div class="page-content" data-page="8">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 9 Posts -->
+  <div class="page-content" data-page="9">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div id="posts-container">
+  <!-- Page 10 Posts -->
+  <div class="page-content" data-page="10">
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Thursday, July 3, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
+      <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
+    <hr>
+  </div>
+
+<div class="pagination" id="pagination"></div>
+
+<script>
+const totalPages = 10; // change as needed
+let currentPage = 1;
+
+const urlParams = new URLSearchParams(window.location.search);
+const pageFromUrl = parseInt(urlParams.get('page'), 10);
+if (!isNaN(pageFromUrl) && pageFromUrl >= 1 && pageFromUrl <= totalPages) {
+  currentPage = pageFromUrl;
+} else {
+  currentPage = 1;
+}
+
+function showPage(pageNumber) {
+  const allPages = document.querySelectorAll('.page-content');
+  allPages.forEach(page => page.classList.add('hidden'));
+  const visiblePages = document.querySelectorAll(`[data-page="${pageNumber}"]`);
+  visiblePages.forEach(page => page.classList.remove('hidden'));
+}
+
+function getPageList(current, total, maxLength) {
+  const sideWidth = maxLength < 9 ? 1 : 2;
+  const leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+  const rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+
+  if (total <= maxLength) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+
+  if (current <= maxLength - sideWidth - 1 - rightWidth) {
+    return [
+      ...Array.from({ length: maxLength - sideWidth - 1 }, (_, i) => i + 1),
+      '...',
+      ...Array.from({ length: sideWidth }, (_, i) => total - sideWidth + 1 + i)
+    ];
+  }
+
+  if (current >= total - sideWidth - 1 - leftWidth) {
+    return [
+      ...Array.from({ length: sideWidth }, (_, i) => i + 1),
+      '...',
+      ...Array.from({ length: maxLength - sideWidth - 1 }, (_, i) => total - (maxLength - sideWidth - 1) + 1 + i)
+    ];
+  }
+
+  return [
+    ...Array.from({ length: sideWidth }, (_, i) => i + 1),
+    '...',
+    ...Array.from({ length: leftWidth + rightWidth + 1 }, (_, i) => current - leftWidth + i),
+    '...',
+    ...Array.from({ length: sideWidth }, (_, i) => total - sideWidth + 1 + i)
+  ];
+}
+
+function renderPagination() {
+  const container = document.getElementById("pagination");
+  container.innerHTML = "";
+  showPage(currentPage);
+
+  const url = new URL(window.location);
+  url.searchParams.set('page', currentPage);
+  window.history.pushState({ page: currentPage }, '', url);
+
+  const prev = document.createElement("button");
+  prev.textContent = "‹ PREV";
+  prev.disabled = currentPage === 1;
+  prev.onclick = () => {
+    currentPage--;
+    renderPagination();
+  };
+  container.appendChild(prev);
+
+  const pageList = getPageList(currentPage, totalPages, 7);
+  pageList.forEach(p => {
+    if (p === '...') {
+      const span = document.createElement('span');
+      span.textContent = '…';
+      container.appendChild(span);
+    } else {
+      const btn = document.createElement("button");
+      btn.textContent = p;
+      if (p === currentPage) btn.classList.add("active");
+      btn.onclick = () => {
+        currentPage = p;
+        renderPagination();
+      };
+      container.appendChild(btn);
+    }
+  });
+
+  const next = document.createElement("button");
+  next.textContent = "NEXT ›";
+  next.disabled = currentPage === totalPages;
+  next.onclick = () => {
+    currentPage++;
+    renderPagination();
+  };
+  container.appendChild(next);
+}
+
+window.onpopstate = function (event) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const page = parseInt(urlParams.get('page'), 10);
+  if (!isNaN(page) && page >= 1 && page <= totalPages) {
+    currentPage = page;
+    renderPagination();
+  }
+};
+
+renderPagination();
+</script>
