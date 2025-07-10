@@ -317,6 +317,7 @@ hr {
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
 </div>
+</div>
 <hr>
   <!-- /end page-content[data-page="1"] -->
 
@@ -366,7 +367,8 @@ hr {
 <p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
 
 <p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
-      </div>
+</div>
+</div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -614,6 +616,7 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 <p>To conclude, let's read an extract from Otto Benesch's essay, Leonardo da Vinci and Scientific Drawing (1943) that captures some aspects of his genius (and the likes of which I hope humanity will see again):</p>
 
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
+</div>
 </div><!-- /end page-content[data-page="2"] -->
 <hr>
 </div><!-- /end #posts-container -->
