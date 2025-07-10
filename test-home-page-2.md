@@ -320,7 +320,6 @@ hr {
 </div>
 </div>
 <hr>
-</div>
 
   <!-- /end page-content[data-page="1"] -->
 
