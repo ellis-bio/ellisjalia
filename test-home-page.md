@@ -78,8 +78,8 @@ a:hover {
 .pagination {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+  justify-content: flex-start;
+  padding: 16px 0;
   gap: 6px;
   flex-wrap: wrap;
   max-width: 612px;
@@ -119,7 +119,7 @@ a:hover {
 /* Responsive design */
 @media (max-width: 640px) {
   .pagination {
-    padding: 15px 10px;
+    padding: 12px 0;
     gap: 4px;
   }
   .pagination span {
@@ -134,7 +134,7 @@ a:hover {
 
 @media (max-width: 480px) {
   .pagination {
-    padding: 10px 5px;
+    padding: 8px 0;
     gap: 3px;
   }
   .pagination span {
