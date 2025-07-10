@@ -317,8 +317,6 @@ hr {
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
   </div>
-  <hr>
-  </div>
 
   <!-- /end page-content[data-page="1"] -->
 
@@ -391,7 +389,7 @@ hr {
 
 <center><img src="/assets/images/reading-paths-2.png" style="margin-bottom:1.5em; margin-top: 1.5em;"></center>
 
-<p>This quote by Jean Piaget got me thinking about reading as a path that you can take to increase your powers to order the world:
+<p>This quote by Jean Piaget got me thinking about reading as a path that you can take to increase your powers to order the world:</p>
 
 <p style="margin: 1.5em;">"The goal of education is not to increase the amount of knowledge but to create the possibilities for a child to invent and discover, to create men who are capable of doing new things."</p>
   </div>
