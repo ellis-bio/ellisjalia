@@ -621,6 +621,7 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 </div>
   <!-- /end page-content[data-page="2"] -->
 </div>
+</div>
 <!-- /end #posts-container -->
 
 <div class="pagination" id="pagination"></div>
