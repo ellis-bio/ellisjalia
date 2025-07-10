@@ -316,9 +316,8 @@ hr {
 <p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
-  </div>
-  <hr>
 </div>
+<hr>
 </div>
   <!-- /end page-content[data-page="1"] -->
 
@@ -491,7 +490,7 @@ Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog
       </p>
       <p class="post-date">Tuesday, January 7, 2025</p>
 <div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
-  <img src="/assets/images/da-vinci.png"
+  <img src="/assets/images/davinci.png"
        alt="The Mind of Leonardo">
 </div>
 <p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
@@ -617,15 +616,15 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
 </div>
-<hr>
-  <!-- /end page-content[data-page="2"] -->
 </div>
+<hr>
+<!-- /end page-content[data-page="2"] -->
 <!-- /end #posts-container -->
 
 <div class="pagination" id="pagination"></div>
 
 <script>
-const totalPages = 5; // change as needed
+const totalPages = 2; // change as needed
 let currentPage = 1;
 
 const urlParams = new URLSearchParams(window.location.search);
