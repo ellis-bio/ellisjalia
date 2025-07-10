@@ -335,7 +335,7 @@ hr {
       <div class="post-image">
         <img src="/assets/images/monet-cover-4400x1202.png" alt="Monet and Freedom in Art">
       </div>
-<p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that. 
+<p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that.</p>
 
 <p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
     </div>
