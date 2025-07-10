@@ -284,7 +284,7 @@ hr {
 </p>
 <p>In <a href="https://www.goodreads.com/book/show/34274957-life-3-0" style="color:tomato;">Life 3.0: Being Human in the Age of Artificial Intelligence</a>, Max Tegmark says that, with AI, we're going to figure out how to rebuild cities atom by atom. Control of matter will be possible.</p>
 
-<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a ref="https://fultext.calis.edu.cn/nature/nature/394/6690/394253.pdf" style="color:tomato;">electrophoretic display</a> &mdash; also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
+<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a href="https://fultext.calis.edu.cn/nature/nature/394/6690/394253.pdf" style="color:tomato;">electrophoretic display</a> &mdash; also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
 
 <p>If you’re not familiar with it, here’s how it works. The electrophoretic ink is synthesised by microencapsulating black and white charged microparticles in a dielectric fluid interposed by two glass electrodes.</p>
 
@@ -515,7 +515,7 @@ hr {
 </p>
 
 <div class="post-image" style="margin-bottom: 1em; text-align: center;">
-<img src="/assets/images/davinci-perspective.jpeg"</div>
+<img src="/assets/images/davinci-perspective.jpeg"></div>
 
 <p>Leonardo's technique can thus be seen as a solution to the duality between abstraction, and a naturalistic interpretation of reality. This is best exemplified in some of his hydrodynamic and geological drawings. In them, he wanted to carry across the dynamic forces of nature, stones slowly shifting across the ages, as the roots of plants growing in the crevices were tearing those very stones out, moving them ever so slightly from the old place they once occupied. Water rapids rippling and creating vortices. In these images, amongst others, Leonardo shows that nature transforms everything.</p>
 
@@ -584,8 +584,7 @@ hr {
 
 <p>To conclude, let's read an extract from Otto Benesch's essay, Leonardo da Vinci and Scientific Drawing (1943) that captures some aspects of his genius (and the likes of which I hope humanity will see again):</p>
 
-<p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p
-
+<p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
 </div>
 <hr>
 </div>
