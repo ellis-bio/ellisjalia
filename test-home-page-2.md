@@ -351,7 +351,7 @@ hr {
       <p class="post-date">Tuesday, May 27, 2025</p>
       <div class="post-image">
         <img src="/assets/images/qualia-and-programming.jpg" alt="Monet and Freedom in Art">
-
+</div>
 <p>For the past three months, I've been working on-and-off on a paywall. I want this site to be one of the best on the internet. But I also want to make a living off of it.</p> 
 
 <p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
