@@ -615,15 +615,14 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 <p>To conclude, let's read an extract from Otto Benesch's essay, Leonardo da Vinci and Scientific Drawing (1943) that captures some aspects of his genius (and the likes of which I hope humanity will see again):</p>
 
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
-</div><!-- /end page-content[data-page="2"] -->
+</div>
 <hr>
-</div><!-- /end #posts-container -->
 </div>
 
 <div class="pagination" id="pagination"></div>
 
 <script>
-const totalPages = 2; // change as needed
+const totalPages = 5; // change as needed
 let currentPage = 1;
 
 const urlParams = new URLSearchParams(window.location.search);
