@@ -213,7 +213,7 @@ hr {
       <div style="text-align: center;">
         <img src="/assets/images/ferrari-design-6.png" style="max-width:100%; height:auto; margin:1em 0;">
       </div>
-      </div>
+</div>
     <hr>
     <div class="post">
       <p class="post-title">
