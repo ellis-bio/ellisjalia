@@ -144,16 +144,18 @@ hr {
 
 @media (max-width: 480px) {
   .pagination {
-    padding: 2px 0 8px 0;
-    gap: 3px;
+    padding: 4px 0 10px 0;
+    gap: 6px;
   }
+
   .pagination span {
-    margin-right: 6px;
-    font-size: 12px;
+    margin-right: 8px;
+    font-size: 14px;
   }
+
   .pagination button {
-    padding: 5px 6px;
-    font-size: 11px;
+    padding: 8px 10px;
+    font-size: 14px;
   }
 }
 
