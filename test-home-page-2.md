@@ -319,6 +319,7 @@ hr {
   </div>
   <hr>
   </div>
+  </div>
   <!-- /end page-content[data-page="1"] -->
 
   <!-- Page 2 Posts -->
