@@ -151,13 +151,13 @@ hr {
   }
 
   .pagination span {
-    margin-right: 8px;
-    font-size: 14px;
+    margin-right: 6px;
+    font-size: 12px;
   }
 
   .pagination button {
-    padding: 8px 10px;
-    font-size: 14px;
+    padding: 6px 8px;
+    font-size: 12px;
   }
 }
 
