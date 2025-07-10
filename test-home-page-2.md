@@ -334,7 +334,6 @@ hr {
 <p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that.</p>
 
 <p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
-    </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -363,7 +362,6 @@ hr {
 <p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
 
 <p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
-</div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -393,7 +391,6 @@ hr {
 <p>This quote by Jean Piaget got me thinking about reading as a path that you can take to increase your powers to order the world:</p>
 
 <p style="margin: 1.5em;">"The goal of education is not to increase the amount of knowledge but to create the possibilities for a child to invent and discover, to create men who are capable of doing new things."</p>
-  </div>
   <hr>
       <div class="post">
       <p class="post-title">
@@ -474,7 +471,6 @@ Studies of the paw of a dog or wolf (c. 1480); study of the proportions of a dog
 <p style="margin: 1.5em;">“It is advisable to avoid that decadence of those who, wanting everything to be free from every defect and everything to be too clean, in their hands the work becomes old and dirty before it is finished.”</p>
 
 <p>For ultimately, Leonardo wanted to capture in his drawings the convergence of sensory perception and the phenomena and movement of the world. Hence why his drawings often do not provide too much detail, but instead allude to the fact that, in them, an inquisitive mind is subjectively investigating the world.</p>
-</div>
 <hr>
     <div class="post">
       <p class="post-title">
@@ -611,7 +607,6 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 <p>To conclude, let's read an extract from Otto Benesch's essay, Leonardo da Vinci and Scientific Drawing (1943) that captures some aspects of his genius (and the likes of which I hope humanity will see again):</p>
 
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
-</div>
 <hr>
 </div>
 
