@@ -317,6 +317,8 @@ hr {
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
   </div>
+  <hr>
+</div>
 </div>
   <!-- /end page-content[data-page="1"] -->
 
@@ -624,7 +626,7 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 <div class="pagination" id="pagination"></div>
 
 <script>
-const totalPages = 2; // change as needed
+const totalPages = 5; // change as needed
 let currentPage = 1;
 
 const urlParams = new URLSearchParams(window.location.search);
