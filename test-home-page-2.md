@@ -213,6 +213,7 @@ hr {
       <div style="text-align: center;">
         <img src="/assets/images/ferrari-design-6.png" style="max-width:100%; height:auto; margin:1em 0;">
       </div>
+      </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -245,6 +246,7 @@ hr {
 <p>In Western philosophy, we long made the distinction between the world of sensation and the world of objects, but in this lecture that I saw the point was that for the ancient Chinese philosophers “Heaven” was the sensible world. They didn’t make the Kantian distinction between noumena and phenomena.</p> 
 
 <p>So this spurred the following thought. Did the Japanese borrow from the ancient Chinese in depicting the world? I guess what I’m rhetorically asking is whether the Japanese print makers considered the world to be metaphysically monistic and its aspects ‘Shadows, Dreams and Substance’?</p>
+</div>
     <hr>
       <div class="post">
       <p class="post-title">
@@ -262,6 +264,7 @@ hr {
     <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
 
 <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+</div>
   <hr>
   <div class="post">
       <p class="post-title">
@@ -313,7 +316,7 @@ hr {
 <p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
 
 <p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
-<hr>
+</div>
 </div>
   <!-- /end page-content[data-page="1"] -->
 
