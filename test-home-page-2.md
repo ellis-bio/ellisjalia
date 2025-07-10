@@ -242,7 +242,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 2 Posts -->
-  <div class="page-content" data-page="2">
+  <div class="page-content hidden" data-page="2">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -256,6 +256,7 @@ hr {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -277,7 +278,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 3 Posts -->
-  <div class="page-content" data-page="3">
+  <div class="page-content hidden" data-page="3">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -291,6 +292,7 @@ hr {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -312,7 +314,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 4 Posts -->
-  <div class="page-content" data-page="4">
+  <div class="page-content hidden" data-page="4">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -326,6 +328,7 @@ hr {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    </div>
     <hr>
     <div class="post">
       <p class="post-title">
@@ -347,7 +350,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 5 Posts -->
-  <div class="page-content" data-page="5">
+  <div class="page-content hidden" data-page="5">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -383,7 +386,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 6 Posts -->
-  <div class="page-content" data-page="6">
+  <div class="page-content hidden" data-page="6">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -419,7 +422,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 7 Posts -->
-  <div class="page-content" data-page="7">
+  <div class="page-content hidden" data-page="7">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -455,7 +458,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 8 Posts -->
-  <div class="page-content" data-page="8">
+  <div class="page-content hidden" data-page="8">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -491,7 +494,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 9 Posts -->
-  <div class="page-content" data-page="9">
+  <div class="page-content hidden" data-page="9">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
@@ -527,7 +530,7 @@ hr {
 
 <div id="posts-container">
   <!-- Page 10 Posts -->
-  <div class="page-content" data-page="10">
+  <div class="page-content hidden" data-page="10">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com" onmouseover="this.style.color='tomato'" onmouseout="this.style.color='inherit'">
