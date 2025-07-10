@@ -248,6 +248,24 @@ hr {
 <p>So this spurred the following thought. Did the Japanese borrow from the ancient Chinese in depicting the world? I guess what I’m rhetorically asking is whether the Japanese print makers considered the world to be metaphysically monistic and its aspects ‘Shadows, Dreams and Substance’?</p>
     </div>
     <hr>
+      <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          The Imagination
+        </a>
+      </p>
+      <p class="post-date">Monday, July 7, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+      </div>
+      <p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">“The Imagination”</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:<p>
+    <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
+
+<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a>
+  </div>
+  <hr>
   </div>
   <!-- /end page-content[data-page="1"] -->
 
@@ -265,8 +283,10 @@ hr {
       <div class="post-image">
         <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
       </div>
-      <p>This week's newsletter …</p>
-      <p><em>This is page 2.</em></p>
+      <p>This week’s newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">“The Imagination”</a>, and its cover image, was wholly inspired by this quote from Leonardo da Vinci:<p>
+    <p style="margin: 1.5em;">“I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying or of other noteworthy things conceived by the subtle speculation; and this is certainly a praiseworthy exercise and useful in impressing things on the memory.”</p>
+
+<p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a>
     </div>
     <hr>
     <div class="post">
