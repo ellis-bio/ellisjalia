@@ -1,6 +1,6 @@
 // Only run on pages that have a search-input element
 if (document.getElementById('search-input')) {
-  fetch('{{ "/search.json" | relative_url }}')
+  fetch('/search.json')
     .then(res => res.json())
     .then(docs => {
       // Build the index
