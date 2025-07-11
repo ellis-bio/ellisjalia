@@ -349,11 +349,10 @@ hr {
       <p><em>This is page 3.</em></p>
     </div>
     <hr>
-    <div class="post"></div>
   </div>
 
   <!-- Repeat similarly for pages 4–10 -->
-  <div class="page-content hidden" data-page="4"><div class="post"><p><em>Page 4</em></p></div><hr></div>
+  <div class="page-content hidden" data-page="4"><div class="post"><p><em>Page 4</em></p></div></div>
   <div class="page-content hidden" data-page="5"><div class="post"><p><em>Page 5</em></p></div></div>
   <div class="page-content hidden" data-page="6"><div class="post"><p><em>Page 6</em></p></div></div>
   <div class="page-content hidden" data-page="7"><div class="post"><p><em>Page 7</em></p></div></div>
