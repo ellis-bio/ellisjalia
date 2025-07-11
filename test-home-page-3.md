@@ -1,8 +1,6 @@
-Blog Pagination (Javascript Ellipses working 10 Jul 2025)
-
 ---
 layout: default
-permalink: /test-home-page-2/
+permalink: /test-home-page-3/
 ---
 <style>
 body {
