@@ -265,7 +265,7 @@ hr {
 <div class="pagination" id="pagination"></div>
 
 <script>
-const totalPages = 10; // change as needed
+const totalPages = 2; // change as needed
 let currentPage = 1;
 
 const urlParams = new URLSearchParams(window.location.search);
