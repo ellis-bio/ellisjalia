@@ -242,15 +242,15 @@ hr {
         <a href="https://ellisjalia.com"
            onmouseover="this.style.color='tomato'"
            onmouseout="this.style.color='inherit'">
-          The Imagination
+          Monet and Freedom in Art
         </a>
       </p>
-      <p class="post-date">Thursday, July 3, 2025</p>
+      <p class="post-date">Tuesday, June 17, 2025</p>
       <div class="post-image">
-        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
+        <img src="/assets/images/monet-cover-4400x1202.png" alt="Monet and Freedom in Art">
       </div>
-      <p>This week's newsletter …</p>
-      <p><em>This is page 2.</em></p>
+      <p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that.</p>
+      <p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
     </div>
     <hr>
     <div class="post">
@@ -263,7 +263,7 @@ hr {
   <div class="page-content hidden" data-page="3">
     <div class="post">
       <!-- Page 3 post content -->
-      <p><em>This is page 3.</em></p>
+      <p><em>This is a test page.</em></p>
     </div>
     <hr>
     <div class="post"></div>
