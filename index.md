@@ -211,6 +211,26 @@ search: true
   }
 }
 
+@media (max-width: 640px) {
+  .post-title {
+    font-size: 2rem; /* or adjust as needed */
+  }
+
+  .post-date {
+    font-size: 1.1rem; /* or adjust as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .post-title {
+    font-size: 2.2rem;
+  }
+
+  .post-date {
+    font-size: 1.2rem;
+  }
+}
+
 </style>
 
 <hr width="100%" size="3">
