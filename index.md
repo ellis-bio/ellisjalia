@@ -679,12 +679,6 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 </div>
 <!-- /end #posts-container -->
 
-<!-- search -->
-<section id="home-search">
-  <input type="text" id="search-input" placeholder="Type to search…" />
-  <ul id="results"></ul>
-</section>
-
 <div class="pagination" id="pagination"></div>
 
 <script>
