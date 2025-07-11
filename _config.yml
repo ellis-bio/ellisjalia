@@ -5,8 +5,6 @@ url: https://ellisjalia.com
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-safe: false
-plugins_dir: _plugins
 plugins:
   - jekyll-seo-tag
 
