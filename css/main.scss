@@ -1,8 +1,11 @@
 ---
+# Main scss file
 ---
-
 @charset "utf-8";
 
-@import "normalize";
-@import "biscuit";
-@import "syntax";
+// Import each partial on its own line
+- @import "normalize";
+- @import "biscuit";
+- @import "syntax";
+
+// You can put your overrides or custom styles below
