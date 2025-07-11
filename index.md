@@ -217,17 +217,17 @@ search: true
   }
 
   .post-date {
-    font-size: 1.1rem; /* or adjust as needed */
+    font-size: 1rem; /* or adjust as needed */
   }
 }
 
 @media (max-width: 480px) {
   .post-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .post-date {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
