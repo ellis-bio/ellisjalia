@@ -614,6 +614,7 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 
 <p style="margin: 1.5em;">"This vision of cosmic grandeur reveals the deep intuition of the artistic genius. Leonardo's scientific insight is unthinkable without his artistic imagination. The artist and the scientist are interdependent. Leonardo possessed not only the masculine sovereign and creative power, but also the feminine gift of highest empathy. He lived in the heart of things. His drawings prove that he felt like the object which he portrayed, that he identified himself with it. He looked at the world from the center, from the matrix, and it became diaphanous to him in an almost magic clearness. Thus, both intuition and divination served as guides for this greatest intellect among the artists in his scientific accomplishments." </p>
     </div>
+    <hr>
   </div>
   <!-- /end page-content[data-page="2"] -->
 
@@ -635,7 +636,6 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
   <div class="page-content hidden" data-page="9"><div class="post"><p><em>Page 9</em></p></div></div>
   <div class="page-content hidden" data-page="10"><div class="post"><p><em>Page 10</em></p></div></div>
 
-</div>
 </div>
 <!-- /end #posts-container -->
 
