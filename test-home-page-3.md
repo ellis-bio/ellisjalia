@@ -635,7 +635,7 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
   <div class="page-content hidden" data-page="7"><div class="post"><p><em>Page 7</em></p></div></div>
   <div class="page-content hidden" data-page="8"><div class="post"><p><em>Page 8</em></p></div></div>
   <div class="page-content hidden" data-page="9"><div class="post"><p><em>Page 9</em></p></div></div>
-  <div class="page-content hidden" data-page="10"><div class="post"><p><em>Page 10</em></p></div></div>
+  <div class="page-content hidden" data-page="10"><div class="post"><p><em>Page 10</em></p></div>
 
 </div>
 <!-- /end #posts-container -->
