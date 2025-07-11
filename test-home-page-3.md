@@ -262,57 +262,6 @@ hr {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
-    <hr>
-      <div class="post">
-      <p class="post-title">
-        <a href="https://ellisjalia.com"
-           onmouseover="this.style.color='tomato'"
-           onmouseout="this.style.color='inherit'">
-          Programmable Matter
-        </a>
-      </p>
-      <p class="post-date">Sunday, June 29, 2025</p>
-<div class="post-image" style="margin-bottom: 0.3em; text-align: center;">
-  <img src="/assets/images/electrophoretic-display.png"
-       alt="Electrophoretic Display">
-</div>
-<p style="font-size:0.9rem; color: grey; text-align: center; margin-top: 0.3em;">
-  A close-up photo of an electrophoretic display
-</p>
-<p>In <a href="https://www.goodreads.com/book/show/34274957-life-3-0" style="color:tomato;">Life 3.0: Being Human in the Age of Artificial Intelligence</a>, Max Tegmark says that, with AI, we're going to figure out how to rebuild cities atom by atom. Control of matter will be possible.</p>
-
-<p>The key question then is, how do we get there? If we look at some of the most innovative technologies of recent years, a favourite of mine is the mind-boggling <a href="https://fultext.calis.edu.cn/nature/nature/394/6690/394253.pdf" style="color:tomato;">electrophoretic display</a> &mdash; also known as the e-ink display. After it was developed by MIT researchers, it made its way into devices like the Kindle.</p>
-
-<p>If you’re not familiar with it, here’s how it works. The electrophoretic ink is synthesised by microencapsulating black and white charged microparticles in a dielectric fluid interposed by two glass electrodes.</p>
-
-<p>The microcapsules range from 30-300um in diameter, and the differently coloured particles are migrated towards the viewer by the application of an external electric field. Black is obtained from an inorganic black pigment, and white is titanium dioxide.</p>
-
-<p>Positively charged white particles move towards the top electrode layer, and opposite charged black particles move towards the bottom electrode. The fine control of the electric field results in a display that is the analogue of ink on paper.</p>
-
-<div style="text-align: center;">
-<img src="/assets/images/electrophoretic-display-figures.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.3em; margin-top: 1em;">
-</div>
-<p style="font-size:0.9rem; color: grey; text-align:center">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p>
-
-<p>Nearly thirty years later, e-ink has now been adapted in the body of the BMW “I Vision Dee” &mdash; their colour-changing car:</p>
-
-<div style="text-align: center;">
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/BbbkExGbVDI" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
-<br>
-<p>I know of no other instances where matter &mdash; in this case microparticles &mdash; is dynamically controlled in the same way. So I think e-ink is a good candidate for an early iteration of “programmable matter”.</p>
-
-<p>There have been other attempts more recently, with <a href="https://www.youtube.com/watch?v=hI5UDKaWJOo" style="color:tomato;">MIT's M-Blocks</a> and their <a href="https://nature.com/articles/s44172-022-00034-3" style="color:tomato;">modular building blocks and assembler</a> "constructors" that move along a passive lattice structure.</p>
-
-<p>Approaches that use a Platonic solid as the structural unit may not be ideal candidates due to their bulk. Biomimicry options, I think, over the long run might present the best option for a unit base that would allow computable configurability. Such options might be geometrically simpler, and it would therefore be easier to model the shapes that need to be computed.</p>
-
-<p>What’s for certain is that the right blend of hardware and software harmony would be needed to achieve a successful and practical iteration of programmable matter.</p>
     </div>
     <hr>
   </div>
