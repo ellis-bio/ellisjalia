@@ -215,6 +215,38 @@ hr {
       </div>
     </div>
     <hr>
+     <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          Japanese Prints
+        </a>
+      </p>
+      <p class="post-date">Monday, July 7, 2025</p>
+      <p>Besides reading and looking at books I want to read, I’ve been looking at Japanese <a href="https://ukiyo-e.org/" style="color:tomato">ukiyo-e</a> (meaning “pictures of the floating world”) prints for inspiration.</p>
+      <p>Here’s a few that I like:</p>
+
+<div style="text-align: center;">
+<img src="/assets/images/ukiyoe-1.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<div style="text-align: center;">
+<img src="/assets/images/ukiyoe-2.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<div style="text-align: center;">
+<img src="/assets/images/ukiyoe-6.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
+</div>
+
+<p>I love how violent and over the top they usually are, and I equally love their depictions of the human condition (in ukiyo-e things which are subject to change, such as cherry blossoms or boats ready for departure, hint at the impermanence of the world).</p>
+
+<p>Last year I saw that the US Library of Congress put together a volume called “The Floating World of Ukiyo-E: Shadows, Dreams and Substance” and it reminded me of a lecture I saw on ancient Chinese metaphysics. I didn’t want to post this, since I don’t have the link to the lecture, but I recall the theme being discussed was the ancient Chinese notion of “Heaven”.</p>
+
+<p>In Western philosophy, we long made the distinction between the world of sensation and the world of objects, but in this lecture that I saw the point was that for the ancient Chinese philosophers “Heaven” was the sensible world. They didn’t make the Kantian distinction between noumena and phenomena.</p> 
+
+<p>So this spurred the following thought. Did the Japanese borrow from the ancient Chinese in depicting the world? I guess what I’m rhetorically asking is whether the Japanese print makers considered the world to be metaphysically monistic and its aspects ‘Shadows, Dreams and Substance’?</p>
+    <hr>
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com"
@@ -230,6 +262,8 @@ hr {
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
       <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
+    <hr>
+    
     </div>
     <hr>
   </div>
