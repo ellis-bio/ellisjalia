@@ -236,7 +236,7 @@ hr {
   <!-- /end page-content[data-page="1"] -->
 
   <!-- Page 2 Posts -->
- <div class="page-content hidden" data-page="2">
+<div class="page-content hidden" data-page="2">
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com"
@@ -254,8 +254,8 @@ hr {
 <p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
     </div>
     <hr>
-    <div class="post">
-<p class="post-title">
+<div class="post">
+  <p class="post-title">
         <a href="https://ellisjalia.com"
            onmouseover="this.style.color='tomato'"
            onmouseout="this.style.color='inherit'">
@@ -265,7 +265,7 @@ hr {
       <p class="post-date">Tuesday, May 27, 2025</p>
       <div class="post-image">
         <img src="/assets/images/qualia-and-programming.jpg" alt="Qualia and Programming">
-</div>
+      </div>
 <p>For the past three months, I've been working on-and-off on a paywall. I want this site to be one of the best on the internet. But I also want to make a living off of it.</p> 
 
 <p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
@@ -282,7 +282,8 @@ hr {
 
 <p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
 </div>
-  </div>
+<hr>
+</div>
   <!-- /end page-content[data-page="2"] -->
 
 </div>
