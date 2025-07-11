@@ -283,6 +283,36 @@ hr {
 <p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
 </div>
 <hr>
+    <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          Reading Paths
+        </a>
+      </p>
+      <p class="post-date">Friday, January 10, 2025</p>
+<p>For the past few months, I’ve been reading three books: Musashi by Eiji Yoshikawa; Monet: The Restless Vision by Jackie Wullschläger; and Critique of Pure Reason by Immanuel Kant.</p>
+
+<p>Little did I know the first two are basically whole lives. Monet is what I’ve been reading a lot of lately. It’s been such an immersive experience, from reading about him begging his friends to send him wine, to the tragic death of his wife, and the circumstances around the painting of <a href="https://en.wikipedia.org/wiki/The_Magpie_(Monet)" style="color:tomato">“The Magpie”</a>.</p>
+
+<div class="post-image" style="margin-bottom: 1em; margin-top:1em; text-align: center;">
+  <img src="/assets/images/reading-paths-1.png">
+</div>
+
+<p>Likewise with Musashi. Following him as he grows up, and as he learns that mastery of the sword comes through mastery of unrelated disciplines like calligraphy, pottery and painting, has opened up so many avenues. The Kant book is a different beast altogether, however, but I’m committed now. Even if it takes me a year, I will finish it.</p>
+
+<p>A question I’ve been posing myself recently is, <b>what reading paths should I take in the future?</b></p>
+
+<div class="post-image" style="margin-bottom: 1.5em; margin-top:1.5em; text-align: center;">
+  <img src="/assets/images/reading-paths-2.png">
+</div>
+
+<p>This quote by Jean Piaget got me thinking about reading as a path that you can take to increase your powers to order the world:</p>
+
+<p style="margin: 1.5em;">"The goal of education is not to increase the amount of knowledge but to create the possibilities for a child to invent and discover, to create men who are capable of doing new things."</p>
+</div>
+<hr>
 </div>
   <!-- /end page-content[data-page="2"] -->
 
