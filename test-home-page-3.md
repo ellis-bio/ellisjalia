@@ -292,7 +292,7 @@ hr {
 <div style="text-align: center;">
 <img src="/assets/images/electrophoretic-display-figures.png" alt="Freedom in Art Cover" style="max-width: 100%; height: auto; margin-bottom:0.3em; margin-top: 1em;">
 </div>
-<center><p style="font-size:0.9rem; color: grey">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p></center>
+<p style="font-size:0.9rem; color: grey">Figure 1 and 2 from “An electrophoretic ink for all-printed reflective electronic displays” by Comiskey et al, 1998</p>
 
 <p>Nearly thirty years later, e-ink has now been adapted in the body of the BMW “I Vision Dee” &mdash; their colour-changing car:</p>
 
