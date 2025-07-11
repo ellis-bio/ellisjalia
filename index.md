@@ -175,41 +175,6 @@ layout: page
     display: none;
   }
 
-/* Center the search box on larger screens */
-#home-search {
-  display: flex;
-  justify-content: center;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-/* The input itself */
-#search-input {
-  width: 100%;
-  max-width: 612px;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  line-height: 1.4;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-/* Placeholder color */
-#search-input::placeholder {
-  color: #999;
-}
-
-/* On small screens, let it fill the viewport comfortably */
-@media (max-width: 640px) {
-  #home-search {
-    margin: 1rem auto;
-  }
-  #search-input {
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 640px) {
   .post-title {
     font-size: 2rem; /* or adjust as needed */
