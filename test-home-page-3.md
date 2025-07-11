@@ -247,6 +247,7 @@ hr {
 
 <p>So this spurred the following thought. Did the Japanese borrow from the ancient Chinese in depicting the world? I guess what I’m rhetorically asking is whether the Japanese print makers considered the world to be metaphysically monistic and its aspects ‘Shadows, Dreams and Substance’?</p>
 </div>
+</div>
     <hr>
     <div class="post">
       <p class="post-title">
