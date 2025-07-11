@@ -1,5 +1,6 @@
 ---
 layout: default
+search: true
 ---
 <style>
   body {
@@ -174,6 +175,42 @@ layout: default
   .hidden {
     display: none;
   }
+
+/* Center the search box on larger screens */
+#home-search {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* The input itself */
+#search-input {
+  width: 100%;
+  max-width: 612px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Placeholder color */
+#search-input::placeholder {
+  color: #999;
+}
+
+/* On small screens, let it fill the viewport comfortably */
+@media (max-width: 640px) {
+  #home-search {
+    margin: 1rem auto;
+  }
+  #search-input {
+    max-width: 100%;
+  }
+}
+
 </style>
 
 <hr width="100%" size="3">
@@ -621,6 +658,12 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 
 </div>
 <!-- /end #posts-container -->
+
+<!-- search -->
+<section id="home-search">
+  <input type="text" id="search-input" placeholder="Type to search…" />
+  <ul id="results"></ul>
+</section>
 
 <div class="pagination" id="pagination"></div>
 
