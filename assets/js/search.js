@@ -1,3 +1,5 @@
+---
+---
 // Only run on pages that have a search-input element
 if (document.getElementById('search-input')) {
   fetch('/search.json')
