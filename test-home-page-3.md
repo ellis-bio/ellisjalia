@@ -1,6 +1,8 @@
+Blog Pagination (Javascript Ellipses working 10 Jul 2025)
+
 ---
 layout: default
-permalink: /test-home-page-3/
+permalink: /test-home-page-2/
 ---
 <style>
 body {
@@ -215,38 +217,6 @@ hr {
       </div>
     </div>
     <hr>
-     <div class="post">
-      <p class="post-title">
-        <a href="https://ellisjalia.com"
-           onmouseover="this.style.color='tomato'"
-           onmouseout="this.style.color='inherit'">
-          Japanese Prints
-        </a>
-      </p>
-      <p class="post-date">Monday, July 7, 2025</p>
-      <p>Besides reading and looking at books I want to read, I’ve been looking at Japanese <a href="https://ukiyo-e.org/" style="color:tomato">ukiyo-e</a> (meaning “pictures of the floating world”) prints for inspiration.</p>
-      <p>Here’s a few that I like:</p>
-
-<div style="text-align: center;">
-<img src="/assets/images/ukiyoe-1.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
-</div>
-
-<div style="text-align: center;">
-<img src="/assets/images/ukiyoe-2.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
-</div>
-
-<div style="text-align: center;">
-<img src="/assets/images/ukiyoe-6.jpg" style="max-width: 70%; height: auto; margin-bottom:1em; margin-top: 1em;">
-</div>
-
-<p>I love how violent and over the top they usually are, and I equally love their depictions of the human condition (in ukiyo-e things which are subject to change, such as cherry blossoms or boats ready for departure, hint at the impermanence of the world).</p>
-
-<p>Last year I saw that the US Library of Congress put together a volume called “The Floating World of Ukiyo-E: Shadows, Dreams and Substance” and it reminded me of a lecture I saw on ancient Chinese metaphysics. I didn’t want to post this, since I don’t have the link to the lecture, but I recall the theme being discussed was the ancient Chinese notion of “Heaven”.</p>
-
-<p>In Western philosophy, we long made the distinction between the world of sensation and the world of objects, but in this lecture that I saw the point was that for the ancient Chinese philosophers “Heaven” was the sensible world. They didn’t make the Kantian distinction between noumena and phenomena.</p> 
-
-<p>So this spurred the following thought. Did the Japanese borrow from the ancient Chinese in depicting the world? I guess what I’m rhetorically asking is whether the Japanese print makers considered the world to be metaphysically monistic and its aspects ‘Shadows, Dreams and Substance’?</p>
-    <hr>
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com"
@@ -261,10 +231,10 @@ hr {
       </div>
       <p>This week's newsletter, <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">"The Imagination"</a>, was inspired by a quote from Leonardo da Vinci:</p>
       <p class="quote">"I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination the outlines of the forms you have been studying..."</p>
-      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here</a>.</p>
-      </div>
-    <hr>
+      <p>You can read the full newsletter <a href="https://ellisjalia.substack.com/p/the-imagination" style="color:tomato">here.</a></p>
     </div>
+    <hr>
+  </div>
   <!-- /end page-content[data-page="1"] -->
 
   <!-- Page 2 Posts -->
@@ -274,46 +244,20 @@ hr {
         <a href="https://ellisjalia.com"
            onmouseover="this.style.color='tomato'"
            onmouseout="this.style.color='inherit'">
-          Monet and Freedom in Art
+          The Imagination
         </a>
       </p>
-      <p class="post-date">Tuesday, June 17, 2025</p>
+      <p class="post-date">Thursday, July 3, 2025</p>
       <div class="post-image">
-        <img src="/assets/images/monet-cover-4400x1202.png" alt="Monet and Freedom in Art">
+        <img src="/assets/images/the-imagination.jpg" alt="The Imagination">
       </div>
-      <p>I've been thinking a lot about the connection between Monet, Marcus Aurelius, Leonardo da Vinci, and Empedocles. My first newsletter is about that.</p>
-      <p>You can read it here: <a href="https://ellisjalia.substack.com/p/monet-and-freedom-in-art" style ="color:tomato;">"Monet and Freedom in Art"</a>.</p>
+      <p>This week's newsletter …</p>
+      <p><em>This is page 2.</em></p>
     </div>
     <hr>
     <div class="post">
-      <p class="post-title">
-        <a href="https://ellisjalia.com"
-           onmouseover="this.style.color='tomato'"
-           onmouseout="this.style.color='inherit'">
-          Qualia and Programming
-        </a>
-      </p>
-      <p class="post-date">Tuesday, May 27, 2025</p>
-      <div class="post-image">
-        <img src="/assets/images/qualia-and-programming.jpg" alt="Qualia and Programming">
-</div>
-<p>For the past three months, I've been working on-and-off on a paywall. I want this site to be one of the best on the internet. But I also want to make a living off of it.</p> 
-
-<p>The paywall's 99% complete, and I can't wait to show it to you. I think people are going to be shocked by it; because doing what's difficult is what gets attention. It's what separates the pros.</p>
-
-<p>This site is one arm of Palinode, a company I started to bring artificial intelligence into everyday objects. The proceeds from this site will enable me to purchase materials to build robots.</p>
-
-<p>Large Language Models are just the beginning of the artificial intelligence revolution. If humanity's to evolve to a Star Trek like society, we're going to need to embed AI into things. AI is going to be the third pillar in society, after fire (or nuclear fusion) and electricity.</p>
-
-<p>I'm at an early concept stage, but I believe I can have a working prototype within six months to a year that will demonstrate several key breakthroughs. The first will be a new way of understanding dynamics. Robots will be able to move in new ways.</p>
-
-<p>The second will be a new way of embedding AI into physical objects. Components will learn and adapt. This stage will take slightly longer, since the cloud architecture required is not yet available. But it will be, and we will be ready for it.</p>
-
-<p>Programming is a difficult discipline. Yet what I outline above is a future that is grounded in one simple belief: physical reality allows for it.</p>
-
-<p>Schopenhauer said that natural science is either a "description of forms and shapes, which I call Morphology; or an explanation of changes, which I call Etiology". If we take this statement to its natural conclusion, it becomes possible to design qualia experiences based on physical principles. That is, we begin with the qualia we want to see.</p>
+      <!-- Add additional Page 2 posts here -->
     </div>
-    <hr>
   </div>
   <!-- /end page-content[data-page="2"] -->
 
@@ -321,7 +265,7 @@ hr {
   <div class="page-content hidden" data-page="3">
     <div class="post">
       <!-- Page 3 post content -->
-      <p><em>This is a test page.</em></p>
+      <p><em>This is page 3.</em></p>
     </div>
     <hr>
     <div class="post"></div>
@@ -342,7 +286,7 @@ hr {
 <div class="pagination" id="pagination"></div>
 
 <script>
-const totalPages = 2; // change as needed
+const totalPages = 10; // change as needed
 let currentPage = 1;
 
 const urlParams = new URLSearchParams(window.location.search);
