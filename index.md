@@ -217,17 +217,17 @@ search: true
   }
 
   .post-date {
-    font-size: 1rem; /* or adjust as needed */
+    font-size: 1.1rem; /* or adjust as needed */
   }
 }
 
 @media (max-width: 480px) {
   .post-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .post-date {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -678,12 +678,6 @@ A detail from Saint John the Baptist by Leonardo da Vinci.
 
 </div>
 <!-- /end #posts-container -->
-
-<!-- search -->
-<section id="home-search">
-  <input type="text" id="search-input" placeholder="Type to search…" />
-  <ul id="results"></ul>
-</section>
 
 <div class="pagination" id="pagination"></div>
 
