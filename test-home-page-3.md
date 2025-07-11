@@ -259,25 +259,6 @@ hr {
   </div>
   <!-- /end page-content[data-page="2"] -->
 
-  <!-- Page 3 Posts -->
-  <div class="page-content hidden" data-page="3">
-    <div class="post">
-      <!-- Page 3 post content -->
-      <p><em>This is page 3.</em></p>
-    </div>
-    <hr>
-    <div class="post"></div>
-  </div>
-
-  <!-- Repeat similarly for pages 4–10 -->
-  <div class="page-content hidden" data-page="4"><div class="post"><p><em>Page 4</em></p></div></div>
-  <div class="page-content hidden" data-page="5"><div class="post"><p><em>Page 5</em></p></div></div>
-  <div class="page-content hidden" data-page="6"><div class="post"><p><em>Page 6</em></p></div></div>
-  <div class="page-content hidden" data-page="7"><div class="post"><p><em>Page 7</em></p></div></div>
-  <div class="page-content hidden" data-page="8"><div class="post"><p><em>Page 8</em></p></div></div>
-  <div class="page-content hidden" data-page="9"><div class="post"><p><em>Page 9</em></p></div></div>
-  <div class="page-content hidden" data-page="10"><div class="post"><p><em>Page 10</em></p></div></div>
-
 </div>
 <!-- /end #posts-container -->
 
