@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /test-home-page-2/
+permalink: /test-home-page-3/
 ---
 <style>
 body {
