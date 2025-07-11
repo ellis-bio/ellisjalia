@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /essays/100-papers-challenge/
 ---
 <center>
