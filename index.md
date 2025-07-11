@@ -216,7 +216,7 @@ layout: page
   }
 
   .post-date {
-    font-size: 1.1rem; /* or adjust as needed */
+    font-size: 1rem; /* or adjust as needed */
   }
 }
 
@@ -226,7 +226,7 @@ layout: page
   }
 
   .post-date {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
