@@ -181,7 +181,7 @@ hr {
 
 <!-- Centered title and date -->
   <div style="text-align: center;">
-    <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 35px; margin: 0 0 8px 0;">
+    <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 32px; margin: 0 0 8px 0;">
       Five Things
     </p>
     <p style="margin: 0; font-size: 0.9rem; font-family: Georgia, sans-serif;">July 15, 2025</p>
