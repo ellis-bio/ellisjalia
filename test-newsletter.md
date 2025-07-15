@@ -179,40 +179,44 @@ hr {
 <!-- Include Ultra font from Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
 
-<div style="text-align: center;">
-  <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 42px; margin: 0 0 8px 0;">
-    Five Things
+<!-- Global wrapper: default is left-aligned -->
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left;">
+
+  <!-- Centered title and date -->
+  <div style="text-align: center;">
+    <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 42px; margin: 0 0 8px 0;">
+      Five Things
+    </p>
+    <p style="margin: 0;">Tuesday, July 15, 2025</p>
+  </div>
+
+  <!-- Left-aligned intro -->
+  <p style="margin-top: 30px;">
+    Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
   </p>
-  <p style="margin: 0;">
-    Tuesday, July 15, 2025
-  </p>
-</div>
 
-
-<p style="margin-top: 30px;">
-  Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
-</p>
-
-<div style="text-align: center; margin: 40px 0 0 0;">
+  <!-- Centered image + caption -->
+<div style="text-align: center; margin: 20px 0 0 0;">
   <img src="/assets/images/king-bird-newsletter.png" alt="Notebook Cover" style="max-width: 100%; height: auto;">
 </div>
-<p style="font-size:1rem; color: grey; text-align: center; margin-top: 0.3em;">
-The cover of my 2025 “time notebook”
-</p>
+    <p style="font-size: 1rem; color: grey; margin-top: 0.3em;">
+      The cover of my 2025 “time notebook”
+    </p>
+  </div>
 
+  <!-- Body text left-aligned -->
 <p>1. I found out this week that a new-ish book was published about van Gogh. Like many people, I’m a huge fan of his work, with the Starry Night being one of my favourite pieces. So “Vincent van Gogh: A Life in Letters” is appealing to me, particularly since the synopsis says the book will “enlighten the whole creative process as seen through his eyes”.</p>
-
-<p>2. I’ve been listening to an album called Kenya (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about half way of the first song, this album turns into one of the best of all time.</p>
-
-<p>3.“It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
-
+<p>2. I’ve been listening to an album called <em>Kenya</em> (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about halfway through the first song, this album turns into one of the best of all time.</p>
+<p>3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
 <p>4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The sound difference, at least to me, is huge.</p>
+<p>5. I’m slowly but surely making my way through <em>Introduction to Autonomous Robots</em> by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p></p>
 
-<p>5. I’m slowly but surely making my way through “Introduction to Autonomous Robots” by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p>
+  <!-- Second image + caption centered -->
+  <div style="text-align: center; margin: 40px 0 0 0;">
+    <img src="/assets/images/time-notebook.png" alt="Inside Notebook" style="max-width: 100%; height: auto;">
+    <p style="font-size: 1rem; color: grey; margin-top: 0.3em;">
+      A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
+    </p>
+  </div>
 
-<div style="text-align: center; margin: 40px 0 0 0;">
-  <img src="/assets/images/time-notebook.png" alt="Inside Notebook" style="max-width: 100%; height: auto;">
 </div>
-<p style="font-size:1rem; color: grey; text-align: center; margin-top: 0.3em;">
-A spread from my 2025 time notebook, where I keep track of how I’ve spent my time 
-</p>
