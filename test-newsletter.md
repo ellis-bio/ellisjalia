@@ -191,7 +191,7 @@ hr {
   <p style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
     Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
   </p>
-  
+
 <div style="text-align: center; margin: 30px 0 0 0;">
   <img src="/assets/images/king-bird-newsletter.png"
        alt="Notebook Cover"
