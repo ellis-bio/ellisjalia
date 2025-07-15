@@ -188,7 +188,7 @@ hr {
   </div>
 
 <!-- Left-aligned intro -->
-  <p style="margin-top: 30px; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <p style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
     Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
   </p>
   
