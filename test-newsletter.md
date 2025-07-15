@@ -179,47 +179,43 @@ hr {
 <!-- Include Ultra font from Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
 
-<!-- Global wrapper: default is left-aligned -->
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left;">
-
-  <!-- Centered title and date -->
+<!-- Centered title and date -->
   <div style="text-align: center;">
     <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 42px; margin: 0 0 8px 0;">
       Five Things
     </p>
-    <p style="margin: 0;">Tuesday, July 15, 2025</p>
+    <p style="margin: 0; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">Tuesday, July 15, 2025</p>
   </div>
 
-  <!-- Left-aligned intro -->
-  <p style="margin-top: 30px;">
+<!-- Left-aligned intro -->
+  <p style="margin-top: 30px; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
     Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
   </p>
-
-  <!-- Centered image + caption -->
+  
+<!-- Centered image + caption -->
 <div style="text-align: center; margin: 20px 0 0 0;">
   <img src="/assets/images/king-bird-newsletter.png" alt="Notebook Cover" style="max-width: 100%; height: auto;">
 </div>
-    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align: center;">
+    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
       The cover of my 2025 “time notebook”
     </p>
   </div>
 
-  <!-- Body text left-aligned -->
-<p>1. I found out this week that a new-ish book was published about <a href="https://www.amazon.co.uk/Vincent-van-Gogh-Life-Letters/dp/0500296820/ref=sr_1_1?crid=1STVBXW6UODWK&dib=eyJ2IjoiMSJ9.kDwCGoJidV_Qo-1fwRMn324lT3E6GxwvQ-hawjgBwaSdZpBeThsuZw6FXnMruO1gVIPxv0pmbzFbIj0fN0iUddZX2WITKEy13DKFIqq5MssYC1tQh6wQ3N4rFRFDrWtjlO0vbFh49psZ4Q6Ubjx4t38xcYfgDPKPlV6B0J_FhmhxQLkuIh_NGLXloOQEZUiwppEJCQwGCVHohuNZNo-OJEyawVkWUy0SuvpBVfrgjsg.2gke7Kl8FVg4fOupH5hJyEUbiPVBxgYYngi-WyYjc8E&dib_tag=se&keywords=Vincent+van+Gogh%3A+A+life+in+letters&qid=1752576097&sprefix=vincent+van+gogh+a+life+in+letters%2Caps%2C78&sr=8-1" style="colour: tomato">van Gogh</a>. Like many people, I’m a huge fan of his work, with the <a href="https://en.wikipedia.org/wiki/The_Starry_Night" style="colour:tomato">Starry Night</a> being one of my favourite pieces. So “Vincent van Gogh: A Life in Letters” is appealing to me, particularly since the synopsis says the book will “enlighten the whole creative process as seen through his eyes”.</p>
+<!-- Body text left-aligned -->
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. I found out this week that a new-ish book was published about <a href="https://www.amazon.co.uk/Vincent-van-Gogh-Life-Letters/dp/0500296820/ref=sr_1_1?crid=1STVBXW6UODWK&dib=eyJ2IjoiMSJ9.kDwCGoJidV_Qo-1fwRMn324lT3E6GxwvQ-hawjgBwaSdZpBeThsuZw6FXnMruO1gVIPxv0pmbzFbIj0fN0iUddZX2WITKEy13DKFIqq5MssYC1tQh6wQ3N4rFRFDrWtjlO0vbFh49psZ4Q6Ubjx4t38xcYfgDPKPlV6B0J_FhmhxQLkuIh_NGLXloOQEZUiwppEJCQwGCVHohuNZNo-OJEyawVkWUy0SuvpBVfrgjsg.2gke7Kl8FVg4fOupH5hJyEUbiPVBxgYYngi-WyYjc8E&dib_tag=se&keywords=Vincent+van+Gogh%3A+A+life+in+letters&qid=1752576097&sprefix=vincent+van+gogh+a+life+in+letters%2Caps%2C78&sr=8-1" style="color: tomato">van Gogh</a>. Like many people, I’m a huge fan of his work, with the <a href="https://en.wikipedia.org/wiki/The_Starry_Night" style="color:tomato">Starry Night</a> being one of my favourite pieces. So “Vincent van Gogh: A Life in Letters” is appealing to me, particularly since the synopsis says the book will “enlighten the whole creative process as seen through his eyes”.</p>
 
-<p>2. I’ve been listening to an album called <a href="https://music.apple.com/gb/album/kenya/696175088" style="colour: tomato">Kenya</a> (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about halfway through the first song, this album turns into one of the best of all time.</p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. I’ve been listening to an album called <a href="https://music.apple.com/gb/album/kenya/696175088" style="color: tomato">Kenya</a> (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about halfway through the first song, this album turns into one of the best of all time.</p>
 
-<p>3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
 
-<p>4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The <a href="https://www.youtube.com/watch?v=Nr6vWDShMRo" style="colour:tomato">sound difference</a>, at least to me, is huge.</p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The <a href="https://www.youtube.com/watch?v=Nr6vWDShMRo" style="color:tomato">sound difference</a>, at least to me, is huge.</p>
 
-<p>5. I’m slowly but surely making my way through "Introduction to Autonomous Robots" by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p></p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. I’m slowly but surely making my way through "Introduction to Autonomous Robots" by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p></p>
 
-  <!-- Second image + caption centered -->
+<!-- Second image + caption centered -->
   <div style="text-align: center; margin: 20px 0 0 0;">
     <img src="/assets/images/time-notebook.png" alt="Inside Notebook" style="max-width: 100%; height: auto;">
-    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align:center;">
-      A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
+    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align:center; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
     </p>
   </div>
 </div>
