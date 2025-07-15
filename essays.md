@@ -170,7 +170,7 @@ hr {
   <a href="https://ellisjalia.com"><img src="/assets/icons/menu-bw.png" /></a>
   <a href="https://ellisjalia.com/essays"><img src="/assets/icons/quill.png" /></a>
   <a href="https://ellisjalia.com/art"><img src="/assets/icons/paint-palette-bw.png" /></a>
-  <a href="https://ellisjalia.substack.com/"><img src="/assets/icons/newsletter-bw.png" /></a>
+  <a href="https://ellisjalia.com/newsletter"><img src="/assets/icons/newsletter-bw.png" /></a>
   <a href="https://ellisjalia.com/about"><img src="/assets/icons/unknown-bw.png" /></a>
 </div>
 <hr width="100%" size="3">
