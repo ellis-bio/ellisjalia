@@ -210,7 +210,7 @@ hr {
 
 <p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The <a href="https://www.youtube.com/watch?v=Nr6vWDShMRo" style="color:tomato">sound difference</a>, at least to me, is huge.</p>
 
-<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. I’m slowly but surely making my way through "Introduction to Autonomous Robots" by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p></p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. I’m slowly but surely making my way through "Introduction to Autonomous Robots" by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p>
 
 <!-- Second image + caption centered -->
   <div style="text-align: center; margin: 20px 0 0 0;">
