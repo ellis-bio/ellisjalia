@@ -218,5 +218,4 @@ hr {
     <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align:center; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
     </p>
   </div>
-</div>
 
