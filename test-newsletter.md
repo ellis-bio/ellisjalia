@@ -218,8 +218,9 @@ hr {
   <!-- Second image + caption centered -->
   <div style="text-align: center; margin: 20px 0 0 0;">
     <img src="/assets/images/time-notebook.png" alt="Inside Notebook" style="max-width: 100%; height: auto;">
-    <p style="font-size: 1rem; color: grey; margin-top: 0.3em;">
+    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align:center;">
       A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
     </p>
   </div>
 </div>
+
