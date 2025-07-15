@@ -192,7 +192,7 @@ hr {
     Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
   </p>
   
-<div style="text-align: center; margin: 20px 0 0 0;">
+<div style="text-align: center; margin: 30px 0 0 0;">
   <img src="/assets/images/king-bird-newsletter.png"
        alt="Notebook Cover"
        style="max-width: 100%; height: auto;">
@@ -212,7 +212,7 @@ hr {
 
 <p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. I’ve been listening to an album called <a href="https://music.apple.com/gb/album/kenya/696175088" style="color: tomato">Kenya</a> (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about halfway through the first song, this album turns into one of the best of all time.</p>
 
-<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
+<p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I really like it.</p>
 
 <p style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The <a href="https://www.youtube.com/watch?v=Nr6vWDShMRo" style="color:tomato">sound difference</a>, at least to me, is huge.</p>
 
