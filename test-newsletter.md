@@ -180,16 +180,14 @@ hr {
 <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
 
 <div style="text-align: center;">
-  <p>
-    Newsletter
-  </p>
-  <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 42px; margin: 0;">
+  <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 42px; margin: 0 0 8px 0;">
     Five Things
   </p>
-  <p style="margin: 0 0 20px 0;">
+  <p style="margin: 0;">
     Tuesday, July 15, 2025
   </p>
 </div>
+
 
 <p style="margin-top: 30px;">
   Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
