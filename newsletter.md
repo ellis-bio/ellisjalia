@@ -189,7 +189,7 @@ hr {
 
 <!-- Left-aligned intro -->
   <p style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
+    Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, art, and everything else.
   </p>
 
 <div style="text-align: center; margin: 30px 0 0 0;">
@@ -205,7 +205,6 @@ hr {
     The cover of my 2025 “time notebook”
   </p>
 </div>
-
 
 <!-- Body text left-aligned -->
 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. I found out this week that a new-ish book was published about <a href="https://www.amazon.co.uk/Vincent-van-Gogh-Life-Letters/dp/0500296820/ref=sr_1_1?crid=1STVBXW6UODWK&dib=eyJ2IjoiMSJ9.kDwCGoJidV_Qo-1fwRMn324lT3E6GxwvQ-hawjgBwaSdZpBeThsuZw6FXnMruO1gVIPxv0pmbzFbIj0fN0iUddZX2WITKEy13DKFIqq5MssYC1tQh6wQ3N4rFRFDrWtjlO0vbFh49psZ4Q6Ubjx4t38xcYfgDPKPlV6B0J_FhmhxQLkuIh_NGLXloOQEZUiwppEJCQwGCVHohuNZNo-OJEyawVkWUy0SuvpBVfrgjsg.2gke7Kl8FVg4fOupH5hJyEUbiPVBxgYYngi-WyYjc8E&dib_tag=se&keywords=Vincent+van+Gogh%3A+A+life+in+letters&qid=1752576097&sprefix=vincent+van+gogh+a+life+in+letters%2Caps%2C78&sr=8-1" style="color: tomato">van Gogh</a>. Like many people, I’m a huge fan of his work, with the <a href="https://en.wikipedia.org/wiki/The_Starry_Night" style="color:tomato">Starry Night</a> being one of my favourite pieces. So “Vincent van Gogh: A Life in Letters” is appealing to me, particularly since the synopsis says the book will “enlighten the whole creative process as seen through his eyes”.</p>
