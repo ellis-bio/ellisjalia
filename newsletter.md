@@ -184,17 +184,12 @@ hr {
     <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 32px; margin: 0 0 8px 0;">
       Five Things
     </p>
-    <p style="margin: 0; font-size: 0.9rem; font-family: Georgia, sans-serif;">July 15, 2025</p>
+    <p style="margin: 0; font-size: 0.9rem; font-family: Georgia, sans-serif;">July 21, 2025</p>
   </div>
 
-<!-- Left-aligned intro -->
-  <p style="margin-top: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    Hey, welcome to my newsletter. Every week, right here, I share five things that have made an impression on me, from books, to music, and art.
-  </p>
-
 <div style="text-align: center; margin: 30px 0 0 0;">
-  <img src="/assets/images/king-bird-newsletter.png"
-       alt="Notebook Cover"
+  <img src="/assets/images/picasso-workbench.jpg"
+       alt="Picasso Workbench"
        style="max-width: 100%; height: auto;">
 
   <p style="font-size: 1rem;
@@ -202,24 +197,28 @@ hr {
             margin-top: 0.3em;
             font-family: -apple-system, BlinkMacSystemFont,
                          'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    The cover of my 2025 “time notebook”
+    A <a href="https://www.life.com/arts-entertainment/pablo-picasso-photos-of-the-artist-at-work-and-at-play-1948-1967/" style="color:tomato">photo</a> of Picasso's workbench
   </p>
 </div>
 
 <!-- Body text left-aligned -->
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. I found out this week that a new-ish book was published about <a href="https://www.amazon.co.uk/Vincent-van-Gogh-Life-Letters/dp/0500296820/ref=sr_1_1?crid=1STVBXW6UODWK&dib=eyJ2IjoiMSJ9.kDwCGoJidV_Qo-1fwRMn324lT3E6GxwvQ-hawjgBwaSdZpBeThsuZw6FXnMruO1gVIPxv0pmbzFbIj0fN0iUddZX2WITKEy13DKFIqq5MssYC1tQh6wQ3N4rFRFDrWtjlO0vbFh49psZ4Q6Ubjx4t38xcYfgDPKPlV6B0J_FhmhxQLkuIh_NGLXloOQEZUiwppEJCQwGCVHohuNZNo-OJEyawVkWUy0SuvpBVfrgjsg.2gke7Kl8FVg4fOupH5hJyEUbiPVBxgYYngi-WyYjc8E&dib_tag=se&keywords=Vincent+van+Gogh%3A+A+life+in+letters&qid=1752576097&sprefix=vincent+van+gogh+a+life+in+letters%2Caps%2C78&sr=8-1" style="color: tomato">van Gogh</a>. Like many people, I’m a huge fan of his work, with the <a href="https://en.wikipedia.org/wiki/The_Starry_Night" style="color:tomato">Starry Night</a> being one of my favourite pieces. So “Vincent van Gogh: A Life in Letters” is appealing to me, particularly since the synopsis says the book will “enlighten the whole creative process as seen through his eyes”.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. Recently I watched <a href="https://www.youtube.com/watch?v=jAKzwh2ZSwU&t=1s" style="color:tomato">Becoming Human</a>, a documentary about human evolution. It was interesting to see some of the models about stepping stone hominids, such as Homo Erectus, and their ways of life. While probably true, it’s difficult to imagine a hominid that looked more like an ape than human, walking upright and using tools. It was also really interesting to see depictions of the first symbols used by human beings.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. I’ve been listening to an album called <a href="https://music.apple.com/gb/album/kenya/696175088" style="color: tomato">Kenya</a> (named for the creation of the then-new African republic), by Machito, in the genre of Afro-Cuban jazz. Usually I’m not big on abstract jazz, but once you get through the horn section (which I can only describe as a “racket”) at about halfway through the first song, this album turns into one of the best of all time.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. I asked ChatGPT to recommend me the top 100 wikipedia articles based on importance, and basically the first one it gave me was the article on <a href="https://en.wikipedia.org/wiki/Big_History" style="color:tomato">“Big History”</a>. I love the depiction of all known history in <a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Nature_Timespiral.png" style="color:tomato">“Nature Timespiral”</a>.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. “It is my contention that in order to Keep a Muse”, he wrote, “you must first offer food… If we are going to diet our subconscious, how prepare the menu?”. I can’t recall where I found this quote, but I like it.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. I can’t believe Edwin Abbey’s study for the <a href="https://artgallery.yale.edu/collections/objects/63068" style="color:tomato">“The Hours”</a> is coming to the <a href="https://www.nationalgallery.org.uk/exhibitions/edwin-austin-abbey-by-the-dawn-s-early-light" style="color:tomato">National Art Gallery in London this November</a>.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. When I bought my turntable, I bought some cheap active powered speakers to go along with it. Since I want to upgrade, I’ve been looking at amplifiers, and I found it really interesting that one of the new budget companies making hi-fi amps enables you to connect two of them together, with each amp powering one speaker. The <a href="https://www.youtube.com/watch?v=Nr6vWDShMRo" style="color:tomato">sound difference</a>, at least to me, is huge.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. “Itʼs not depressing, itʼs true. I mean, itʼs not necessarily your immediate future, but itʼs what we all share. Death is the future.” Anyone who has seen <a href="https://www.imdb.com/title/tt1504320/" style="color:tomato">The King’s Speech</a> knows how good of an actor Colin Firth is. He’s just as good in <a href="https://www.imdb.com/title/tt1315981/" style="color:tomato">A Single Man</a>, a story about a gay English professor living in LA during the Cuban Missile crisis, who has to live with the consequences following his boyfriend’s death. I’d been meaning to watch this film for years, and I’m glad I finally got round to it. It’s lush and full of heart.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. I’m slowly but surely making my way through "Introduction to Autonomous Robots" by Correll et al. Robotics is a difficult discipline, but funnily enough it’s where the majority of the disciplines come together – much like they do in life itself.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. Hoffman’s book, <a href="https://www.goodreads.com/book/show/49199930-the-case-against-reality" style="color:tomato">The Case Against Reality: How Evolution Hid the Truth from Our Eyes</a>, in my opinion is misunderstood, and under appreciated. So I was pretty happy to find a hardcover edition printed by Allen Lane for just £1.99 in my local Oxfam.</p>
+
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: center; margin-top: 20px;"><b>Bonus</b></p>
 
 <!-- Second image + caption centered -->
-  <div style="text-align: center; margin: 20px 0 0 0;">
-    <img src="/assets/images/time-notebook.png" alt="Inside Notebook" style="max-width: 100%; height: auto;">
-    <p style="font-size: 1rem; color: grey; margin-top: 0.3em; text-align:center; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">A spread from my 2025 time notebook, where I keep track of how I’ve spent my time
-    </p>
-  </div>
+<div style="margin: 20px 0;">
+    <img src="/assets/images/picasso-endlessly-drawing.png" 
+         alt="Picasso: Endlessly Drawing" 
+         style="max-width: 100%; height: auto;">
+</div>
+
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">Having been in a creative rut recently, I picked up a copy of “Picasso: Endlessly Drawing”, an exhibition book that details Picasso’s drawings and methods for channeling the unconscious into art. It’s one of the most interesting books that I’ve come across recently.</p>
