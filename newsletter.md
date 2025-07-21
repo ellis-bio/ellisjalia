@@ -221,4 +221,4 @@ hr {
          style="max-width: 100%; height: auto;">
 </div>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">Having been in a creative rut recently, I picked up a copy of “Picasso: Endlessly Drawing”, an exhibition book that details Picasso’s drawings and methods for channeling the unconscious into art. It’s one of the most interesting books that I’ve come across recently.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">Having been in a creative rut recently, I picked up a copy of “Picasso: Endlessly Drawing”, an exhibition book that details Picasso’s drawings and methods of channeling the unconscious into art. It’s one of the most interesting books that I’ve come across recently.</p>
