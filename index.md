@@ -225,8 +225,6 @@ layout: page
       </div>
 <p>Optimus Prime is one of my favourite characters in all of fiction. The 'Transformers One' film I saw yesterday is one of the best I’ve seen in a long time.</p>
 
-<p>I love this dialogue:</p>
-
 <p class="quote">ELITA: “My point is that your instincts tell you to break protocol for a
 reason. This... blind optimism that you have is why you make such bold and courageous choices. That are also extremely stupid.”</p>
 
