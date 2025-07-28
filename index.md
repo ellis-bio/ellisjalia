@@ -248,7 +248,7 @@ can see.”</p>
       <div class="post-image">
         <img src="/assets/images/the-magic-mirror.jpeg" alt="The Magic Mirror">
       </div>
-<p>I think about the epilogue to Jackie Wullschläger’s book, Monet: The Restless Vision, quite a bit. Especially these three passages:</p>
+<p>I think about the epilogue in Jackie Wullschläger’s book, Monet: The Restless Vision, quite a bit. Especially these three passages:</p>
 
 <p class="quote">"…he [Monet] enlarged the joy of vision."</p>
 
