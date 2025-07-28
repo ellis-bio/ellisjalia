@@ -225,6 +225,8 @@ layout: page
       </div>
 <p>Optimus Prime is one of my favourite characters in all of fiction. The 'Transformers One' film I saw yesterday is one of the best I’ve seen in a long time.</p>
 
+<p>I love this dialogue:</p>
+
 <p class="quote">ELITA: “My point is that your instincts tell you to break protocol for a
 reason. This... blind optimism that you have is why you make such bold and courageous choices. That are also extremely stupid.”</p>
 
@@ -246,7 +248,7 @@ can see.”</p>
       <div class="post-image">
         <img src="/assets/images/the-magic-mirror.jpeg" alt="The Magic Mirror">
       </div>
-<p>I think about the epilogue in Jackie Wullschläger’s book, Monet: The Restless Vision, quite a bit. Especially these three passages:</p>
+<p>I think about the epilogue to Jackie Wullschläger’s book, Monet: The Restless Vision, quite a bit. Especially these three passages:</p>
 
 <p class="quote">"…he [Monet] enlarged the joy of vision."</p>
 
