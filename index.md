@@ -210,7 +210,51 @@ layout: page
 <div id="posts-container">
 
   <!-- Page 1 Posts -->
-  <div class="page-content" data-page="1">
+<div class="page-content" data-page="1">
+  <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          Optimus Prime
+        </a>
+      </p>
+      <p class="post-date">Monday, July 28, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/transformers-one.jpg" alt="Optimus Prime">
+      </div>
+<p>Optimus Prime is one of my favourite characters in all of fiction. The 'Transformers One' film I saw yesterday is one of the best I’ve seen in a long time.</p>
+
+<p class="quote">ELITA: “My point is that your instincts tell you to break protocol for a
+reason. This... blind optimism that you have is why you make such bold and courageous choices. That are also extremely stupid.”</p>
+
+<p class="quote">ORION: “First time giving a pep talk?”</p>
+
+<p class="quote">ELITA: “You're inspiring. You can envision a better future that no one else
+can see.”</p>
+</div>
+<hr>
+  <div class="post">
+      <p class="post-title">
+        <a href="https://ellisjalia.com"
+           onmouseover="this.style.color='tomato'"
+           onmouseout="this.style.color='inherit'">
+          The Magic Mirror
+        </a>
+      </p>
+      <p class="post-date">Monday, July 28, 2025</p>
+      <div class="post-image">
+        <img src="/assets/images/the-magic-mirror.jpeg" alt="The Magic Mirror">
+      </div>
+<p>I think about the epilogue in Jackie Wullschläger’s book, Monet: The Restless Vision, quite a bit. Especially these three passages:</p>
+
+<p class="quote">"…he [Monet] enlarged the joy of vision."</p>
+
+<p class="quote">"We look closely at the magic mirror…"</p>
+
+<p class="quote">"…Monet, rather than depicting the material world, ‘succeeded in fixing the impalpable, in portraying the immaterial’, thus painting the ‘colour of time’."</p>
+</div>
+<hr>
     <div class="post">
       <p class="post-title">
         <a href="https://ellisjalia.com"
