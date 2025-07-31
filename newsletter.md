@@ -184,12 +184,12 @@ hr {
     <p style="font-family: 'Ultra', serif; font-weight: 400; font-size: 32px; margin: 0 0 8px 0;">
       Five Things
     </p>
-    <p style="margin: 0; font-size: 0.9rem; font-family: Georgia, sans-serif;">July 21, 2025</p>
+    <p style="margin: 0; font-size: 0.9rem; font-family: Georgia, sans-serif;">July 31, 2025</p>
   </div>
 
 <div style="text-align: center; margin: 30px 0 0 0;">
-  <img src="/assets/images/picasso-workbench.jpg"
-       alt="Picasso Workbench"
+  <img src="/assets/images/black-hole-interstellar.png"
+       alt="Black Hole in Interstellar"
        style="max-width: 100%; height: auto;">
 
   <p style="font-size: 1rem;
@@ -197,28 +197,32 @@ hr {
             margin-top: 0.3em;
             font-family: -apple-system, BlinkMacSystemFont,
                          'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    A <a href="https://www.life.com/arts-entertainment/pablo-picasso-photos-of-the-artist-at-work-and-at-play-1948-1967/" style="color:tomato">photo</a> of Picasso's workbench
+    A rendering of a black hole in Interstellar (2014)
   </p>
 </div>
 
 <!-- Body text left-aligned -->
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. Recently I watched <a href="https://www.youtube.com/watch?v=jAKzwh2ZSwU&t=1s" style="color:tomato">Becoming Human</a>, a documentary about human evolution. It was interesting to see some of the models about stepping stone hominids, such as Homo Erectus, and their ways of life. While probably true, it’s difficult to imagine a hominid that looked more like an ape than human, walking upright and using tools. It was also really interesting to see depictions of the first symbols used by human beings.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">1. I recently saw Brian Cox talk about <a href="https://www.youtube.com/watch?v=KZX_c6zfJ2w" style="color:tomato">black holes</a> on the Big Think YouTube channel. I found it interesting to hear how spacetime might be an emergent property. The holographic principle, in theory, can be applied to it. I’d wager that spacetime is a fundamental substance (how else does the water get its <a href="https://en.wikipedia.org/wiki/Bucket_argument" style="color:tomato">concave shape in a spinning bucket?</a>, or what’s the <a href="https://en.wikipedia.org/wiki/Metric_tensor_(general_relativity)" style="color:tomato">metric tensor in general relativity referring to?</a>). But I would change my mind if we ever obtain experimental proof that spacetime is not a fundamental entity.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. I asked ChatGPT to recommend me the top 100 wikipedia articles based on importance, and basically the first one it gave me was the article on <a href="https://en.wikipedia.org/wiki/Big_History" style="color:tomato">“Big History”</a>. I love the depiction of all known history in <a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Nature_Timespiral.png" style="color:tomato">“Nature Timespiral”</a>.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">2. To follow up on Brian Cox’s ideas, I watched Neil deGrasse Tyson’s podcast episode on String Theory, <a href="https://www.youtube.com/watch?v=fplTT3IrxDw" style="color:tomato">“Is The Universe Made of Tiny Vibrating Strings? With Lara Anderson”</a>. I found it interesting, even though I’m sceptical about string theory as the actual constitution of the universe, since the theory posits additional metaphysical baggage in the form of branes and additional, curled-up dimensions.</p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. I can’t believe Edwin Abbey’s study for the <a href="https://artgallery.yale.edu/collections/objects/63068" style="color:tomato">“The Hours”</a> is coming to the <a href="https://www.nationalgallery.org.uk/exhibitions/edwin-austin-abbey-by-the-dawn-s-early-light" style="color:tomato">National Art Gallery in London this November</a>.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">3. If you read my newsletter, you might remember I've mentioned previously that I'm looking to upgrade my speakers. After a bit of searching, I’ve narrowed the choices down to the <a href="https://www.wharfedale.co.uk/products/linton?srsltid=AfmBOopY1cAOiSVPw8pJQ9vbXcyFeNEca0c7lhwWPj6S0OBxdxylUyUl" style="color:tomato">Wharfedale Linton Heritage</a> and the <a href="https://uk.kef.com/products/r3-meta?srsltid=AfmBOopiFyZLDwDEgE18gidXXscbYDNgyl6ilX1nDKgDSfi5uRbhLDod" style="color:tomato">KEF R3 Meta</a>. There are some other speakers, like the <a href="https://www.bowerswilkins.com/en-gb/product/loudspeakers/700-series/705-s3/FP43087P.html?srsltid=AfmBOorGQPSNM9lsDxPDru_hIzbox5I3muyBnJS7Qm8izxPNV6KiTB68" style="color:tomato">Bowers & Wilkins 705</a>, which has what I really love about modern speakers: sound immersion and detail. But the Wharfedale Linton Heritage has that vintage-like warmth which complements the type of music that I listen to. (Lately I've been listening to The Hues Corporation, Toots and the Maytals, and Blue System). The KEF R3 Meta on the other hand seems to have the whole package.  </p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. “Itʼs not depressing, itʼs true. I mean, itʼs not necessarily your immediate future, but itʼs what we all share. Death is the future.” Anyone who has seen <a href="https://www.imdb.com/title/tt1504320/" style="color:tomato">The King’s Speech</a> knows how good of an actor Colin Firth is. He’s just as good in <a href="https://www.imdb.com/title/tt1315981/" style="color:tomato">A Single Man</a>, a story about a gay English professor living in LA during the Cuban Missile crisis, who has to live with the consequences following his boyfriend’s death. I’d been meaning to watch this film for years, and I’m glad I finally got round to it. It’s lush and full of heart.</p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">4. I’ve seen seven out of ten Tarantino films. Recently I saw Kill Bill Vol. 1, and it’s one of my favourites of Tarantino’s films - especially since it pairs so well with the soundtrack. And that’s what I’ve come to love about Tarantino’s films: how well the music matches the plot. (Except for Pulp Fiction, which is just an all-round masterpiece). </p>
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. Hoffman’s book, <a href="https://www.goodreads.com/book/show/49199930-the-case-against-reality" style="color:tomato">The Case Against Reality: How Evolution Hid the Truth from Our Eyes</a>, in my opinion is misunderstood, and under appreciated. So I was pretty happy to find a hardcover edition printed by Allen Lane for just £1.99 in my local Oxfam.</p>
-
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: center; margin-top: 20px;"><b>Bonus</b></p>
+<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">5. In Kill Bill Vol.1, there’s a scene where the Japanese master, Hattori Hanzo, makes a sword for The Bride. So I went looking for <a href="https://www.youtube.com/watch?v=1S1FclIqWVs" style="color:tomato">how a katana is made</a>. The process looks really satisfying.</p>
 
 <!-- Second image + caption centered -->
-<div style="margin: 20px 0;">
-    <img src="/assets/images/picasso-endlessly-drawing.png" 
-         alt="Picasso: Endlessly Drawing" 
-         style="max-width: 100%; height: auto;">
-</div>
+<div style="text-align: center; margin: 30px 0 0 0;">
+  <img src="/assets/images/the-structural-foundations-of-quantum-gravity.jpg"
+       alt="The Structural Foundations of Quantum Gravity"
+       style="max-width: 100%; height: auto;">
 
-<p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">Having been in a creative rut recently, I picked up a copy of “Picasso: Endlessly Drawing”, an exhibition book that details Picasso’s drawings and methods for channeling the unconscious into art. It’s one of the most interesting books that I’ve come across recently.</p>
+  <p style="font-size: 1rem;
+            color: gray;           /* ‘gray’ is the CSS keyword; a hex works too */
+            margin-top: 0.3em;
+            font-family: -apple-system, BlinkMacSystemFont,
+                         'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    A book I've had on my to read list since 2024
+  </p>
+</div>
