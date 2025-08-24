@@ -176,4 +176,4 @@ hr {
 </div>
 <hr width="100%" size="3">
 
-<p>Coming soon.</p>
+Coming soon.
